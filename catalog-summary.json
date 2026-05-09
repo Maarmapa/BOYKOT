@@ -1,0 +1,1002 @@
+{
+  "extracted_at": "2026-05-08T13:54:17.956Z",
+  "office": "Providencia (id 1)",
+  "duration_min": 25,
+  "totals": {
+    "products": 832,
+    "variants": 7150,
+    "in_stock": 6745,
+    "errors": 75
+  },
+  "price_lists": [
+    {
+      "id": "30",
+      "name": "b2bmayorista"
+    },
+    {
+      "id": "22",
+      "name": "Copic 25%"
+    },
+    {
+      "id": "27",
+      "name": "Copic 30%"
+    },
+    {
+      "id": "26",
+      "name": "COPIC 54%"
+    },
+    {
+      "id": "21",
+      "name": "Interno"
+    },
+    {
+      "id": "24",
+      "name": "Latas dealer"
+    },
+    {
+      "id": "19",
+      "name": "Lista de Precios Base"
+    },
+    {
+      "id": "33",
+      "name": "Lista de precios base sin descuentos"
+    },
+    {
+      "id": "25",
+      "name": "Mario"
+    },
+    {
+      "id": "31",
+      "name": "MAYORISTA"
+    },
+    {
+      "id": "32",
+      "name": "MAYORISTA 30%"
+    },
+    {
+      "id": "28",
+      "name": "Tiendas Graffiti"
+    },
+    {
+      "id": "29",
+      "name": "Tiendas Graffiti"
+    },
+    {
+      "id": "20",
+      "name": "Vendedores"
+    }
+  ],
+  "by_category": [
+    {
+      "name": "Marcador",
+      "products": 113,
+      "variants": 1200,
+      "in_stock": 847
+    },
+    {
+      "name": "Acuarela Tubo",
+      "products": 35,
+      "variants": 759,
+      "in_stock": 524
+    },
+    {
+      "name": "Pintura",
+      "products": 35,
+      "variants": 559,
+      "in_stock": 464
+    },
+    {
+      "name": "Aerosol",
+      "products": 34,
+      "variants": 378,
+      "in_stock": 50
+    },
+    {
+      "name": "Ropa",
+      "products": 30,
+      "variants": 329,
+      "in_stock": 7
+    },
+    {
+      "name": "Acrilico Tubo",
+      "products": 12,
+      "variants": 300,
+      "in_stock": 284
+    },
+    {
+      "name": "Cordón",
+      "products": 11,
+      "variants": 284,
+      "in_stock": 235
+    },
+    {
+      "name": "Pintura Textil",
+      "products": 7,
+      "variants": 279,
+      "in_stock": 119
+    },
+    {
+      "name": "Gouache",
+      "products": 10,
+      "variants": 199,
+      "in_stock": 196
+    },
+    {
+      "name": "Tinta",
+      "products": 16,
+      "variants": 192,
+      "in_stock": 123
+    },
+    {
+      "name": "Oleo",
+      "products": 12,
+      "variants": 179,
+      "in_stock": 173
+    },
+    {
+      "name": "Pigmento",
+      "products": 23,
+      "variants": 175,
+      "in_stock": 152
+    },
+    {
+      "name": "Acrilico Fluido",
+      "products": 14,
+      "variants": 158,
+      "in_stock": 134
+    },
+    {
+      "name": "Gouche",
+      "products": 8,
+      "variants": 148,
+      "in_stock": 147
+    },
+    {
+      "name": "Recarga",
+      "products": 12,
+      "variants": 133,
+      "in_stock": 101
+    },
+    {
+      "name": "Fine Art",
+      "products": 7,
+      "variants": 131,
+      "in_stock": 117
+    },
+    {
+      "name": "Lapices de colores",
+      "products": 5,
+      "variants": 117,
+      "in_stock": 62
+    },
+    {
+      "name": "Sin Tipo",
+      "products": 33,
+      "variants": 116,
+      "in_stock": 88
+    },
+    {
+      "name": "Trama",
+      "products": 4,
+      "variants": 89,
+      "in_stock": 56
+    },
+    {
+      "name": "Punta",
+      "products": 18,
+      "variants": 61,
+      "in_stock": 49
+    },
+    {
+      "name": "Pinceles",
+      "products": 5,
+      "variants": 57,
+      "in_stock": 18
+    },
+    {
+      "name": "Papel",
+      "products": 10,
+      "variants": 56,
+      "in_stock": 45
+    },
+    {
+      "name": "Otros",
+      "products": 29,
+      "variants": 46,
+      "in_stock": 4
+    },
+    {
+      "name": "Croquera",
+      "products": 16,
+      "variants": 46,
+      "in_stock": 22
+    },
+    {
+      "name": "Portaminas",
+      "products": 13,
+      "variants": 45,
+      "in_stock": 26
+    },
+    {
+      "name": "Acuarela Pastilla",
+      "products": 6,
+      "variants": 40,
+      "in_stock": 39
+    },
+    {
+      "name": "ROLLER",
+      "products": 19,
+      "variants": 36,
+      "in_stock": 5
+    },
+    {
+      "name": "Street Art",
+      "products": 3,
+      "variants": 36,
+      "in_stock": 24
+    },
+    {
+      "name": "Repuesto tinta",
+      "products": 4,
+      "variants": 36,
+      "in_stock": 22
+    },
+    {
+      "name": "Grafito",
+      "products": 4,
+      "variants": 35,
+      "in_stock": 33
+    },
+    {
+      "name": "Resma",
+      "products": 8,
+      "variants": 34,
+      "in_stock": 24
+    },
+    {
+      "name": "Contenedor",
+      "products": 13,
+      "variants": 32,
+      "in_stock": 14
+    },
+    {
+      "name": "Lápiz Gel",
+      "products": 4,
+      "variants": 32,
+      "in_stock": 7
+    },
+    {
+      "name": "Herramientas de Corte",
+      "products": 6,
+      "variants": 30,
+      "in_stock": 23
+    },
+    {
+      "name": "Plumilla",
+      "products": 2,
+      "variants": 30,
+      "in_stock": 27
+    },
+    {
+      "name": "Pincel Redondo",
+      "products": 1,
+      "variants": 29,
+      "in_stock": 28
+    },
+    {
+      "name": "Pincel",
+      "products": 4,
+      "variants": 28,
+      "in_stock": 19
+    },
+    {
+      "name": "Limpiador",
+      "products": 8,
+      "variants": 27,
+      "in_stock": 22
+    },
+    {
+      "name": "PLUMA",
+      "products": 3,
+      "variants": 25,
+      "in_stock": 0
+    },
+    {
+      "name": "Aditivo",
+      "products": 6,
+      "variants": 23,
+      "in_stock": 16
+    },
+    {
+      "name": "Minas",
+      "products": 2,
+      "variants": 23,
+      "in_stock": 20
+    },
+    {
+      "name": "BOLIGRAFO",
+      "products": 3,
+      "variants": 21,
+      "in_stock": 2
+    },
+    {
+      "name": "Polera",
+      "products": 1,
+      "variants": 21,
+      "in_stock": 17
+    },
+    {
+      "name": "Lapiz Porcelana",
+      "products": 2,
+      "variants": 20,
+      "in_stock": 6
+    },
+    {
+      "name": "Bolso",
+      "products": 1,
+      "variants": 19,
+      "in_stock": 9
+    },
+    {
+      "name": "Acrilico",
+      "products": 2,
+      "variants": 18,
+      "in_stock": 18
+    },
+    {
+      "name": "Sellante",
+      "products": 2,
+      "variants": 17,
+      "in_stock": 13
+    },
+    {
+      "name": "Acuarela",
+      "products": 3,
+      "variants": 16,
+      "in_stock": 6
+    },
+    {
+      "name": "Cap",
+      "products": 16,
+      "variants": 16,
+      "in_stock": 0
+    },
+    {
+      "name": "Mango",
+      "products": 3,
+      "variants": 15,
+      "in_stock": 6
+    },
+    {
+      "name": "Lapicera",
+      "products": 4,
+      "variants": 15,
+      "in_stock": 10
+    },
+    {
+      "name": "Polerón",
+      "products": 1,
+      "variants": 15,
+      "in_stock": 14
+    },
+    {
+      "name": "Estuche",
+      "products": 10,
+      "variants": 14,
+      "in_stock": 11
+    },
+    {
+      "name": "Chorreador",
+      "products": 2,
+      "variants": 14,
+      "in_stock": 6
+    },
+    {
+      "name": "Bolsa",
+      "products": 5,
+      "variants": 13,
+      "in_stock": 3
+    },
+    {
+      "name": "Chaqueta",
+      "products": 1,
+      "variants": 12,
+      "in_stock": 7
+    },
+    {
+      "name": "Street Mate",
+      "products": 1,
+      "variants": 12,
+      "in_stock": 12
+    },
+    {
+      "name": "Merchandising",
+      "products": 5,
+      "variants": 11,
+      "in_stock": 3
+    },
+    {
+      "name": "Accesorio",
+      "products": 12,
+      "variants": 11,
+      "in_stock": 8
+    },
+    {
+      "name": "Lapices colores",
+      "products": 1,
+      "variants": 11,
+      "in_stock": 6
+    },
+    {
+      "name": "Marcador vacío",
+      "products": 2,
+      "variants": 10,
+      "in_stock": 0
+    },
+    {
+      "name": "Goma",
+      "products": 6,
+      "variants": 10,
+      "in_stock": 3
+    },
+    {
+      "name": "Pincel Plano",
+      "products": 1,
+      "variants": 10,
+      "in_stock": 10
+    },
+    {
+      "name": "Protector",
+      "products": 2,
+      "variants": 9,
+      "in_stock": 6
+    },
+    {
+      "name": "Resma / Copic",
+      "products": 3,
+      "variants": 8,
+      "in_stock": 1
+    },
+    {
+      "name": "Equipamiento",
+      "products": 4,
+      "variants": 8,
+      "in_stock": 1
+    },
+    {
+      "name": "Cinta doble contacto",
+      "products": 1,
+      "variants": 8,
+      "in_stock": 0
+    },
+    {
+      "name": "Autoadhesivos",
+      "products": 4,
+      "variants": 8,
+      "in_stock": 1
+    },
+    {
+      "name": "Pigmento liquido",
+      "products": 1,
+      "variants": 8,
+      "in_stock": 1
+    },
+    {
+      "name": "Aerógrafo",
+      "products": 3,
+      "variants": 7,
+      "in_stock": 2
+    },
+    {
+      "name": "Adhesivos",
+      "products": 3,
+      "variants": 7,
+      "in_stock": 4
+    },
+    {
+      "name": "Autograph",
+      "products": 2,
+      "variants": 7,
+      "in_stock": 4
+    },
+    {
+      "name": "Bastidor",
+      "products": 1,
+      "variants": 7,
+      "in_stock": 6
+    },
+    {
+      "name": "Lápiz grafito",
+      "products": 2,
+      "variants": 7,
+      "in_stock": 7
+    },
+    {
+      "name": "Diluyente",
+      "products": 2,
+      "variants": 7,
+      "in_stock": 7
+    },
+    {
+      "name": "DUO Colors",
+      "products": 1,
+      "variants": 7,
+      "in_stock": 7
+    },
+    {
+      "name": "Gorro",
+      "products": 1,
+      "variants": 7,
+      "in_stock": 4
+    },
+    {
+      "name": "Herramienta trama",
+      "products": 7,
+      "variants": 7,
+      "in_stock": 2
+    },
+    {
+      "name": "Paleta",
+      "products": 1,
+      "variants": 7,
+      "in_stock": 6
+    },
+    {
+      "name": "Pantalón",
+      "products": 1,
+      "variants": 7,
+      "in_stock": 7
+    },
+    {
+      "name": "Block",
+      "products": 3,
+      "variants": 6,
+      "in_stock": 4
+    },
+    {
+      "name": "Carta de color",
+      "products": 1,
+      "variants": 6,
+      "in_stock": 2
+    },
+    {
+      "name": "Libro para colorear",
+      "products": 2,
+      "variants": 6,
+      "in_stock": 0
+    },
+    {
+      "name": "Revista",
+      "products": 4,
+      "variants": 6,
+      "in_stock": 4
+    },
+    {
+      "name": "Washi Tape grueso",
+      "products": 2,
+      "variants": 6,
+      "in_stock": 2
+    },
+    {
+      "name": "Pastel",
+      "products": 2,
+      "variants": 6,
+      "in_stock": 6
+    },
+    {
+      "name": "Medium",
+      "products": 2,
+      "variants": 5,
+      "in_stock": 5
+    },
+    {
+      "name": "Sellador",
+      "products": 1,
+      "variants": 5,
+      "in_stock": 3
+    },
+    {
+      "name": "Sellantes",
+      "products": 2,
+      "variants": 5,
+      "in_stock": 5
+    },
+    {
+      "name": "Pincel Liner",
+      "products": 1,
+      "variants": 5,
+      "in_stock": 3
+    },
+    {
+      "name": "Set Plumillas",
+      "products": 1,
+      "variants": 5,
+      "in_stock": 4
+    },
+    {
+      "name": "Cortaviento",
+      "products": 1,
+      "variants": 4,
+      "in_stock": 3
+    },
+    {
+      "name": "Vacios",
+      "products": 3,
+      "variants": 4,
+      "in_stock": 3
+    },
+    {
+      "name": "Papel Máscara",
+      "products": 2,
+      "variants": 4,
+      "in_stock": 0
+    },
+    {
+      "name": "Anillado / Copic",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 2
+    },
+    {
+      "name": "Calcetines",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 3
+    },
+    {
+      "name": "Vacio",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 0
+    },
+    {
+      "name": "Mascara",
+      "products": 2,
+      "variants": 3,
+      "in_stock": 2
+    },
+    {
+      "name": "Washi Tape delgado",
+      "products": 3,
+      "variants": 3,
+      "in_stock": 0
+    },
+    {
+      "name": "Sacapuntas",
+      "products": 2,
+      "variants": 3,
+      "in_stock": 1
+    },
+    {
+      "name": "Doble contacto extra fuerte",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 0
+    },
+    {
+      "name": "Papel doble contacto",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 0
+    },
+    {
+      "name": "Lapiz de color",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 3
+    },
+    {
+      "name": "Anillado / Acuarelas",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 2
+    },
+    {
+      "name": "Pincel Filbert",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 3
+    },
+    {
+      "name": "Pincel Set",
+      "products": 1,
+      "variants": 3,
+      "in_stock": 3
+    },
+    {
+      "name": "Textura adhesiva",
+      "products": 3,
+      "variants": 3,
+      "in_stock": 2
+    },
+    {
+      "name": "Mezclador",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Acetona",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Propelente",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Restaurador",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Engomado / Copic",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Capucha",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Mesa de luz",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Cuadraditos espuma adhesiva",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Espuma doble contacto",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Espuma doble contacto Extra fuerte",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Primer",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Cuadrados adhesivos transparentes",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Gesso",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Lentes",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Mango Plumilla",
+      "products": 2,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Mina",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 1
+    },
+    {
+      "name": "Cuadrado Carton",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 2
+    },
+    {
+      "name": "Hoja Stencil",
+      "products": 1,
+      "variants": 2,
+      "in_stock": 0
+    },
+    {
+      "name": "Aguja",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Adaptador",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Compresor",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Soporte",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Manguera",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Bufanda",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Cambiador",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Adhesivo liquido frasco",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Cuello",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Journal",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Cinta doble contacto Aplicador",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Plastico",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Lápiz Adhesivo",
+      "products": 2,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Lapiz y Pincel Adhesivo",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Guante",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Jockey",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Filler",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Pinza",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Color Chip",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Plumón",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Rodillo",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Exhibidor",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 1
+    },
+    {
+      "name": "Spray",
+      "products": 1,
+      "variants": 1,
+      "in_stock": 0
+    },
+    {
+      "name": "Calco",
+      "products": 3,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Cabeza",
+      "products": 1,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Cuerpos",
+      "products": 1,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Adhesivo liquido Pote",
+      "products": 1,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Barniz",
+      "products": 1,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Vernet",
+      "products": 1,
+      "variants": 0,
+      "in_stock": 0
+    },
+    {
+      "name": "Pad",
+      "products": 2,
+      "variants": 0,
+      "in_stock": 0
+    }
+  ],
+  "patched_at": "2026-05-09T07:21:42.074Z"
+}
