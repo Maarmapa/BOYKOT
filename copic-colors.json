@@ -1,0 +1,2729 @@
+{
+  "generated_at": "2026-05-10T21:34:27.552Z",
+  "total": 340,
+  "with_image": 131,
+  "brand": "Copic",
+  "note": "hex = valores oficiales Copic · imageUrl = imagen real del Drive",
+  "colors": {
+    "0": {
+      "code": "0",
+      "hex": "#FFFFFF",
+      "family": "Colorless",
+      "driveId": "1UxAAFii7ZUI5b8l2xSRkVz5c9bIvQCjE",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1UxAAFii7ZUI5b8l2xSRkVz5c9bIvQCjE",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1UxAAFii7ZUI5b8l2xSRkVz5c9bIvQCjE&sz=w200"
+    },
+    "100": {
+      "code": "100",
+      "hex": "#231F20",
+      "family": "Black",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B000": {
+      "code": "B000",
+      "hex": "#E8F5FB",
+      "family": "Blue",
+      "driveId": "1aqcjX1_C-7ctVoAvJzSGngfIQ0Mihq8E",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1aqcjX1_C-7ctVoAvJzSGngfIQ0Mihq8E",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1aqcjX1_C-7ctVoAvJzSGngfIQ0Mihq8E&sz=w200"
+    },
+    "B00": {
+      "code": "B00",
+      "hex": "#D5EEF4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B01": {
+      "code": "B01",
+      "hex": "#89D3E5",
+      "family": "Blue",
+      "driveId": "1pRJZeLUdxTvjaTUOAldVGPmkN9oT5rsS",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1pRJZeLUdxTvjaTUOAldVGPmkN9oT5rsS",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1pRJZeLUdxTvjaTUOAldVGPmkN9oT5rsS&sz=w200"
+    },
+    "B02": {
+      "code": "B02",
+      "hex": "#72C9E0",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B04": {
+      "code": "B04",
+      "hex": "#33A8D4",
+      "family": "Blue",
+      "driveId": "1nF6uCTUkEy_4lf3KgreNrvo6oq5LjqK5",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1nF6uCTUkEy_4lf3KgreNrvo6oq5LjqK5",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1nF6uCTUkEy_4lf3KgreNrvo6oq5LjqK5&sz=w200"
+    },
+    "B05": {
+      "code": "B05",
+      "hex": "#1393C8",
+      "family": "Blue",
+      "driveId": "1-dsqZv2l5BHX_hpnwd4aSrdSiycIKh8U",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1-dsqZv2l5BHX_hpnwd4aSrdSiycIKh8U",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1-dsqZv2l5BHX_hpnwd4aSrdSiycIKh8U&sz=w200"
+    },
+    "B06": {
+      "code": "B06",
+      "hex": "#008AC4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B12": {
+      "code": "B12",
+      "hex": "#A7D7EC",
+      "family": "Blue",
+      "driveId": "1hdsx76gcFBpGmi0qxxPWFLwqLTnZ_uaZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1hdsx76gcFBpGmi0qxxPWFLwqLTnZ_uaZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1hdsx76gcFBpGmi0qxxPWFLwqLTnZ_uaZ&sz=w200"
+    },
+    "B14": {
+      "code": "B14",
+      "hex": "#5BBCE4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B16": {
+      "code": "B16",
+      "hex": "#3A88C5",
+      "family": "Blue",
+      "driveId": "1FRIJR21vHNAJ66EBO5vi3Y-NoRftdzaB",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1FRIJR21vHNAJ66EBO5vi3Y-NoRftdzaB",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1FRIJR21vHNAJ66EBO5vi3Y-NoRftdzaB&sz=w200"
+    },
+    "B18": {
+      "code": "B18",
+      "hex": "#1B4F9A",
+      "family": "Blue",
+      "driveId": "1Dd4_nsM-I9VSPSYoQIECjDlvtQI69EDI",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Dd4_nsM-I9VSPSYoQIECjDlvtQI69EDI",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Dd4_nsM-I9VSPSYoQIECjDlvtQI69EDI&sz=w200"
+    },
+    "B21": {
+      "code": "B21",
+      "hex": "#B2D9F1",
+      "family": "Blue",
+      "driveId": "1WlBysrftTlX7gC0LzjXxJNh4Ws5qjLKw",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1WlBysrftTlX7gC0LzjXxJNh4Ws5qjLKw",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1WlBysrftTlX7gC0LzjXxJNh4Ws5qjLKw&sz=w200"
+    },
+    "B23": {
+      "code": "B23",
+      "hex": "#5BA4D4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B24": {
+      "code": "B24",
+      "hex": "#3A8DC7",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B26": {
+      "code": "B26",
+      "hex": "#1F62AE",
+      "family": "Blue",
+      "driveId": "1pt02R7thcEdq40WL_X6AmkrT-woFN5jB",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1pt02R7thcEdq40WL_X6AmkrT-woFN5jB",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1pt02R7thcEdq40WL_X6AmkrT-woFN5jB&sz=w200"
+    },
+    "B28": {
+      "code": "B28",
+      "hex": "#1A4A9C",
+      "family": "Blue",
+      "driveId": "1DandkSfyAeZgkocmxwm3WEWyEBsIUrUu",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1DandkSfyAeZgkocmxwm3WEWyEBsIUrUu",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1DandkSfyAeZgkocmxwm3WEWyEBsIUrUu&sz=w200"
+    },
+    "B29": {
+      "code": "B29",
+      "hex": "#203892",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B32": {
+      "code": "B32",
+      "hex": "#C9E6F4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B34": {
+      "code": "B34",
+      "hex": "#9DD0ED",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B37": {
+      "code": "B37",
+      "hex": "#4D9ED8",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B39": {
+      "code": "B39",
+      "hex": "#1A3C8C",
+      "family": "Blue",
+      "driveId": "11fNmHxqgRbDShvrXCxHD9AWcbIbXBUVZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/11fNmHxqgRbDShvrXCxHD9AWcbIbXBUVZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=11fNmHxqgRbDShvrXCxHD9AWcbIbXBUVZ&sz=w200"
+    },
+    "B41": {
+      "code": "B41",
+      "hex": "#C3E0F0",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B45": {
+      "code": "B45",
+      "hex": "#8CBEDD",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B52": {
+      "code": "B52",
+      "hex": "#A2BFCF",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B60": {
+      "code": "B60",
+      "hex": "#C9DCE8",
+      "family": "Blue",
+      "driveId": "1fkmXzr1sJTN2tD8ToytYwXHhxTe0fEbr",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1fkmXzr1sJTN2tD8ToytYwXHhxTe0fEbr",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1fkmXzr1sJTN2tD8ToytYwXHhxTe0fEbr&sz=w200"
+    },
+    "B63": {
+      "code": "B63",
+      "hex": "#9AB8D4",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B66": {
+      "code": "B66",
+      "hex": "#5278A0",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B69": {
+      "code": "B69",
+      "hex": "#2B4D7A",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B79": {
+      "code": "B79",
+      "hex": "#3C3F8C",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B91": {
+      "code": "B91",
+      "hex": "#C5D7E8",
+      "family": "Blue",
+      "driveId": "1ihObtIttFwdCz97ekSdu5xCWxEZe3DDJ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ihObtIttFwdCz97ekSdu5xCWxEZe3DDJ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ihObtIttFwdCz97ekSdu5xCWxEZe3DDJ&sz=w200"
+    },
+    "B93": {
+      "code": "B93",
+      "hex": "#92A9C0",
+      "family": "Blue",
+      "driveId": "1yEd1M8I8QUBzYIKpXhGONs-CJ3qDCPLL",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1yEd1M8I8QUBzYIKpXhGONs-CJ3qDCPLL",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1yEd1M8I8QUBzYIKpXhGONs-CJ3qDCPLL&sz=w200"
+    },
+    "B95": {
+      "code": "B95",
+      "hex": "#7B93A8",
+      "family": "Blue",
+      "driveId": "1NxQlvLBw7-cIoKgoZPfS-e1n0Ks2wRTD",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1NxQlvLBw7-cIoKgoZPfS-e1n0Ks2wRTD",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1NxQlvLBw7-cIoKgoZPfS-e1n0Ks2wRTD&sz=w200"
+    },
+    "B97": {
+      "code": "B97",
+      "hex": "#2F3D5A",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "B99": {
+      "code": "B99",
+      "hex": "#222941",
+      "family": "Blue",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG000": {
+      "code": "BG000",
+      "hex": "#E5F5F6",
+      "family": "Blue Green",
+      "driveId": "1YZR9sXoFYQemhfCRgQE8uU0NEj-epwvs",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1YZR9sXoFYQemhfCRgQE8uU0NEj-epwvs",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1YZR9sXoFYQemhfCRgQE8uU0NEj-epwvs&sz=w200"
+    },
+    "BG01": {
+      "code": "BG01",
+      "hex": "#6FC9CE",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG02": {
+      "code": "BG02",
+      "hex": "#00A5C0",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG05": {
+      "code": "BG05",
+      "hex": "#007FA8",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG07": {
+      "code": "BG07",
+      "hex": "#006895",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG09": {
+      "code": "BG09",
+      "hex": "#00556B",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG10": {
+      "code": "BG10",
+      "hex": "#C4E4E8",
+      "family": "Blue Green",
+      "driveId": "16q1Vb60ZiKDhnkPcvA2Oy3a24ucMyDxm",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16q1Vb60ZiKDhnkPcvA2Oy3a24ucMyDxm",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=16q1Vb60ZiKDhnkPcvA2Oy3a24ucMyDxm&sz=w200"
+    },
+    "BG11": {
+      "code": "BG11",
+      "hex": "#E8F5F7",
+      "family": "Blue Green",
+      "driveId": "1nu3-CdWCcjCX_NdW3W5JsMqyiaEq2RAZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1nu3-CdWCcjCX_NdW3W5JsMqyiaEq2RAZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1nu3-CdWCcjCX_NdW3W5JsMqyiaEq2RAZ&sz=w200"
+    },
+    "BG13": {
+      "code": "BG13",
+      "hex": "#A8DFE3",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG15": {
+      "code": "BG15",
+      "hex": "#5EC5CC",
+      "family": "Blue Green",
+      "driveId": "1grydZsE8XYD0cW86Z5rXAdhbWdZyXjGS",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1grydZsE8XYD0cW86Z5rXAdhbWdZyXjGS",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1grydZsE8XYD0cW86Z5rXAdhbWdZyXjGS&sz=w200"
+    },
+    "BG18": {
+      "code": "BG18",
+      "hex": "#00829E",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG23": {
+      "code": "BG23",
+      "hex": "#B8E0E5",
+      "family": "Blue Green",
+      "driveId": "13U5ph3bTYkI7JpMEVc5bjxy9kyJonnsZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/13U5ph3bTYkI7JpMEVc5bjxy9kyJonnsZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=13U5ph3bTYkI7JpMEVc5bjxy9kyJonnsZ&sz=w200"
+    },
+    "BG32": {
+      "code": "BG32",
+      "hex": "#A5DEDF",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG34": {
+      "code": "BG34",
+      "hex": "#79CDCD",
+      "family": "Blue Green",
+      "driveId": "1HC4rFeHj2AN-eNejEVfE1ym36VFXHHCH",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1HC4rFeHj2AN-eNejEVfE1ym36VFXHHCH",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1HC4rFeHj2AN-eNejEVfE1ym36VFXHHCH&sz=w200"
+    },
+    "BG45": {
+      "code": "BG45",
+      "hex": "#48B5AD",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG49": {
+      "code": "BG49",
+      "hex": "#2B7A7A",
+      "family": "Blue Green",
+      "driveId": "1ziRmCVGmoMPEQPflElG6XwbsFybOD_Lh",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ziRmCVGmoMPEQPflElG6XwbsFybOD_Lh",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ziRmCVGmoMPEQPflElG6XwbsFybOD_Lh&sz=w200"
+    },
+    "BG53": {
+      "code": "BG53",
+      "hex": "#CDEEE8",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG57": {
+      "code": "BG57",
+      "hex": "#3D8575",
+      "family": "Blue Green",
+      "driveId": "1-5Sfch0FQ-CFMTKgkJV0dFu1LPTl5_pG",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1-5Sfch0FQ-CFMTKgkJV0dFu1LPTl5_pG",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1-5Sfch0FQ-CFMTKgkJV0dFu1LPTl5_pG&sz=w200"
+    },
+    "BG70": {
+      "code": "BG70",
+      "hex": "#D4E8E4",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG72": {
+      "code": "BG72",
+      "hex": "#98C8C0",
+      "family": "Blue Green",
+      "driveId": "1-YFyo651cP-935XBGFAKG7ul5hik__gT",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1-YFyo651cP-935XBGFAKG7ul5hik__gT",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1-YFyo651cP-935XBGFAKG7ul5hik__gT&sz=w200"
+    },
+    "BG75": {
+      "code": "BG75",
+      "hex": "#3B7A6A",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG78": {
+      "code": "BG78",
+      "hex": "#5E7060",
+      "family": "Blue Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BG90": {
+      "code": "BG90",
+      "hex": "#D3E4E0",
+      "family": "Blue Green",
+      "driveId": "16ruwEp1hbgrqfGQgUe8WyIa5AZ7NfFHG",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16ruwEp1hbgrqfGQgUe8WyIa5AZ7NfFHG",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=16ruwEp1hbgrqfGQgUe8WyIa5AZ7NfFHG&sz=w200"
+    },
+    "BV000": {
+      "code": "BV000",
+      "hex": "#E9E0EE",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV00": {
+      "code": "BV00",
+      "hex": "#D8CEEA",
+      "family": "Blue Violet",
+      "driveId": "1qtCVBHfxI0oxD4POKQ97zap0Wl-sLh9-",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1qtCVBHfxI0oxD4POKQ97zap0Wl-sLh9-",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1qtCVBHfxI0oxD4POKQ97zap0Wl-sLh9-&sz=w200"
+    },
+    "BV01": {
+      "code": "BV01",
+      "hex": "#B09DD6",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV02": {
+      "code": "BV02",
+      "hex": "#8B78C0",
+      "family": "Blue Violet",
+      "driveId": "1rJAaq10AHJ50HQnr6DcYkU1IgJn1616K",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1rJAaq10AHJ50HQnr6DcYkU1IgJn1616K",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1rJAaq10AHJ50HQnr6DcYkU1IgJn1616K&sz=w200"
+    },
+    "BV04": {
+      "code": "BV04",
+      "hex": "#6B55B0",
+      "family": "Blue Violet",
+      "driveId": "1n35G18SM1Ewo7NI9KtWBVHznMwRGOKMp",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1n35G18SM1Ewo7NI9KtWBVHznMwRGOKMp",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1n35G18SM1Ewo7NI9KtWBVHznMwRGOKMp&sz=w200"
+    },
+    "BV08": {
+      "code": "BV08",
+      "hex": "#5040A0",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV11": {
+      "code": "BV11",
+      "hex": "#C5B8DC",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV13": {
+      "code": "BV13",
+      "hex": "#9B88D0",
+      "family": "Blue Violet",
+      "driveId": "1Cq8y9lh3jF2vHuWbFofm9T2VSkRS3TTq",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Cq8y9lh3jF2vHuWbFofm9T2VSkRS3TTq",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Cq8y9lh3jF2vHuWbFofm9T2VSkRS3TTq&sz=w200"
+    },
+    "BV17": {
+      "code": "BV17",
+      "hex": "#3D2E80",
+      "family": "Blue Violet",
+      "driveId": "1iYgaHZpw675yv3t9_HOFSxvEXqbHSKmx",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1iYgaHZpw675yv3t9_HOFSxvEXqbHSKmx",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1iYgaHZpw675yv3t9_HOFSxvEXqbHSKmx&sz=w200"
+    },
+    "BV20": {
+      "code": "BV20",
+      "hex": "#C8BCE0",
+      "family": "Blue Violet",
+      "driveId": "1IkUqTFAnPtvO_bogmFVcjdDsJlji3rxt",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1IkUqTFAnPtvO_bogmFVcjdDsJlji3rxt",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1IkUqTFAnPtvO_bogmFVcjdDsJlji3rxt&sz=w200"
+    },
+    "BV23": {
+      "code": "BV23",
+      "hex": "#A090C0",
+      "family": "Blue Violet",
+      "driveId": "1dSdGwQhG5vA9mszFxIJBGjK-GtUslX8U",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dSdGwQhG5vA9mszFxIJBGjK-GtUslX8U",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1dSdGwQhG5vA9mszFxIJBGjK-GtUslX8U&sz=w200"
+    },
+    "BV25": {
+      "code": "BV25",
+      "hex": "#8878B8",
+      "family": "Blue Violet",
+      "driveId": "1M4M10QO2asZFIPcLHAOZ0LE-J8xhU0vN",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1M4M10QO2asZFIPcLHAOZ0LE-J8xhU0vN",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1M4M10QO2asZFIPcLHAOZ0LE-J8xhU0vN&sz=w200"
+    },
+    "BV29": {
+      "code": "BV29",
+      "hex": "#5050808",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV31": {
+      "code": "BV31",
+      "hex": "#D5CCE5",
+      "family": "Blue Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "BV34": {
+      "code": "BV34",
+      "hex": "#9080C5",
+      "family": "Blue Violet",
+      "driveId": "1kn9Whot28QYjLcQSXU7DlTgT69JLmkVg",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1kn9Whot28QYjLcQSXU7DlTgT69JLmkVg",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1kn9Whot28QYjLcQSXU7DlTgT69JLmkVg&sz=w200"
+    },
+    "BV0000": {
+      "code": "BV0000",
+      "hex": "#F0ECF7",
+      "family": "Blue Violet",
+      "driveId": "1bUoa8eH1bttW3rvJrSYrRuOHdrTiZdCh",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1bUoa8eH1bttW3rvJrSYrRuOHdrTiZdCh",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1bUoa8eH1bttW3rvJrSYrRuOHdrTiZdCh&sz=w200"
+    },
+    "C0": {
+      "code": "C0",
+      "hex": "#F5F5F5",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C1": {
+      "code": "C1",
+      "hex": "#EBEBEB",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C2": {
+      "code": "C2",
+      "hex": "#D9D9D9",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C3": {
+      "code": "C3",
+      "hex": "#C6C6C6",
+      "family": "Cool Gray",
+      "driveId": "1z-19hJxHGuNWCXDRKbaTlhTrUWgMvhcO",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1z-19hJxHGuNWCXDRKbaTlhTrUWgMvhcO",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1z-19hJxHGuNWCXDRKbaTlhTrUWgMvhcO&sz=w200"
+    },
+    "C4": {
+      "code": "C4",
+      "hex": "#ADADAD",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C5": {
+      "code": "C5",
+      "hex": "#949494",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C6": {
+      "code": "C6",
+      "hex": "#7A7A7A",
+      "family": "Cool Gray",
+      "driveId": "10PkxIuQljaOBu4c-GCIUQCMo2g9pZiuY",
+      "imageUrl": "https://lh3.googleusercontent.com/d/10PkxIuQljaOBu4c-GCIUQCMo2g9pZiuY",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=10PkxIuQljaOBu4c-GCIUQCMo2g9pZiuY&sz=w200"
+    },
+    "C7": {
+      "code": "C7",
+      "hex": "#5E5E5E",
+      "family": "Cool Gray",
+      "driveId": "1ieVGDlEsF6HV5th0pBVKNwr0nSkwQCnx",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ieVGDlEsF6HV5th0pBVKNwr0nSkwQCnx",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ieVGDlEsF6HV5th0pBVKNwr0nSkwQCnx&sz=w200"
+    },
+    "C8": {
+      "code": "C8",
+      "hex": "#434343",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C9": {
+      "code": "C9",
+      "hex": "#2A2A2A",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "C10": {
+      "code": "C10",
+      "hex": "#1A1A1A",
+      "family": "Cool Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E00": {
+      "code": "E00",
+      "hex": "#F7E6DC",
+      "family": "Earth",
+      "driveId": "1jLRyajhTQykOn7LLAttWR-KD_fxTB296",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1jLRyajhTQykOn7LLAttWR-KD_fxTB296",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1jLRyajhTQykOn7LLAttWR-KD_fxTB296&sz=w200"
+    },
+    "E01": {
+      "code": "E01",
+      "hex": "#F9D5C8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E02": {
+      "code": "E02",
+      "hex": "#F7C5B5",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E04": {
+      "code": "E04",
+      "hex": "#F2A886",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E07": {
+      "code": "E07",
+      "hex": "#E2945A",
+      "family": "Earth",
+      "driveId": "1rXwDddTBNbFNyObcyRQNG4-jMBYnAAAK",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1rXwDddTBNbFNyObcyRQNG4-jMBYnAAAK",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1rXwDddTBNbFNyObcyRQNG4-jMBYnAAAK&sz=w200"
+    },
+    "E08": {
+      "code": "E08",
+      "hex": "#D4874A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E09": {
+      "code": "E09",
+      "hex": "#C87A3C",
+      "family": "Earth",
+      "driveId": "1-PCS15KUjSYScWuCBOl4mO9V-zhMmwdi",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1-PCS15KUjSYScWuCBOl4mO9V-zhMmwdi",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1-PCS15KUjSYScWuCBOl4mO9V-zhMmwdi&sz=w200"
+    },
+    "E11": {
+      "code": "E11",
+      "hex": "#F5DACC",
+      "family": "Earth",
+      "driveId": "1v295iKy8hRuo6sJWCl-rHze13fXCN7tQ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1v295iKy8hRuo6sJWCl-rHze13fXCN7tQ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1v295iKy8hRuo6sJWCl-rHze13fXCN7tQ&sz=w200"
+    },
+    "E13": {
+      "code": "E13",
+      "hex": "#F0C8A8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E15": {
+      "code": "E15",
+      "hex": "#D4956A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E17": {
+      "code": "E17",
+      "hex": "#B8743A",
+      "family": "Earth",
+      "driveId": "1dP0I7BvP2LgsqLNqPfHvmlQ9GpC5LFmu",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dP0I7BvP2LgsqLNqPfHvmlQ9GpC5LFmu",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1dP0I7BvP2LgsqLNqPfHvmlQ9GpC5LFmu&sz=w200"
+    },
+    "E18": {
+      "code": "E18",
+      "hex": "#A05E28",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E19": {
+      "code": "E19",
+      "hex": "#8B4C22",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E21": {
+      "code": "E21",
+      "hex": "#F9E0D5",
+      "family": "Earth",
+      "driveId": "1KRQWi8XG2mAX2suLGePY9-Odmj7H_xqX",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1KRQWi8XG2mAX2suLGePY9-Odmj7H_xqX",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1KRQWi8XG2mAX2suLGePY9-Odmj7H_xqX&sz=w200"
+    },
+    "E23": {
+      "code": "E23",
+      "hex": "#D4A882",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E25": {
+      "code": "E25",
+      "hex": "#C08060",
+      "family": "Earth",
+      "driveId": "1NGzW9824hhcu10HLcwXS9Ytk2xGf4HLP",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1NGzW9824hhcu10HLcwXS9Ytk2xGf4HLP",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1NGzW9824hhcu10HLcwXS9Ytk2xGf4HLP&sz=w200"
+    },
+    "E27": {
+      "code": "E27",
+      "hex": "#A06040",
+      "family": "Earth",
+      "driveId": "1loMMXKc9mluDpkNgl73B7XhC9vTNsG6V",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1loMMXKc9mluDpkNgl73B7XhC9vTNsG6V",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1loMMXKc9mluDpkNgl73B7XhC9vTNsG6V&sz=w200"
+    },
+    "E29": {
+      "code": "E29",
+      "hex": "#7A3E20",
+      "family": "Earth",
+      "driveId": "133Jz5ptn0LKo8lmPQsw5lfe1W-JYvR3y",
+      "imageUrl": "https://lh3.googleusercontent.com/d/133Jz5ptn0LKo8lmPQsw5lfe1W-JYvR3y",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=133Jz5ptn0LKo8lmPQsw5lfe1W-JYvR3y&sz=w200"
+    },
+    "E30": {
+      "code": "E30",
+      "hex": "#F9EAD8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E31": {
+      "code": "E31",
+      "hex": "#F5D8C0",
+      "family": "Earth",
+      "driveId": "1dPbtGnuYvcArpJbCK8_Sb6dyfByni7vy",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dPbtGnuYvcArpJbCK8_Sb6dyfByni7vy",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1dPbtGnuYvcArpJbCK8_Sb6dyfByni7vy&sz=w200"
+    },
+    "E33": {
+      "code": "E33",
+      "hex": "#EABA92",
+      "family": "Earth",
+      "driveId": "1VjLkVvF84PI0vAcsCUyoa7x4RM8bdzrW",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1VjLkVvF84PI0vAcsCUyoa7x4RM8bdzrW",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1VjLkVvF84PI0vAcsCUyoa7x4RM8bdzrW&sz=w200"
+    },
+    "E34": {
+      "code": "E34",
+      "hex": "#D4956A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E35": {
+      "code": "E35",
+      "hex": "#C8825A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E37": {
+      "code": "E37",
+      "hex": "#7A4A2A",
+      "family": "Earth",
+      "driveId": "1FnKYEolSthnwgONigKXW4wq5IgKW7MzT",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1FnKYEolSthnwgONigKXW4wq5IgKW7MzT",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1FnKYEolSthnwgONigKXW4wq5IgKW7MzT&sz=w200"
+    },
+    "E39": {
+      "code": "E39",
+      "hex": "#5E3020",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E40": {
+      "code": "E40",
+      "hex": "#F9F0E8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E41": {
+      "code": "E41",
+      "hex": "#F9EEE5",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E42": {
+      "code": "E42",
+      "hex": "#F5E5D5",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E43": {
+      "code": "E43",
+      "hex": "#EEDAC5",
+      "family": "Earth",
+      "driveId": "1B8nWrV9wkEP3nsGEypM2S1xtKfey59X8",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1B8nWrV9wkEP3nsGEypM2S1xtKfey59X8",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1B8nWrV9wkEP3nsGEypM2S1xtKfey59X8&sz=w200"
+    },
+    "E44": {
+      "code": "E44",
+      "hex": "#D8B890",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E47": {
+      "code": "E47",
+      "hex": "#9A6040",
+      "family": "Earth",
+      "driveId": "1QtT0iz7ksaUqYBrn6ej64A8t2tDe722Y",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1QtT0iz7ksaUqYBrn6ej64A8t2tDe722Y",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1QtT0iz7ksaUqYBrn6ej64A8t2tDe722Y&sz=w200"
+    },
+    "E49": {
+      "code": "E49",
+      "hex": "#6A3020",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E50": {
+      "code": "E50",
+      "hex": "#F9F0E5",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E51": {
+      "code": "E51",
+      "hex": "#F9F2EA",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E53": {
+      "code": "E53",
+      "hex": "#EDD9C0",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E55": {
+      "code": "E55",
+      "hex": "#D4AE80",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E57": {
+      "code": "E57",
+      "hex": "#A87850",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E59": {
+      "code": "E59",
+      "hex": "#7A5030",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E70": {
+      "code": "E70",
+      "hex": "#E8CABE",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E71": {
+      "code": "E71",
+      "hex": "#F0D5B0",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E74": {
+      "code": "E74",
+      "hex": "#B88060",
+      "family": "Earth",
+      "driveId": "1TEGXRgN3dFuF1JPjD1guMaSkwycLifHJ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1TEGXRgN3dFuF1JPjD1guMaSkwycLifHJ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1TEGXRgN3dFuF1JPjD1guMaSkwycLifHJ&sz=w200"
+    },
+    "E77": {
+      "code": "E77",
+      "hex": "#7A4040",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E79": {
+      "code": "E79",
+      "hex": "#5A2828",
+      "family": "Earth",
+      "driveId": "1Vju0Sq3ecUttXLfoCdHu5T1F1FmYdA2o",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Vju0Sq3ecUttXLfoCdHu5T1F1FmYdA2o",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Vju0Sq3ecUttXLfoCdHu5T1F1FmYdA2o&sz=w200"
+    },
+    "E81": {
+      "code": "E81",
+      "hex": "#F5EAD5",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E84": {
+      "code": "E84",
+      "hex": "#A8926A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E87": {
+      "code": "E87",
+      "hex": "#6A4A3A",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E89": {
+      "code": "E89",
+      "hex": "#4A2E20",
+      "family": "Earth",
+      "driveId": "16nCBfQLr5qerz9Oguyu2LOmwGNaT6dbE",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16nCBfQLr5qerz9Oguyu2LOmwGNaT6dbE",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=16nCBfQLr5qerz9Oguyu2LOmwGNaT6dbE&sz=w200"
+    },
+    "E93": {
+      "code": "E93",
+      "hex": "#F0C8B8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E95": {
+      "code": "E95",
+      "hex": "#F5BCA8",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "E97": {
+      "code": "E97",
+      "hex": "#E08050",
+      "family": "Earth",
+      "driveId": "1w5DURBNddLvUaerBEA1FQu6KklH4ye16",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1w5DURBNddLvUaerBEA1FQu6KklH4ye16",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1w5DURBNddLvUaerBEA1FQu6KklH4ye16&sz=w200"
+    },
+    "E99": {
+      "code": "E99",
+      "hex": "#C05828",
+      "family": "Earth",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G0000": {
+      "code": "G0000",
+      "hex": "#F0F9F0",
+      "family": "Green",
+      "driveId": "1lV9Gt-dsUrW6cgL8Bbi-z6NEQkqt-aAl",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1lV9Gt-dsUrW6cgL8Bbi-z6NEQkqt-aAl",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1lV9Gt-dsUrW6cgL8Bbi-z6NEQkqt-aAl&sz=w200"
+    },
+    "G00": {
+      "code": "G00",
+      "hex": "#D0EFDA",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G02": {
+      "code": "G02",
+      "hex": "#9CDB9A",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G03": {
+      "code": "G03",
+      "hex": "#7CD07A",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G05": {
+      "code": "G05",
+      "hex": "#52B858",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G07": {
+      "code": "G07",
+      "hex": "#28A040",
+      "family": "Green",
+      "driveId": "1ANS29hX9kbjsC2MBwSORAtXUM8-znKm0",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ANS29hX9kbjsC2MBwSORAtXUM8-znKm0",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ANS29hX9kbjsC2MBwSORAtXUM8-znKm0&sz=w200"
+    },
+    "G09": {
+      "code": "G09",
+      "hex": "#189038",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G12": {
+      "code": "G12",
+      "hex": "#A8DFB0",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G14": {
+      "code": "G14",
+      "hex": "#7DCC80",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G16": {
+      "code": "G16",
+      "hex": "#3CB050",
+      "family": "Green",
+      "driveId": "10YivZ_5ZQo8iLtWYNZ80FFWdl2nNly_v",
+      "imageUrl": "https://lh3.googleusercontent.com/d/10YivZ_5ZQo8iLtWYNZ80FFWdl2nNly_v",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=10YivZ_5ZQo8iLtWYNZ80FFWdl2nNly_v&sz=w200"
+    },
+    "G17": {
+      "code": "G17",
+      "hex": "#228030",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G19": {
+      "code": "G19",
+      "hex": "#009020",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G20": {
+      "code": "G20",
+      "hex": "#F0F8F0",
+      "family": "Green",
+      "driveId": "1_9rT1t1n8Ad75UhpXg0h3V5SDHNhD-F8",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1_9rT1t1n8Ad75UhpXg0h3V5SDHNhD-F8",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1_9rT1t1n8Ad75UhpXg0h3V5SDHNhD-F8&sz=w200"
+    },
+    "G21": {
+      "code": "G21",
+      "hex": "#CCEACC",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G24": {
+      "code": "G24",
+      "hex": "#90CC94",
+      "family": "Green",
+      "driveId": "1P3Ll34cvUbgxZFXvTOOag-Un-RKTmfBA",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1P3Ll34cvUbgxZFXvTOOag-Un-RKTmfBA",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1P3Ll34cvUbgxZFXvTOOag-Un-RKTmfBA&sz=w200"
+    },
+    "G28": {
+      "code": "G28",
+      "hex": "#3A9050",
+      "family": "Green",
+      "driveId": "1b17FyfKod9EqoJTaIYvix1_jPf2P2iGd",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1b17FyfKod9EqoJTaIYvix1_jPf2P2iGd",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1b17FyfKod9EqoJTaIYvix1_jPf2P2iGd&sz=w200"
+    },
+    "G29": {
+      "code": "G29",
+      "hex": "#186030",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G40": {
+      "code": "G40",
+      "hex": "#C0D8C0",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G82": {
+      "code": "G82",
+      "hex": "#C8DCC0",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G85": {
+      "code": "G85",
+      "hex": "#6A9070",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G94": {
+      "code": "G94",
+      "hex": "#909478",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "G99": {
+      "code": "G99",
+      "hex": "#606840",
+      "family": "Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N0": {
+      "code": "N0",
+      "hex": "#F8F8F8",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N1": {
+      "code": "N1",
+      "hex": "#F0F0F0",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N2": {
+      "code": "N2",
+      "hex": "#E0E0E0",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N3": {
+      "code": "N3",
+      "hex": "#CCCCCC",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N4": {
+      "code": "N4",
+      "hex": "#B8B8B8",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N5": {
+      "code": "N5",
+      "hex": "#A0A0A0",
+      "family": "Neutral Gray",
+      "driveId": "1l3a6kHFKyfXhxNTwLn4CZH677O0vrDYG",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1l3a6kHFKyfXhxNTwLn4CZH677O0vrDYG",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1l3a6kHFKyfXhxNTwLn4CZH677O0vrDYG&sz=w200"
+    },
+    "N6": {
+      "code": "N6",
+      "hex": "#888888",
+      "family": "Neutral Gray",
+      "driveId": "1C1nuDYUwEcYE-rJ7srNfK-xcvAwQX57Z",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1C1nuDYUwEcYE-rJ7srNfK-xcvAwQX57Z",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1C1nuDYUwEcYE-rJ7srNfK-xcvAwQX57Z&sz=w200"
+    },
+    "N7": {
+      "code": "N7",
+      "hex": "#6A6A6A",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N8": {
+      "code": "N8",
+      "hex": "#4A4A4A",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N9": {
+      "code": "N9",
+      "hex": "#303030",
+      "family": "Neutral Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "N10": {
+      "code": "N10",
+      "hex": "#181818",
+      "family": "Neutral Gray",
+      "driveId": "16k66hHly8YIbPA31QCx4NugpLcdOt9_y",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16k66hHly8YIbPA31QCx4NugpLcdOt9_y",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=16k66hHly8YIbPA31QCx4NugpLcdOt9_y&sz=w200"
+    },
+    "R000": {
+      "code": "R000",
+      "hex": "#FEF0F0",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R00": {
+      "code": "R00",
+      "hex": "#FDE5E5",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R01": {
+      "code": "R01",
+      "hex": "#FDD5D5",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R02": {
+      "code": "R02",
+      "hex": "#FAC4C4",
+      "family": "Red",
+      "driveId": "1jgzffX7ukTMyMTzEmBn04eb_Dz1UAXg6",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1jgzffX7ukTMyMTzEmBn04eb_Dz1UAXg6",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1jgzffX7ukTMyMTzEmBn04eb_Dz1UAXg6&sz=w200"
+    },
+    "R05": {
+      "code": "R05",
+      "hex": "#F58080",
+      "family": "Red",
+      "driveId": "1Lt8CBW9RANk5UJchA9eDH1vMDt9n13PG",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Lt8CBW9RANk5UJchA9eDH1vMDt9n13PG",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Lt8CBW9RANk5UJchA9eDH1vMDt9n13PG&sz=w200"
+    },
+    "R08": {
+      "code": "R08",
+      "hex": "#F04040",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R09": {
+      "code": "R09",
+      "hex": "#E83030",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R11": {
+      "code": "R11",
+      "hex": "#FAD0D0",
+      "family": "Red",
+      "driveId": "1Wa6D9789VnlCkusmF0-7oCheex4lv5Fw",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Wa6D9789VnlCkusmF0-7oCheex4lv5Fw",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Wa6D9789VnlCkusmF0-7oCheex4lv5Fw&sz=w200"
+    },
+    "R12": {
+      "code": "R12",
+      "hex": "#F8B8B8",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R14": {
+      "code": "R14",
+      "hex": "#F59090",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R17": {
+      "code": "R17",
+      "hex": "#F07040",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R20": {
+      "code": "R20",
+      "hex": "#FAE0D8",
+      "family": "Red",
+      "driveId": "1IcbIom7AAI6Tl5M-cLL1F_SI2EQwFZjF",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1IcbIom7AAI6Tl5M-cLL1F_SI2EQwFZjF",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1IcbIom7AAI6Tl5M-cLL1F_SI2EQwFZjF&sz=w200"
+    },
+    "R21": {
+      "code": "R21",
+      "hex": "#F8C8B8",
+      "family": "Red",
+      "driveId": "10rUFv4u-Vle8totcJmTfDvKti7jXpYSG",
+      "imageUrl": "https://lh3.googleusercontent.com/d/10rUFv4u-Vle8totcJmTfDvKti7jXpYSG",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=10rUFv4u-Vle8totcJmTfDvKti7jXpYSG&sz=w200"
+    },
+    "R22": {
+      "code": "R22",
+      "hex": "#F8B8A0",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R24": {
+      "code": "R24",
+      "hex": "#F8A080",
+      "family": "Red",
+      "driveId": "1SBRUvqqFHA4t02-gQ7nL9u_CXIET_YkZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1SBRUvqqFHA4t02-gQ7nL9u_CXIET_YkZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1SBRUvqqFHA4t02-gQ7nL9u_CXIET_YkZ&sz=w200"
+    },
+    "R27": {
+      "code": "R27",
+      "hex": "#E84040",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R29": {
+      "code": "R29",
+      "hex": "#D82828",
+      "family": "Red",
+      "driveId": "1_sojwu-IDkImZHxJqiG-ho3r35YMXajH",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1_sojwu-IDkImZHxJqiG-ho3r35YMXajH",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1_sojwu-IDkImZHxJqiG-ho3r35YMXajH&sz=w200"
+    },
+    "R30": {
+      "code": "R30",
+      "hex": "#FDE8E0",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R32": {
+      "code": "R32",
+      "hex": "#FDC8B0",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R35": {
+      "code": "R35",
+      "hex": "#F89870",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R37": {
+      "code": "R37",
+      "hex": "#D04040",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R39": {
+      "code": "R39",
+      "hex": "#A02828",
+      "family": "Red",
+      "driveId": "1phJUtGkAcCH8Afv3EdRWymubNhGaCVVN",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1phJUtGkAcCH8Afv3EdRWymubNhGaCVVN",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1phJUtGkAcCH8Afv3EdRWymubNhGaCVVN&sz=w200"
+    },
+    "R43": {
+      "code": "R43",
+      "hex": "#E07090",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R46": {
+      "code": "R46",
+      "hex": "#C82020",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R56": {
+      "code": "R56",
+      "hex": "#A03050",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R59": {
+      "code": "R59",
+      "hex": "#802030",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R81": {
+      "code": "R81",
+      "hex": "#FAB8C8",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R83": {
+      "code": "R83",
+      "hex": "#F890A8",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R85": {
+      "code": "R85",
+      "hex": "#E85880",
+      "family": "Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "R89": {
+      "code": "R89",
+      "hex": "#902040",
+      "family": "Red",
+      "driveId": "1kNqtl2AGbfHgHEdkGsblO81_pW3NAXOA",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1kNqtl2AGbfHgHEdkGsblO81_pW3NAXOA",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1kNqtl2AGbfHgHEdkGsblO81_pW3NAXOA&sz=w200"
+    },
+    "RV000": {
+      "code": "RV000",
+      "hex": "#F9EBF5",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV00": {
+      "code": "RV00",
+      "hex": "#F5DBF0",
+      "family": "Red Violet",
+      "driveId": "1IAnyTlters-nfJU3u70F2XVhRlvh86hC",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1IAnyTlters-nfJU3u70F2XVhRlvh86hC",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1IAnyTlters-nfJU3u70F2XVhRlvh86hC&sz=w200"
+    },
+    "RV02": {
+      "code": "RV02",
+      "hex": "#F8C0E8",
+      "family": "Red Violet",
+      "driveId": "1PvtxHMf4RQLFiI0xV67ukm8LKvkq2mFZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1PvtxHMf4RQLFiI0xV67ukm8LKvkq2mFZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1PvtxHMf4RQLFiI0xV67ukm8LKvkq2mFZ&sz=w200"
+    },
+    "RV04": {
+      "code": "RV04",
+      "hex": "#F880D8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV06": {
+      "code": "RV06",
+      "hex": "#E848C8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV09": {
+      "code": "RV09",
+      "hex": "#C020A0",
+      "family": "Red Violet",
+      "driveId": "1AgaZj8UPtjTWUr_-9rk8m-5i4mcdfJ-I",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1AgaZj8UPtjTWUr_-9rk8m-5i4mcdfJ-I",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1AgaZj8UPtjTWUr_-9rk8m-5i4mcdfJ-I&sz=w200"
+    },
+    "RV10": {
+      "code": "RV10",
+      "hex": "#FAE0F0",
+      "family": "Red Violet",
+      "driveId": "1q1hUeicHlUTHqyp03Vrmip-o_AecmcGV",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1q1hUeicHlUTHqyp03Vrmip-o_AecmcGV",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1q1hUeicHlUTHqyp03Vrmip-o_AecmcGV&sz=w200"
+    },
+    "RV11": {
+      "code": "RV11",
+      "hex": "#F8C8E8",
+      "family": "Red Violet",
+      "driveId": "1vpcrXJV7wqITjyvj0ffu5PBJXx8WabGI",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1vpcrXJV7wqITjyvj0ffu5PBJXx8WabGI",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1vpcrXJV7wqITjyvj0ffu5PBJXx8WabGI&sz=w200"
+    },
+    "RV13": {
+      "code": "RV13",
+      "hex": "#F8A8D8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV14": {
+      "code": "RV14",
+      "hex": "#F880C0",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV17": {
+      "code": "RV17",
+      "hex": "#D040A0",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV19": {
+      "code": "RV19",
+      "hex": "#A82090",
+      "family": "Red Violet",
+      "driveId": "1UGgHirKoMaARxFCtICP7nIsZmd80mEl-",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1UGgHirKoMaARxFCtICP7nIsZmd80mEl-",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1UGgHirKoMaARxFCtICP7nIsZmd80mEl-&sz=w200"
+    },
+    "RV21": {
+      "code": "RV21",
+      "hex": "#FAE5F0",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV23": {
+      "code": "RV23",
+      "hex": "#F8C0D8",
+      "family": "Red Violet",
+      "driveId": "1Txbfu4XtE9TmXstS0MmqXCpZmaotbxL3",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Txbfu4XtE9TmXstS0MmqXCpZmaotbxL3",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Txbfu4XtE9TmXstS0MmqXCpZmaotbxL3&sz=w200"
+    },
+    "RV25": {
+      "code": "RV25",
+      "hex": "#F090B8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV29": {
+      "code": "RV29",
+      "hex": "#C02880",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV32": {
+      "code": "RV32",
+      "hex": "#F0B0D0",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV34": {
+      "code": "RV34",
+      "hex": "#E888B8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV42": {
+      "code": "RV42",
+      "hex": "#F8B0B8",
+      "family": "Red Violet",
+      "driveId": "1uBxMcb-aG2fgRuaRadeUBQZfdM7tEWrS",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1uBxMcb-aG2fgRuaRadeUBQZfdM7tEWrS",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1uBxMcb-aG2fgRuaRadeUBQZfdM7tEWrS&sz=w200"
+    },
+    "RV52": {
+      "code": "RV52",
+      "hex": "#F8C8D8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV55": {
+      "code": "RV55",
+      "hex": "#D070A0",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV63": {
+      "code": "RV63",
+      "hex": "#E8709090",
+      "family": "Red Violet",
+      "driveId": "1MkPYQCjb9k_Yhzphk-srEbDCxFldWTv0",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1MkPYQCjb9k_Yhzphk-srEbDCxFldWTv0",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1MkPYQCjb9k_Yhzphk-srEbDCxFldWTv0&sz=w200"
+    },
+    "RV66": {
+      "code": "RV66",
+      "hex": "#C04878",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV69": {
+      "code": "RV69",
+      "hex": "#A03060",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV91": {
+      "code": "RV91",
+      "hex": "#ECC0D4",
+      "family": "Red Violet",
+      "driveId": "1bGtLDcCEGfqOWqTjSSnwtDLselyxRGR7",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1bGtLDcCEGfqOWqTjSSnwtDLselyxRGR7",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1bGtLDcCEGfqOWqTjSSnwtDLselyxRGR7&sz=w200"
+    },
+    "RV93": {
+      "code": "RV93",
+      "hex": "#D8A0B8",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "RV95": {
+      "code": "RV95",
+      "hex": "#F8C0D8",
+      "family": "Red Violet",
+      "driveId": "14QuR5fIhawQ_MFIhTV46FKLFVE8gF8Xo",
+      "imageUrl": "https://lh3.googleusercontent.com/d/14QuR5fIhawQ_MFIhTV46FKLFVE8gF8Xo",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=14QuR5fIhawQ_MFIhTV46FKLFVE8gF8Xo&sz=w200"
+    },
+    "RV99": {
+      "code": "RV99",
+      "hex": "#7040785",
+      "family": "Red Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T0": {
+      "code": "T0",
+      "hex": "#F6F6F4",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T1": {
+      "code": "T1",
+      "hex": "#EBEBEA",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T2": {
+      "code": "T2",
+      "hex": "#DDDDD8",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T3": {
+      "code": "T3",
+      "hex": "#CACAC4",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T4": {
+      "code": "T4",
+      "hex": "#B5B5AE",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T5": {
+      "code": "T5",
+      "hex": "#9E9E98",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T6": {
+      "code": "T6",
+      "hex": "#888880",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "T7": {
+      "code": "T7",
+      "hex": "#6E6E68",
+      "family": "Toner Gray",
+      "driveId": "1o8KDRkgx7xWFuCWUuBG-Ve8KKgHX0BGk",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1o8KDRkgx7xWFuCWUuBG-Ve8KKgHX0BGk",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1o8KDRkgx7xWFuCWUuBG-Ve8KKgHX0BGk&sz=w200"
+    },
+    "T8": {
+      "code": "T8",
+      "hex": "#545450",
+      "family": "Toner Gray",
+      "driveId": "1DmTIIU4H9_DOHg4aaKx-VRrGMCQ3Mpcr",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1DmTIIU4H9_DOHg4aaKx-VRrGMCQ3Mpcr",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1DmTIIU4H9_DOHg4aaKx-VRrGMCQ3Mpcr&sz=w200"
+    },
+    "T9": {
+      "code": "T9",
+      "hex": "#3A3A35",
+      "family": "Toner Gray",
+      "driveId": "1189OW9ImX-ijZ7TmdnCkTlUjvW4mu6G9",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1189OW9ImX-ijZ7TmdnCkTlUjvW4mu6G9",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1189OW9ImX-ijZ7TmdnCkTlUjvW4mu6G9&sz=w200"
+    },
+    "T10": {
+      "code": "T10",
+      "hex": "#222220",
+      "family": "Toner Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V0000": {
+      "code": "V0000",
+      "hex": "#F5F0F8",
+      "family": "Violet",
+      "driveId": "13m9GvRrffWrq2IZFeOAnewBUuHecOj2p",
+      "imageUrl": "https://lh3.googleusercontent.com/d/13m9GvRrffWrq2IZFeOAnewBUuHecOj2p",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=13m9GvRrffWrq2IZFeOAnewBUuHecOj2p&sz=w200"
+    },
+    "V000": {
+      "code": "V000",
+      "hex": "#EBE5F5",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V01": {
+      "code": "V01",
+      "hex": "#C8B0DC",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V04": {
+      "code": "V04",
+      "hex": "#B09AEC",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V05": {
+      "code": "V05",
+      "hex": "#9A88D8",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V06": {
+      "code": "V06",
+      "hex": "#8878D0",
+      "family": "Violet",
+      "driveId": "1w1pTUEnVw3gQrMxtGZfoZLAyeKzalCWI",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1w1pTUEnVw3gQrMxtGZfoZLAyeKzalCWI",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1w1pTUEnVw3gQrMxtGZfoZLAyeKzalCWI&sz=w200"
+    },
+    "V09": {
+      "code": "V09",
+      "hex": "#6060C0",
+      "family": "Violet",
+      "driveId": "1PiSf5EvXmscQ7BUnYM47yM4iRH317117",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1PiSf5EvXmscQ7BUnYM47yM4iRH317117",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1PiSf5EvXmscQ7BUnYM47yM4iRH317117&sz=w200"
+    },
+    "V12": {
+      "code": "V12",
+      "hex": "#DDD0EC",
+      "family": "Violet",
+      "driveId": "1ZQEl4IJ-cxhXr_nOSKkxVlFZ0xln1vD6",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ZQEl4IJ-cxhXr_nOSKkxVlFZ0xln1vD6",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ZQEl4IJ-cxhXr_nOSKkxVlFZ0xln1vD6&sz=w200"
+    },
+    "V15": {
+      "code": "V15",
+      "hex": "#B8A0D8",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V17": {
+      "code": "V17",
+      "hex": "#8060B8",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V20": {
+      "code": "V20",
+      "hex": "#D8CCEC",
+      "family": "Violet",
+      "driveId": "1sHlQhVpNahxBjsBltnLR5Uu67RIFY-FB",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1sHlQhVpNahxBjsBltnLR5Uu67RIFY-FB",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1sHlQhVpNahxBjsBltnLR5Uu67RIFY-FB&sz=w200"
+    },
+    "V22": {
+      "code": "V22",
+      "hex": "#C0B0DC",
+      "family": "Violet",
+      "driveId": "1iadEkWeU6ibnqxIc7sC8i1JrJnFUZa6M",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1iadEkWeU6ibnqxIc7sC8i1JrJnFUZa6M",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1iadEkWeU6ibnqxIc7sC8i1JrJnFUZa6M&sz=w200"
+    },
+    "V25": {
+      "code": "V25",
+      "hex": "#A890CC",
+      "family": "Violet",
+      "driveId": "1MVFTZfn-OEMiRw_yL9MXeEaJD723Qe8O",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1MVFTZfn-OEMiRw_yL9MXeEaJD723Qe8O",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1MVFTZfn-OEMiRw_yL9MXeEaJD723Qe8O&sz=w200"
+    },
+    "V28": {
+      "code": "V28",
+      "hex": "#704888",
+      "family": "Violet",
+      "driveId": "1_9-CrUcHYDeCag-OEltoCMxcmLfBf1vm",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1_9-CrUcHYDeCag-OEltoCMxcmLfBf1vm",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1_9-CrUcHYDeCag-OEltoCMxcmLfBf1vm&sz=w200"
+    },
+    "V91": {
+      "code": "V91",
+      "hex": "#D8C0E0",
+      "family": "Violet",
+      "driveId": "1E8qImG1twPYsINZmJ2HoR8773lT5w3xZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1E8qImG1twPYsINZmJ2HoR8773lT5w3xZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1E8qImG1twPYsINZmJ2HoR8773lT5w3xZ&sz=w200"
+    },
+    "V93": {
+      "code": "V93",
+      "hex": "#C0A0D0",
+      "family": "Violet",
+      "driveId": "16eYHlfGr6ToqqW8fik5-9ay_qs3rO87k",
+      "imageUrl": "https://lh3.googleusercontent.com/d/16eYHlfGr6ToqqW8fik5-9ay_qs3rO87k",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=16eYHlfGr6ToqqW8fik5-9ay_qs3rO87k&sz=w200"
+    },
+    "V95": {
+      "code": "V95",
+      "hex": "#A880C0",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "V99": {
+      "code": "V99",
+      "hex": "#503070",
+      "family": "Violet",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W0": {
+      "code": "W0",
+      "hex": "#F8F7F5",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W1": {
+      "code": "W1",
+      "hex": "#F0EDEA",
+      "family": "Warm Gray",
+      "driveId": "1gnoMCftKJchHDGKtAQF8H1M_C2x3RvnS",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1gnoMCftKJchHDGKtAQF8H1M_C2x3RvnS",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1gnoMCftKJchHDGKtAQF8H1M_C2x3RvnS&sz=w200"
+    },
+    "W2": {
+      "code": "W2",
+      "hex": "#E4E0DA",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W3": {
+      "code": "W3",
+      "hex": "#D0CAC2",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W4": {
+      "code": "W4",
+      "hex": "#BCB4AA",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W5": {
+      "code": "W5",
+      "hex": "#A49C90",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W6": {
+      "code": "W6",
+      "hex": "#8C8278",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W7": {
+      "code": "W7",
+      "hex": "#706860",
+      "family": "Warm Gray",
+      "driveId": "1CXuIINzPugagCTnXqmF8PmqwTGQHPXC3",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1CXuIINzPugagCTnXqmF8PmqwTGQHPXC3",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1CXuIINzPugagCTnXqmF8PmqwTGQHPXC3&sz=w200"
+    },
+    "W8": {
+      "code": "W8",
+      "hex": "#504A44",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W9": {
+      "code": "W9",
+      "hex": "#342E28",
+      "family": "Warm Gray",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "W10": {
+      "code": "W10",
+      "hex": "#201A14",
+      "family": "Warm Gray",
+      "driveId": "1nRNsZBCsAnKFELgubZbnOCm0nqu3yT1I",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1nRNsZBCsAnKFELgubZbnOCm0nqu3yT1I",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1nRNsZBCsAnKFELgubZbnOCm0nqu3yT1I&sz=w200"
+    },
+    "Y000": {
+      "code": "Y000",
+      "hex": "#FDFBE5",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y00": {
+      "code": "Y00",
+      "hex": "#FBF8D0",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y02": {
+      "code": "Y02",
+      "hex": "#FAF598",
+      "family": "Yellow",
+      "driveId": "1JNShvALdv_UrHZGmhr6MZpUHWzFteaFR",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1JNShvALdv_UrHZGmhr6MZpUHWzFteaFR",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1JNShvALdv_UrHZGmhr6MZpUHWzFteaFR&sz=w200"
+    },
+    "Y04": {
+      "code": "Y04",
+      "hex": "#F8F040",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y06": {
+      "code": "Y06",
+      "hex": "#F5E800",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y08": {
+      "code": "Y08",
+      "hex": "#F0E000",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y11": {
+      "code": "Y11",
+      "hex": "#FEFCE8",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y13": {
+      "code": "Y13",
+      "hex": "#FBF7A0",
+      "family": "Yellow",
+      "driveId": "1ytJlCwuxD6DiPVq-2k8a8PZsfJq3VlS8",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ytJlCwuxD6DiPVq-2k8a8PZsfJq3VlS8",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ytJlCwuxD6DiPVq-2k8a8PZsfJq3VlS8&sz=w200"
+    },
+    "Y15": {
+      "code": "Y15",
+      "hex": "#F8F060",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y17": {
+      "code": "Y17",
+      "hex": "#F5DC20",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y18": {
+      "code": "Y18",
+      "hex": "#F8D418",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y19": {
+      "code": "Y19",
+      "hex": "#F8C820",
+      "family": "Yellow",
+      "driveId": "1K4ys2Eh1xfKre__l3kdDysHvdYH1NrRs",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1K4ys2Eh1xfKre__l3kdDysHvdYH1NrRs",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1K4ys2Eh1xfKre__l3kdDysHvdYH1NrRs&sz=w200"
+    },
+    "Y21": {
+      "code": "Y21",
+      "hex": "#FBF5C0",
+      "family": "Yellow",
+      "driveId": "1KIqNfD90zILtkH0trrQ4TcY4rwKFfNtm",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1KIqNfD90zILtkH0trrQ4TcY4rwKFfNtm",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1KIqNfD90zILtkH0trrQ4TcY4rwKFfNtm&sz=w200"
+    },
+    "Y23": {
+      "code": "Y23",
+      "hex": "#F0DCA0",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y26": {
+      "code": "Y26",
+      "hex": "#D8B058",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y28": {
+      "code": "Y28",
+      "hex": "#C89030",
+      "family": "Yellow",
+      "driveId": "1fuyPNqmHRYzGWdIU73hx_xDHsCs4bEof",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1fuyPNqmHRYzGWdIU73hx_xDHsCs4bEof",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1fuyPNqmHRYzGWdIU73hx_xDHsCs4bEof&sz=w200"
+    },
+    "Y32": {
+      "code": "Y32",
+      "hex": "#F5E8B0",
+      "family": "Yellow",
+      "driveId": "1v2CaVRspk2I8VvvvAHoiil8JFE4ms2Mj",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1v2CaVRspk2I8VvvvAHoiil8JFE4ms2Mj",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1v2CaVRspk2I8VvvvAHoiil8JFE4ms2Mj&sz=w200"
+    },
+    "Y35": {
+      "code": "Y35",
+      "hex": "#F0D080",
+      "family": "Yellow",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "Y38": {
+      "code": "Y38",
+      "hex": "#E8B840",
+      "family": "Yellow",
+      "driveId": "1EOhEh8cLArwsbVVkq77rkmwOFk38PTtw",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1EOhEh8cLArwsbVVkq77rkmwOFk38PTtw",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1EOhEh8cLArwsbVVkq77rkmwOFk38PTtw&sz=w200"
+    },
+    "YG0000": {
+      "code": "YG0000",
+      "hex": "#F5FAEE",
+      "family": "Yellow Green",
+      "driveId": "17Jozv7Wim41CEguxHgvxVZrzwzoTzFbg",
+      "imageUrl": "https://lh3.googleusercontent.com/d/17Jozv7Wim41CEguxHgvxVZrzwzoTzFbg",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=17Jozv7Wim41CEguxHgvxVZrzwzoTzFbg&sz=w200"
+    },
+    "YG00": {
+      "code": "YG00",
+      "hex": "#E8F5D8",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG01": {
+      "code": "YG01",
+      "hex": "#D0F0C0",
+      "family": "Yellow Green",
+      "driveId": "1VqCV5TjjbGaypddd8O7-Yn-sahm6Lprs",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1VqCV5TjjbGaypddd8O7-Yn-sahm6Lprs",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1VqCV5TjjbGaypddd8O7-Yn-sahm6Lprs&sz=w200"
+    },
+    "YG03": {
+      "code": "YG03",
+      "hex": "#A8E090",
+      "family": "Yellow Green",
+      "driveId": "10bAV5tFZn-M8qJPHzI_NytqOz2IOrfSo",
+      "imageUrl": "https://lh3.googleusercontent.com/d/10bAV5tFZn-M8qJPHzI_NytqOz2IOrfSo",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=10bAV5tFZn-M8qJPHzI_NytqOz2IOrfSo&sz=w200"
+    },
+    "YG05": {
+      "code": "YG05",
+      "hex": "#90D070",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG06": {
+      "code": "YG06",
+      "hex": "#78C858",
+      "family": "Yellow Green",
+      "driveId": "1WuZtRbiKGJbHVFZIv-Ef2QBET3ihZBe3",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1WuZtRbiKGJbHVFZIv-Ef2QBET3ihZBe3",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1WuZtRbiKGJbHVFZIv-Ef2QBET3ihZBe3&sz=w200"
+    },
+    "YG07": {
+      "code": "YG07",
+      "hex": "#60B840",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG09": {
+      "code": "YG09",
+      "hex": "#48A828",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG11": {
+      "code": "YG11",
+      "hex": "#D8EFC0",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG13": {
+      "code": "YG13",
+      "hex": "#B8E090",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG17": {
+      "code": "YG17",
+      "hex": "#70C040",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG21": {
+      "code": "YG21",
+      "hex": "#E0F0C0",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG23": {
+      "code": "YG23",
+      "hex": "#B0D890",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG25": {
+      "code": "YG25",
+      "hex": "#98C878",
+      "family": "Yellow Green",
+      "driveId": "1gAJSEMUZSefpqtNuKk3KMMtZlVZXVZAZ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1gAJSEMUZSefpqtNuKk3KMMtZlVZXVZAZ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1gAJSEMUZSefpqtNuKk3KMMtZlVZXVZAZ&sz=w200"
+    },
+    "YG41": {
+      "code": "YG41",
+      "hex": "#C8E0C0",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG45": {
+      "code": "YG45",
+      "hex": "#98C890",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG61": {
+      "code": "YG61",
+      "hex": "#C8E0A8",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG63": {
+      "code": "YG63",
+      "hex": "#A8C878",
+      "family": "Yellow Green",
+      "driveId": "1dESXB4hcfBMGQjRyZS1FcecdmeWgK8_i",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1dESXB4hcfBMGQjRyZS1FcecdmeWgK8_i",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1dESXB4hcfBMGQjRyZS1FcecdmeWgK8_i&sz=w200"
+    },
+    "YG67": {
+      "code": "YG67",
+      "hex": "#78A048",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG91": {
+      "code": "YG91",
+      "hex": "#D0D0A8",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG93": {
+      "code": "YG93",
+      "hex": "#C0C090",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG95": {
+      "code": "YG95",
+      "hex": "#B8B880",
+      "family": "Yellow Green",
+      "driveId": "1bLYesEj5FQsJolnOki2sZLfBpQ_--naA",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1bLYesEj5FQsJolnOki2sZLfBpQ_--naA",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1bLYesEj5FQsJolnOki2sZLfBpQ_--naA&sz=w200"
+    },
+    "YG97": {
+      "code": "YG97",
+      "hex": "#909060",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YG99": {
+      "code": "YG99",
+      "hex": "#686840",
+      "family": "Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR000": {
+      "code": "YR000",
+      "hex": "#FEF0E8",
+      "family": "Yellow Red",
+      "driveId": "1li5Ow-UmpTkRb9HXv7iefYsHaoqm-XOK",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1li5Ow-UmpTkRb9HXv7iefYsHaoqm-XOK",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1li5Ow-UmpTkRb9HXv7iefYsHaoqm-XOK&sz=w200"
+    },
+    "YR00": {
+      "code": "YR00",
+      "hex": "#FDE8D8",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR01": {
+      "code": "YR01",
+      "hex": "#FDD8C0",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR02": {
+      "code": "YR02",
+      "hex": "#FCC8A0",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR04": {
+      "code": "YR04",
+      "hex": "#F8A860",
+      "family": "Yellow Red",
+      "driveId": "1LL2g4YbEvNIlc2aGg7fPE4JhVhGR4RM2",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1LL2g4YbEvNIlc2aGg7fPE4JhVhGR4RM2",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1LL2g4YbEvNIlc2aGg7fPE4JhVhGR4RM2&sz=w200"
+    },
+    "YR07": {
+      "code": "YR07",
+      "hex": "#F58028",
+      "family": "Yellow Red",
+      "driveId": "1ryFloeFrHR6KSUoNnS9mqQ3MlqFljsNU",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1ryFloeFrHR6KSUoNnS9mqQ3MlqFljsNU",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1ryFloeFrHR6KSUoNnS9mqQ3MlqFljsNU&sz=w200"
+    },
+    "YR09": {
+      "code": "YR09",
+      "hex": "#F06010",
+      "family": "Yellow Red",
+      "driveId": "1-WG9FK1DSEenqMC9bavEnh8lHVnVHrAJ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1-WG9FK1DSEenqMC9bavEnh8lHVnVHrAJ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1-WG9FK1DSEenqMC9bavEnh8lHVnVHrAJ&sz=w200"
+    },
+    "YR12": {
+      "code": "YR12",
+      "hex": "#F0A050",
+      "family": "Yellow Red",
+      "driveId": "14iXzioKkfhyQT9kLDSi6y3RdiMrNk7XH",
+      "imageUrl": "https://lh3.googleusercontent.com/d/14iXzioKkfhyQT9kLDSi6y3RdiMrNk7XH",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=14iXzioKkfhyQT9kLDSi6y3RdiMrNk7XH&sz=w200"
+    },
+    "YR14": {
+      "code": "YR14",
+      "hex": "#D88040",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR15": {
+      "code": "YR15",
+      "hex": "#F09830",
+      "family": "Yellow Red",
+      "driveId": "1Cjj5AhCOV736xWv0RvcbmmLkHlrntKPd",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Cjj5AhCOV736xWv0RvcbmmLkHlrntKPd",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Cjj5AhCOV736xWv0RvcbmmLkHlrntKPd&sz=w200"
+    },
+    "YR16": {
+      "code": "YR16",
+      "hex": "#F0A848",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR18": {
+      "code": "YR18",
+      "hex": "#E07028",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR20": {
+      "code": "YR20",
+      "hex": "#FDE8C0",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR21": {
+      "code": "YR21",
+      "hex": "#FDE0A8",
+      "family": "Yellow Red",
+      "driveId": "10Dfm7CuBFQJJgVG6DKQtFD_PeOjjJC69",
+      "imageUrl": "https://lh3.googleusercontent.com/d/10Dfm7CuBFQJJgVG6DKQtFD_PeOjjJC69",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=10Dfm7CuBFQJJgVG6DKQtFD_PeOjjJC69&sz=w200"
+    },
+    "YR23": {
+      "code": "YR23",
+      "hex": "#E8C078",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR24": {
+      "code": "YR24",
+      "hex": "#D8A858",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR27": {
+      "code": "YR27",
+      "hex": "#D07030",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR30": {
+      "code": "YR30",
+      "hex": "#F8E0C0",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR31": {
+      "code": "YR31",
+      "hex": "#F8D0A0",
+      "family": "Yellow Red",
+      "driveId": "1HcX9Lc_Nhqys_pDTI1apzOtmZ4JiszO4",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1HcX9Lc_Nhqys_pDTI1apzOtmZ4JiszO4",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1HcX9Lc_Nhqys_pDTI1apzOtmZ4JiszO4&sz=w200"
+    },
+    "YR61": {
+      "code": "YR61",
+      "hex": "#F0C098",
+      "family": "Yellow Red",
+      "driveId": "1YJO2WyG1mx5mPN1MYyavZUEgQ_zSUykc",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1YJO2WyG1mx5mPN1MYyavZUEgQ_zSUykc",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1YJO2WyG1mx5mPN1MYyavZUEgQ_zSUykc&sz=w200"
+    },
+    "YR65": {
+      "code": "YR65",
+      "hex": "#E09060",
+      "family": "Yellow Red",
+      "driveId": "1aoBD7urB5WnxyzYJkszlDSY91AlaJQyQ",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1aoBD7urB5WnxyzYJkszlDSY91AlaJQyQ",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1aoBD7urB5WnxyzYJkszlDSY91AlaJQyQ&sz=w200"
+    },
+    "YR68": {
+      "code": "YR68",
+      "hex": "#F07030",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "YR82": {
+      "code": "YR82",
+      "hex": "#F8C8A8",
+      "family": "Yellow Red",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "FBG2": {
+      "code": "FBG2",
+      "hex": "#00E8E0",
+      "family": "Fluorescent Blue Green",
+      "driveId": "1OxQXKmQmYcdpRJt_wBRXOGPC0ynDGe97",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1OxQXKmQmYcdpRJt_wBRXOGPC0ynDGe97",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1OxQXKmQmYcdpRJt_wBRXOGPC0ynDGe97&sz=w200"
+    },
+    "FB2": {
+      "code": "FB2",
+      "hex": "#00B0FF",
+      "family": "Fluorescent Blue",
+      "driveId": "1bkvkKadVm8fInUO4GbfzAW7TgahOu15D",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1bkvkKadVm8fInUO4GbfzAW7TgahOu15D",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1bkvkKadVm8fInUO4GbfzAW7TgahOu15D&sz=w200"
+    },
+    "FRV1": {
+      "code": "FRV1",
+      "hex": "#FF40C0",
+      "family": "Fluorescent Red Violet",
+      "driveId": "19ivnuhJ4VCcI0Zvjrhe_YNZJehUMSz8_",
+      "imageUrl": "https://lh3.googleusercontent.com/d/19ivnuhJ4VCcI0Zvjrhe_YNZJehUMSz8_",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=19ivnuhJ4VCcI0Zvjrhe_YNZJehUMSz8_&sz=w200"
+    },
+    "FV2": {
+      "code": "FV2",
+      "hex": "#C040FF",
+      "family": "Fluorescent Violet",
+      "driveId": "1Pk3rkvNkMvmFsXqY4S8HFQP9FwkjcVuj",
+      "imageUrl": "https://lh3.googleusercontent.com/d/1Pk3rkvNkMvmFsXqY4S8HFQP9FwkjcVuj",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=1Pk3rkvNkMvmFsXqY4S8HFQP9FwkjcVuj&sz=w200"
+    },
+    "FYG1": {
+      "code": "FYG1",
+      "hex": "#80FF40",
+      "family": "Fluorescent Yellow Green",
+      "driveId": null,
+      "imageUrl": null,
+      "thumbUrl": null
+    },
+    "FYG2": {
+      "code": "FYG2",
+      "hex": "#C0FF20",
+      "family": "Fluorescent Yellow Green",
+      "driveId": "15sjJ9KsxJ9LBgA4u_0hsCgeGF3HORExx",
+      "imageUrl": "https://lh3.googleusercontent.com/d/15sjJ9KsxJ9LBgA4u_0hsCgeGF3HORExx",
+      "thumbUrl": "https://drive.google.com/thumbnail?id=15sjJ9KsxJ9LBgA4u_0hsCgeGF3HORExx&sz=w200"
+    }
+  }
+}
