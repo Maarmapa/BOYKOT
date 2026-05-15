@@ -2,6 +2,13 @@
 
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
+import { BRANDS } from '@/lib/colors/brands';
+
+// Helper: hero image of a brand from the registry (no más URLs hardcoded
+// que pueden quedar 404).
+function brandImage(slug: string): string | undefined {
+  return BRANDS[slug]?.heroImage;
+}
 
 interface MegaItem {
   label: string;
@@ -32,17 +39,17 @@ const NAV: NavEntry[] = [
     blurb: 'Copic, Molotow, POSCA, ZIG. 700+ marcadores con stock real.',
     featured: [
       { label: 'Copic Sketch', href: '/colores/copic-sketch', hint: '358 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2021/07/74a327b3-97a6-4726-b1bb-012cde0ceb85-sketchpost.jpeg' },
+        image: brandImage('copic-sketch') },
       { label: 'Copic Ciao', href: '/colores/copic-ciao', hint: '180 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2021/07/ciao-product.jpg' },
+        image: brandImage('copic-ciao') ?? brandImage('copic-sketch') },
       { label: 'COPIC Ink', href: '/colores/copic-ink', hint: '358 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2021/07/various-ink-product.jpg' },
+        image: brandImage('copic-ink') },
       { label: 'POSCA', href: '/categoria/posca', hint: 'Acrílicos',
-        image: 'https://www.boykot.cl/wp-content/uploads/2021/05/logoheader-2021.png' },
+        image: brandImage('uni-posca-5m') },
       { label: 'Molotow', href: '/categoria/molotow-markers', hint: 'One4All',
-        image: 'https://www.boykot.cl/wp-content/uploads/2024/10/p00327000-ef9dadfd-968f-4c16-bd8d-ca991af72c30.jpg' },
+        image: brandImage('molotow-premium') },
       { label: 'ZIG Kuretake', href: '/colores/zig-calligraphy', hint: 'Calligraphy',
-        image: 'https://www.boykot.cl/wp-content/uploads/2021/05/logoheader-2021.png' },
+        image: brandImage('zig-calligraphy') },
     ],
   },
   {
@@ -51,17 +58,17 @@ const NAV: NavEntry[] = [
     blurb: 'Cuero, acuarela, óleo, gouache, airbrush, aerosol.',
     featured: [
       { label: 'Angelus Cuero', href: '/colores/angelus-standard-1oz', hint: '88 colores',
-        image: 'https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg' },
+        image: brandImage('angelus-standard-1oz') },
       { label: 'Holbein Acuarela', href: '/colores/holbein-acuarela-15ml', hint: '120 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2025/07/170908red_tex_new_fx-ec0ab6c9-e1dc-4f63-af58-b2e177b4ece3-4.jpg' },
+        image: brandImage('holbein-acuarela-15ml') },
       { label: 'Holbein Óleo', href: '/colores/holbein-oleo-20ml', hint: '120 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2025/07/170908red_tex_new_fx-ec0ab6c9-e1dc-4f63-af58-b2e177b4ece3-4.jpg' },
+        image: brandImage('holbein-oleo-20ml') },
       { label: 'Molotow Premium', href: '/colores/molotow-premium', hint: 'Aerosol 400ml',
-        image: 'https://www.boykot.cl/wp-content/uploads/2024/10/p00327000-ef9dadfd-968f-4c16-bd8d-ca991af72c30.jpg' },
+        image: brandImage('molotow-premium') },
       { label: 'Createx Airbrush', href: '/colores/createx-airbrush-60ml', hint: '80 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_60-22e7c419-0ea1-4d54-9b07-01fc7470781b.jpg' },
+        image: brandImage('createx-airbrush-60ml') },
       { label: 'Gouache Holbein', href: '/colores/holbein-gouache-15ml', hint: '105 colores',
-        image: 'https://www.boykot.cl/wp-content/uploads/2025/07/170908red_tex_new_fx-ec0ab6c9-e1dc-4f63-af58-b2e177b4ece3-4.jpg' },
+        image: brandImage('holbein-gouache-15ml') },
     ],
   },
   {
