@@ -59,6 +59,11 @@ import atyouSpica from '../../public/colors/atyou-spica.json';
 import kirarinaCute from '../../public/colors/kirarina-cute.json';
 import aquaTwin from '../../public/colors/aqua-twin.json';
 
+// BSale variant maps por brand-slug (generado por /api/bsale/build-all-maps).
+// adapt() hidrata color.variantId automáticamente desde acá.
+import bsaleVariants from '../../data/bsale-variants-all.json';
+const VARIANTS_BY_BRAND = (bsaleVariants as { by_brand: Record<string, Record<string, number>> }).by_brand;
+
 interface JsonBrand {
   slug: string;
   productName: string;
@@ -89,13 +94,23 @@ function adapt(data: JsonBrand, overrides: Partial<BrandColorSet> = {}): BrandCo
       productName = data.productName.slice(first.length).trim() || data.productName;
     }
   }
+  // Hydra variantId desde bsale-variants-all.json si hay mapa para este brand.
+  // Match por code exacto (B00 → variantId 25708 para sketch, etc).
+  const variantMap = VARIANTS_BY_BRAND[overrides.slug ?? data.slug];
+  const colors = variantMap
+    ? data.colors.map(c => ({
+        ...c,
+        variantId: c.variantId ?? variantMap[c.code] ?? variantMap[c.code.toUpperCase()],
+      }))
+    : data.colors;
+
   return {
     slug: data.slug,
     brandName,
     productName,
     basePriceClp: data.basePriceClp ?? 0,
     bsaleProductId: data.bsaleProductId ?? 0,
-    colors: data.colors,
+    colors,
     heroImage: data.heroImage ?? heroMap[data.slug] ?? undefined,
     description: data.description ?? undefined,
     gallery: data.gallery ?? undefined,
