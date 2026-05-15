@@ -120,7 +120,11 @@ export async function fetchProductStock(
       for (const item of data.items ?? []) {
         const vid = item.variant?.id;
         if (!vid) continue;
-        out.set(vid, (out.get(vid) ?? 0) + (item.quantityAvailable ?? 0));
+        // Usamos `quantity` (físico) en vez de `quantityAvailable` porque
+        // Centry/Loading Play reserva todo el stock para marketplaces y nos
+        // dejaba available=0. La reserva real para nuestro carro vive en
+        // Supabase (stock_reservations) y se descuenta en lib/stock.ts.
+        out.set(vid, (out.get(vid) ?? 0) + (item.quantity ?? 0));
       }
       next = data.next ?? null;
     } catch (e) {
