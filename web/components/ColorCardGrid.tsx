@@ -170,27 +170,24 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
           );
         })}
 
-        {/* Boykot-celeste CTA as the last item in the multicolumn flow.
-            Same vertical height as a swatch row so the multicol balance keeps
-            it aligned with the bottom of the surrounding columns. */}
-        <div className="boykot-color-row boykot-cta-row">
-          <button
-            onClick={() => { if (brandTotal > 0) window.location.href = '/carrito'; }}
-            disabled={brandTotal === 0}
-            className={`w-full h-full text-center text-sm font-medium rounded text-white transition-opacity ${
-              brandTotal > 0
-                ? 'hover:opacity-90 cursor-pointer'
-                : 'opacity-40 cursor-not-allowed'
-            }`}
-            style={{ backgroundColor: '#0066ff' }}
-          >
-            Agregar al carro ({brandTotal})
-            {totalClp > 0 && (
-              <span className="ml-2 font-semibold">${totalClp.toLocaleString('es-CL')}</span>
-            )}
-          </button>
-        </div>
       </div>
+
+      {/* Full-width Boykot-celeste CTA below the multicol grid — same size as
+          boykot.cl's original "Agregar al carro" button. */}
+      <button
+        onClick={() => { if (brandTotal > 0) window.location.href = '/carrito'; }}
+        disabled={brandTotal === 0}
+        className={`mt-8 w-full text-center text-lg font-semibold py-4 rounded-md text-white transition-opacity uppercase tracking-wide ${
+          brandTotal > 0 ? 'hover:opacity-90 cursor-pointer' : 'opacity-40 cursor-not-allowed'
+        }`}
+        style={{ backgroundColor: '#0066ff' }}
+      >
+        Agregar al carro ({brandTotal})
+        {totalClp > 0 && (
+          <span className="ml-3">${totalClp.toLocaleString('es-CL')}</span>
+        )}
+      </button>
+
     </div>
   );
 }

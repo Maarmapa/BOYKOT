@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import ColorCardGrid from '@/components/ColorCardGrid';
 import ProductHero from '@/components/ProductHero';
+import ScrollToTop from '@/components/ScrollToTop';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 
 export function generateStaticParams() {
@@ -43,6 +44,7 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
 
         <ColorCardGrid brand={brand} />
       </div>
+      <ScrollToTop />
     </main>
   );
 }
