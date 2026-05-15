@@ -197,9 +197,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'molotow-premium-neon': adapt(molotowPremiumNeon as JsonBrand, { basePriceClp: 6000, bsaleProductId: 2238 }),
   'molotow-premium-plus': adapt(molotowPremiumPlus as JsonBrand, { basePriceClp: 7900, bsaleProductId: 2239 }),
 
-  // Holbein — via woo-variations-table-grid AJAX selector
-  'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
-  'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900 }),
+  // Holbein Acuarela: multi-product (6 series 15ml + 4 series 60ml). El
+  // bsaleProductId es el "primary" (Serie A) solo como referencia — los
+  // variantIds de las 6 series están en bsale-variants-all.json y se
+  // hidratan al cargar.
+  'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900, bsaleProductId: 3226 }),
+  'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900, bsaleProductId: 3230 }),
 
   // Angelus Pintura Cuero (BSale productId 2262 consolida 10 sub-lineas).
   // Cada sub-slug se mapea por SKU prefix en bsale-variants-all.json:

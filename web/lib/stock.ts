@@ -14,13 +14,16 @@ export interface StockRow {
   available: number;    // max(0, stock - reserved)
 }
 
-const OFFICE_ID = process.env.BSALE_OFFICE_ID ? Number(process.env.BSALE_OFFICE_ID) : undefined;
+// BSALE_OFFICE_ID intencionalmente NO se usa para sumar stock — queremos
+// stock de TODAS las offices (bodega central + tienda física + cualquier
+// otra) porque despachamos online. Si en el futuro queremos limitar a una
+// office específica para reservas, podemos volver a wirearlo.
 
 export async function getProductStock(
   productId: number,
   variantIds?: number[],
 ): Promise<StockRow[]> {
-  const map = await fetchProductStock(productId, { officeId: OFFICE_ID, variantIds });
+  const map = await fetchProductStock(productId, { variantIds });
   return Promise.all(
     Array.from(map.entries()).map(async ([variant_id, stock]) => {
       const reserved = await reservedFor(variant_id);
@@ -35,7 +38,7 @@ export async function getProductStock(
 }
 
 export async function getVariantStock(variantId: number): Promise<StockRow | null> {
-  const row = await fetchVariantStock(variantId, { officeId: OFFICE_ID });
+  const row = await fetchVariantStock(variantId);
   if (!row) return null;
   const reserved = await reservedFor(variantId);
   return {
