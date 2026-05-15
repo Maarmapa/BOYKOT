@@ -1,5 +1,8 @@
 import type { BrandColorSet, ColorSwatch } from './types';
-import { ALL_COPIC, COPIC_CIAO, COPIC_FAMILY_ORDER, COPIC_FAMILY_NAMES } from './copic';
+import {
+  COPIC_SKETCH, COPIC_INK, COPIC_CIAO, COPIC_CLASSIC, COPIC_WIDE,
+  COPIC_FAMILY_ORDER, COPIC_FAMILY_NAMES,
+} from './copic';
 
 // BSale-sourced (catalog.json → scripts/build-brand-colors.js)
 // Note: molotow-premium uses the 132-color web scrape (more complete) — see below.
@@ -12,7 +15,6 @@ import holbein15ml from '../../public/colors/holbein-acuarela-15ml.json';
 import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 
 // Scraper-sourced (scraped/products/*.json → scripts/build-from-scraped.js)
-import copicClassic from '../../public/colors/copic-classic.json';
 import createx60 from '../../public/colors/createx-airbrush-60ml.json';
 import createx120 from '../../public/colors/createx-airbrush-120ml.json';
 import createx240 from '../../public/colors/createx-airbrush-240ml.json';
@@ -55,13 +57,13 @@ function adapt(data: JsonBrand, overrides: Partial<BrandColorSet> = {}): BrandCo
 }
 
 export const BRANDS: Record<string, BrandColorSet> = {
-  // Copic — share 358 codes from copic-colors.json
+  // Copic — every line uses its own per-color photos from boykot.cl.
   'copic-sketch': {
     slug: 'copic-sketch',
     productName: 'Copic Sketch',
     basePriceClp: 4300,
     bsaleProductId: 2278,
-    colors: ALL_COPIC,
+    colors: COPIC_SKETCH,
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2021/07/74a327b3-97a6-4726-b1bb-012cde0ceb85-sketchpost.jpeg',
@@ -71,7 +73,7 @@ export const BRANDS: Record<string, BrandColorSet> = {
     productName: 'COPIC Ink',
     basePriceClp: 4900,
     bsaleProductId: 2978,
-    colors: ALL_COPIC,
+    colors: COPIC_INK,
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2024/12/copic_ink_1-2a9a6ef5-c971-45a8-992d-94ce10085a43.jpg',
@@ -85,10 +87,24 @@ export const BRANDS: Record<string, BrandColorSet> = {
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
   },
-  'copic-classic': adapt(copicClassic as JsonBrand, {
+  'copic-classic': {
+    slug: 'copic-classic',
+    productName: 'Copic Classic',
+    basePriceClp: 3400,
+    bsaleProductId: 0,
+    colors: COPIC_CLASSIC,
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
-  }),
+  },
+  'copic-wide': {
+    slug: 'copic-wide',
+    productName: 'Copic Wide',
+    basePriceClp: 5300,
+    bsaleProductId: 0,
+    colors: COPIC_WIDE,
+    familyOrder: COPIC_FAMILY_ORDER,
+    familyNames: COPIC_FAMILY_NAMES,
+  },
 
   // Molotow — 132 colors via web scrape (BSale catalog only listed 50)
   'molotow-premium': adapt(molotowPremiumWeb as JsonBrand, { basePriceClp: 6000 }),

@@ -1,19 +1,22 @@
-// Copic codes/hex/driveIds shared across Sketch, Ciao (subset of 180), and Ink.
+// Copic codes/hex/driveIds shared across all Copic lines.
 // Image source priority (best → fallback):
-//   1. copic-sketch-images.json  (Boykot's individual product photo, 358 codes)
-//   2. driveId thumbnail         (Boykot's Drive folder, 131 codes — only used if (1) missing)
-//   3. hex value                 (always present in copic-colors.json)
+//   1. {line}-images.json   (Boykot's individual product photo per line)
+//   2. driveId thumbnail    (Boykot's Drive folder, 131 codes — historical fallback)
+//   3. hex value            (always present in copic-colors.json)
 //
-// scripts/build-copic-sketch-images.js regenerates (1) from scraped product pages.
+// scripts/build-individual-images.js regenerates the line-specific maps from
+// the scraped per-color product pages on boykot.cl.
 
 import data from '../../public/copic-colors.json';
 import sketchImages from '../../public/colors/copic-sketch-images.json';
+import classicImages from '../../public/colors/copic-classic-images.json';
+import ciaoImages from '../../public/colors/copic-ciao-images.json';
+import wideImages from '../../public/colors/copic-wide-images.json';
 import type { ColorSwatch } from './types';
 
 interface RawCopic { code: string; hex: string; family: string; driveId?: string | null; }
 
 const raw = (data as { colors: Record<string, RawCopic> }).colors;
-const imageMap = sketchImages as Record<string, string>;
 
 export const COPIC_FAMILY_ORDER = [
   '0', '100', 'B', 'BG', 'BV', 'C', 'E', 'FBG', 'FB', 'FRV', 'FV', 'FYG',
@@ -48,15 +51,36 @@ function sort(a: ColorSwatch, b: ColorSwatch): number {
   return na - nb;
 }
 
-export const ALL_COPIC: ColorSwatch[] = Object.values(raw)
+// Base palette: every Copic code Boykot has documented hex for. Each line
+// (Sketch / Ink / Ciao / Classic / Wide) is built from this base, filtered
+// by which codes the line carries, with line-specific photos hydrated.
+const BASE_COPIC: ColorSwatch[] = Object.values(raw)
   .map(c => ({
     code: c.code,
     hex: c.hex,
     family: c.family,
     driveId: c.driveId || null,
-    imageUrl: imageMap[c.code] || null,
   }))
   .sort(sort);
+
+function withImages(images: Record<string, string>): ColorSwatch[] {
+  // Keep the union: any code present either in BASE_COPIC OR in the image map
+  // (sometimes Boykot has a marker product for a code we don't have hex for).
+  const haveHex = new Set(BASE_COPIC.map(c => c.code));
+  const fromImages: ColorSwatch[] = Object.keys(images)
+    .filter(code => !haveHex.has(code))
+    .map(code => ({ code, hex: undefined, imageUrl: images[code], family: 'Other' }));
+  return [
+    ...BASE_COPIC.filter(c => images[c.code]).map(c => ({ ...c, imageUrl: images[c.code] })),
+    ...fromImages,
+  ].sort(sort);
+}
+
+export const ALL_COPIC: ColorSwatch[] = withImages(sketchImages as Record<string, string>);
+export const COPIC_SKETCH = ALL_COPIC;
+export const COPIC_INK = ALL_COPIC; // Ink shares the 358 codes; the Sketch photos approximate the colors well enough.
+export const COPIC_CLASSIC = withImages(classicImages as Record<string, string>);
+export const COPIC_WIDE = withImages(wideImages as Record<string, string>);
 
 // Copic Ciao only ships 180 of the 358 codes. The subset is published officially.
 // Keeping it here lets Sketch and Ink reuse ALL_COPIC unchanged.
@@ -82,4 +106,6 @@ export const CIAO_SUBSET = new Set([
   'YR00', 'YR02', 'YR04', 'YR07', 'YR09', 'YR12', 'YR14', 'YR15', 'YR16', 'YR18', 'YR20', 'YR21', 'YR23', 'YR24', 'YR27', 'YR31', 'YR61', 'YR65', 'YR68', 'YR82',
 ]);
 
-export const COPIC_CIAO: ColorSwatch[] = ALL_COPIC.filter(c => CIAO_SUBSET.has(c.code));
+// Ciao's official 180-color subset, hydrated with the Ciao-specific photos.
+const ciaoMap = ciaoImages as Record<string, string>;
+export const COPIC_CIAO: ColorSwatch[] = withImages(ciaoMap).filter(c => CIAO_SUBSET.has(c.code) || ciaoMap[c.code]);
