@@ -1,0 +1,619 @@
+{
+  "slug": "angelus-leather-paint-4oz",
+  "productName": "Angelus Leather Paint 4oz",
+  "basePriceClp": 16500,
+  "bsaleProductId": 0,
+  "sourceCount": 87,
+  "generatedAt": "2026-05-15T05:09:28.967Z",
+  "colors": [
+    {
+      "code": "001",
+      "name": "Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/86eb84af-11e1-4b2b-92df-6fd6bacefaad-004-neutral-4-oz_a4618186-7c71-479e-8fab-474939ae8287.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-001-black/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "004",
+      "name": "Neutral",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/7640a370-1824-41d6-87ac-4e9bde07b47e-004-neutral-4-oz_a4618186-7c71-479e-8fab-474939ae8287_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-004-neutral/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "005",
+      "name": "White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/005_white_4-653afbe4-36a6-4992-9fe4-388c18ca9684.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-005-white/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "014",
+      "name": "Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/5b5795b0-d37a-43f4-ab80-6cb5b8aa5146-014-brown-4-oz_e2768cb1-a66a-4dbb-b9d6-09e08fef8cc7_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-014-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "015",
+      "name": "Chocolate",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/c0dfdde3-13dd-489d-bda4-af996699b3a4-015-chocolate-4-oz_04ae322a-ef4a-45ee-9276-1c2052a5ee1a_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-015-chocolate/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "018",
+      "name": "Dark Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6ddef2bb-9bf6-4989-8536-5765eb07edd8-018-dark-brown-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-018-dark-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "019",
+      "name": "English Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/57c9a281-e4ab-4b1e-b4f2-fa30038e7d17-019-english-tan-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-019-english-tan/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "021",
+      "name": "Light Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/3dc36bae-879e-41d5-ac24-16f0d621ab7e-021-light-brown-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-021-light-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "024",
+      "name": "Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ce45c775-c144-4540-ad7b-f2d84cbe6e1e-024-orange-4-oz_3c2b2f6d-f5e3-4295-8bf0-46069f8c4000_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-024-orange/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "027",
+      "name": "Saddle",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/cbccf1c7-5fc9-42f2-962c-3fbdfdbe2463-027-saddle-4-oz_8818d694-445c-40f0-88b8-f6983aa710d4_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-027-saddle/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "029",
+      "name": "Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6ff3c3e1-4b1e-4cae-a115-46c897f6efe6-029-tan-4-oz_8cfb9929-cdd7-4704-bf77-03ad8050616c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-029-tan/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "040",
+      "name": "Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/4fb70105-8b40-4a92-b580-e7c38978e369-040-blue-4-oz_30b6eb3e-4673-403f-866f-e96faec0b3cb_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-040-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "041",
+      "name": "Light Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/d0665bb2-0ce5-4ab7-b6b5-bd8019094856-041-light-blue-4-oz_4a556d66-9561-4ccb-a9d5-e79468c06462_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-041-light-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "042",
+      "name": "Navy Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/01cbeb7f-2918-4e3c-8642-08f6889e54a9-042-angelus-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-042-navy-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "043",
+      "name": "Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/1b803db3-ab72-48d0-817c-f61a1b1881f5-043-turquoise-4-oz-3_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-043-turquoise/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "045",
+      "name": "Blue Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/3a75b491-fd4f-4ee3-b3b0-f20b19982587-045-blue-turquoise-4-oz_d6ce7c7e-4e40-42c1-95f3-3f001052df61_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-045-blue-turquoise/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "047",
+      "name": "Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6aafda31-b70a-4e2a-80e7-ff4016097e07-047-purple-4-oz_c8f77509-70d6-4d21-91a6-6a90b312cbba_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-047-purple/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "050",
+      "name": "Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/a0098774-ba55-4bc0-b4ec-182a7b05b103-050-green-4-oz_86022235-a316-41b5-a919-4078f2861c09_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-050-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "052",
+      "name": "Midnite Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/052_midnite_green_4-fd2b04ea-3246-43a6-92ef-8dd8d8f5b9f4.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-052-midnite-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "060",
+      "name": "Burgundy",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/23e2207d-4b59-4647-b984-fee79e29a095-060-burgundy-4-oz_c048f116-e1f3-42ac-874e-bb7249836e71_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-060-burgundy/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "064",
+      "name": "Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/3cef788d-96fa-4225-a17a-a29d502349f1-064-red-4-oz_f54dcbfd-8d6b-477b-b882-14c009839cac_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-064-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "070",
+      "name": "Beige",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6cdb10a0-8e77-4563-8d3a-bcb425ed6c4d-070-beige-4-oz_a7a433d4-1d4d-4063-999f-5e48d0d47719_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-070-beige/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "072",
+      "name": "Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/06d28029-43b6-4754-88ff-159b4288b2de-gold-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-072-gold/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "075",
+      "name": "Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/c1acb961-6556-4cda-a3d4-6d449cfa9058-075-yellow-4-oz_2d174d21-c204-4b01-adf7-a3fa202760fc_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-075-yellow/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "080",
+      "name": "Dark Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/080_dark_grey_0-9c7bb859-fd5f-4ec9-b748-be36c8a7acc8.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-080-dark-grey/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "081",
+      "name": "Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/31501669-72f7-4e2d-b669-ac8edecee772-081-grey-4-oz_dc2641ed-976f-4c72-9267-57a702e4a614_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-081-grey/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "082",
+      "name": "Light Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/d17fbab8-983b-4766-a455-9940698c1da5-082-light-grey-4-oz_6c326bc2-3376-4951-86f3-53604dada088_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-082-light-grey/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "093",
+      "name": "Brick",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/e9e6119f-d206-489c-9f14-11eb4940d84d-093-brick-4-oz_42f1d5da-6511-4aab-814c-452e04716a27_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-093-brick/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "101",
+      "name": "Flat Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/c1d6b333-e627-483b-9aad-e1b477ba1269-101-flat-black-4-oz_37a162a6-cf68-4356-a664-501834623030_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-101-flat-black/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "105",
+      "name": "Flat White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/7d28910c-030a-4dcc-9e88-b966053e66ac-105-flat-white-4-oz_c84afbc7-87d3-4780-9a21-534ded65295a_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-105-flat-white/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "141",
+      "name": "Copper",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/bf098334-db3b-4db1-bcf6-7c4574d801fa-copper-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-141-copper/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "142",
+      "name": "Bronze",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/310c41c1-ea2c-4c03-8eaf-28e6c8f0fc9c-bronze-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-142-bronze/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "143",
+      "name": "Pewter",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/d82d140f-de92-414d-b8b9-ec22045e94e6-pewter-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-143-pewter/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "150",
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/e845a6b5-6734-49e0-9929-c59f3d1bca92-silver-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-150-silver/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "155",
+      "name": "Bone",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/bf1d572f-bdb2-44b3-918a-09bf774b79f4-155-bone-4-oz_33313d5a-4f27-4539-bd8c-9f93fa5a0445_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-155-bone/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "156",
+      "name": "Champagne",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/156_champagne_4-567486c8-4aac-47a0-9f86-5f28f6dc1285.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-156-champagne/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "157",
+      "name": "Dark Bone",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/4c4d5694-ed11-4043-9737-1e67aaf70894-157-dark-bone-4-oz_ec57e263-1726-46e5-9434-699d6baa620d_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-157-dark-bone/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "159",
+      "name": "Mist",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/aba6b7b6-44ae-47ca-b84b-b380cf00c659-159-mist-4-oz_ca17bb18-7225-426d-8dbd-cff95a79d39b_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-159-mist/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "160",
+      "name": "Vanilla",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/1ec9d668-ddfd-412c-8837-727620cbad25-160-vanilla-4-oz_65bccf05-099f-442b-81b6-ba8bcb1d10ee_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-160-vanilla/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "161",
+      "name": "Natural",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/cc0401d8-28f2-4d66-82de-2f11c6c97141-161-natural-4-oz_29662812-7edd-41d9-b5f3-875b30c06711_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-161-natural/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "162",
+      "name": "Cream",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/5cfdde39-d7b9-478c-97f8-70d80465c9e7-162-cream-4-oz_b8ad8780-966f-4cca-9265-a091588bd1a8_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-162-cream/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "163",
+      "name": "Capezio Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/42a59c9b-42df-4870-9a0c-c8922f980c90-163-capezio-tan-4-oz_9465762b-9e5f-4e0d-9f62-174c30aa613c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-163-capezio-tan/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "165",
+      "name": "Beige Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/165_beige_taupe_4-e0d73b23-1b03-4578-ac0d-306d8d8ac7bc.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-165-beige-taupe/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "166",
+      "name": "Grey Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/e6a8c25d-efbe-4423-9fdb-98e5ea5df29b-166-grey-taupe-4-oz_6e03e967-70bb-4b8f-b11a-39289e8ec91c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-166-grey-taupe/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "167",
+      "name": "Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/81532d13-243d-42f5-accc-d8c145149dbd-167-taupe-4-oz_bf41691b-a9aa-47d0-b608-9b32d377b408_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-167-taupe/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "168",
+      "name": "Dark Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/86e8bdc1-1ed9-42db-a652-dd8a55b66ec7-168-dark-taupe-4-oz_2bad4ce6-1ce5-41db-9edc-efdc75d136ff_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-168-dark-taupe/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "169",
+      "name": "Mauve",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ee6a1516-b747-43c7-b969-cc39453eec95-169-mauve-4-oz_9cb9b5a6-2f09-4b43-8f3a-faba61e5402c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-169-mauve/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "170",
+      "name": "Avocado Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/170_avocado_4-b4ac3364-8a08-4d25-bc4c-7c9e4f81111b.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-170-avocado-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "171",
+      "name": "Dark Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/d30c621c-f9da-4cbc-b946-0a2d09ba9081-171-dark-green-4-oz_9c55a3d2-72f9-4edf-b948-dcdb06e83980_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-171-dark-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "172",
+      "name": "Light Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/61ad958c-23a0-4be7-a2ea-96a446e48865-172-light-green-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-172-light-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "174",
+      "name": "Gift Box Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/de46d832-2d8d-45ca-b36b-a482548fb66f-174-gift-box-blue-4-oz_b70eeefe-87c7-4dba-8296-5e0fdc51c2bc_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-174-gift-box-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "175",
+      "name": "Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/175_lilac_0-7ff46cd4-4eeb-4a41-a93a-ca88e18a3f80.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-175-lilac/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "176",
+      "name": "Pale Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/e41d2e72-08f6-436b-9553-0f101fc770de-176-pale-blue-4-oz_e63c6cea-4756-4964-88d9-bfc726744e78_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-176-pale-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "177",
+      "name": "Sapphire",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/e59dfe7e-5fdf-425c-94f5-3e262c2c00bd-177-sapphire-4-oz_66eefbc3-c171-4a09-a328-474cae2de356_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-177-sapphire/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "178",
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/014ddc41-767f-4d05-8d89-1847d4c03a1e-178-violet-4-oz_b6cc06b7-a55a-46c5-922c-9a3082af2930_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-178-violet/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "179",
+      "name": "Dark Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/544cd2f0-d600-4894-8b34-a3c47b967755-179-dark-blue-4-oz_c257f039-6327-4623-afaf-1fe6814919c2_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-179-dark-blue/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "180",
+      "name": "Cognac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/01471a06-7efb-428d-81f9-43076d61fd06-180-cognac-4-oz_cdca2464-a209-436a-8710-09511316e1a0_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-180-cognac/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "181",
+      "name": "Rich Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/5845c8d3-e0b4-431d-b7e6-dde29fe91ecc-181-rich-brown-4-oz_37d2ae90-f07d-4184-8ac5-2ca071dddbab_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-181-rich-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "182",
+      "name": "Sand",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6ebb3368-46e7-445d-b450-278cb71a4520-182-sand-4-oz_7c9400ed-2dff-4f4e-a69e-cba6c3e16d06_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-182-sand/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "183",
+      "name": "Terra Cotta Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/0cbe03b7-c6c6-422a-a3b8-d8731b8c3a6f-183-terra-cotta-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-183-terra-cotta-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "184",
+      "name": "Autumn Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/53b762ac-4ba2-46e9-80dc-1df1d07267ca-184-autumn-red-4-oz_0a68e3e4-e1e6-4638-999f-0761220c0d5c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-184-autumn-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "185",
+      "name": "Fire Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/213a89f6-4ec1-45d3-87cd-2029111102cd-185-fire-red-4-oz_f7a9e01d-4ee4-4350-8164-c90bb12dc25c_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-185-fire-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "186",
+      "name": "Hot Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/0696fe43-197c-472f-9c4b-9a474c420a0f-186-hot-pink-4-oz_9dd3b3f3-1b56-4b26-bce6-faefbd77f85a_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-186-hot-pink/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "187",
+      "name": "Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ba025d08-aa35-49e8-afec-7de1e91d84e1-187-magenta-4-oz_6d7ffc68-689a-4665-90e8-ff4cd5a80e8f_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-187-magenta/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "188",
+      "name": "Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/14d7f956-eb6a-4a54-aff9-5715628c819f-188-pink-4-oz_3f00692b-460b-44ee-9f66-38ff9115f199_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-188-pink/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "189",
+      "name": "Petal Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/f91b300b-6c41-4bdd-9f69-4c89c3d7a93d-189-petal-pink-4-oz_ac4dae91-6e1f-49d0-b2f6-efbf7d81d82a_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-189-petal-pink/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "190",
+      "name": "Scarlet Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/a4b280b9-5c59-41a3-8d4d-574f1b98e067-190-scarlet-red-4-oz_a21ace6b-aeef-4c89-89bc-eac61f7f11fe_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-190-scarlet-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "191",
+      "name": "Shell Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/81cd9c84-c416-4bbb-b4f3-e6256d136aab-191-shell-pink-4-oz_f242c2ca-6c01-48a7-8f27-8a13fbd08836_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-191-shell-pink/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "194",
+      "name": "Caramel",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/a25040ed-ca38-4ad3-94c2-6dfa60e1fe26-194-caramel-4-oz_6cebc49a-9731-49f3-872d-dd7a77bde7bb_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-194-caramel/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "196",
+      "name": "Mustard",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/51ef4669-bf82-4097-92df-d62828dfdd1e-196-mustard-4-oz_2fcf8be2-2bfb-4a47-976d-8481cbfe2fdc_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-196-mustard/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "197",
+      "name": "Pale Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/4d74be23-e02b-4504-bdfe-9e9c0b77c800-197-pale-yellow-4-oz_7764c55a-a5cf-4ada-bd09-e4933455b273_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-197-pale-yellow/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "198",
+      "name": "Buttercup",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/265_tangerine-38b3157f-45e0-44d6-9b97-faa4807efc74.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-198-buttercup/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "260",
+      "name": "Chili Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/6204f5c3-d58d-462a-85b0-cae94eb484c4-260-chili-red-4-oz_003f1609-82c5-4105-9acb-4364d556dce7_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-260-chili-red/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "261",
+      "name": "South Beach",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/502b8196-a1aa-4668-beba-96aadebeaf5a-261-south-beach-4-oz_8ea7f4dc-562c-45e3-831a-cb8ee0a1d7df_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-261-south-beach/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "262",
+      "name": "Play In The Sand",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/351f60ed-ccf9-4b84-b910-e542cfa7504b-262-play-in-the-sand-4-oz_d48ca8ce-c599-4d80-9773-c17fa7b85a32_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-262-play-in-the-sand/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "263",
+      "name": "Grinch Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/8fb2419a-4540-4bd7-b4d3-8a7bbdf64934-263-grinch-green-4-oz_25a798dc-9f59-483b-b8c8-507075dfa202_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-263-grinch-green/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "264",
+      "name": "Putty",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/d03cff07-03f6-44ea-b340-bf7b2d87e1c5-264-putty-4-oz_635424d8-5d41-4626-a7d7-57c5fc5083ed_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-264-putty/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "265",
+      "name": "Tangerine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ea8adf42-bd69-4e1f-8d41-39890ca0aca5-265-tangerine-4-oz_46a07ca4-4646-49b3-915c-fa365a42bf2b_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-265-tangerine/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "266",
+      "name": "Georgia Peach",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/283a6516-b578-49f8-8561-0bfa55dfbdb0-266-georgia-peach-4-oz_b14672b4-0a52-42d5-9b70-30fda53a5e09_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-266-georgia-peach/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "267",
+      "name": "Salmon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/633f2569-e810-43d8-86c8-f6830b19beef-267-salmon-4-oz_ab593dcf-91ff-49a0-afcf-ffa066ca1222_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-267-salmon/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "268",
+      "name": "Raspberry",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ed086a06-63c6-4db4-b965-43a575233c60-268-rasberry-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-268-raspberry/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "269",
+      "name": "Mint",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/1b82155a-218a-49e0-9ccf-ed58acec9697-269-mint-4-oz_8aeb9a60-f6f0-4b65-95a8-762b5174b0a2_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-269-mint/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "270",
+      "name": "Vachetta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/ff1ddcd8-dadd-4602-80e2-1579f288d746-270-vachetta-4-oz-2_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-270-vachetta/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "272",
+      "name": "Olive",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/11/272_olive_4-f26b6458-4117-4dce-8663-9ab61ca3a13e.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-272-olive/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "273",
+      "name": "Bowler Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/24ce0928-e5cc-4999-9114-61109fd75456-273-bowler-brown-4-oz_4f84a955-773c-4249-8f56-9e74f0bdf93b_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-273-bowler-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "274",
+      "name": "Luggage Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/eda30b66-1eb4-4b5c-859f-c56b0640928b-274-luggage-brown-4-oz_036229e4-b864-43c0-bde5-559bb11f4479_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-274-luggage-brown/",
+      "bsale_product_id": null
+    },
+    {
+      "code": "275",
+      "name": "Satchel Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/07/a715d7af-4ba6-4232-addd-fbca129ae9e8-275-satchel-tan-4-oz_grande.jpeg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pintura-cuero-angelus-4-onzas-275-satchel-tan/",
+      "bsale_product_id": null
+    }
+  ]
+}

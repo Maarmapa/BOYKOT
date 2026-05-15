@@ -17,6 +17,9 @@ import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 // Hero image map (built by `node scripts/build-hero-images.js`)
 import heroImages from '../../public/colors/_hero-images.json';
 
+// Angelus 4oz cluster (one product page per color, photos of the bottle).
+import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
+
 // Angelus Standard 1oz with theme swatches (bwe-grouped page).
 import angelusStandard1oz from '../../public/colors/angelus-standard-1oz.json';
 import angelusPearlescents1oz from '../../public/colors/angelus-pearlescents-1oz.json';
@@ -168,6 +171,13 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900 }),
   'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900 }),
   'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900 }),
+
+  // Angelus Standard 4oz — cluster of one-product-per-color (87 photos).
+  // No theme swatch source like the 1oz, so we keep the bottle photos.
+  'angelus-standard-4oz': adapt(angelus4oz as JsonBrand, {
+    productName: 'Angelus Pintura Cuero Standard 4oz',
+    basePriceClp: 16500,
+  }),
 
   // Holbein lines — codes + images extracted from per-product JSON-LD
   'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand),
