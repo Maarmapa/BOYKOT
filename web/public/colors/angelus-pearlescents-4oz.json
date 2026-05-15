@@ -1,0 +1,39 @@
+{
+  "slug": "angelus-pearlescents-4oz",
+  "productName": "Angelus Pearlescents 4oz",
+  "basePriceClp": 19900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/pearlescents/pintura-cuero-angelus-pearlescents-4-onzas/",
+  "sourceCount": 7,
+  "generatedAt": "2026-05-15T07:27:00.880Z",
+  "colors": [
+    {
+      "code": "451",
+      "name": "Riot Red"
+    },
+    {
+      "code": "452",
+      "name": "Pacific Blue"
+    },
+    {
+      "code": "453",
+      "name": "Prince Purple"
+    },
+    {
+      "code": "454",
+      "name": "Sterling Silver"
+    },
+    {
+      "code": "455",
+      "name": "18k Gold"
+    },
+    {
+      "code": "456",
+      "name": "Rose Gold"
+    },
+    {
+      "code": "457",
+      "name": "Emerald Green"
+    }
+  ]
+}

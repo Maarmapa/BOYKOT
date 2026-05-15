@@ -1,0 +1,59 @@
+{
+  "slug": "angelus-neon-1oz",
+  "productName": "Angelus Neon 1oz",
+  "basePriceClp": 6900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/neon/pintura-cuero-neon-angelus-1-oz/",
+  "sourceCount": 12,
+  "generatedAt": "2026-05-15T07:27:01.042Z",
+  "colors": [
+    {
+      "code": "120",
+      "name": "Rio Red Neon"
+    },
+    {
+      "code": "121",
+      "name": "Tahitian Pink Neon"
+    },
+    {
+      "code": "122",
+      "name": "Jamaican Joy Pink Neon"
+    },
+    {
+      "code": "123",
+      "name": "Parisian Pink Neon"
+    },
+    {
+      "code": "124",
+      "name": "Paradise Purple Neon"
+    },
+    {
+      "code": "125",
+      "name": "Amazon Green Neon"
+    },
+    {
+      "code": "126",
+      "name": "Popsicle Green Neon"
+    },
+    {
+      "code": "127",
+      "name": "Tropic Sun Yellow Neon"
+    },
+    {
+      "code": "128",
+      "name": "Sunset Yellow Neon"
+    },
+    {
+      "code": "129",
+      "name": "Flaming Orange Neon"
+    },
+    {
+      "code": "130",
+      "name": "Lava Orange Neon"
+    },
+    {
+      "code": "131",
+      "name": "Bahama Blue Neon"
+    }
+  ]
+}

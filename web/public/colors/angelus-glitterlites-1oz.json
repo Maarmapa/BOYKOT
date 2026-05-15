@@ -1,0 +1,87 @@
+{
+  "slug": "angelus-glitterlites-1oz",
+  "productName": "Angelus Glitterlites 1oz",
+  "basePriceClp": 6900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/glitterlites/pintura-cuero-glitterlites-angelus/",
+  "sourceCount": 19,
+  "generatedAt": "2026-05-15T07:27:01.374Z",
+  "colors": [
+    {
+      "code": "051",
+      "name": "Kelly Green"
+    },
+    {
+      "code": "BABYBLUE",
+      "name": "Baby Blue"
+    },
+    {
+      "code": "CANDYPINK",
+      "name": "Candy Pink"
+    },
+    {
+      "code": "DESERTGOLD",
+      "name": "Desert Gold"
+    },
+    {
+      "code": "EMERALD",
+      "name": "Emerald"
+    },
+    {
+      "code": "GUNMETAL",
+      "name": "Gunmetal"
+    },
+    {
+      "code": "ICEICEBLUE",
+      "name": "Ice Ice Blue"
+    },
+    {
+      "code": "LAVENDERLACE",
+      "name": "Lavender Lace"
+    },
+    {
+      "code": "LIMELITE",
+      "name": "Limelite"
+    },
+    {
+      "code": "ORANGEORANGE",
+      "name": "Orange Orange"
+    },
+    {
+      "code": "PENNYCOPPER",
+      "name": "Penny Copper"
+    },
+    {
+      "code": "PRINCESSPURPLE",
+      "name": "Princess Purple"
+    },
+    {
+      "code": "RAZZBERRY",
+      "name": "Razzberry"
+    },
+    {
+      "code": "RUBYRED",
+      "name": "Ruby Red"
+    },
+    {
+      "code": "SILVERSPARK",
+      "name": "Silver Spark"
+    },
+    {
+      "code": "SKYBLUES",
+      "name": "Sky Blues"
+    },
+    {
+      "code": "STARLITEBLUE",
+      "name": "Starlite Blue"
+    },
+    {
+      "code": "TUXEDOBLACK",
+      "name": "Tuxedo Black"
+    },
+    {
+      "code": "WHITESUGAR",
+      "name": "White Sugar"
+    }
+  ]
+}

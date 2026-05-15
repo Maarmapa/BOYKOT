@@ -1,0 +1,107 @@
+{
+  "slug": "angelus-tintura-gamuza-3oz",
+  "productName": "Angelus Tintura Gamuza 3oz",
+  "basePriceClp": 9900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/angelus-pinturas/tintura-angelus-pinturas/tintura-gamuza-angelus-3-oz/",
+  "sourceCount": 24,
+  "generatedAt": "2026-05-15T07:27:01.795Z",
+  "colors": [
+    {
+      "code": "001",
+      "name": "Black"
+    },
+    {
+      "code": "014",
+      "name": "Brown"
+    },
+    {
+      "code": "018",
+      "name": "Dark Brown"
+    },
+    {
+      "code": "021",
+      "name": "Light Brown"
+    },
+    {
+      "code": "026",
+      "name": "Rust"
+    },
+    {
+      "code": "029",
+      "name": "Tan"
+    },
+    {
+      "code": "040",
+      "name": "Blue"
+    },
+    {
+      "code": "041",
+      "name": "Light Blue"
+    },
+    {
+      "code": "042",
+      "name": "Navy Blue"
+    },
+    {
+      "code": "047",
+      "name": "Purple"
+    },
+    {
+      "code": "050",
+      "name": "Green"
+    },
+    {
+      "code": "051",
+      "name": "Kelly Green"
+    },
+    {
+      "code": "060",
+      "name": "Burgundy"
+    },
+    {
+      "code": "061",
+      "name": "Dark Red"
+    },
+    {
+      "code": "064",
+      "name": "Red"
+    },
+    {
+      "code": "065",
+      "name": "Wine Tone"
+    },
+    {
+      "code": "070",
+      "name": "Beige"
+    },
+    {
+      "code": "071",
+      "name": "Chamois"
+    },
+    {
+      "code": "075",
+      "name": "Yellow"
+    },
+    {
+      "code": "080",
+      "name": "Dark Grey"
+    },
+    {
+      "code": "081",
+      "name": "Grey"
+    },
+    {
+      "code": "082",
+      "name": "Light Grey"
+    },
+    {
+      "code": "175",
+      "name": "Lilac"
+    },
+    {
+      "code": "188",
+      "name": "Pink"
+    }
+  ]
+}

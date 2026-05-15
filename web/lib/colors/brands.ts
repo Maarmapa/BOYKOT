@@ -23,6 +23,14 @@ import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
 import angelusStandard1oz from '../../public/colors/angelus-standard-1oz.json';
 import angelusPearlescents1oz from '../../public/colors/angelus-pearlescents-1oz.json';
 
+// Angelus AJAX-rendered lines (woo-variations-table-grid)
+import angelusPearlescents4oz from '../../public/colors/angelus-pearlescents-4oz.json';
+import angelusNeon1oz from '../../public/colors/angelus-neon-1oz.json';
+import angelusNeon4oz from '../../public/colors/angelus-neon-4oz.json';
+import angelusGlitterlites from '../../public/colors/angelus-glitterlites-1oz.json';
+import angelusTinturaCuero from '../../public/colors/angelus-tintura-cuero-3oz.json';
+import angelusTinturaGamuza from '../../public/colors/angelus-tintura-gamuza-3oz.json';
+
 // Holbein individuals: image+sku extracted from JSON-LD background CSS
 // (scripts/build-holbein-individual.js).
 import holbeinGouache15ml from '../../public/colors/holbein-gouache-15ml.json';
@@ -153,6 +161,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2023/03/gold-1-d1d3c915-a8bf-439d-8dbb-6f5bbadbb5c8.png',
     description: 'Pintura para cuero con terminación perlada iridiscente. 7 colores metálicos brillantes — ideales para zapatillas y proyectos con efectos especiales.',
   }),
+  'angelus-pearlescents-4oz': adapt(angelusPearlescents4oz as JsonBrand, { basePriceClp: 19900 }),
+  'angelus-neon-1oz': adapt(angelusNeon1oz as JsonBrand, { basePriceClp: 6900 }),
+  'angelus-neon-4oz': adapt(angelusNeon4oz as JsonBrand, { basePriceClp: 19900 }),
+  'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900 }),
+  'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900 }),
+  'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900 }),
   // Older cluster-based variants — kept for backwards compatibility while the
   // remaining Angelus lines (4oz etc.) wait on a grouped-page source.
   'angelus-leather-paint-1oz': adapt(angelus1oz as JsonBrand, { basePriceClp: 5500 }),
