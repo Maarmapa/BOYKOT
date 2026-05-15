@@ -174,7 +174,10 @@ export const BRANDS: Record<string, BrandColorSet> = {
 
   // Angelus Standard 4oz — cluster of one-product-per-color (87 photos).
   // No theme swatch source like the 1oz, so we keep the bottle photos.
+  // Note: JSON file still uses the legacy slug — override it here so the
+  // registry key matches the public URL exactly.
   'angelus-standard-4oz': adapt(angelus4oz as JsonBrand, {
+    slug: 'angelus-standard-4oz',
     productName: 'Angelus Pintura Cuero Standard 4oz',
     basePriceClp: 16500,
   }),
