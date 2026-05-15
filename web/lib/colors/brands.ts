@@ -179,7 +179,7 @@ export const BRANDS: Record<string, BrandColorSet> = {
     brandName: 'Copic',
     productName: 'Wide',
     basePriceClp: 5300,
-    bsaleProductId: 0,
+    bsaleProductId: 2280,
     colors: COPIC_WIDE,
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
@@ -187,8 +187,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
 
   // Molotow — 132 colors via web scrape (BSale catalog only listed 50)
   'molotow-premium': adapt(molotowPremiumWeb as JsonBrand, { basePriceClp: 6000 }),
-  'molotow-premium-neon': adapt(molotowPremiumNeon as JsonBrand, { basePriceClp: 6000 }),
-  'molotow-premium-plus': adapt(molotowPremiumPlus as JsonBrand, { basePriceClp: 7900 }),
+  'molotow-premium-neon': adapt(molotowPremiumNeon as JsonBrand, { basePriceClp: 6000, bsaleProductId: 2238 }),
+  'molotow-premium-plus': adapt(molotowPremiumPlus as JsonBrand, { basePriceClp: 7900, bsaleProductId: 2239 }),
 
   // Holbein — via woo-variations-table-grid AJAX selector
   'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
@@ -207,14 +207,11 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'angelus-pearlescents-4oz': adapt(angelusPearlescents4oz as JsonBrand, { basePriceClp: 19900 }),
   'angelus-neon-1oz': adapt(angelusNeon1oz as JsonBrand, { basePriceClp: 6900 }),
   'angelus-neon-4oz': adapt(angelusNeon4oz as JsonBrand, { basePriceClp: 19900 }),
-  'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900 }),
-  'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900 }),
-  'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900 }),
+  'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2263 }),
+  'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2264 }),
+  'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2265 }),
 
   // Angelus Standard 4oz — cluster of one-product-per-color (87 photos).
-  // No theme swatch source like the 1oz, so we keep the bottle photos.
-  // Note: JSON file still uses the legacy slug — override it here so the
-  // registry key matches the public URL exactly.
   'angelus-standard-4oz': adapt(angelus4oz as JsonBrand, {
     slug: 'angelus-standard-4oz',
     productName: 'Angelus Pintura Cuero Standard 4oz',
@@ -222,23 +219,24 @@ export const BRANDS: Record<string, BrandColorSet> = {
   }),
 
   // Holbein lines — codes + images extracted from per-product JSON-LD
-  'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand),
-  'holbein-oleo-20ml': adapt(holbeinOleo20ml as JsonBrand),
+  // Note: 2693 is "Gouache Serie A 15ml" (regular gouache); 2690 is Acryla.
+  'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand, { bsaleProductId: 2693 }),
+  'holbein-oleo-20ml': adapt(holbeinOleo20ml as JsonBrand, { bsaleProductId: 2670 }),
   'holbein-acryla-gouache-20ml': adapt(holbeinAcryla20ml as JsonBrand),
   'holbein-acryla-gouache-40ml': adapt(holbeinAcryla40ml as JsonBrand),
 
-  // Createx — scraper-sourced
+  // Createx — scraper-sourced. 3196 = 30ml, 3197 = 60ml, 3198 = 240ml.
   'createx-airbrush-60ml': adapt(createx60 as JsonBrand),
   'createx-airbrush-120ml': adapt(createx120 as JsonBrand),
   'createx-airbrush-240ml': adapt(createx240 as JsonBrand),
-  'createx-illustration-30ml': adapt(createxIllustration as JsonBrand),
-  'wicked-colors-480ml': adapt(wickedColors480 as JsonBrand),
+  'createx-illustration-30ml': adapt(createxIllustration as JsonBrand, { bsaleProductId: 3196 }),
+  'wicked-colors-480ml': adapt(wickedColors480 as JsonBrand, { bsaleProductId: 3189 }),
 
   // ZIG
-  'zig-calligraphy': adapt(zigCalligraphy as JsonBrand),
-  'zig-acrylista-6mm': adapt(zigAcrylista6 as JsonBrand),
-  'zig-acrylista-15mm': adapt(zigAcrylista15 as JsonBrand),
-  'zig-fabricolor-twin': adapt(zigFabricolor as JsonBrand),
+  'zig-calligraphy': adapt(zigCalligraphy as JsonBrand, { bsaleProductId: 3035 }),
+  'zig-acrylista-6mm': adapt(zigAcrylista6 as JsonBrand, { bsaleProductId: 3024 }),
+  'zig-acrylista-15mm': adapt(zigAcrylista15 as JsonBrand, { bsaleProductId: 3025 }),
+  'zig-fabricolor-twin': adapt(zigFabricolor as JsonBrand, { bsaleProductId: 3023 }),
 
   // Pigmentos
   'solar-color-dust-10gr': adapt(solarColorDust as JsonBrand),
@@ -246,12 +244,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'ultra-thermal-dust-10gr': adapt(ultraThermalDust as JsonBrand),
 
   // Otros marcadores
-  'aqua-color-brush': adapt(aquaColorBrush as JsonBrand),
-  'uni-posca-5m': adapt(uniPosca5M as JsonBrand),
+  'aqua-color-brush': adapt(aquaColorBrush as JsonBrand, { bsaleProductId: 2797 }),
+  'uni-posca-5m': adapt(uniPosca5M as JsonBrand, { bsaleProductId: 2956 }),
   'poplol-gel': adapt(poplolGel as JsonBrand),
   'atyou-spica': adapt(atyouSpica as JsonBrand),
   'kirarina-cute': adapt(kirarinaCute as JsonBrand),
-  'aqua-twin': adapt(aquaTwin as JsonBrand),
+  'aqua-twin': adapt(aquaTwin as JsonBrand, { bsaleProductId: 2419 }),
 };
 
 export const BRAND_SLUGS = Object.keys(BRANDS);
