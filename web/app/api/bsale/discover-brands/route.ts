@@ -37,39 +37,28 @@ interface Hit {
 
 // Para cada marca conocida en boykot, busco la palabra clave en BSale
 // y devuelvo los productos con su variant count.
+// Ronda 2: termsmás agresivos para los que no matchearon antes.
+// BSale a veces tiene productos sin prefijo de marca ("Pintura Cuero" en vez
+// de "Angelus Pintura Cuero").
 const SEARCH_TERMS = [
-  { brand_slug: 'copic-classic', terms: ['Classic'] },
-  { brand_slug: 'copic-wide', terms: ['Wide'] },
-  { brand_slug: 'copic-multiliner', terms: ['Multiliner'] },
-  { brand_slug: 'angelus-standard-1oz', terms: ['Angelus 1oz', 'Standard 1', 'Leather 1oz'] },
-  { brand_slug: 'angelus-standard-4oz', terms: ['Angelus 4oz', 'Standard 4', 'Leather 4oz'] },
-  { brand_slug: 'angelus-pearlescents-1oz', terms: ['Pearlescent', 'Pearlescents'] },
-  { brand_slug: 'angelus-pearlescents-4oz', terms: ['Pearlescent 4', 'Pearl 4oz'] },
-  { brand_slug: 'angelus-neon-1oz', terms: ['Neon 1oz', 'Neon Angelus'] },
-  { brand_slug: 'angelus-neon-4oz', terms: ['Neon 4oz'] },
-  { brand_slug: 'angelus-glitterlites-1oz', terms: ['Glitterlite', 'Glitter'] },
-  { brand_slug: 'angelus-tintura-cuero-3oz', terms: ['Tintura', 'Leather Dye'] },
-  { brand_slug: 'angelus-tintura-gamuza-3oz', terms: ['Gamuza', 'Suede'] },
-  { brand_slug: 'holbein-acuarela-15ml', terms: ['Acuarela 15', 'Watercolor 15'] },
-  { brand_slug: 'holbein-acuarela-60ml', terms: ['Acuarela 60', 'Watercolor 60'] },
-  { brand_slug: 'holbein-oleo-20ml', terms: ['Oleo', 'Óleo', 'Oil'] },
-  { brand_slug: 'holbein-gouache-15ml', terms: ['Gouache'] },
-  { brand_slug: 'holbein-acryla-gouache-20ml', terms: ['Acryla 20', 'Acryla Gouache 20'] },
-  { brand_slug: 'holbein-acryla-gouache-40ml', terms: ['Acryla 40', 'Acryla Gouache 40'] },
-  { brand_slug: 'createx-airbrush-60ml', terms: ['Createx 60', 'Airbrush 60'] },
-  { brand_slug: 'createx-airbrush-120ml', terms: ['Createx 120', 'Airbrush 120'] },
-  { brand_slug: 'createx-airbrush-240ml', terms: ['Createx 240', 'Airbrush 240'] },
-  { brand_slug: 'createx-illustration-30ml', terms: ['Illustration', 'Createx Illustration'] },
-  { brand_slug: 'wicked-colors-480ml', terms: ['Wicked'] },
-  { brand_slug: 'zig-calligraphy', terms: ['Calligraphy', 'ZIG Calligraphy'] },
-  { brand_slug: 'zig-acrylista-6mm', terms: ['Acrylista 6'] },
-  { brand_slug: 'zig-acrylista-15mm', terms: ['Acrylista 15'] },
-  { brand_slug: 'zig-fabricolor-twin', terms: ['Fabricolor'] },
-  { brand_slug: 'uni-posca-5m', terms: ['Posca 5M', 'POSCA 5M', 'PC-5M'] },
-  { brand_slug: 'aqua-color-brush', terms: ['Aqua Color Brush', 'AquaColor'] },
-  { brand_slug: 'aqua-twin', terms: ['Aqua Twin'] },
-  { brand_slug: 'molotow-premium-neon', terms: ['Premium Neon', 'Molotow Neon'] },
-  { brand_slug: 'molotow-premium-plus', terms: ['Premium Plus', 'Molotow Plus'] },
+  // Angelus — buscar por "Leather", "Pintura Cuero", "Standard"
+  { brand_slug: 'angelus-standard-1oz', terms: ['Leather 1oz', 'Cuero 1oz', 'Pintura Cuero 1', 'Standard 1oz', 'Leather Paint 1', 'Acrylic Leather'] },
+  { brand_slug: 'angelus-standard-4oz', terms: ['Leather 4oz', 'Cuero 4oz', 'Pintura Cuero 4', 'Standard 4oz', 'Leather Paint 4'] },
+  { brand_slug: 'angelus-pearlescents-1oz', terms: ['Pearl 1oz', 'Pearlescent 1', 'Perlado 1', 'Perlescente'] },
+  { brand_slug: 'angelus-pearlescents-4oz', terms: ['Pearl 4oz', 'Pearlescent 4', 'Perlado 4'] },
+  { brand_slug: 'angelus-neon-1oz', terms: ['Neon Cuero', 'Pintura Neon 1', 'Neon Leather', 'Neon 1 oz', 'Neon Paint 1'] },
+  { brand_slug: 'angelus-neon-4oz', terms: ['Neon 4 oz', 'Neon Paint 4', 'Pintura Neon 4'] },
+  // Holbein — buscar por "Watercolor", "Acuarela", series
+  { brand_slug: 'holbein-acuarela-15ml', terms: ['Acuarela Serie', 'Watercolor 15', 'Aqua Watercolor', 'HWC 15ml', 'Watercolour 15'] },
+  { brand_slug: 'holbein-acuarela-60ml', terms: ['Acuarela 60', 'Watercolor 60', 'HWC 60', 'Watercolour 60'] },
+  { brand_slug: 'holbein-acryla-gouache-20ml', terms: ['Acryla Gouache 20', 'Acryla 20'] },
+  { brand_slug: 'holbein-acryla-gouache-40ml', terms: ['Acryla Gouache 40', 'Acryla 40'] },
+  // Createx Airbrush — buscar por "Airbrush", "Createx"
+  { brand_slug: 'createx-airbrush-60ml', terms: ['Createx Colors 60', 'Airbrush Colors 60', 'Createx 60'] },
+  { brand_slug: 'createx-airbrush-120ml', terms: ['Createx Colors 120', 'Airbrush Colors 120', 'Createx 120'] },
+  { brand_slug: 'createx-airbrush-240ml', terms: ['Createx Colors 240', 'Airbrush Colors 240', 'Createx 240'] },
+  // Copic Classic
+  { brand_slug: 'copic-classic', terms: ['Copic Classic', 'Marcador Classic'] },
 ];
 
 async function searchByName(name: string, token: string): Promise<BsaleProduct[]> {
