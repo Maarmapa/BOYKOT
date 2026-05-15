@@ -1,9 +1,10 @@
 import Link from 'next/link';
+import NewsletterSignup from './NewsletterSignup';
 
 export default function SiteFooter() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 mt-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-4 gap-8">
         <div>
           <div className="font-bold text-xl mb-3">Boykot</div>
           <p className="text-sm text-gray-600 leading-relaxed">
@@ -11,6 +12,9 @@ export default function SiteFooter() {
             ilustración y materiales de arte. Distribuidores oficiales de Copic,
             Angelus y Holbein en Chile.
           </p>
+          <Link href="/sobre-boykot" className="text-xs text-gray-700 hover:text-gray-900 underline underline-offset-4 mt-3 inline-block">
+            Conocé la historia →
+          </Link>
         </div>
         <div>
           <h4 className="font-semibold text-sm text-gray-900 mb-3 uppercase tracking-wide">
@@ -41,6 +45,7 @@ export default function SiteFooter() {
             <li><Link href="/como-comprar" className="text-gray-600 hover:text-gray-900">Cómo comprar</Link></li>
           </ul>
         </div>
+        <NewsletterSignup />
       </div>
       <div className="border-t border-gray-200 py-4 text-center text-xs text-gray-500">
         © {new Date().getFullYear()} Boykot Graffiti y Materiales de Arte
