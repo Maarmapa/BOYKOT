@@ -61,3 +61,15 @@ h2 { font-weight: 600; }
 .boykot-cta-row {
   min-height: 2.4rem;
 }
+
+/* Mega-menu entrada smooth: fade + slide down sutil */
+@keyframes mega-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-mega-in {
+  animation: mega-in 180ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-mega-in { animation: none; }
+}
