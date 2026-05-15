@@ -52,14 +52,46 @@ export async function GET(req: NextRequest) {
     next = data.next ?? null;
   }
 
+  // Parse cada description para extraer el código de color.
+  // Patrones que vemos en Boykot's BSale:
+  //   "B00", "BG13", "E00", "FB"      ← color individual
+  //   "12 Color Set", "Set Manga"     ← set / kit (saltamos)
+  //   "Sketch B00"                    ← prefijo redundante
+  const codeMap: Record<string, { variantId: number; description: string; sku: string }> = {};
+  const setEntries: typeof all = [];
+  const unparsed: typeof all = [];
+
+  for (const v of all) {
+    const desc = (v.description || '').trim();
+    // Strip "Sketch " prefix if present
+    const clean = desc.replace(/^Sketch\s+/i, '').trim();
+    // Color pattern: 1-2 letters + 1-4 digits, optionally suffixed
+    const m = clean.match(/^([A-Z]{1,3}\d{1,4}[A-Z]?)$/i);
+    if (m) {
+      const code = m[1].toUpperCase();
+      codeMap[code] = { variantId: v.id, description: desc, sku: v.code };
+      continue;
+    }
+    // Set / kit pattern
+    if (/set|kit|color\b|manga|trio|fusion|portrait/i.test(clean)) {
+      setEntries.push(v);
+      continue;
+    }
+    unparsed.push(v);
+  }
+
   return NextResponse.json(
     {
       product_id: Number(productId),
       total_variants: all.length,
       pages_fetched: pages,
       took_ms: Date.now() - start,
-      variants_sample: all.slice(0, 50),
-      variants: all,
+      colors_mapped: Object.keys(codeMap).length,
+      sets_count: setEntries.length,
+      unparsed_count: unparsed.length,
+      colors_map: codeMap,
+      sets_sample: setEntries.slice(0, 10),
+      unparsed_sample: unparsed.slice(0, 10),
     },
     { headers: { 'cache-control': 'no-store' } },
   );
