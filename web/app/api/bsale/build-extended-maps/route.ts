@@ -100,39 +100,43 @@ export async function GET(_req: NextRequest) {
 
   // ───── 2. HOLBEIN ACUARELA 15ml (multi-product) — series A-F
   // Series A=3226, B=3221, C=3224, D=3222, E=3223, F=3225
-  const holbeinAcuarela15: Record<string, number> = { A: 3226, B: 3221, C: 3224, D: 3222, E: 3223, F: 3225 };
-  byBrand['holbein-acuarela-15ml'] = byBrand['holbein-acuarela-15ml'] || {};
-  for (const [serie, pid] of Object.entries(holbeinAcuarela15)) {
+  // Descriptions: "W201 Chinese White" → code = W201 (ya único cross-serie)
+  const holbeinAcuarela15: number[] = [3226, 3221, 3224, 3222, 3223, 3225];
+  byBrand['holbein-acuarela-15ml'] = {};
+  for (const pid of holbeinAcuarela15) {
     try {
       const vs = await dumpAllVariants(pid, token);
       for (const v of vs) {
         if (typeof v.id !== 'number') continue;
-        const code = extractCode(v.description || '');
-        if (code) byBrand['holbein-acuarela-15ml'][`${serie}${code}`] = v.id;
+        const desc = (v.description || '').trim();
+        // "W201 Chinese White" → "W201"
+        const m = desc.match(/^([A-Z]\d{3,4})\s+/i);
+        if (m) byBrand['holbein-acuarela-15ml'][m[1].toUpperCase()] = v.id;
       }
     } catch {}
   }
   stats['holbein-acuarela-15ml'] = {
     mapped: Object.keys(byBrand['holbein-acuarela-15ml']).length,
-    sources: Object.values(holbeinAcuarela15).map(String),
+    sources: holbeinAcuarela15.map(String),
   };
 
   // ───── 3. HOLBEIN ACUARELA 60ml — series A=3230, B=3227, C=3228, D=3229
-  const holbeinAcuarela60: Record<string, number> = { A: 3230, B: 3227, C: 3228, D: 3229 };
-  byBrand['holbein-acuarela-60ml'] = byBrand['holbein-acuarela-60ml'] || {};
-  for (const [serie, pid] of Object.entries(holbeinAcuarela60)) {
+  const holbeinAcuarela60: number[] = [3230, 3227, 3228, 3229];
+  byBrand['holbein-acuarela-60ml'] = {};
+  for (const pid of holbeinAcuarela60) {
     try {
       const vs = await dumpAllVariants(pid, token);
       for (const v of vs) {
         if (typeof v.id !== 'number') continue;
-        const code = extractCode(v.description || '');
-        if (code) byBrand['holbein-acuarela-60ml'][`${serie}${code}`] = v.id;
+        const desc = (v.description || '').trim();
+        const m = desc.match(/^([A-Z]\d{3,4})\s+/i);
+        if (m) byBrand['holbein-acuarela-60ml'][m[1].toUpperCase()] = v.id;
       }
     } catch {}
   }
   stats['holbein-acuarela-60ml'] = {
     mapped: Object.keys(byBrand['holbein-acuarela-60ml']).length,
-    sources: Object.values(holbeinAcuarela60).map(String),
+    sources: holbeinAcuarela60.map(String),
   };
 
   // ───── 4. HOLBEIN GOUACHE 15ml — series A=2693, B=2694, C=2695, D=2696, E=2697, G=2698
