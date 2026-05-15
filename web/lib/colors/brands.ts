@@ -225,10 +225,11 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'holbein-acryla-gouache-20ml': adapt(holbeinAcryla20ml as JsonBrand),
   'holbein-acryla-gouache-40ml': adapt(holbeinAcryla40ml as JsonBrand),
 
-  // Createx — scraper-sourced. 3196 = 30ml, 3197 = 60ml, 3198 = 240ml.
-  'createx-airbrush-60ml': adapt(createx60 as JsonBrand),
-  'createx-airbrush-120ml': adapt(createx120 as JsonBrand),
-  'createx-airbrush-240ml': adapt(createx240 as JsonBrand),
+  // Createx — BSale IDs confirmados via /api/bsale/list-all-products?q=createx
+  // 3180=60ml, 3187=120ml, 3186=240ml, 3196=Illustration 30ml.
+  'createx-airbrush-60ml': adapt(createx60 as JsonBrand, { bsaleProductId: 3180 }),
+  'createx-airbrush-120ml': adapt(createx120 as JsonBrand, { bsaleProductId: 3187 }),
+  'createx-airbrush-240ml': adapt(createx240 as JsonBrand, { bsaleProductId: 3186 }),
   'createx-illustration-30ml': adapt(createxIllustration as JsonBrand, { bsaleProductId: 3196 }),
   'wicked-colors-480ml': adapt(wickedColors480 as JsonBrand, { bsaleProductId: 3189 }),
 
