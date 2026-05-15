@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
+import { productsByCategory } from '@/lib/products';
 
 const BRAND_BLOCKS = [
   {
@@ -91,6 +92,15 @@ export default function HomePage() {
     .sort((a, b) => b.colors.length - a.colors.length)
     .slice(0, 8);
 
+  // 12 in-stock products across all categories for the home grid.
+  // Stable: sort by slug so SSR/CSR match.
+  const popular = ['marcadores', 'pintura', 'lapices', 'materiales']
+    .flatMap(c => productsByCategory(c as 'marcadores'))
+    .filter(p => p.availability !== 'OutOfStock' && p.image && p.price && (p.price ?? 0) > 5000)
+    .sort((a, b) => a.slug.localeCompare(b.slug))
+    .filter((_, i) => i % 47 === 0) // spread across the catalog
+    .slice(0, 12);
+
   return (
     <main className="bg-white">
       {/* HERO — editorial, big type, generous whitespace */}
@@ -157,6 +167,55 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* POPULAR PRODUCTS — pulled from the scrape */}
+      {popular.length > 0 && (
+        <section className="border-b border-gray-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
+            <div className="flex items-end justify-between mb-10">
+              <div>
+                <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-3">
+                  Catálogo
+                </div>
+                <h2 className="text-3xl sm:text-4xl text-gray-900">Productos destacados</h2>
+              </div>
+              <Link href="/categoria/marcadores" className="hidden sm:inline-block text-sm font-medium text-gray-900 hover:underline underline-offset-4">
+                Explorar →
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+              {popular.map(p => (
+                <Link
+                  key={p.slug}
+                  href={`/producto/${p.slug}`}
+                  className="group block bg-white border border-gray-100 rounded-lg overflow-hidden hover:border-gray-300 transition-colors"
+                >
+                  <div className="relative aspect-square bg-gray-50 overflow-hidden">
+                    {p.image && (
+                      <img
+                        src={p.image}
+                        alt={p.name}
+                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      />
+                    )}
+                  </div>
+                  <div className="p-2.5">
+                    {p.brand && (
+                      <div className="text-[10px] font-semibold tracking-wider text-gray-400 uppercase">{p.brand}</div>
+                    )}
+                    <div className="text-xs font-medium text-gray-900 line-clamp-2 mt-0.5 min-h-[2.4em]">{p.name}</div>
+                    {p.price && (
+                      <div className="text-xs font-semibold text-gray-900 mt-1">
+                        ${p.price.toLocaleString('es-CL')}
+                      </div>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FEATURED BRANDS — circular crests */}
       <section className="border-b border-gray-100">
