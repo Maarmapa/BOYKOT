@@ -46,6 +46,7 @@ const NAV = [
     ],
   },
   { label: 'Cartas de color', href: '/colores' },
+  { label: 'Marcas', href: '/marcas' },
 ];
 
 export default function SiteHeader() {
