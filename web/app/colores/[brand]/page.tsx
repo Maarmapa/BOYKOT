@@ -30,6 +30,7 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
         </nav>
 
         <ProductHero
+          brandName={brand.brandName}
           productName={brand.productName}
           priceClp={brand.basePriceClp}
           colorsCount={brand.colors.length}

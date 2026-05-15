@@ -72,10 +72,25 @@ interface JsonBrand {
 const heroMap = heroImages as Record<string, string>;
 
 function adapt(data: JsonBrand, overrides: Partial<BrandColorSet> = {}): BrandColorSet {
-  // Hero priority: explicit override → field in JSON → auto-mapped from scrape.
+  // Split "Brand Product Line" → brandName + productName when possible.
+  // Heuristic: first word becomes brandName (Angelus / Holbein / Createx / etc.)
+  // unless overrides already supply one. The full string stays as productName
+  // fallback when the split makes no sense.
+  let brandName = overrides.brandName;
+  let productName = overrides.productName ?? data.productName;
+  if (!brandName) {
+    const first = (data.productName || '').split(' ')[0];
+    if (['Angelus', 'Holbein', 'Molotow', 'Createx', 'Wicked', 'ZIG', 'POSCA',
+         'Uni', 'POPLOL', 'Atyou', 'Kirarina', 'SOLAR', 'Chameleon', 'Ultra',
+         'Aqua', 'Copic', 'COPIC'].includes(first)) {
+      brandName = first;
+      productName = data.productName.slice(first.length).trim() || data.productName;
+    }
+  }
   return {
     slug: data.slug,
-    productName: data.productName,
+    brandName,
+    productName,
     basePriceClp: data.basePriceClp ?? 0,
     bsaleProductId: data.bsaleProductId ?? 0,
     colors: data.colors,
@@ -88,7 +103,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
   // Copic — every line uses its own per-color photos from boykot.cl.
   'copic-sketch': {
     slug: 'copic-sketch',
-    productName: 'Copic Sketch',
+    brandName: 'Copic',
+    productName: 'Sketch',
     basePriceClp: 4300,
     bsaleProductId: 2278,
     colors: COPIC_SKETCH,
@@ -104,7 +120,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
   },
   'copic-ink': {
     slug: 'copic-ink',
-    productName: 'COPIC Ink',
+    brandName: 'Copic',
+    productName: 'Ink',
     basePriceClp: 4900,
     bsaleProductId: 2978,
     colors: COPIC_INK,
@@ -120,7 +137,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
   },
   'copic-ciao': {
     slug: 'copic-ciao',
-    productName: 'Copic Ciao',
+    brandName: 'Copic',
+    productName: 'Ciao',
     basePriceClp: 3900,
     bsaleProductId: 2279,
     colors: COPIC_CIAO,
@@ -129,7 +147,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
   },
   'copic-classic': {
     slug: 'copic-classic',
-    productName: 'Copic Classic',
+    brandName: 'Copic',
+    productName: 'Classic',
     basePriceClp: 3400,
     bsaleProductId: 0,
     colors: COPIC_CLASSIC,
@@ -138,7 +157,8 @@ export const BRANDS: Record<string, BrandColorSet> = {
   },
   'copic-wide': {
     slug: 'copic-wide',
-    productName: 'Copic Wide',
+    brandName: 'Copic',
+    productName: 'Wide',
     basePriceClp: 5300,
     bsaleProductId: 0,
     colors: COPIC_WIDE,

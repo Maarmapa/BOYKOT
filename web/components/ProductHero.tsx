@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 interface Props {
+  brandName?: string;
   productName: string;
   priceClp: number;
   colorsCount: number;
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export default function ProductHero({
+  brandName,
   productName,
   priceClp,
   colorsCount,
@@ -52,8 +54,13 @@ export default function ProductHero({
         )}
       </div>
 
-      {/* Right: title, price, description */}
+      {/* Right: brand → product → price → description */}
       <div className="flex flex-col justify-center">
+        {brandName && (
+          <div className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-1">
+            {brandName}
+          </div>
+        )}
         <h1 className="text-3xl font-bold text-gray-900 mb-2">{productName}</h1>
         <div className="text-3xl text-gray-900 mb-4">
           ${priceClp.toLocaleString('es-CL')}

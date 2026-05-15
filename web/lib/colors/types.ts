@@ -18,7 +18,11 @@ export interface ColorSwatch {
 export interface BrandColorSet {
   /** Internal slug for routing + storage paths. */
   slug: string;
-  /** Display name on the page header. */
+  /** Manufacturer / brand line (e.g. "Copic", "Angelus", "Holbein"). */
+  brandName?: string;
+  /** Product name within the brand (e.g. "Sketch", "Standard 1oz", "Acuarela 15ml").
+   *  When both brandName and productName are set, the page shows them on two
+   *  separate lines. When only productName is set, it's the full title. */
   productName: string;
   /** Unit price in CLP shown on each card before stock-aware overrides. */
   basePriceClp: number;
