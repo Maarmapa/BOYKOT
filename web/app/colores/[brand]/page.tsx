@@ -4,6 +4,7 @@ import ProductHero from '@/components/ProductHero';
 import ScrollToTop from '@/components/ScrollToTop';
 import { BRANDS } from '@/lib/colors/brands';
 import { getProductStock } from '@/lib/stock';
+import { getOverride, applyOverride } from '@/lib/brand-overrides';
 
 // Las brand pages renderizan en runtime (no en build) porque getProductStock
 // hace varias requests paginadas a BSale por cada brand. Prerender en build
@@ -18,8 +19,11 @@ export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: Promise<{ brand: string }> }) {
   const { brand: slug } = await params;
-  const brand = BRANDS[slug];
-  if (!brand) return { title: 'No encontrado · Boykot' };
+  const baseBrand = BRANDS[slug];
+  if (!baseBrand) return { title: 'No encontrado · Boykot' };
+  const override = await getOverride(slug);
+  if (override?.hidden) return { title: 'No encontrado · Boykot' };
+  const brand = applyOverride(baseBrand, override);
   const fullName = brand.brandName ? `${brand.brandName} ${brand.productName}` : brand.productName;
   const desc =
     brand.description ||
@@ -50,8 +54,13 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
 
 export default async function BrandPage({ params }: { params: Promise<{ brand: string }> }) {
   const { brand: slug } = await params;
-  const brand = BRANDS[slug];
-  if (!brand) notFound();
+  const baseBrand = BRANDS[slug];
+  if (!baseBrand) notFound();
+
+  // Aplicar overrides editables desde /admin (precio, descripción, hero, etc).
+  const override = await getOverride(slug);
+  if (override?.hidden) notFound();
+  const brand = applyOverride(baseBrand, override);
 
   // Pull live stock from BSale per variantId, then bucket by color code.
   // Falls back to empty map if token missing or fetch fails — grid will then

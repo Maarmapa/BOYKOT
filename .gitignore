@@ -8,5 +8,4 @@ scraped/
 *.tsbuildinfo
 .next/
 scraped-natekla/
-scraped-natekla/
 .vercel
