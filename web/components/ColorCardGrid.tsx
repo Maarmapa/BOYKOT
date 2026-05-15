@@ -94,7 +94,9 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
         )}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-6">
+      {/* Column-major flow (matches Boykot: 0→C7 fills col 1, C8→N0 fills col 2, ...).
+          CSS multicolumns handle this natively; break-inside keeps each card whole. */}
+      <div className="boykot-color-grid">
         {filtered.map(color => {
           const stock = stockMap ? stockMap[color.code] ?? 0 : 1;
           const inStock = stock > 0 || !stockMap;
@@ -102,11 +104,18 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
           const qty = qtys[variantId] || 0;
           const showImage = !!color.imageUrl && !imgErrors[color.code];
           const showDrive = !showImage && !!color.driveId && !imgErrors[color.code];
+          const itemTemplate = {
+            variant_id: variantId,
+            product_id: brand.bsaleProductId,
+            unit_price_clp: brand.basePriceClp,
+            name: `${brand.productName} - ${color.code}${color.name ? ` (${color.name})` : ''}`,
+            image_url: color.imageUrl ?? (color.driveId ? `https://drive.google.com/thumbnail?id=${color.driveId}&sz=w400` : undefined),
+            color_code: color.code,
+          };
 
           return (
-            <div key={color.code} className="flex flex-col">
-              {/* Boykot's theme swatches are 560×120 (≈4.67:1, horizontal strip). */}
-              <div className="relative w-full bg-gray-50 overflow-hidden" style={{ paddingBottom: '21.4%' }}>
+            <div key={color.code} className="boykot-color-row">
+              <div className="relative bg-gray-50 flex-1 overflow-hidden" style={{ paddingBottom: 'min(40px, 16%)' }}>
                 {showImage ? (
                   <img
                     src={color.imageUrl!}
@@ -126,48 +135,28 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
                 ) : color.hex ? (
                   <div className="absolute inset-0" style={{ backgroundColor: color.hex }} />
                 ) : (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="font-mono text-xs text-gray-400">{color.code}</span>
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                    <span className="font-mono text-[10px] text-gray-400">{color.code}</span>
                   </div>
                 )}
               </div>
 
-              <div className="mt-2 text-center">
-                <div className="font-mono text-sm font-medium text-gray-900">{color.code}</div>
-                {!inStock && !!stockMap && (
-                  <div className="text-[11px] text-gray-400 mt-0.5">Sin stock</div>
-                )}
-              </div>
-
-              <div className="mt-2 flex items-center justify-center gap-3 text-gray-700">
+              <div className="flex items-center gap-2 ml-3 shrink-0 min-w-[110px] justify-end">
+                <span className="font-mono text-xs text-gray-900 mr-1 w-12 text-right">
+                  {color.code}
+                </span>
                 <button
-                  onClick={() => setItem({
-                    variant_id: variantId,
-                    product_id: brand.bsaleProductId,
-                    qty: Math.max(0, qty - 1),
-                    unit_price_clp: brand.basePriceClp,
-                    name: `${brand.productName} - ${color.code}${color.name ? ` (${color.name})` : ''}`,
-                    image_url: color.imageUrl ?? (color.driveId ? `https://drive.google.com/thumbnail?id=${color.driveId}&sz=w400` : undefined),
-                    color_code: color.code,
-                  })}
+                  onClick={() => setItem({ ...itemTemplate, qty: Math.max(0, qty - 1) })}
                   disabled={qty === 0 || loading}
                   aria-label={`Restar ${color.code}`}
-                  className="w-6 h-6 flex items-center justify-center text-base disabled:opacity-30"
+                  className="w-5 h-5 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
                 >−</button>
-                <span className="font-mono text-sm w-4 text-center">{qty}</span>
+                <span className="font-mono text-xs w-4 text-center">{qty}</span>
                 <button
-                  onClick={() => setItem({
-                    variant_id: variantId,
-                    product_id: brand.bsaleProductId,
-                    qty: qty + 1,
-                    unit_price_clp: brand.basePriceClp,
-                    name: `${brand.productName} - ${color.code}${color.name ? ` (${color.name})` : ''}`,
-                    image_url: color.imageUrl ?? (color.driveId ? `https://drive.google.com/thumbnail?id=${color.driveId}&sz=w400` : undefined),
-                    color_code: color.code,
-                  })}
+                  onClick={() => setItem({ ...itemTemplate, qty: qty + 1 })}
                   disabled={!inStock || loading || (stock > 0 && qty >= stock)}
                   aria-label={`Sumar ${color.code}`}
-                  className="w-6 h-6 flex items-center justify-center text-base disabled:opacity-30"
+                  className="w-5 h-5 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
                 >+</button>
               </div>
             </div>

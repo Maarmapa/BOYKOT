@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Boykot color grid — column-major flow, matches /tienda/.../copic-sketch/
+   (90 items per column → 4 cols on desktop, 2 tablet, 1 mobile). */
+.boykot-color-grid {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .boykot-color-grid { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .boykot-color-grid { column-count: 4; }
+}
+
+.boykot-color-row {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
