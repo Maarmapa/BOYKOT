@@ -66,7 +66,7 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
         <input
           value={search}
           onChange={e => setSearch(e.target.value)}
-          placeholder="Buscar código o nombre"
+          placeholder="Buscar código"
           className="w-full max-w-md border border-gray-200 rounded-md px-3 py-2 text-sm outline-none focus:border-gray-400 transition-colors"
         />
         {availableFamilies.length > 1 && (
@@ -94,8 +94,7 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
         )}
       </div>
 
-      {/* Column-major flow (matches Boykot: 0→C7 fills col 1, C8→N0 fills col 2, ...).
-          CSS multicolumns handle this natively; break-inside keeps each card whole. */}
+      {/* Column-major flow (CSS multi-column). Cards stay whole via break-inside. */}
       <div className="boykot-color-grid">
         {filtered.map(color => {
           const stock = stockMap ? stockMap[color.code] ?? 0 : 1;
@@ -115,7 +114,10 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
 
           return (
             <div key={color.code} className="boykot-color-row">
-              <div className="relative bg-gray-50 flex-1 aspect-[5/2] overflow-hidden">
+              {/* Swatch keeps its native 560×120 ratio (paddingBottom 21.4%).
+                  The image itself already has the code printed on it, so no
+                  separate label is rendered. */}
+              <div className="relative bg-gray-50 flex-1 overflow-hidden" style={{ paddingBottom: '21.42%' }}>
                 {showImage ? (
                   <img
                     src={color.imageUrl!}
@@ -133,51 +135,54 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
                     loading="lazy"
                   />
                 ) : color.hex ? (
-                  <div className="absolute inset-0" style={{ backgroundColor: color.hex }} />
+                  <div className="absolute inset-0 flex items-center justify-start pl-3" style={{ backgroundColor: color.hex }}>
+                    <span className="font-mono text-xs text-gray-900/70">{color.code}</span>
+                  </div>
                 ) : (
-                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-                    <span className="font-mono text-[10px] text-gray-400">{color.code}</span>
+                  <div className="absolute inset-0 flex items-center justify-start pl-3 bg-gray-100">
+                    <span className="font-mono text-xs text-gray-500">{color.code}</span>
                   </div>
                 )}
               </div>
 
-              <div className="flex items-center gap-2 ml-3 shrink-0 min-w-[110px] justify-end">
-                <span className="font-mono text-xs text-gray-900 mr-1 w-12 text-right">
-                  {color.code}
-                </span>
+              <div className="flex items-center gap-2 ml-3 shrink-0">
                 <button
                   onClick={() => setItem({ ...itemTemplate, qty: Math.max(0, qty - 1) })}
                   disabled={qty === 0 || loading}
                   aria-label={`Restar ${color.code}`}
-                  className="w-5 h-5 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
+                  className="w-6 h-6 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
                 >−</button>
-                <span className="font-mono text-xs w-4 text-center">{qty}</span>
+                <span className="font-mono text-xs w-5 text-center">{qty}</span>
                 <button
                   onClick={() => setItem({ ...itemTemplate, qty: qty + 1 })}
                   disabled={!inStock || loading || (stock > 0 && qty >= stock)}
                   aria-label={`Sumar ${color.code}`}
-                  className="w-5 h-5 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
+                  className="w-6 h-6 flex items-center justify-center text-sm text-gray-600 hover:text-gray-900 disabled:opacity-30"
                 >+</button>
               </div>
             </div>
           );
         })}
-      </div>
 
-      {brandTotal > 0 && (
-        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-gray-900 text-white rounded-full px-6 py-3 shadow-lg flex items-center gap-4 z-20">
-          <span className="text-sm">
-            {brandTotal} {brandTotal === 1 ? 'unidad' : 'unidades'} ·{' '}
-            <span className="font-semibold">${totalClp.toLocaleString('es-CL')}</span>
-          </span>
+        {/* "Agregar al carro" lives inside the same multicolumn flow so it
+            takes whatever space is left after the last swatch (typically the
+            tail of the right-most column). */}
+        <div className="boykot-color-row pt-4 mt-2 border-t border-gray-200">
           <a
             href="/carrito"
-            className="bg-white text-gray-900 px-3 py-1 rounded-full text-sm font-medium hover:bg-gray-100"
+            className={`flex-1 text-center font-medium py-2.5 rounded-md transition-colors ${
+              brandTotal > 0
+                ? 'bg-gray-900 text-white hover:bg-black'
+                : 'bg-gray-200 text-gray-500 cursor-not-allowed pointer-events-none'
+            }`}
           >
-            Ver carro
+            Agregar al carro ({brandTotal})
+            {totalClp > 0 && (
+              <span className="ml-2 font-semibold">${totalClp.toLocaleString('es-CL')}</span>
+            )}
           </a>
         </div>
-      )}
+      </div>
     </div>
   );
 }
