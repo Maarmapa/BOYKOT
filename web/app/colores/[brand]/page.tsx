@@ -45,8 +45,34 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
   const brand = BRANDS[slug];
   if (!brand) notFound();
 
+  const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
+  const fullName = brand.brandName ? `${brand.brandName} ${brand.productName}` : brand.productName;
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: fullName,
+    image: [brand.heroImage, ...(brand.gallery ?? [])].filter(Boolean),
+    description: brand.description || `${fullName} — ${brand.colors.length} colores disponibles. Distribuido por Boykot en Chile.`,
+    brand: brand.brandName ? { '@type': 'Brand', name: brand.brandName } : undefined,
+    sku: `BOYKOT-${slug}`,
+    offers: {
+      '@type': 'AggregateOffer',
+      url: `${site}/colores/${slug}`,
+      priceCurrency: 'CLP',
+      lowPrice: brand.basePriceClp,
+      highPrice: brand.basePriceClp,
+      offerCount: brand.colors.length,
+      availability: 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: 'Boykot', url: site },
+    },
+  };
+
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-10 pb-24">
         <nav className="text-xs text-gray-400 mb-6">
           <a href="/" className="hover:text-gray-700">Inicio</a> /{' '}
