@@ -3,15 +3,17 @@ import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 import bsaleVariants from '@/data/bsale-variants-all.json';
 import Link from 'next/link';
 import AdminChrome from '@/components/admin/Chrome';
+import { loadAllOverrides } from '@/lib/brand-overrides';
 
 export const dynamic = 'force-dynamic';
 
 export default async function BrandsAdminPage() {
   await requireAdmin();
-  return <AdminChrome><BrandsBody /></AdminChrome>;
+  const overrides = await loadAllOverrides();
+  return <AdminChrome><BrandsBody overridesBySlug={overrides} /></AdminChrome>;
 }
 
-function BrandsBody() {
+function BrandsBody({ overridesBySlug }: { overridesBySlug: Map<string, { hidden: boolean; base_price_clp: number | null; updated_at: string }> }) {
   const variantsByBrand = (bsaleVariants as { by_brand: Record<string, Record<string, number>> }).by_brand;
 
   const rows = BRAND_SLUGS.map(slug => {
@@ -24,12 +26,15 @@ function BrandsBody() {
       variantMap[c.code] !== undefined ||
       variantMap[c.code?.toUpperCase()] !== undefined,
     ).length;
+    const override = overridesBySlug.get(slug);
     return {
       slug,
       brandName: b.brandName || '',
       productName: b.productName,
       bsaleProductId: b.bsaleProductId ?? 0,
-      basePriceClp: b.basePriceClp ?? 0,
+      basePriceClp: override?.base_price_clp ?? b.basePriceClp ?? 0,
+      hasOverride: !!override,
+      isHidden: !!override?.hidden,
       colorsCount,
       variantsMapped,
       colorsHydrated: colorsWithVariantId,
@@ -62,10 +67,14 @@ function BrandsBody() {
             {rows.map(r => (
               <tr key={r.slug} className="hover:bg-gray-50">
                 <td className="px-4 py-3">
-                  <div className="font-medium text-gray-900">
-                    {r.brandName} <span className="text-gray-500">{r.productName}</span>
-                  </div>
-                  <div className="text-xs text-gray-400 font-mono">{r.slug}</div>
+                  <Link href={`/admin/brands/${r.slug}`} className="block group">
+                    <div className="font-medium text-gray-900 group-hover:text-blue-700">
+                      {r.brandName} <span className="text-gray-500">{r.productName}</span>
+                      {r.hasOverride && <span className="ml-2 text-[10px] uppercase tracking-wider text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">editado</span>}
+                      {r.isHidden && <span className="ml-2 text-[10px] uppercase tracking-wider text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded">oculto</span>}
+                    </div>
+                    <div className="text-xs text-gray-400 font-mono">{r.slug}</div>
+                  </Link>
                 </td>
                 <td className="px-4 py-3 text-gray-600 font-mono">
                   {r.bsaleProductId || <span className="text-amber-600">—</span>}
@@ -79,12 +88,12 @@ function BrandsBody() {
                   ${r.basePriceClp.toLocaleString('es-CL')}
                 </td>
                 <td className="px-4 py-3 text-right">
-                  <div className="flex gap-2 justify-end">
-                    <Link href={`/colores/${r.slug}`} target="_blank" className="text-xs text-blue-700 hover:underline">
-                      Ver →
+                  <div className="flex gap-2 justify-end items-center">
+                    <Link href={`/admin/brands/${r.slug}`} className="text-xs font-medium text-blue-700 hover:underline">
+                      Editar
                     </Link>
-                    <Link href={`/api/bsale/test-brand-stock?slug=${r.slug}`} target="_blank" className="text-xs text-gray-500 hover:underline">
-                      Test
+                    <Link href={`/colores/${r.slug}`} target="_blank" className="text-xs text-gray-500 hover:underline">
+                      Ver ↗
                     </Link>
                   </div>
                 </td>
