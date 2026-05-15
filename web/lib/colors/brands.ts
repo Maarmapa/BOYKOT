@@ -21,6 +21,7 @@ import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
 
 // Angelus Standard 1oz with theme swatches (bwe-grouped page).
 import angelusStandard1oz from '../../public/colors/angelus-standard-1oz.json';
+import angelusPearlescents1oz from '../../public/colors/angelus-pearlescents-1oz.json';
 
 // Holbein individuals: image+sku extracted from JSON-LD background CSS
 // (scripts/build-holbein-individual.js).
@@ -146,6 +147,11 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'angelus-standard-1oz': adapt(angelusStandard1oz as JsonBrand, {
     basePriceClp: 5500,
     heroImage: 'https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020',
+  }),
+  'angelus-pearlescents-1oz': adapt(angelusPearlescents1oz as JsonBrand, {
+    basePriceClp: 6900,
+    heroImage: 'https://www.boykot.cl/wp-content/uploads/2023/03/gold-1-d1d3c915-a8bf-439d-8dbb-6f5bbadbb5c8.png',
+    description: 'Pintura para cuero con terminación perlada iridiscente. 7 colores metálicos brillantes — ideales para zapatillas y proyectos con efectos especiales.',
   }),
   // Older cluster-based variants — kept for backwards compatibility while the
   // remaining Angelus lines (4oz etc.) wait on a grouped-page source.

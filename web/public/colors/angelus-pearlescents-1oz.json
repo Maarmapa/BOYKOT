@@ -1,0 +1,17 @@
+{
+  "slug": "angelus-pearlescents-1oz",
+  "productName": "Angelus Pearlescents 1oz",
+  "basePriceClp": 6900,
+  "bsaleProductId": 0,
+  "sourceCount": 7,
+  "note": "Hex codes approximate the metallic finish — the actual paint is iridescent and won't reproduce 1:1 in a flat swatch. When Boykot publishes per-color scans we'll switch to those.",
+  "colors": [
+    { "code": "451", "name": "Riot Red", "hex": "#c83232" },
+    { "code": "452", "name": "Pacific Blue", "hex": "#2380c8" },
+    { "code": "453", "name": "Prince Purple", "hex": "#6a32a0" },
+    { "code": "454", "name": "Sterling Silver", "hex": "#c0c0c0" },
+    { "code": "455", "name": "18K Gold", "hex": "#d4af37" },
+    { "code": "456", "name": "Rose Gold", "hex": "#b76e79" },
+    { "code": "457", "name": "Emerald Green", "hex": "#2d8659" }
+  ]
+}
