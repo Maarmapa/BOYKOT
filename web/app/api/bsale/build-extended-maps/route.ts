@@ -162,6 +162,49 @@ export async function GET(_req: NextRequest) {
     sources: Object.values(holbeinGouache15).map(String),
   };
 
+  // ───── 4b. HOLBEIN ACRYLA GOUACHE 20ml — 2690+2691+2692 (Series A, C, P)
+  const acryla20: number[] = [2690, 2691, 2692];
+  byBrand['holbein-acryla-gouache-20ml'] = {};
+  for (const pid of acryla20) {
+    try {
+      const vs = await dumpAllVariants(pid, token);
+      for (const v of vs) {
+        if (typeof v.id !== 'number') continue;
+        const sku = (v.code || '').trim();
+        // Codes son D001 etc. Para 20ml van D001-D6xx (descripción incluye "20ml" o "20 ml")
+        const desc = (v.description || '').trim();
+        if (!/20\s*ml/i.test(desc)) continue;
+        const m = sku.match(/^([A-Z]\d{3,4})$/i);
+        if (m) byBrand['holbein-acryla-gouache-20ml'][m[1].toUpperCase()] = v.id;
+      }
+    } catch {}
+  }
+  stats['holbein-acryla-gouache-20ml'] = {
+    mapped: Object.keys(byBrand['holbein-acryla-gouache-20ml']).length,
+    sources: acryla20.map(String),
+  };
+
+  // ───── 4c. HOLBEIN ACRYLA GOUACHE 40ml — 2809+2810 (Series A, C)
+  const acryla40: number[] = [2809, 2810];
+  byBrand['holbein-acryla-gouache-40ml'] = {};
+  for (const pid of acryla40) {
+    try {
+      const vs = await dumpAllVariants(pid, token);
+      for (const v of vs) {
+        if (typeof v.id !== 'number') continue;
+        const sku = (v.code || '').trim();
+        const desc = (v.description || '').trim();
+        if (!/40\s*ml/i.test(desc)) continue;
+        const m = sku.match(/^([A-Z]\d{3,4})$/i);
+        if (m) byBrand['holbein-acryla-gouache-40ml'][m[1].toUpperCase()] = v.id;
+      }
+    } catch {}
+  }
+  stats['holbein-acryla-gouache-40ml'] = {
+    mapped: Object.keys(byBrand['holbein-acryla-gouache-40ml']).length,
+    sources: acryla40.map(String),
+  };
+
   // ───── 5. HOLBEIN OLEO 20ml — series A=2670, B=2671, C=2672, CW=2677, D=2673,
   //         E=2674, H=2675, I=2676, L=2684, W=2678, W1=2679
   const holbeinOleo: Record<string, number> = {
