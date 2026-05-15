@@ -3,6 +3,7 @@ import ColorCardGrid from '@/components/ColorCardGrid';
 import ProductHero from '@/components/ProductHero';
 import ScrollToTop from '@/components/ScrollToTop';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
+import { getProductStock } from '@/lib/stock';
 
 export function generateStaticParams() {
   return BRAND_SLUGS.map(brand => ({ brand }));
@@ -44,6 +45,26 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
   const { brand: slug } = await params;
   const brand = BRANDS[slug];
   if (!brand) notFound();
+
+  // Pull live stock from BSale per variantId, then bucket by color code.
+  // Falls back to empty map if token missing or fetch fails — grid will then
+  // assume in-stock (the previous behaviour).
+  let stockMap: Record<string, number> | undefined;
+  if (brand.bsaleProductId && process.env.BSALE_ACCESS_TOKEN) {
+    try {
+      const rows = await getProductStock(brand.bsaleProductId);
+      const byVariant: Record<number, number> = {};
+      for (const r of rows) byVariant[r.variant_id] = r.available;
+      stockMap = {};
+      for (const c of brand.colors) {
+        if (typeof c.variantId === 'number' && c.variantId in byVariant) {
+          stockMap[c.code] = byVariant[c.variantId];
+        }
+      }
+    } catch {
+      // ignore — grid will assume in-stock
+    }
+  }
 
   const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
   const fullName = brand.brandName ? `${brand.brandName} ${brand.productName}` : brand.productName;
@@ -94,7 +115,7 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
           Selecciona color y cantidad
         </h2>
 
-        <ColorCardGrid brand={brand} />
+        <ColorCardGrid brand={brand} stockMap={stockMap} />
       </div>
       <ScrollToTop />
     </main>
