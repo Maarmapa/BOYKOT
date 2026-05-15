@@ -1,0 +1,54 @@
+name: Auto-merge feat/foundation → main
+
+# Cada push a feat/foundation se mergea automáticamente a main, así
+# producción (boykot-nu.vercel.app) siempre tiene los últimos commits
+# sin tener que hacer el merge manualmente vía GitHub UI.
+#
+# Si el merge no es fast-forward limpio (alguien tocó main directo),
+# crea un merge commit "auto-merge: feat/foundation".
+
+on:
+  push:
+    branches:
+      - 'feat/foundation'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-merge-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "boykot-bot"
+          git config user.email "noreply@boykot.cl"
+
+      - name: Fetch feat/foundation
+        run: git fetch origin feat/foundation
+
+      - name: Merge feat/foundation into main
+        run: |
+          # Intenta fast-forward primero (cuando main no avanzó)
+          if git merge --ff-only origin/feat/foundation; then
+            echo "✓ Fast-forward merge"
+          else
+            echo "Main diverged, doing merge commit"
+            git merge --no-ff origin/feat/foundation \
+              -m "auto-merge: feat/foundation → main" \
+              -m "Vía .github/workflows/auto-merge.yml"
+          fi
+
+      - name: Push to main
+        run: git push origin main
