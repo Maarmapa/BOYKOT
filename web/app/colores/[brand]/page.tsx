@@ -2,12 +2,19 @@ import { notFound } from 'next/navigation';
 import ColorCardGrid from '@/components/ColorCardGrid';
 import ProductHero from '@/components/ProductHero';
 import ScrollToTop from '@/components/ScrollToTop';
-import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
+import { BRANDS } from '@/lib/colors/brands';
 import { getProductStock } from '@/lib/stock';
 
-export function generateStaticParams() {
-  return BRAND_SLUGS.map(brand => ({ brand }));
-}
+// Las brand pages renderizan en runtime (no en build) porque getProductStock
+// hace varias requests paginadas a BSale por cada brand. Prerender en build
+// de 36 brands juntas excede los 60s de Vercel. El usuario igual ve la
+// página rápido por el cache de Next (3600s tag-invalidated).
+export const dynamic = 'force-dynamic';
+
+// No prerender: con dynamic='force-dynamic' arriba, no hace falta listar
+// params en build. Cada brand se renderiza on-demand cuando alguien la pide.
+// Mantenemos BRAND_SLUGS exportado por si en el futuro se quiere reactivar
+// el prerender de las que NO tienen BSale (más rápidas).
 
 export async function generateMetadata({ params }: { params: Promise<{ brand: string }> }) {
   const { brand: slug } = await params;
