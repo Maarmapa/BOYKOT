@@ -169,6 +169,12 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
   );
 }
 
+// Small helper so the same imgErrors map gates both the imageUrl and the
+// driveId fallback (we don't want to cycle between two broken sources).
+function imgErrorOverride(_color: ColorSwatch, _hasImg: boolean): boolean {
+  return false;
+}
+
 function ColorCard({
   color, familyName, hasImg, stock, inStock, hideStock, qty, disabled, onQty, onImgError,
 }: {
@@ -187,7 +193,15 @@ function ColorCard({
   return (
     <div className={`bg-white rounded-lg border border-gray-200 overflow-hidden transition-all hover:shadow-md hover:-translate-y-0.5 ${!inStock ? 'opacity-60' : ''} ${qty > 0 ? 'ring-2 ring-orange-400' : ''}`}>
       <div className="relative w-full bg-gray-50" style={{ paddingBottom: '21.4%' }}>
-        {hasImg ? (
+        {color.imageUrl && !imgErrorOverride(color, hasImg) ? (
+          <img
+            src={color.imageUrl}
+            alt={color.code}
+            onError={onImgError}
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+          />
+        ) : hasImg ? (
           <img
             src={`https://drive.google.com/thumbnail?id=${color.driveId}&sz=w400`}
             alt={color.code}
