@@ -397,5 +397,10 @@
       "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-55.jpg",
       "variantId": 120629
     }
-  ]
+  ],
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_variedades-02b6ad1f-76dd-4aa1-81e5-0e02eb71c286.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1.jpg"
 }

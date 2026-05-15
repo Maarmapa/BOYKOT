@@ -457,5 +457,12 @@
       "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-50.jpg",
       "variantId": 119350
     }
-  ]
+  ],
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-01-b117a4d0-f175-41aa-8a33-fda910535b66.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-02-914b5167-2711-4c44-97ec-c11ca5bb366c.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-03-f4f7b26e-17cd-4257-996f-df412b769e74.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2.jpg"
 }

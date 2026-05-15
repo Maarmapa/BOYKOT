@@ -66,6 +66,8 @@ interface JsonBrand {
   bsaleProductId: number | null;
   heroImage?: string | null;
   colorChartImage?: string | null;
+  description?: string | null;
+  gallery?: string[] | null;
   colors: ColorSwatch[];
 }
 
@@ -95,6 +97,8 @@ function adapt(data: JsonBrand, overrides: Partial<BrandColorSet> = {}): BrandCo
     bsaleProductId: data.bsaleProductId ?? 0,
     colors: data.colors,
     heroImage: data.heroImage ?? heroMap[data.slug] ?? undefined,
+    description: data.description ?? undefined,
+    gallery: data.gallery ?? undefined,
     ...overrides,
   };
 }

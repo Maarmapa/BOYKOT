@@ -6,12 +6,45 @@
   "sourceCount": 7,
   "note": "Hex codes approximate the metallic finish — the actual paint is iridescent and won't reproduce 1:1 in a flat swatch. When Boykot publishes per-color scans we'll switch to those.",
   "colors": [
-    { "code": "451", "name": "Riot Red", "hex": "#c83232" },
-    { "code": "452", "name": "Pacific Blue", "hex": "#2380c8" },
-    { "code": "453", "name": "Prince Purple", "hex": "#6a32a0" },
-    { "code": "454", "name": "Sterling Silver", "hex": "#c0c0c0" },
-    { "code": "455", "name": "18K Gold", "hex": "#d4af37" },
-    { "code": "456", "name": "Rose Gold", "hex": "#b76e79" },
-    { "code": "457", "name": "Emerald Green", "hex": "#2d8659" }
-  ]
+    {
+      "code": "451",
+      "name": "Riot Red",
+      "hex": "#c83232"
+    },
+    {
+      "code": "452",
+      "name": "Pacific Blue",
+      "hex": "#2380c8"
+    },
+    {
+      "code": "453",
+      "name": "Prince Purple",
+      "hex": "#6a32a0"
+    },
+    {
+      "code": "454",
+      "name": "Sterling Silver",
+      "hex": "#c0c0c0"
+    },
+    {
+      "code": "455",
+      "name": "18K Gold",
+      "hex": "#d4af37"
+    },
+    {
+      "code": "456",
+      "name": "Rose Gold",
+      "hex": "#b76e79"
+    },
+    {
+      "code": "457",
+      "name": "Emerald Green",
+      "hex": "#2d8659"
+    }
+  ],
+  "description": "Angelus Pearlescent es una pintura para cuero con terminación perlada que te permitirá dejar un brillo iridiscente brillante en tus zapatillas, perfecto cuando quieres un color metalizado más brillante.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2023/03/gold-1-d1d3c915-a8bf-439d-8dbb-6f5bbadbb5c8.png"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/03/gold-1-d1d3c915-a8bf-439d-8dbb-6f5bbadbb5c8.png"
 }

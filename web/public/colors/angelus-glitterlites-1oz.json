@@ -83,5 +83,11 @@
       "code": "WHITESUGAR",
       "name": "White Sugar"
     }
-  ]
+  ],
+  "description": "Angelus Glitterlites agrega una capa de brillo en una zona ya pintada, puedes utilizar una base de Angelus luego aplicar el producto, recomendación agregar 3 o mas capas del producto, dejar secar entre capa.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2021/06/2298ef9b-3e14-4eeb-9386-17a9592d94f9-gliter-5f3f5009-332e-4305-a014-af5bb8471cf0.png",
+    "https://www.boykot.cl/wp-content/uploads/2021/06/gliteer-a1732a8f-7676-4c0d-b24e-2f6cc314ce4a.png"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/06/2298ef9b-3e14-4eeb-9386-17a9592d94f9-gliter-5f3f5009-332e-4305-a014-af5bb8471cf0.png"
 }
