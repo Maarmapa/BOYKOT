@@ -1,0 +1,257 @@
+{
+  "slug": "zig-calligraphy",
+  "productName": "ZIG Calligraphy",
+  "basePriceClp": 3900,
+  "bsaleProductId": 3035,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-calligraphy-unidad-c4557239-cdcf-460a-8ec0-22a023eddd08.jpg",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-calligraphy-carta-de-colores-0bf7b66c-e913-44fa-8a83-871ea620f361.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/zig-calligraphy/",
+  "generatedAt": "2026-05-15T03:53:53.866Z",
+  "colors": [
+    {
+      "code": "010",
+      "name": "Pure Black",
+      "in_stock": true
+    },
+    {
+      "code": "020",
+      "name": "Pure Red",
+      "in_stock": true
+    },
+    {
+      "code": "021",
+      "name": "Salmon",
+      "in_stock": true
+    },
+    {
+      "code": "024",
+      "name": "Rose",
+      "in_stock": true
+    },
+    {
+      "code": "025",
+      "name": "Pure Pink",
+      "in_stock": true
+    },
+    {
+      "code": "026",
+      "name": "Baby Pink",
+      "in_stock": true
+    },
+    {
+      "code": "030",
+      "name": "Pure Blue",
+      "in_stock": true
+    },
+    {
+      "code": "031",
+      "name": "Baby Blue",
+      "in_stock": true
+    },
+    {
+      "code": "032",
+      "name": "Blue Jay",
+      "in_stock": true
+    },
+    {
+      "code": "033",
+      "name": "Teal",
+      "in_stock": true
+    },
+    {
+      "code": "034",
+      "name": "Denim",
+      "in_stock": true
+    },
+    {
+      "code": "035",
+      "name": "Navy",
+      "in_stock": true
+    },
+    {
+      "code": "036",
+      "name": "Bluebonnet",
+      "in_stock": true
+    },
+    {
+      "code": "040",
+      "name": "Pure Green",
+      "in_stock": true
+    },
+    {
+      "code": "042",
+      "name": "Ocean",
+      "in_stock": true
+    },
+    {
+      "code": "044",
+      "name": "Evergreen",
+      "in_stock": true
+    },
+    {
+      "code": "047",
+      "name": "Spring Green",
+      "in_stock": true
+    },
+    {
+      "code": "050",
+      "name": "Pure Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "052",
+      "name": "Apricot",
+      "in_stock": true
+    },
+    {
+      "code": "060",
+      "name": "Pure Brown",
+      "in_stock": true
+    },
+    {
+      "code": "061",
+      "name": "Wheat",
+      "in_stock": true
+    },
+    {
+      "code": "062",
+      "name": "Chocolate",
+      "in_stock": true
+    },
+    {
+      "code": "064",
+      "name": "Fawn",
+      "in_stock": true
+    },
+    {
+      "code": "070",
+      "name": "Pure Orange",
+      "in_stock": true
+    },
+    {
+      "code": "071",
+      "name": "Peach Bliss",
+      "in_stock": true
+    },
+    {
+      "code": "080",
+      "name": "Pure Violet",
+      "in_stock": true
+    },
+    {
+      "code": "081",
+      "name": "Hyacinth",
+      "in_stock": true
+    },
+    {
+      "code": "082",
+      "name": "Fuchsia",
+      "in_stock": true
+    },
+    {
+      "code": "085",
+      "name": "Orchid",
+      "in_stock": true
+    },
+    {
+      "code": "091",
+      "name": "Platinum",
+      "in_stock": true
+    },
+    {
+      "code": "092",
+      "name": "Steel Gray",
+      "in_stock": true
+    },
+    {
+      "code": "203",
+      "name": "Antique Burgundy",
+      "in_stock": true
+    },
+    {
+      "code": "206",
+      "name": "Candy Pink",
+      "in_stock": true
+    },
+    {
+      "code": "207",
+      "name": "Island Coral",
+      "in_stock": true
+    },
+    {
+      "code": "208",
+      "name": "Spice",
+      "in_stock": true
+    },
+    {
+      "code": "301",
+      "name": "Splash",
+      "in_stock": true
+    },
+    {
+      "code": "302",
+      "name": "Powder Blue",
+      "in_stock": true
+    },
+    {
+      "code": "401",
+      "name": "Hunter Green",
+      "in_stock": true
+    },
+    {
+      "code": "402",
+      "name": "Kiwi",
+      "in_stock": true
+    },
+    {
+      "code": "403",
+      "name": "Pale Mint",
+      "in_stock": true
+    },
+    {
+      "code": "404",
+      "name": "Sagebrush",
+      "in_stock": true
+    },
+    {
+      "code": "405",
+      "name": "Clover",
+      "in_stock": true
+    },
+    {
+      "code": "502",
+      "name": "Butter",
+      "in_stock": true
+    },
+    {
+      "code": "503",
+      "name": "Summer Sun",
+      "in_stock": true
+    },
+    {
+      "code": "601",
+      "name": "Coffee",
+      "in_stock": true
+    },
+    {
+      "code": "801",
+      "name": "Aubergine",
+      "in_stock": true
+    },
+    {
+      "code": "803",
+      "name": "English Lavender",
+      "in_stock": true
+    },
+    {
+      "code": "804",
+      "name": "Plum Mist",
+      "in_stock": true
+    },
+    {
+      "code": "999",
+      "name": "Blender",
+      "in_stock": true
+    }
+  ]
+}

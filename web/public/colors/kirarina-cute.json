@@ -1,0 +1,112 @@
+{
+  "slug": "kirarina-cute",
+  "productName": "Kirarina Cute",
+  "basePriceClp": 3500,
+  "bsaleProductId": 2332,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-2.jpeg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/kirarina/kirarina-cute-unidad/",
+  "generatedAt": "2026-05-15T03:53:53.916Z",
+  "colors": [
+    {
+      "code": "123",
+      "name": "Lovely Blue",
+      "in_stock": true
+    },
+    {
+      "code": "101",
+      "name": "Bright Pink",
+      "in_stock": true
+    },
+    {
+      "code": "141",
+      "name": "Pearl White",
+      "in_stock": true
+    },
+    {
+      "code": "102",
+      "name": "Bright Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "142",
+      "name": "Pearl Blue",
+      "in_stock": true
+    },
+    {
+      "code": "103",
+      "name": "Bright Green",
+      "in_stock": true
+    },
+    {
+      "code": "143",
+      "name": "Pearl Pink",
+      "in_stock": true
+    },
+    {
+      "code": "104",
+      "name": "Bright Orange",
+      "in_stock": true
+    },
+    {
+      "code": "151",
+      "name": "Kira Kira Gold",
+      "in_stock": true
+    },
+    {
+      "code": "111",
+      "name": "Cool Black",
+      "in_stock": true
+    },
+    {
+      "code": "152",
+      "name": "Kira Kira Silver",
+      "in_stock": true
+    },
+    {
+      "code": "112",
+      "name": "Cool Red",
+      "in_stock": true
+    },
+    {
+      "code": "161",
+      "name": "Kira Kira Pink",
+      "in_stock": true
+    },
+    {
+      "code": "113",
+      "name": "Cool Gold",
+      "in_stock": true
+    },
+    {
+      "code": "162",
+      "name": "Kira Kira Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "114",
+      "name": "Cool Silver",
+      "in_stock": true
+    },
+    {
+      "code": "163",
+      "name": "Kira Kira Green",
+      "in_stock": true
+    },
+    {
+      "code": "121",
+      "name": "Lovely Pink",
+      "in_stock": true
+    },
+    {
+      "code": "124",
+      "name": "Lovely Orange",
+      "in_stock": true
+    },
+    {
+      "code": "122",
+      "name": "Lovely Purple",
+      "in_stock": true
+    }
+  ]
+}

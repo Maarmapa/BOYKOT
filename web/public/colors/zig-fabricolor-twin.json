@@ -1,0 +1,162 @@
+{
+  "slug": "zig-fabricolor-twin",
+  "productName": "ZIG Fabricolor Twin",
+  "basePriceClp": 3500,
+  "bsaleProductId": 3023,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336.jpg",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-carta-de-colores-efc6445e-2e4b-4406-a28f-baf14767cb77.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/zig-fabricolor-twin/",
+  "generatedAt": "2026-05-15T03:53:53.870Z",
+  "colors": [
+    {
+      "code": "000",
+      "name": "Blender",
+      "in_stock": true
+    },
+    {
+      "code": "001",
+      "name": "Fluorescent Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "003",
+      "name": "Fluorescent Pink",
+      "in_stock": true
+    },
+    {
+      "code": "004",
+      "name": "Fluorescent Green",
+      "in_stock": true
+    },
+    {
+      "code": "010",
+      "name": "Black",
+      "in_stock": true
+    },
+    {
+      "code": "020",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "021",
+      "name": "Light Carmine",
+      "in_stock": true
+    },
+    {
+      "code": "025",
+      "name": "Pink",
+      "in_stock": true
+    },
+    {
+      "code": "026",
+      "name": "Light Pink",
+      "in_stock": true
+    },
+    {
+      "code": "027",
+      "name": "Dark Pink",
+      "in_stock": true
+    },
+    {
+      "code": "030",
+      "name": "Blue",
+      "in_stock": true
+    },
+    {
+      "code": "031",
+      "name": "Cobalt Blue",
+      "in_stock": true
+    },
+    {
+      "code": "033",
+      "name": "Persian Green",
+      "in_stock": true
+    },
+    {
+      "code": "036",
+      "name": "Light Blue",
+      "in_stock": true
+    },
+    {
+      "code": "040",
+      "name": "Green",
+      "in_stock": true
+    },
+    {
+      "code": "041",
+      "name": "Light Green",
+      "in_stock": true
+    },
+    {
+      "code": "042",
+      "name": "Turquoise Green",
+      "in_stock": true
+    },
+    {
+      "code": "050",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "060",
+      "name": "Brown",
+      "in_stock": true
+    },
+    {
+      "code": "062",
+      "name": "Dark Brown",
+      "in_stock": true
+    },
+    {
+      "code": "066",
+      "name": "Dark Oatmeal",
+      "in_stock": true
+    },
+    {
+      "code": "070",
+      "name": "Orange",
+      "in_stock": true
+    },
+    {
+      "code": "071",
+      "name": "Natural Beige",
+      "in_stock": true
+    },
+    {
+      "code": "080",
+      "name": "Violet",
+      "in_stock": true
+    },
+    {
+      "code": "081",
+      "name": "Light Violet",
+      "in_stock": true
+    },
+    {
+      "code": "093",
+      "name": "Green Gray",
+      "in_stock": true
+    },
+    {
+      "code": "403",
+      "name": "Pale Mint",
+      "in_stock": true
+    },
+    {
+      "code": "502",
+      "name": "Butter",
+      "in_stock": true
+    },
+    {
+      "code": "805",
+      "name": "Pale Violet",
+      "in_stock": true
+    },
+    {
+      "code": "904",
+      "name": "Warm Gray",
+      "in_stock": true
+    }
+  ]
+}

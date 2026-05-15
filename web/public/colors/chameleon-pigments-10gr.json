@@ -1,0 +1,187 @@
+{
+  "slug": "chameleon-pigments-10gr",
+  "productName": "Chameleon Pigments 10gr",
+  "basePriceClp": 6900,
+  "bsaleProductId": 2987,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e.png",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/chameleon-pigments-10-gr/",
+  "generatedAt": "2026-05-15T03:53:53.877Z",
+  "colors": [
+    {
+      "code": "RED",
+      "name": "Purple",
+      "in_stock": true
+    },
+    {
+      "code": "GOLDEN",
+      "name": "Green",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "Blue",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "Green Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "Purple Blue Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "GOLDEN",
+      "name": "Green Red",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "Yellow Violet Blue",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "Green Gold Ver 3",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "Gold Red Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "Blue Green Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "Green Gold Ver 4",
+      "in_stock": true
+    },
+    {
+      "code": "BRIGHT",
+      "name": "Purple Blue Green",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "Blue Green Ver 5",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "Purple",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Red Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "BROWN",
+      "name": "Red Violet",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Red Purple",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "Red Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Red Violet",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "Red Orange Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Green Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "Green",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "Blue",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Yellow Green Blue",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "Gold",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "Blue Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "GOLDEN",
+      "name": "Yellow Green Blue Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "Orange Yellow Green Ver 2",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Blue Violet",
+      "in_stock": true
+    },
+    {
+      "code": "MAUVE",
+      "name": "Blue Green",
+      "in_stock": true
+    }
+  ]
+}

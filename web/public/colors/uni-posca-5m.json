@@ -1,0 +1,142 @@
+{
+  "slug": "uni-posca-5m",
+  "productName": "Uni POSCA 5M (1.8-2.5mm)",
+  "basePriceClp": 4500,
+  "bsaleProductId": 2956,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/05/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d.jpg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/posca/uni-posca-5m-bs-1-8-2-5-mm/",
+  "generatedAt": "2026-05-15T03:53:53.887Z",
+  "colors": [
+    {
+      "code": "F2",
+      "name": "Amarillo Fluor",
+      "in_stock": true
+    },
+    {
+      "code": "P6",
+      "name": "Verde Marino",
+      "in_stock": true
+    },
+    {
+      "code": "M13",
+      "name": "Rosa Metalico",
+      "in_stock": true
+    },
+    {
+      "code": "P4",
+      "name": "Albaricoque",
+      "in_stock": true
+    },
+    {
+      "code": "M6",
+      "name": "Verde Metalico",
+      "in_stock": true
+    },
+    {
+      "code": "P2",
+      "name": "Amarillo Sol",
+      "in_stock": true
+    },
+    {
+      "code": "P11",
+      "name": "Lavanda",
+      "in_stock": true
+    },
+    {
+      "code": "F4",
+      "name": "Naranja Fluor",
+      "in_stock": true
+    },
+    {
+      "code": "F13",
+      "name": "Rosa Fluor",
+      "in_stock": true
+    },
+    {
+      "code": "M15",
+      "name": "Rojo Metalico",
+      "in_stock": true
+    },
+    {
+      "code": "M12",
+      "name": "Violeta Metalico",
+      "in_stock": true
+    },
+    {
+      "code": "003",
+      "name": "Amarillo Vivo",
+      "in_stock": true
+    },
+    {
+      "code": "005",
+      "name": "Verde Claro",
+      "in_stock": true
+    },
+    {
+      "code": "021",
+      "name": "Marron",
+      "in_stock": true
+    },
+    {
+      "code": "024",
+      "name": "Negro",
+      "in_stock": true
+    },
+    {
+      "code": "025",
+      "name": "Oro",
+      "in_stock": true
+    },
+    {
+      "code": "026",
+      "name": "Plata",
+      "in_stock": true
+    },
+    {
+      "code": "033",
+      "name": "Azul",
+      "in_stock": true
+    },
+    {
+      "code": "042",
+      "name": "Bronce",
+      "in_stock": true
+    },
+    {
+      "code": "045",
+      "name": "Beige",
+      "in_stock": true
+    },
+    {
+      "code": "051",
+      "name": "Rosa Claro",
+      "in_stock": true
+    },
+    {
+      "code": "054",
+      "name": "Naranjo Palido",
+      "in_stock": true
+    },
+    {
+      "code": "060",
+      "name": "Rojo Vino",
+      "in_stock": true
+    },
+    {
+      "code": "061",
+      "name": "Gris Pizarra",
+      "in_stock": true
+    },
+    {
+      "code": "066",
+      "name": "Rosa Coral",
+      "in_stock": true
+    },
+    {
+      "code": "073",
+      "name": "Amarillo Pajizo",
+      "in_stock": true
+    }
+  ]
+}

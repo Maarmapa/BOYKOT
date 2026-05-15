@@ -1,0 +1,172 @@
+{
+  "slug": "zig-acrylista-6mm",
+  "productName": "ZIG Acrylista 6mm",
+  "basePriceClp": 5500,
+  "bsaleProductId": 3024,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34.jpg",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-acrylista-6mm-carta-de-colores-2a10b6a9-5ab2-4fec-83bc-c3e5c55862a3.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/zig-acrylista-6mm/",
+  "generatedAt": "2026-05-15T03:53:53.868Z",
+  "colors": [
+    {
+      "code": "000",
+      "name": "Arctic White",
+      "in_stock": true
+    },
+    {
+      "code": "010",
+      "name": "Black",
+      "in_stock": true
+    },
+    {
+      "code": "020",
+      "name": "Crimson",
+      "in_stock": true
+    },
+    {
+      "code": "025",
+      "name": "Carnation",
+      "in_stock": true
+    },
+    {
+      "code": "030",
+      "name": "True Blue",
+      "in_stock": true
+    },
+    {
+      "code": "031",
+      "name": "Peacock",
+      "in_stock": true
+    },
+    {
+      "code": "050",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "060",
+      "name": "Rust",
+      "in_stock": true
+    },
+    {
+      "code": "070",
+      "name": "Pumpkin",
+      "in_stock": true
+    },
+    {
+      "code": "080",
+      "name": "Violet",
+      "in_stock": true
+    },
+    {
+      "code": "101",
+      "name": "Gold",
+      "in_stock": true
+    },
+    {
+      "code": "102",
+      "name": "Silver",
+      "in_stock": true
+    },
+    {
+      "code": "201",
+      "name": "Wild Rose",
+      "in_stock": true
+    },
+    {
+      "code": "202",
+      "name": "Strawberry",
+      "in_stock": true
+    },
+    {
+      "code": "340",
+      "name": "Country Blue",
+      "in_stock": true
+    },
+    {
+      "code": "342",
+      "name": "Harebell",
+      "in_stock": true
+    },
+    {
+      "code": "343",
+      "name": "Forgetmenot",
+      "in_stock": true
+    },
+    {
+      "code": "345",
+      "name": "Bluebell",
+      "in_stock": true
+    },
+    {
+      "code": "441",
+      "name": "Forest Green",
+      "in_stock": true
+    },
+    {
+      "code": "443",
+      "name": "Sedum",
+      "in_stock": true
+    },
+    {
+      "code": "445",
+      "name": "Green Apple",
+      "in_stock": true
+    },
+    {
+      "code": "447",
+      "name": "Salsa Verde",
+      "in_stock": true
+    },
+    {
+      "code": "501",
+      "name": "Gardenia",
+      "in_stock": true
+    },
+    {
+      "code": "502",
+      "name": "Primrose",
+      "in_stock": true
+    },
+    {
+      "code": "621",
+      "name": "Burnt Sienna",
+      "in_stock": true
+    },
+    {
+      "code": "622",
+      "name": "Buttercup",
+      "in_stock": true
+    },
+    {
+      "code": "624",
+      "name": "Burnt Umber",
+      "in_stock": true
+    },
+    {
+      "code": "711",
+      "name": "Natural Beige",
+      "in_stock": true
+    },
+    {
+      "code": "712",
+      "name": "Honeysuckle",
+      "in_stock": true
+    },
+    {
+      "code": "842",
+      "name": "Wisteria",
+      "in_stock": true
+    },
+    {
+      "code": "843",
+      "name": "Wild Heather",
+      "in_stock": true
+    },
+    {
+      "code": "941",
+      "name": "Slate Grey",
+      "in_stock": true
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "aqua-color-brush",
+  "productName": "Aqua Color Brush",
+  "basePriceClp": 4500,
+  "bsaleProductId": 2797,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/aqua-color-chart-1f71007c-429a-42bc-b2da-f912843f9d7a.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-color-brush/",
+  "generatedAt": "2026-05-15T03:53:53.885Z",
+  "colors": [
+    {
+      "code": "008",
+      "name": "Pink",
+      "in_stock": true
+    },
+    {
+      "code": "010",
+      "name": "Purple",
+      "in_stock": true
+    },
+    {
+      "code": "001",
+      "name": "Primary Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "003",
+      "name": "Orange",
+      "in_stock": true
+    },
+    {
+      "code": "005",
+      "name": "Vermillion",
+      "in_stock": true
+    },
+    {
+      "code": "011",
+      "name": "Primary Blue",
+      "in_stock": true
+    },
+    {
+      "code": "012",
+      "name": "Cyan",
+      "in_stock": true
+    },
+    {
+      "code": "013",
+      "name": "Turquoise",
+      "in_stock": true
+    },
+    {
+      "code": "015",
+      "name": "Dark Green",
+      "in_stock": true
+    },
+    {
+      "code": "016",
+      "name": "Yellow Green",
+      "in_stock": true
+    },
+    {
+      "code": "019",
+      "name": "Brown",
+      "in_stock": true
+    },
+    {
+      "code": "022",
+      "name": "Deep Black",
+      "in_stock": true
+    },
+    {
+      "code": "024",
+      "name": "Neutral Grey 01",
+      "in_stock": true
+    },
+    {
+      "code": "025",
+      "name": "Neutral Grey 02",
+      "in_stock": true
+    },
+    {
+      "code": "026",
+      "name": "Neutral Grey 03",
+      "in_stock": true
+    },
+    {
+      "code": "027",
+      "name": "Neutral Grey 04",
+      "in_stock": true
+    },
+    {
+      "code": "029",
+      "name": "Cool Grey",
+      "in_stock": true
+    },
+    {
+      "code": "030",
+      "name": "Cool Grey 01",
+      "in_stock": true
+    },
+    {
+      "code": "031",
+      "name": "Cool Grey 02",
+      "in_stock": true
+    },
+    {
+      "code": "032",
+      "name": "Cool Grey 03",
+      "in_stock": true
+    },
+    {
+      "code": "033",
+      "name": "Cool Grey 04",
+      "in_stock": true
+    },
+    {
+      "code": "035",
+      "name": "Warm Grey",
+      "in_stock": true
+    },
+    {
+      "code": "037",
+      "name": "Warm Grey 02",
+      "in_stock": true
+    },
+    {
+      "code": "039",
+      "name": "Warm Grey 04",
+      "in_stock": true
+    },
+    {
+      "code": "041",
+      "name": "Light Orange",
+      "in_stock": true
+    },
+    {
+      "code": "043",
+      "name": "Burgundy",
+      "in_stock": true
+    },
+    {
+      "code": "045",
+      "name": "Fuchsia",
+      "in_stock": true
+    },
+    {
+      "code": "048",
+      "name": "Violet",
+      "in_stock": true
+    },
+    {
+      "code": "050",
+      "name": "Olive",
+      "in_stock": true
+    },
+    {
+      "code": "051",
+      "name": "Riviera",
+      "in_stock": true
+    },
+    {
+      "code": "052",
+      "name": "Light Blue",
+      "in_stock": true
+    },
+    {
+      "code": "053",
+      "name": "Light Brown",
+      "in_stock": true
+    },
+    {
+      "code": "055",
+      "name": "Rose Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "056",
+      "name": "Skin 1",
+      "in_stock": true
+    },
+    {
+      "code": "059",
+      "name": "Skin 2",
+      "in_stock": true
+    },
+    {
+      "code": "062",
+      "name": "Apricot",
+      "in_stock": true
+    }
+  ]
+}

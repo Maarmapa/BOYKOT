@@ -1,0 +1,387 @@
+{
+  "slug": "createx-airbrush-240ml",
+  "productName": "Createx Airbrush Colors 240ml",
+  "basePriceClp": 13900,
+  "bsaleProductId": 3186,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2.jpg",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-01-b117a4d0-f175-41aa-8a33-fda910535b66.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-240ml/",
+  "generatedAt": "2026-05-15T03:53:53.861Z",
+  "colors": [
+    {
+      "code": "5102",
+      "name": "Transparent Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5103",
+      "name": "Transparent Red Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5105",
+      "name": "Transparent Caribbean Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5106",
+      "name": "Transparent Brite Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5107",
+      "name": "Transparent Ultramarine Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5108",
+      "name": "Transparent Deep Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5109",
+      "name": "Transparent Brite Green",
+      "in_stock": true
+    },
+    {
+      "code": "5110",
+      "name": "Transparent Forest Green",
+      "in_stock": true
+    },
+    {
+      "code": "5111",
+      "name": "Transparent Aqua",
+      "in_stock": true
+    },
+    {
+      "code": "5112",
+      "name": "Transparent Turquoise",
+      "in_stock": true
+    },
+    {
+      "code": "5113",
+      "name": "Transparent Sunrise Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5114",
+      "name": "Transparent Brite Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5115",
+      "name": "Transparent Leaf Green",
+      "in_stock": true
+    },
+    {
+      "code": "5116",
+      "name": "Transparent Tropical Green",
+      "in_stock": true
+    },
+    {
+      "code": "5117",
+      "name": "Transparent Brite Red",
+      "in_stock": true
+    },
+    {
+      "code": "5118",
+      "name": "Transparent Sunset Red",
+      "in_stock": true
+    },
+    {
+      "code": "5119",
+      "name": "Transparent Orange",
+      "in_stock": true
+    },
+    {
+      "code": "5121",
+      "name": "Transparent Flamingo Pink",
+      "in_stock": true
+    },
+    {
+      "code": "5122",
+      "name": "Transparent Fuchsia",
+      "in_stock": true
+    },
+    {
+      "code": "5123",
+      "name": "Transparent Burgundy",
+      "in_stock": true
+    },
+    {
+      "code": "5124",
+      "name": "Transparent Deep Red",
+      "in_stock": true
+    },
+    {
+      "code": "5125",
+      "name": "Transparent Peach",
+      "in_stock": true
+    },
+    {
+      "code": "5126",
+      "name": "Transparent Sand",
+      "in_stock": true
+    },
+    {
+      "code": "5127",
+      "name": "Transparent Light Brown",
+      "in_stock": true
+    },
+    {
+      "code": "5128",
+      "name": "Transparent Dark Brown",
+      "in_stock": true
+    },
+    {
+      "code": "5129",
+      "name": "Transparent Medium Gray",
+      "in_stock": true
+    },
+    {
+      "code": "5131",
+      "name": "Transparent White",
+      "in_stock": true
+    },
+    {
+      "code": "5132",
+      "name": "Transparent Black",
+      "in_stock": true
+    },
+    {
+      "code": "5133",
+      "name": "Transparent Canary Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5134",
+      "name": "Transparent Maui Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5135",
+      "name": "Transparent Purple",
+      "in_stock": true
+    },
+    {
+      "code": "5136",
+      "name": "Transparent Red Oxide",
+      "in_stock": true
+    },
+    {
+      "code": "5137",
+      "name": "Transparent Crimson",
+      "in_stock": true
+    },
+    {
+      "code": "5138",
+      "name": "Transparent Carmine",
+      "in_stock": true
+    },
+    {
+      "code": "5201",
+      "name": "Opaque Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5202",
+      "name": "Opaque Purple",
+      "in_stock": true
+    },
+    {
+      "code": "5204",
+      "name": "Opaque Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5205",
+      "name": "Opaque Light Green",
+      "in_stock": true
+    },
+    {
+      "code": "5206",
+      "name": "Opaque Aqua",
+      "in_stock": true
+    },
+    {
+      "code": "5208",
+      "name": "Opaque Coral",
+      "in_stock": true
+    },
+    {
+      "code": "5210",
+      "name": "Opaque Red",
+      "in_stock": true
+    },
+    {
+      "code": "5211",
+      "name": "Opaque Black",
+      "in_stock": true
+    },
+    {
+      "code": "5212",
+      "name": "Opaque White",
+      "in_stock": true
+    },
+    {
+      "code": "5301",
+      "name": "Pearl Purple",
+      "in_stock": true
+    },
+    {
+      "code": "5302",
+      "name": "Pearl Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "5303",
+      "name": "Pearl Turquoise",
+      "in_stock": true
+    },
+    {
+      "code": "5304",
+      "name": "Pearl Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5305",
+      "name": "Pearl Green",
+      "in_stock": true
+    },
+    {
+      "code": "5306",
+      "name": "Pearl Copper",
+      "in_stock": true
+    },
+    {
+      "code": "5307",
+      "name": "Pearl Satin Gold",
+      "in_stock": true
+    },
+    {
+      "code": "5308",
+      "name": "Pearl Silver",
+      "in_stock": true
+    },
+    {
+      "code": "5309",
+      "name": "Pearl Red",
+      "in_stock": true
+    },
+    {
+      "code": "5310",
+      "name": "Pearl White",
+      "in_stock": true
+    },
+    {
+      "code": "5311",
+      "name": "Pearl Pineapple",
+      "in_stock": true
+    },
+    {
+      "code": "5312",
+      "name": "Pearl Tangerine",
+      "in_stock": true
+    },
+    {
+      "code": "5313",
+      "name": "Pearl Lime",
+      "in_stock": true
+    },
+    {
+      "code": "5315",
+      "name": "Pearl Black",
+      "in_stock": true
+    },
+    {
+      "code": "5316",
+      "name": "Pearl Platinum",
+      "in_stock": true
+    },
+    {
+      "code": "5401",
+      "name": "Fluorescent Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5402",
+      "name": "Fluorescent Raspberry",
+      "in_stock": true
+    },
+    {
+      "code": "5403",
+      "name": "Fluorescent Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5404",
+      "name": "Fluorescent Green",
+      "in_stock": true
+    },
+    {
+      "code": "5405",
+      "name": "Fluorescent Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5406",
+      "name": "Fluorescent Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "5407",
+      "name": "Fluorescent Hot Pink",
+      "in_stock": true
+    },
+    {
+      "code": "5408",
+      "name": "Fluorescent Red",
+      "in_stock": true
+    },
+    {
+      "code": "5409",
+      "name": "Fluorescent Orange",
+      "in_stock": true
+    },
+    {
+      "code": "5410",
+      "name": "Fluorescent Sunburst",
+      "in_stock": true
+    },
+    {
+      "code": "5501",
+      "name": "Iridescent Red",
+      "in_stock": true
+    },
+    {
+      "code": "5502",
+      "name": "Iridescent Scarlet",
+      "in_stock": true
+    },
+    {
+      "code": "5503",
+      "name": "Iridescent Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5504",
+      "name": "Iridescent Turquoise",
+      "in_stock": true
+    },
+    {
+      "code": "5505",
+      "name": "Iridescent Electric Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5507",
+      "name": "Iridescent Green",
+      "in_stock": true
+    },
+    {
+      "code": "5508",
+      "name": "Iridescent Fuchsia",
+      "in_stock": true
+    }
+  ]
+}

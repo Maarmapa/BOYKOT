@@ -30,4 +30,8 @@ export interface BrandColorSet {
   familyOrder?: string[];
   /** Human-readable family names ({ B: 'Blue', BG: 'Blue Green', ... }). */
   familyNames?: Record<string, string>;
+  /** Hero photo of the physical product (the marker / spray can / pigment jar). */
+  heroImage?: string;
+  /** Short marketing description shown under the price. */
+  description?: string;
 }

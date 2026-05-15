@@ -1,0 +1,112 @@
+{
+  "slug": "ultra-thermal-dust-10gr",
+  "productName": "Ultra Thermal Dust 10gr",
+  "basePriceClp": 8900,
+  "bsaleProductId": 3075,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936.png",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/ultra-thermal-dust-10gr-2/",
+  "generatedAt": "2026-05-15T03:53:53.880Z",
+  "colors": [
+    {
+      "code": "PURPLE",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "ORCHID",
+      "name": "To Pink",
+      "in_stock": true
+    },
+    {
+      "code": "BLACK",
+      "name": "To Red",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Cream",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "To Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Lilac",
+      "in_stock": true
+    },
+    {
+      "code": "VIOLET",
+      "name": "To Pink",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Vanilla",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "To Grey",
+      "in_stock": true
+    },
+    {
+      "code": "DARK",
+      "name": "Green To Light Green",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "To Green",
+      "in_stock": true
+    },
+    {
+      "code": "BLACK",
+      "name": "To Green",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "To Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "BLACK",
+      "name": "To Mint",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "To Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "To Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "BLACK",
+      "name": "To Grey",
+      "in_stock": true
+    },
+    {
+      "code": "BLACKBERRY",
+      "name": "To Orange",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "To Turquoise",
+      "in_stock": true
+    }
+  ]
+}

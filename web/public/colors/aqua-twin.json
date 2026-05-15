@@ -1,0 +1,112 @@
+{
+  "slug": "aqua-twin",
+  "productName": "Aqua Twin",
+  "basePriceClp": 5500,
+  "bsaleProductId": 2419,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef.webp",
+  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2023/06/aqua-color-chart-ad7a71ad-3f22-45a0-ae2f-c056fdb6ea5e.jpg",
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-twin-unidad-pincel-bisel/",
+  "generatedAt": "2026-05-15T03:53:53.917Z",
+  "colors": [
+    {
+      "code": "DARK",
+      "name": "Green 015",
+      "in_stock": true
+    },
+    {
+      "code": "DEEP",
+      "name": "Black 022",
+      "in_stock": true
+    },
+    {
+      "code": "NEUTRAL",
+      "name": "Grey 04 27",
+      "in_stock": true
+    },
+    {
+      "code": "COOL",
+      "name": "Grey 29",
+      "in_stock": true
+    },
+    {
+      "code": "BROWN",
+      "name": "019",
+      "in_stock": true
+    },
+    {
+      "code": "PRIMARY",
+      "name": "Yellow 001",
+      "in_stock": true
+    },
+    {
+      "code": "WARM",
+      "name": "Grey 35",
+      "in_stock": true
+    },
+    {
+      "code": "PURPLE",
+      "name": "010",
+      "in_stock": true
+    },
+    {
+      "code": "VERMILLON",
+      "name": "005",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "Green 016",
+      "in_stock": true
+    },
+    {
+      "code": "TURQUOISE",
+      "name": "013",
+      "in_stock": true
+    },
+    {
+      "code": "COOL",
+      "name": "Grey 01 30",
+      "in_stock": true
+    },
+    {
+      "code": "COOL",
+      "name": "Grey 04 33",
+      "in_stock": true
+    },
+    {
+      "code": "NEUTRAL",
+      "name": "Grey 03 26",
+      "in_stock": true
+    },
+    {
+      "code": "NEUTRAL",
+      "name": "Grey 02 25",
+      "in_stock": true
+    },
+    {
+      "code": "PRIMARY",
+      "name": "Blue 011",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "003",
+      "in_stock": true
+    },
+    {
+      "code": "PINK",
+      "name": "008",
+      "in_stock": true
+    },
+    {
+      "code": "COOL",
+      "name": "Grey 03 32",
+      "in_stock": true
+    },
+    {
+      "code": "CYAN",
+      "name": "012",
+      "in_stock": true
+    }
+  ]
+}

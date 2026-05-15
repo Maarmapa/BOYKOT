@@ -1,0 +1,337 @@
+{
+  "slug": "wicked-colors-480ml",
+  "productName": "Wicked Colors 480ml",
+  "basePriceClp": 26900,
+  "bsaleProductId": 3189,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1.jpg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/wicked-colors-480ml/",
+  "generatedAt": "2026-05-15T03:53:53.862Z",
+  "colors": [
+    {
+      "code": "W0013",
+      "name": "Laguna Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0053",
+      "name": "Detail Scarlet",
+      "in_stock": true
+    },
+    {
+      "code": "W0014",
+      "name": "Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W0028",
+      "name": "Fluorescent Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0064",
+      "name": "Detail Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "W0050",
+      "name": "Detail White",
+      "in_stock": true
+    },
+    {
+      "code": "W0010",
+      "name": "Brown",
+      "in_stock": true
+    },
+    {
+      "code": "W0085",
+      "name": "Opaque Limelight Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0024",
+      "name": "Fluorescent Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0005",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "W0020",
+      "name": "Fluorescent Purple",
+      "in_stock": true
+    },
+    {
+      "code": "W0060",
+      "name": "Detail Viridian",
+      "in_stock": true
+    },
+    {
+      "code": "W0029",
+      "name": "Fluorescent Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "W0012",
+      "name": "Red Oxide",
+      "in_stock": true
+    },
+    {
+      "code": "W0061",
+      "name": "Detail Cobalt Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0032",
+      "name": "Detail Flat Opaque White",
+      "in_stock": true
+    },
+    {
+      "code": "W0011",
+      "name": "Golden Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0088",
+      "name": "Opaque Dioxazine Purple",
+      "in_stock": true
+    },
+    {
+      "code": "W0025",
+      "name": "Fluorescent Sunburst",
+      "in_stock": true
+    },
+    {
+      "code": "W0080",
+      "name": "Opaque Hansa Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0087",
+      "name": "Opaque Daylight Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0056",
+      "name": "Detail Red Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W0068",
+      "name": "Detail Raw Umber",
+      "in_stock": true
+    },
+    {
+      "code": "W0065",
+      "name": "Detail Yellow Ochre",
+      "in_stock": true
+    },
+    {
+      "code": "W0009",
+      "name": "Phthalo Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0004",
+      "name": "Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W0022",
+      "name": "Fluorescent Red",
+      "in_stock": true
+    },
+    {
+      "code": "W0031",
+      "name": "Jet Black",
+      "in_stock": true
+    },
+    {
+      "code": "W0071",
+      "name": "Detail Paynes Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W0072",
+      "name": "Detail Smoke Black",
+      "in_stock": true
+    },
+    {
+      "code": "W0016",
+      "name": "Apple Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0069",
+      "name": "Detail Burnt Umber",
+      "in_stock": true
+    },
+    {
+      "code": "W0021",
+      "name": "Fluorescent Raspberry",
+      "in_stock": true
+    },
+    {
+      "code": "W0082",
+      "name": "Opaque Pyrrole Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W0059",
+      "name": "Detail Moss Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0070",
+      "name": "Detail Sepia",
+      "in_stock": true
+    },
+    {
+      "code": "W0089",
+      "name": "Opaque Cream",
+      "in_stock": true
+    },
+    {
+      "code": "W0084",
+      "name": "Opaque Phthalo Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0054",
+      "name": "Detail Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W0023",
+      "name": "Fluorescent Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0051",
+      "name": "Detail Black",
+      "in_stock": true
+    },
+    {
+      "code": "W0076",
+      "name": "Detail Universal Fleshtone",
+      "in_stock": true
+    },
+    {
+      "code": "W0008",
+      "name": "Deep Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0007",
+      "name": "Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0002",
+      "name": "Black",
+      "in_stock": true
+    },
+    {
+      "code": "W0083",
+      "name": "Opaque Pyrrole Red",
+      "in_stock": true
+    },
+    {
+      "code": "W0075",
+      "name": "Detail Black Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "W0086",
+      "name": "Opaque Phthalo Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0074",
+      "name": "Detail Burnt Siena",
+      "in_stock": true
+    },
+    {
+      "code": "W0058",
+      "name": "Detail Blue Green",
+      "in_stock": true
+    },
+    {
+      "code": "W0057",
+      "name": "Detail Blue Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W0026",
+      "name": "Fluorescent Pink",
+      "in_stock": true
+    },
+    {
+      "code": "W0055",
+      "name": "Detail Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W0066",
+      "name": "Detail Burnt Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W0003",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0006",
+      "name": "Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W0062",
+      "name": "Detail Cerulean Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W0067",
+      "name": "Detail Raw Siena",
+      "in_stock": true
+    },
+    {
+      "code": "W0063",
+      "name": "Detail Carmine",
+      "in_stock": true
+    },
+    {
+      "code": "W0081",
+      "name": "Opaque Bismuth Vanadate Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0027",
+      "name": "Fluorescent Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W0052",
+      "name": "Detail Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W0030",
+      "name": "Opaque White",
+      "in_stock": true
+    },
+    {
+      "code": "W0015",
+      "name": "Crimson",
+      "in_stock": true
+    },
+    {
+      "code": "W0073",
+      "name": "Detail Flesh Tone",
+      "in_stock": true
+    }
+  ]
+}

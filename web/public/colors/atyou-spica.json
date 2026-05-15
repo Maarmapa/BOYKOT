@@ -1,0 +1,132 @@
+{
+  "slug": "atyou-spica",
+  "productName": "Marcador Atyou Spica",
+  "basePriceClp": 3900,
+  "bsaleProductId": 2295,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/04/atyou-spica-2358559c-d079-403e-9fa0-9d1324c61f07.jpg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/copic-markers/copic-individual/marcador-copic-spica/",
+  "generatedAt": "2026-05-15T03:53:53.913Z",
+  "colors": [
+    {
+      "code": "00",
+      "name": "Clear",
+      "in_stock": true
+    },
+    {
+      "code": "01",
+      "name": "Lavender",
+      "in_stock": true
+    },
+    {
+      "code": "02",
+      "name": "Pink",
+      "in_stock": true
+    },
+    {
+      "code": "03",
+      "name": "Red",
+      "in_stock": true
+    },
+    {
+      "code": "04",
+      "name": "Orange",
+      "in_stock": true
+    },
+    {
+      "code": "05",
+      "name": "Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "06",
+      "name": "Melon",
+      "in_stock": true
+    },
+    {
+      "code": "07",
+      "name": "Olive",
+      "in_stock": true
+    },
+    {
+      "code": "08",
+      "name": "Turquoise",
+      "in_stock": true
+    },
+    {
+      "code": "09",
+      "name": "Sky Blue",
+      "in_stock": true
+    },
+    {
+      "code": "10",
+      "name": "Black",
+      "in_stock": true
+    },
+    {
+      "code": "11",
+      "name": "Gold",
+      "in_stock": true
+    },
+    {
+      "code": "12",
+      "name": "Silver",
+      "in_stock": true
+    },
+    {
+      "code": "13",
+      "name": "Lilac",
+      "in_stock": true
+    },
+    {
+      "code": "14",
+      "name": "Blossom",
+      "in_stock": true
+    },
+    {
+      "code": "15",
+      "name": "Peach",
+      "in_stock": true
+    },
+    {
+      "code": "16",
+      "name": "Buttermilk",
+      "in_stock": true
+    },
+    {
+      "code": "17",
+      "name": "Mint",
+      "in_stock": true
+    },
+    {
+      "code": "18",
+      "name": "Baby Blue",
+      "in_stock": true
+    },
+    {
+      "code": "19",
+      "name": "Sand",
+      "in_stock": true
+    },
+    {
+      "code": "20",
+      "name": "Chocolate",
+      "in_stock": true
+    },
+    {
+      "code": "21",
+      "name": "Lipstick",
+      "in_stock": true
+    },
+    {
+      "code": "22",
+      "name": "Garnet",
+      "in_stock": true
+    },
+    {
+      "code": "23",
+      "name": "Pitch Black",
+      "in_stock": true
+    }
+  ]
+}

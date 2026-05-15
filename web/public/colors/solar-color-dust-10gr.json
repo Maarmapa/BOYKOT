@@ -1,0 +1,252 @@
+{
+  "slug": "solar-color-dust-10gr",
+  "productName": "SOLAR Color Dust 10gr",
+  "basePriceClp": 6900,
+  "bsaleProductId": 2991,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/08/so-co-dust-po-b534ab02-595d-4d97-8ca3-2e5bc4470d9d.png",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/solar-color-dust-10gr/",
+  "generatedAt": "2026-05-15T03:53:53.871Z",
+  "colors": [
+    {
+      "code": "GREEN",
+      "name": "To Red",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Marine Blue",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Green",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Purple",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Eggplant",
+      "in_stock": true
+    },
+    {
+      "code": "BRIGHT",
+      "name": "Blue To Purple",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "To Purple",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Olive Green",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Burnt Orange",
+      "in_stock": true
+    },
+    {
+      "code": "BERRY",
+      "name": "To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Green Fades To Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Merlot",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "To Orange",
+      "in_stock": true
+    },
+    {
+      "code": "CORAL",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "PINK",
+      "name": "To Blurple",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Dark Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Tan",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Orange Red",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "HOT",
+      "name": "Pink To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Moss",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "To Blue Green",
+      "in_stock": true
+    },
+    {
+      "code": "GRAY",
+      "name": "To Purple",
+      "in_stock": true
+    },
+    {
+      "code": "BLUE",
+      "name": "To Purple",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Sapphire Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Peach",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Clay",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Vibrant Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Sky Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Gold",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Orchid",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Brick Red",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Orange",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "To Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Wine Red",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "To Maroon",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Mixed Berry",
+      "in_stock": true
+    },
+    {
+      "code": "PEACH",
+      "name": "To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Violet",
+      "in_stock": true
+    },
+    {
+      "code": "GREEN",
+      "name": "To Eggplant",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "To Plum",
+      "in_stock": true
+    }
+  ]
+}

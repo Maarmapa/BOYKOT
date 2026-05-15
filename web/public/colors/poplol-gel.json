@@ -1,0 +1,152 @@
+{
+  "slug": "poplol-gel",
+  "productName": "Lápiz Gel POPLOL",
+  "basePriceClp": 2500,
+  "bsaleProductId": 3105,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/05/poplol-6-77d42505-b45e-4a02-acc6-23d3d166c359.jpg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/lapices/boligrafo/lapiz-gel-poplol/",
+  "generatedAt": "2026-05-15T03:53:53.888Z",
+  "colors": [
+    {
+      "code": "LEAF",
+      "name": "Green Bl Pl 7 Lg",
+      "in_stock": true
+    },
+    {
+      "code": "METALLIC",
+      "name": "Green Bl Pl 7 Mg",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Pink Bl Pl 7 Np",
+      "in_stock": true
+    },
+    {
+      "code": "CORAL",
+      "name": "Pink Bl Pl 7 Cp",
+      "in_stock": true
+    },
+    {
+      "code": "GRAPE",
+      "name": "Bl Pl 7 Gr",
+      "in_stock": true
+    },
+    {
+      "code": "PASTEL",
+      "name": "Violet Bl Pl 7 Pv",
+      "in_stock": true
+    },
+    {
+      "code": "METALLIC",
+      "name": "Pink Bl Pl 7 Mp",
+      "in_stock": true
+    },
+    {
+      "code": "PINK",
+      "name": "Bl Pl 7 P",
+      "in_stock": true
+    },
+    {
+      "code": "METALLIC",
+      "name": "Violet Bl Pl 7 Mv",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Yellow Bl Pl 7 Ny",
+      "in_stock": true
+    },
+    {
+      "code": "ROSE",
+      "name": "Pink Bl Pl 7 Rp",
+      "in_stock": true
+    },
+    {
+      "code": "PASTEL",
+      "name": "Pink Bl Pl 7 Pp",
+      "in_stock": true
+    },
+    {
+      "code": "YELLOW",
+      "name": "Bl Pl 7 Y",
+      "in_stock": true
+    },
+    {
+      "code": "PASTEL",
+      "name": "Green Bl Pl 7 Pg",
+      "in_stock": true
+    },
+    {
+      "code": "AQUA",
+      "name": "Blue Bl Pl 7 Al",
+      "in_stock": true
+    },
+    {
+      "code": "RED",
+      "name": "Bl Pl 7 R",
+      "in_stock": true
+    },
+    {
+      "code": "VIOLET",
+      "name": "Bl Pl 7 V",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Apricot Orange Bl Pl 7 Nao",
+      "in_stock": true
+    },
+    {
+      "code": "GOLD",
+      "name": "Bl Pl 7 Gd",
+      "in_stock": true
+    },
+    {
+      "code": "PASTEL",
+      "name": "Blue Bl Pl 7 Pl",
+      "in_stock": true
+    },
+    {
+      "code": "ORANGE",
+      "name": "Bl Pl 7 O",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Red Bl Pl 7 Nr",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Green Bl Pl 7 Ng",
+      "in_stock": true
+    },
+    {
+      "code": "NEON",
+      "name": "Orange Bl Pl 7 No",
+      "in_stock": true
+    },
+    {
+      "code": "METALLIC",
+      "name": "Blue Bl Pl 7 Ml",
+      "in_stock": true
+    },
+    {
+      "code": "WHITE",
+      "name": "Bl Pl 7 W",
+      "in_stock": true
+    },
+    {
+      "code": "PASTEL",
+      "name": "Yellow Bl Pl 7 Py",
+      "in_stock": true
+    },
+    {
+      "code": "SILVER",
+      "name": "Bl Pl 7 S",
+      "in_stock": true
+    }
+  ]
+}

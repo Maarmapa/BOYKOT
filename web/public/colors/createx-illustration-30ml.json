@@ -1,0 +1,212 @@
+{
+  "slug": "createx-illustration-30ml",
+  "productName": "Createx Illustration 30ml",
+  "basePriceClp": 5900,
+  "bsaleProductId": 3196,
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/10/illustration_demo_30-a7f5f0c7-e856-4b29-aa33-a734431c93f1.jpg",
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/createx-illustration-30ml/",
+  "generatedAt": "2026-05-15T03:53:53.864Z",
+  "colors": [
+    {
+      "code": "5001",
+      "name": "Neutral Grey 1",
+      "in_stock": true
+    },
+    {
+      "code": "5002",
+      "name": "Neutral Grey 2",
+      "in_stock": true
+    },
+    {
+      "code": "5003",
+      "name": "Neutral Grey 3",
+      "in_stock": true
+    },
+    {
+      "code": "5004",
+      "name": "Neutral Grey 4",
+      "in_stock": true
+    },
+    {
+      "code": "5005",
+      "name": "Neutral Grey 5",
+      "in_stock": true
+    },
+    {
+      "code": "5006",
+      "name": "Neutral Grey 6",
+      "in_stock": true
+    },
+    {
+      "code": "5007",
+      "name": "Neutral Grey 7",
+      "in_stock": true
+    },
+    {
+      "code": "5008",
+      "name": "Neutral Grey 8",
+      "in_stock": true
+    },
+    {
+      "code": "5009",
+      "name": "Neutral Grey 9",
+      "in_stock": true
+    },
+    {
+      "code": "5050",
+      "name": "White",
+      "in_stock": true
+    },
+    {
+      "code": "5051",
+      "name": "Black",
+      "in_stock": true
+    },
+    {
+      "code": "5052",
+      "name": "Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5053",
+      "name": "Scarlet",
+      "in_stock": true
+    },
+    {
+      "code": "5054",
+      "name": "Orange",
+      "in_stock": true
+    },
+    {
+      "code": "5055",
+      "name": "Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5056",
+      "name": "Red Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5057",
+      "name": "Blue Violet",
+      "in_stock": true
+    },
+    {
+      "code": "5058",
+      "name": "Viridian",
+      "in_stock": true
+    },
+    {
+      "code": "5059",
+      "name": "Cobalt Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5060",
+      "name": "Cerulean Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5061",
+      "name": "Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "5062",
+      "name": "Burnt Umber",
+      "in_stock": true
+    },
+    {
+      "code": "5063",
+      "name": "Sepia",
+      "in_stock": true
+    },
+    {
+      "code": "5064",
+      "name": "Burnt Sienna",
+      "in_stock": true
+    },
+    {
+      "code": "5065",
+      "name": "Moss Green",
+      "in_stock": true
+    },
+    {
+      "code": "5066",
+      "name": "Paynes Grey",
+      "in_stock": true
+    },
+    {
+      "code": "5068",
+      "name": "Opaque White",
+      "in_stock": true
+    },
+    {
+      "code": "5069",
+      "name": "Opaque Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5070",
+      "name": "Opaque Chrome Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "5071",
+      "name": "Opaque Orange",
+      "in_stock": true
+    },
+    {
+      "code": "5072",
+      "name": "Opaque Red Orange",
+      "in_stock": true
+    },
+    {
+      "code": "5073",
+      "name": "Opaque Red",
+      "in_stock": true
+    },
+    {
+      "code": "5074",
+      "name": "Opaque Light Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5075",
+      "name": "Opaque Dark Blue",
+      "in_stock": true
+    },
+    {
+      "code": "5076",
+      "name": "Opaque Purple",
+      "in_stock": true
+    },
+    {
+      "code": "5077",
+      "name": "Opaque Green",
+      "in_stock": true
+    },
+    {
+      "code": "5078",
+      "name": "Opaque Black",
+      "in_stock": true
+    },
+    {
+      "code": "5095",
+      "name": "Cmyk Cyan",
+      "in_stock": true
+    },
+    {
+      "code": "5096",
+      "name": "Cmyk Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "5097",
+      "name": "Cmyk Yellow",
+      "in_stock": true
+    }
+  ]
+}
