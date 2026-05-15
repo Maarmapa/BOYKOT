@@ -115,7 +115,7 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
 
           return (
             <div key={color.code} className="boykot-color-row">
-              <div className="relative bg-gray-50 flex-1 overflow-hidden" style={{ paddingBottom: 'min(40px, 16%)' }}>
+              <div className="relative bg-gray-50 flex-1 aspect-[5/2] overflow-hidden">
                 {showImage ? (
                   <img
                     src={color.imageUrl!}

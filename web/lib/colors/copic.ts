@@ -18,12 +18,14 @@ interface RawCopic { code: string; hex: string; family: string; driveId?: string
 
 const raw = (data as { colors: Record<string, RawCopic> }).colors;
 
-// Boykot's grouped-products page orders families this way: no fluorescents
-// in the middle — they go AFTER the regular YR block at the end.
+// Boykot's grouped-products page orders families: 0, 100, 110, B, BG, BV, C, E,
+// then the FLUORS (FB / FBG / FRV / FV / FY / FYG / FYR) sitting between E99
+// and G0000, then G, N, R, RV, T, V, W, Y, YG, YR.
 export const COPIC_FAMILY_ORDER = [
-  '0', '100', 'B', 'BG', 'BV', 'C', 'E', 'G', 'N', 'R', 'RV',
-  'T', 'V', 'W', 'Y', 'YG', 'YR',
-  'FB', 'FBG', 'FRV', 'FV', 'FYG',
+  '0', '100', '110',
+  'B', 'BG', 'BV', 'C', 'E',
+  'FB', 'FBG', 'FRV', 'FV', 'FY', 'FYG', 'FYR',
+  'G', 'N', 'R', 'RV', 'T', 'V', 'W', 'Y', 'YG', 'YR',
 ];
 
 export const COPIC_FAMILY_NAMES: Record<string, string> = {
