@@ -192,6 +192,18 @@ function extractProduct(html, url) {
       variants.push({ label, in_stock: true });
     }
   });
+  // Fallback for products using the woo-variations-table-grid plugin (Holbein,
+  // Angelus, Acrilex, etc.). The grid is rendered via AJAX, but each row's
+  // hidden form input exposes the attribute slug, e.g.
+  //   <input name="attribute_pa_color" value="acuarela-serie-a-15ml-w201-chinese-white">
+  if (variants.length === 0) {
+    $('input[name^="attribute_pa_"]').each((_, el) => {
+      const label = ($(el).attr('value') || '').trim();
+      if (label && !variants.find(v => v.label === label)) {
+        variants.push({ label, in_stock: true });
+      }
+    });
+  }
 
   return {
     url,

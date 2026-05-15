@@ -2,9 +2,14 @@ import type { BrandColorSet, ColorSwatch } from './types';
 import { ALL_COPIC, COPIC_CIAO, COPIC_FAMILY_ORDER, COPIC_FAMILY_NAMES } from './copic';
 
 // BSale-sourced (catalog.json → scripts/build-brand-colors.js)
-import molotowPremium from '../../public/colors/molotow-premium.json';
+// Note: molotow-premium uses the 132-color web scrape (more complete) — see below.
+import molotowPremiumWeb from '../../public/colors/molotow-premium-400ml.json';
 import molotowPremiumNeon from '../../public/colors/molotow-premium-neon.json';
 import molotowPremiumPlus from '../../public/colors/molotow-premium-plus.json';
+
+// AJAX-rendered (scripts/fetch-ajax-brands.js)
+import holbein15ml from '../../public/colors/holbein-acuarela-15ml.json';
+import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 
 // Scraper-sourced (scraped/products/*.json → scripts/build-from-scraped.js)
 import copicClassic from '../../public/colors/copic-classic.json';
@@ -85,10 +90,14 @@ export const BRANDS: Record<string, BrandColorSet> = {
     familyNames: COPIC_FAMILY_NAMES,
   }),
 
-  // Molotow — BSale-sourced
-  'molotow-premium': adapt(molotowPremium as JsonBrand, { basePriceClp: 6000 }),
+  // Molotow — 132 colors via web scrape (BSale catalog only listed 50)
+  'molotow-premium': adapt(molotowPremiumWeb as JsonBrand, { basePriceClp: 6000 }),
   'molotow-premium-neon': adapt(molotowPremiumNeon as JsonBrand, { basePriceClp: 6000 }),
   'molotow-premium-plus': adapt(molotowPremiumPlus as JsonBrand, { basePriceClp: 7900 }),
+
+  // Holbein — via woo-variations-table-grid AJAX selector
+  'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
+  'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900 }),
 
   // Createx — scraper-sourced
   'createx-airbrush-60ml': adapt(createx60 as JsonBrand),

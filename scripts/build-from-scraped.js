@@ -42,21 +42,70 @@ const TARGETS = [
   { src: 'marcador-copic-spica', out: 'atyou-spica', name: 'Marcador Atyou Spica', priceClp: 3900 },
   { src: 'kirarina-cute-unidad', out: 'kirarina-cute', name: 'Kirarina Cute', priceClp: 3500 },
   { src: 'aqua-twin-unidad-pincel-bisel', out: 'aqua-twin', name: 'Aqua Twin', priceClp: 5500 },
+
+  // AJAX-rendered (woo-variations-table-grid) — re-scraped by scripts/fetch-ajax-brands.js
+  { src: 'acuarela-15ml-holbein', out: 'holbein-acuarela-15ml', name: 'Acuarela Holbein 15ml', priceClp: 5900 },
+  { src: 'acuarela-60ml-holbein', out: 'holbein-acuarela-60ml', name: 'Acuarela Holbein 60ml', priceClp: 19900 },
+  { src: 'molotow-premium-400-ml', out: 'molotow-premium-400ml', name: 'Molotow Premium 400ml (web)', priceClp: 6000 },
+];
+
+function titleCase(slug) {
+  return slug.split('-').filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+/**
+ * Per-brand parsers. Each returns { code, name } or null if it can't parse.
+ * Tried in order; first match wins.
+ */
+const LABEL_PARSERS = [
+  // Holbein Acuarela 15ml: "acuarela-serie-{a-f}-15ml-{w201}-{name-slug}"
+  {
+    test: /^acuarela-serie-[a-f]-15ml-w\d{3,4}-/i,
+    parse(label) {
+      const m = label.match(/^acuarela-serie-[a-f]-15ml-(w\d{3,4})-(.+)$/i);
+      if (!m) return null;
+      return { code: m[1].toUpperCase(), name: titleCase(m[2]) };
+    },
+  },
+  // Holbein Acuarela 60ml: "acuarela-serie-{a-f}-60ml-60ml-{name-slug}-ww{code}"
+  {
+    test: /^acuarela-serie-[a-f]-60ml-60ml-/i,
+    parse(label) {
+      const m = label.match(/^acuarela-serie-[a-f]-60ml-60ml-(.+)-(ww\d{3,4})$/i);
+      if (!m) return null;
+      return { code: m[2].toUpperCase(), name: titleCase(m[1]) };
+    },
+  },
+  // Molotow Premium: "{code}-{name-with-dashes}-art-nr-{sku}"
+  {
+    test: /-art-nr-\d+$/i,
+    parse(label) {
+      const m = label.match(/^(\d{3})-(.+)-art-nr-(\d+)$/i);
+      if (!m) return null;
+      return { code: m[1], name: titleCase(m[2]) };
+    },
+  },
+  // Default: "{code}-{name-with-dashes}" — drop trailing pure-numeric suffix.
+  {
+    test: /^[a-z0-9]+-/i,
+    parse(label) {
+      let s = label.replace(/-\d{4,}$/, '');
+      const i = s.indexOf('-');
+      if (i < 0) return { code: s.toUpperCase(), name: '' };
+      return { code: s.slice(0, i).toUpperCase(), name: titleCase(s.slice(i + 1)) };
+    },
+  },
 ];
 
 function parseLabel(label) {
-  // Drop trailing "art-nr-XXXX" or "-XXXXXX" pure numeric suffix.
-  let s = label.replace(/-art-nr-\d+$/i, '').replace(/-\d{4,}$/, '');
-  // First token = code, rest = name.
-  const i = s.indexOf('-');
-  if (i < 0) return { code: s.toUpperCase(), name: '' };
-  const code = s.slice(0, i).toUpperCase();
-  const name = s.slice(i + 1)
-    .split('-')
-    .filter(Boolean)
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
-  return { code, name };
+  for (const p of LABEL_PARSERS) {
+    if (p.test.test(label)) {
+      const r = p.parse(label);
+      if (r) return r;
+    }
+  }
+  return { code: label.toUpperCase(), name: '' };
 }
 
 function findColorChart(gallery) {

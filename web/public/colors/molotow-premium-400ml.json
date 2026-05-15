@@ -1,0 +1,671 @@
+{
+  "slug": "molotow-premium-400ml",
+  "productName": "Molotow Premium 400ml (web)",
+  "basePriceClp": 6000,
+  "bsaleProductId": null,
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/sprays/premium-molotow/molotow-premium-400-ml/",
+  "generatedAt": "2026-05-15T04:11:48.476Z",
+  "colors": [
+    {
+      "code": "012",
+      "name": "Pastel Orange",
+      "in_stock": true
+    },
+    {
+      "code": "020",
+      "name": "Garnet",
+      "in_stock": true
+    },
+    {
+      "code": "021",
+      "name": "Black Red",
+      "in_stock": true
+    },
+    {
+      "code": "027",
+      "name": "Lobster Light",
+      "in_stock": true
+    },
+    {
+      "code": "034",
+      "name": "Apricot",
+      "in_stock": true
+    },
+    {
+      "code": "035",
+      "name": "Salmon Orange",
+      "in_stock": true
+    },
+    {
+      "code": "036",
+      "name": "Autumn Leaf",
+      "in_stock": true
+    },
+    {
+      "code": "039",
+      "name": "Loomits Apricot Middle",
+      "in_stock": true
+    },
+    {
+      "code": "040",
+      "name": "Loomits Apricot",
+      "in_stock": true
+    },
+    {
+      "code": "041",
+      "name": "Strawberry Red",
+      "in_stock": true
+    },
+    {
+      "code": "042",
+      "name": "Pussy Pink",
+      "in_stock": true
+    },
+    {
+      "code": "045",
+      "name": "Grapefruit Light",
+      "in_stock": true
+    },
+    {
+      "code": "047",
+      "name": "Mauve Light",
+      "in_stock": true
+    },
+    {
+      "code": "048",
+      "name": "Mauve",
+      "in_stock": true
+    },
+    {
+      "code": "049",
+      "name": "Antique Pink Middle",
+      "in_stock": true
+    },
+    {
+      "code": "050",
+      "name": "Antique Pink",
+      "in_stock": true
+    },
+    {
+      "code": "056",
+      "name": "Esther Dirty Red",
+      "in_stock": true
+    },
+    {
+      "code": "062",
+      "name": "Macrew Purple",
+      "in_stock": true
+    },
+    {
+      "code": "063",
+      "name": "Purple Violet",
+      "in_stock": true
+    },
+    {
+      "code": "064",
+      "name": "Crocus",
+      "in_stock": true
+    },
+    {
+      "code": "066",
+      "name": "Lilac",
+      "in_stock": true
+    },
+    {
+      "code": "067",
+      "name": "Grape",
+      "in_stock": true
+    },
+    {
+      "code": "071",
+      "name": "Violet Dark",
+      "in_stock": true
+    },
+    {
+      "code": "077",
+      "name": "Viola",
+      "in_stock": true
+    },
+    {
+      "code": "078",
+      "name": "Viola Dark",
+      "in_stock": true
+    },
+    {
+      "code": "079",
+      "name": "Night Seen Blue",
+      "in_stock": true
+    },
+    {
+      "code": "080",
+      "name": "Grape Middle",
+      "in_stock": true
+    },
+    {
+      "code": "081",
+      "name": "Grape Dark",
+      "in_stock": true
+    },
+    {
+      "code": "082",
+      "name": "Purple Velvet",
+      "in_stock": true
+    },
+    {
+      "code": "083",
+      "name": "Light Violet",
+      "in_stock": true
+    },
+    {
+      "code": "084",
+      "name": "Plum Middle",
+      "in_stock": true
+    },
+    {
+      "code": "085",
+      "name": "Plum",
+      "in_stock": true
+    },
+    {
+      "code": "086",
+      "name": "Pigeon Blue Middle",
+      "in_stock": true
+    },
+    {
+      "code": "087",
+      "name": "Pigeon Blue",
+      "in_stock": true
+    },
+    {
+      "code": "090",
+      "name": "Azure Blue",
+      "in_stock": true
+    },
+    {
+      "code": "091",
+      "name": "Shock Blue Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "092",
+      "name": "Shock Blue Light",
+      "in_stock": true
+    },
+    {
+      "code": "097",
+      "name": "Tulip Blue",
+      "in_stock": true
+    },
+    {
+      "code": "098",
+      "name": "Light Blue",
+      "in_stock": true
+    },
+    {
+      "code": "099",
+      "name": "Ceramic Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "100",
+      "name": "Jeans Blue",
+      "in_stock": true
+    },
+    {
+      "code": "101",
+      "name": "Wild Wane Blue",
+      "in_stock": true
+    },
+    {
+      "code": "106",
+      "name": "2 Storm Blue",
+      "in_stock": true
+    },
+    {
+      "code": "106",
+      "name": "3 Storm Blue Dark",
+      "in_stock": true
+    },
+    {
+      "code": "107",
+      "name": "Petrol",
+      "in_stock": true
+    },
+    {
+      "code": "110",
+      "name": "Ice Blue Dark",
+      "in_stock": true
+    },
+    {
+      "code": "111",
+      "name": "Dolphin Blue",
+      "in_stock": true
+    },
+    {
+      "code": "112",
+      "name": "Petrol Blue",
+      "in_stock": true
+    },
+    {
+      "code": "113",
+      "name": "Cream Blue",
+      "in_stock": true
+    },
+    {
+      "code": "114",
+      "name": "Olympia Blue",
+      "in_stock": true
+    },
+    {
+      "code": "115",
+      "name": "Aqua",
+      "in_stock": true
+    },
+    {
+      "code": "116",
+      "name": "Alga",
+      "in_stock": true
+    },
+    {
+      "code": "117",
+      "name": "Baby Blue",
+      "in_stock": true
+    },
+    {
+      "code": "118",
+      "name": "Crystal Blue Dark",
+      "in_stock": true
+    },
+    {
+      "code": "119",
+      "name": "Blue Gin",
+      "in_stock": true
+    },
+    {
+      "code": "120",
+      "name": "Verdigris",
+      "in_stock": true
+    },
+    {
+      "code": "121",
+      "name": "Caribean",
+      "in_stock": true
+    },
+    {
+      "code": "122",
+      "name": "Riviera Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "124",
+      "name": "Riviera Middle",
+      "in_stock": true
+    },
+    {
+      "code": "132",
+      "name": "Reed",
+      "in_stock": true
+    },
+    {
+      "code": "133",
+      "name": "Aquamarine",
+      "in_stock": true
+    },
+    {
+      "code": "134",
+      "name": "Swamp",
+      "in_stock": true
+    },
+    {
+      "code": "135",
+      "name": "Black Forest Green",
+      "in_stock": true
+    },
+    {
+      "code": "139",
+      "name": "Calypso Dark",
+      "in_stock": true
+    },
+    {
+      "code": "140",
+      "name": "Turquoise Green",
+      "in_stock": true
+    },
+    {
+      "code": "141",
+      "name": "Turquoise Green Middle",
+      "in_stock": true
+    },
+    {
+      "code": "146",
+      "name": "Kacao Universes Green",
+      "in_stock": true
+    },
+    {
+      "code": "147",
+      "name": "Lettuce Green",
+      "in_stock": true
+    },
+    {
+      "code": "148",
+      "name": "Kiwi Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "149",
+      "name": "Kiwi Light",
+      "in_stock": true
+    },
+    {
+      "code": "150",
+      "name": "Kiwi",
+      "in_stock": true
+    },
+    {
+      "code": "151",
+      "name": "Dandelion",
+      "in_stock": true
+    },
+    {
+      "code": "152",
+      "name": "Brilliant Green",
+      "in_stock": true
+    },
+    {
+      "code": "153",
+      "name": "Grasshopper",
+      "in_stock": true
+    },
+    {
+      "code": "154",
+      "name": "Cream Green",
+      "in_stock": true
+    },
+    {
+      "code": "155",
+      "name": "Hippie Green",
+      "in_stock": true
+    },
+    {
+      "code": "156",
+      "name": "Wasabi",
+      "in_stock": true
+    },
+    {
+      "code": "158",
+      "name": "Clover Green",
+      "in_stock": true
+    },
+    {
+      "code": "160",
+      "name": "1 Leaf Green Middle",
+      "in_stock": true
+    },
+    {
+      "code": "160",
+      "name": "Mister Green",
+      "in_stock": true
+    },
+    {
+      "code": "161",
+      "name": "Leaf Green",
+      "in_stock": true
+    },
+    {
+      "code": "162",
+      "name": "Mighty Green",
+      "in_stock": true
+    },
+    {
+      "code": "163",
+      "name": "Avocado",
+      "in_stock": true
+    },
+    {
+      "code": "164",
+      "name": "Fern Green",
+      "in_stock": true
+    },
+    {
+      "code": "165",
+      "name": "Moss Green",
+      "in_stock": true
+    },
+    {
+      "code": "166",
+      "name": "Chromium Oxide Green",
+      "in_stock": true
+    },
+    {
+      "code": "167",
+      "name": "Black Green",
+      "in_stock": true
+    },
+    {
+      "code": "168",
+      "name": "Butterfly Green",
+      "in_stock": true
+    },
+    {
+      "code": "169",
+      "name": "Green Tea",
+      "in_stock": true
+    },
+    {
+      "code": "170",
+      "name": "P Jay Green",
+      "in_stock": true
+    },
+    {
+      "code": "171",
+      "name": "Amazonas",
+      "in_stock": true
+    },
+    {
+      "code": "172",
+      "name": "Camouflage",
+      "in_stock": true
+    },
+    {
+      "code": "173",
+      "name": "Evil Olive",
+      "in_stock": true
+    },
+    {
+      "code": "175",
+      "name": "Apple",
+      "in_stock": true
+    },
+    {
+      "code": "176",
+      "name": "Sorbet Green",
+      "in_stock": true
+    },
+    {
+      "code": "177",
+      "name": "Soft Pastel",
+      "in_stock": true
+    },
+    {
+      "code": "178",
+      "name": "Carambola",
+      "in_stock": true
+    },
+    {
+      "code": "179",
+      "name": "Hemp",
+      "in_stock": true
+    },
+    {
+      "code": "180",
+      "name": "Green Bean",
+      "in_stock": true
+    },
+    {
+      "code": "181",
+      "name": "1 Nature Green Light",
+      "in_stock": true
+    },
+    {
+      "code": "181",
+      "name": "2 Nature Green Middle",
+      "in_stock": true
+    },
+    {
+      "code": "181",
+      "name": "Pear",
+      "in_stock": true
+    },
+    {
+      "code": "182",
+      "name": "Mustard",
+      "in_stock": true
+    },
+    {
+      "code": "183",
+      "name": "Khaki",
+      "in_stock": true
+    },
+    {
+      "code": "184",
+      "name": "2 Skin Middle",
+      "in_stock": true
+    },
+    {
+      "code": "184",
+      "name": "3 Skin",
+      "in_stock": true
+    },
+    {
+      "code": "184",
+      "name": "4 Redskin",
+      "in_stock": true
+    },
+    {
+      "code": "187",
+      "name": "Espresso",
+      "in_stock": true
+    },
+    {
+      "code": "188",
+      "name": "Mocca",
+      "in_stock": true
+    },
+    {
+      "code": "189",
+      "name": "Sahara Beige Light",
+      "in_stock": true
+    },
+    {
+      "code": "190",
+      "name": "Sahara Beige Middle",
+      "in_stock": true
+    },
+    {
+      "code": "192",
+      "name": "Papyrus",
+      "in_stock": true
+    },
+    {
+      "code": "193",
+      "name": "Nougat",
+      "in_stock": true
+    },
+    {
+      "code": "194",
+      "name": "Beige Brown",
+      "in_stock": true
+    },
+    {
+      "code": "198",
+      "name": "Ocher Brown",
+      "in_stock": true
+    },
+    {
+      "code": "199",
+      "name": "Orange Brown Light",
+      "in_stock": true
+    },
+    {
+      "code": "200",
+      "name": "Orange Brown Middle",
+      "in_stock": true
+    },
+    {
+      "code": "201",
+      "name": "Orange Brown",
+      "in_stock": true
+    },
+    {
+      "code": "202",
+      "name": "Cocoa Light",
+      "in_stock": true
+    },
+    {
+      "code": "203",
+      "name": "Coca Middle",
+      "in_stock": true
+    },
+    {
+      "code": "204",
+      "name": "1 Caramel Light",
+      "in_stock": true
+    },
+    {
+      "code": "204",
+      "name": "Cocoa",
+      "in_stock": true
+    },
+    {
+      "code": "205",
+      "name": "Caramel",
+      "in_stock": true
+    },
+    {
+      "code": "206",
+      "name": "Walnut",
+      "in_stock": true
+    },
+    {
+      "code": "208",
+      "name": "Chocolate Brown",
+      "in_stock": true
+    },
+    {
+      "code": "211",
+      "name": "Stone Grey Dark",
+      "in_stock": true
+    },
+    {
+      "code": "219",
+      "name": "Mouse Grey",
+      "in_stock": true
+    },
+    {
+      "code": "220",
+      "name": "Silver Dollar",
+      "in_stock": true
+    },
+    {
+      "code": "221",
+      "name": "1 Black Grey Light",
+      "in_stock": true
+    },
+    {
+      "code": "221",
+      "name": "2 Black Grey Middle",
+      "in_stock": true
+    },
+    {
+      "code": "225",
+      "name": "Granite",
+      "in_stock": true
+    },
+    {
+      "code": "226",
+      "name": "Grey Blue Middle",
+      "in_stock": true
+    }
+  ]
+}

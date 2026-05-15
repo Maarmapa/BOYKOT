@@ -1,0 +1,201 @@
+{
+  "slug": "holbein-acuarela-60ml",
+  "productName": "Acuarela Holbein 60ml",
+  "basePriceClp": 19900,
+  "bsaleProductId": null,
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acuarela-holbein/acuarela-60ml-holbein/",
+  "generatedAt": "2026-05-15T04:11:48.475Z",
+  "colors": [
+    {
+      "code": "WW002",
+      "name": "Chinese White",
+      "in_stock": true
+    },
+    {
+      "code": "WW007",
+      "name": "Pyrrole Red",
+      "in_stock": true
+    },
+    {
+      "code": "WW010",
+      "name": "Crimson Lake",
+      "in_stock": true
+    },
+    {
+      "code": "WW012",
+      "name": "Rose Madder",
+      "in_stock": true
+    },
+    {
+      "code": "WW019",
+      "name": "Vermilion Hue",
+      "in_stock": true
+    },
+    {
+      "code": "WW031",
+      "name": "Jaune Brillant No 1",
+      "in_stock": true
+    },
+    {
+      "code": "WW034",
+      "name": "Yellow Ochre",
+      "in_stock": true
+    },
+    {
+      "code": "WW035",
+      "name": "Permanent Yellow Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "WW037",
+      "name": "Permanent Yellow Deep",
+      "in_stock": true
+    },
+    {
+      "code": "WW038",
+      "name": "Permanent Yellow Orange",
+      "in_stock": true
+    },
+    {
+      "code": "WW047",
+      "name": "Brilliant Orange",
+      "in_stock": true
+    },
+    {
+      "code": "WW050",
+      "name": "Imidazolone Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "WW051",
+      "name": "Imidazolone Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "WW061",
+      "name": "Viridian Hue",
+      "in_stock": true
+    },
+    {
+      "code": "WW066",
+      "name": "Permanent Green 1",
+      "in_stock": true
+    },
+    {
+      "code": "WW074",
+      "name": "Olive Green",
+      "in_stock": true
+    },
+    {
+      "code": "WW075",
+      "name": "Sap Green",
+      "in_stock": true
+    },
+    {
+      "code": "WW077",
+      "name": "Leaf Green",
+      "in_stock": true
+    },
+    {
+      "code": "WW079",
+      "name": "Shadow Green",
+      "in_stock": true
+    },
+    {
+      "code": "WW092",
+      "name": "Cerulean Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WW095",
+      "name": "Verditer Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WW097",
+      "name": "Prussian Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WW098",
+      "name": "Indigo",
+      "in_stock": true
+    },
+    {
+      "code": "WW104",
+      "name": "Horizon Blue",
+      "in_stock": true
+    },
+    {
+      "code": "WW106",
+      "name": "Cobalt Turquoise Light",
+      "in_stock": true
+    },
+    {
+      "code": "WW107",
+      "name": "Phthalo Blue Yellow Shade",
+      "in_stock": true
+    },
+    {
+      "code": "WW108",
+      "name": "Phthalo Blue Red Shade",
+      "in_stock": true
+    },
+    {
+      "code": "WW115",
+      "name": "Permanent Violet",
+      "in_stock": true
+    },
+    {
+      "code": "WW116",
+      "name": "Lavender",
+      "in_stock": true
+    },
+    {
+      "code": "WW131",
+      "name": "Raw Umber",
+      "in_stock": true
+    },
+    {
+      "code": "WW132",
+      "name": "Raw Sienna",
+      "in_stock": true
+    },
+    {
+      "code": "WW133",
+      "name": "Burnt Umber",
+      "in_stock": true
+    },
+    {
+      "code": "WW138",
+      "name": "Ivory Black",
+      "in_stock": true
+    },
+    {
+      "code": "WW139",
+      "name": "Vandyke Brown",
+      "in_stock": true
+    },
+    {
+      "code": "WW151",
+      "name": "Yellow Grey",
+      "in_stock": true
+    },
+    {
+      "code": "WW152",
+      "name": "Green Grey",
+      "in_stock": true
+    },
+    {
+      "code": "WW153",
+      "name": "Grey Of Grey",
+      "in_stock": true
+    },
+    {
+      "code": "WW155",
+      "name": "Davys Grey",
+      "in_stock": true
+    }
+  ]
+}
