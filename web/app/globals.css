@@ -22,8 +22,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
 }
+
+/* Display font for editorial titles — h1/h2 across the site.
+   Bricolage Grotesque is a variable geometric sans-serif that reads like
+   Affinity / Piñata: bold, slightly compressed, modern. */
+h1, h2, .font-display {
+  font-family: var(--font-display), var(--font-geist-sans), sans-serif;
+  letter-spacing: -0.02em;
+}
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
 
 /* Boykot color grid — column-major flow, matches /tienda/.../copic-sketch/
    (90 items per column → 4 cols on desktop, 2 tablet, 1 mobile). */
