@@ -194,19 +194,25 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
   'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900 }),
 
-  // Angelus Standard 1oz — preferred: bwe-grouped theme swatches with names merged
+  // Angelus Pintura Cuero (BSale productId 2262 consolida 10 sub-lineas).
+  // Cada sub-slug se mapea por SKU prefix en bsale-variants-all.json:
+  //   ANGE72001=standard-1oz, ANGE72004=standard-4oz, 720PT=pint, ANGE720QT=quart,
+  //   ANGE72501/04=neon, ANGE73201+73301/ANGE73204+73304=pearlescents,
+  //   ANGE72701=collector, ANGE72101=glow.
   'angelus-standard-1oz': adapt(angelusStandard1oz as JsonBrand, {
     basePriceClp: 5500,
+    bsaleProductId: 2262,
     heroImage: 'https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020',
   }),
   'angelus-pearlescents-1oz': adapt(angelusPearlescents1oz as JsonBrand, {
     basePriceClp: 6900,
+    bsaleProductId: 2262,
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2023/03/gold-1-d1d3c915-a8bf-439d-8dbb-6f5bbadbb5c8.png',
     description: 'Pintura para cuero con terminación perlada iridiscente. 7 colores metálicos brillantes — ideales para zapatillas y proyectos con efectos especiales.',
   }),
-  'angelus-pearlescents-4oz': adapt(angelusPearlescents4oz as JsonBrand, { basePriceClp: 19900 }),
-  'angelus-neon-1oz': adapt(angelusNeon1oz as JsonBrand, { basePriceClp: 6900 }),
-  'angelus-neon-4oz': adapt(angelusNeon4oz as JsonBrand, { basePriceClp: 19900 }),
+  'angelus-pearlescents-4oz': adapt(angelusPearlescents4oz as JsonBrand, { basePriceClp: 19900, bsaleProductId: 2262 }),
+  'angelus-neon-1oz': adapt(angelusNeon1oz as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2262 }),
+  'angelus-neon-4oz': adapt(angelusNeon4oz as JsonBrand, { basePriceClp: 19900, bsaleProductId: 2262 }),
   'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2263 }),
   'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2264 }),
   'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2265 }),
@@ -216,6 +222,7 @@ export const BRANDS: Record<string, BrandColorSet> = {
     slug: 'angelus-standard-4oz',
     productName: 'Angelus Pintura Cuero Standard 4oz',
     basePriceClp: 16500,
+    bsaleProductId: 2262,
   }),
 
   // Holbein lines — codes + images extracted from per-product JSON-LD
