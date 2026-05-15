@@ -1,55 +1,7 @@
 import Link from 'next/link';
 import CartBadge from './CartBadge';
 import AccountBadge from './AccountBadge';
-
-const NAV = [
-  {
-    label: 'Marcadores',
-    href: '/categoria/marcadores',
-    sub: [
-      { label: 'Copic', href: '/colores/copic-sketch' },
-      { label: 'Copic Ciao', href: '/colores/copic-ciao' },
-      { label: 'COPIC Ink', href: '/colores/copic-ink' },
-      { label: 'Molotow', href: '/categoria/molotow-markers' },
-      { label: 'POSCA', href: '/categoria/posca' },
-      { label: 'Zig Kuretake', href: '/categoria/zig' },
-    ],
-  },
-  {
-    label: 'Lápices',
-    href: '/categoria/lapices',
-    sub: [
-      { label: 'Lápices de colores', href: '/categoria/lapices-de-colores' },
-      { label: 'Blackliner', href: '/categoria/blackliner' },
-      { label: 'Prismacolor', href: '/categoria/prismacolor' },
-      { label: 'Grafito', href: '/categoria/grafito' },
-    ],
-  },
-  {
-    label: 'Pintura',
-    href: '/categoria/pintura',
-    sub: [
-      { label: 'Cuero (Angelus)', href: '/colores/angelus-standard-1oz' },
-      { label: 'Acuarela Holbein', href: '/colores/holbein-acuarela-15ml' },
-      { label: 'Óleo Holbein', href: '/colores/holbein-oleo-20ml' },
-      { label: 'Gouache Holbein', href: '/colores/holbein-gouache-15ml' },
-      { label: 'Aerosoles', href: '/colores/molotow-premium' },
-      { label: 'Createx Airbrush', href: '/colores/createx-airbrush-60ml' },
-    ],
-  },
-  {
-    label: 'Materiales',
-    href: '/categoria/materiales',
-    sub: [
-      { label: 'Pinceles', href: '/categoria/pinceles' },
-      { label: 'Bastidores', href: '/categoria/bastidores' },
-      { label: 'Pigmentos', href: '/colores/solar-color-dust-10gr' },
-      { label: 'Airbrush', href: '/categoria/airbrush' },
-    ],
-  },
-  { label: 'Cartas de color', href: '/colores' },
-  { label: 'Marcas', href: '/marcas' },
-];
+import MegaMenu from './MegaMenu';
 
 export default function SiteHeader() {
   return (
@@ -81,35 +33,7 @@ export default function SiteHeader() {
         <CartBadge />
       </div>
 
-      {/* Nav */}
-      <nav className="border-t border-gray-100">
-        <ul className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-wrap gap-x-6 text-sm">
-          {NAV.map(item => (
-            <li key={item.label} className="relative group py-3">
-              <Link
-                href={item.href}
-                className="font-medium text-gray-700 hover:text-gray-900"
-              >
-                {item.label}
-              </Link>
-              {item.sub && (
-                <ul className="absolute top-full left-0 mt-0 bg-white border border-gray-200 rounded-md shadow-md min-w-[220px] py-2 hidden group-hover:block z-40">
-                  {item.sub.map(s => (
-                    <li key={s.href}>
-                      <Link
-                        href={s.href}
-                        className="block px-4 py-1.5 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                      >
-                        {s.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <MegaMenu />
     </header>
   );
 }
