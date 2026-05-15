@@ -3,6 +3,10 @@
     {
       "path": "/api/cron/abandoned-carts",
       "schedule": "0 12 * * *"
+    },
+    {
+      "path": "/api/admin/refresh-stock-snapshot",
+      "schedule": "*/15 * * * *"
     }
   ]
 }

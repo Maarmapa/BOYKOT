@@ -11,6 +11,8 @@ interface SyncResult {
 }
 
 const ACTIONS = [
+  { label: '🔄 Refresh stock snapshot (cache de TODO el stock — ~45s)', endpoint: '/api/admin/refresh-stock-snapshot' },
+  { label: 'Invalidar cache stock (forzar refetch en próximas requests)', endpoint: '/api/admin/revalidate-stock' },
   { label: 'Re-build variant maps (todos los brands con bsaleProductId)', endpoint: '/api/bsale/build-all-maps' },
   { label: 'Re-build extended maps (Angelus consolidado + Holbein multi-product)', endpoint: '/api/bsale/build-extended-maps' },
   { label: 'Diagnóstico BSale (token + offices + sample stock)', endpoint: '/api/bsale/selftest' },
