@@ -59,6 +59,33 @@ const TARGETS = [
     productName: 'Angelus Tintura Gamuza 3oz',
     basePriceClp: 9900,
   },
+
+  // Createx & Wicked — full variation JSON inline with per-color image URL.
+  // These overwrite the older code-only files from build-from-scraped.js.
+  {
+    url: 'https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-60ml-unidad/',
+    slug: 'createx-airbrush-60ml',
+    productName: 'Createx Airbrush 60ml',
+    basePriceClp: 4900,
+  },
+  {
+    url: 'https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-120ml-unidad/',
+    slug: 'createx-airbrush-120ml',
+    productName: 'Createx Airbrush 120ml',
+    basePriceClp: 7900,
+  },
+  {
+    url: 'https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-240ml/',
+    slug: 'createx-airbrush-240ml',
+    productName: 'Createx Airbrush 240ml',
+    basePriceClp: 13900,
+  },
+  {
+    url: 'https://www.boykot.cl/tienda/uncategorized/wicked-colors-480ml/',
+    slug: 'wicked-colors-480ml',
+    productName: 'Wicked Colors 480ml',
+    basePriceClp: 26900,
+  },
 ];
 
 function titleCase(slug) {
@@ -80,15 +107,62 @@ async function fetchHtml(url) {
   return res.text();
 }
 
+function decodeHtml(s) {
+  return s
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#039;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/\\\//g, '/');
+}
+
+function extractFromProductVariations(html) {
+  // Find data-product_variations="<encoded JSON>"
+  const m = html.match(/data-product_variations="([^"]+)"/);
+  if (!m) return null;
+  let json;
+  try {
+    json = JSON.parse(decodeHtml(m[1]));
+  } catch (err) {
+    return null;
+  }
+  if (!Array.isArray(json)) return null;
+  const colors = [];
+  const seen = new Set();
+  for (const v of json) {
+    const slug = v?.attributes?.attribute_pa_color;
+    if (!slug || seen.has(slug)) continue;
+    seen.add(slug);
+    const parsed = parseSlug(slug);
+    const url = v?.image?.url || null;
+    colors.push({
+      ...parsed,
+      imageUrl: url,
+      variantId: v?.variation_id ?? undefined,
+    });
+  }
+  return colors;
+}
+
 async function processTarget(t) {
   const html = await fetchHtml(t.url);
-  const matches = [...html.matchAll(/name="attribute_pa_color" value="([^"]+)"/g)].map(m => m[1]);
-  const seen = new Set();
-  const colors = [];
-  for (const slug of matches) {
-    if (seen.has(slug)) continue;
-    seen.add(slug);
-    colors.push(parseSlug(slug));
+
+  // Best path: full variation JSON embedded in the WC variations form
+  // (Createx, Wicked, etc. embed it — includes per-color imageUrl).
+  let colors = extractFromProductVariations(html);
+
+  // Fallback: just the attribute_pa_color slugs (no images).
+  if (!colors || colors.length === 0) {
+    const matches = [...html.matchAll(/name="attribute_pa_color" value="([^"]+)"/g)].map(m => m[1]);
+    const seen = new Set();
+    colors = [];
+    for (const slug of matches) {
+      if (seen.has(slug)) continue;
+      seen.add(slug);
+      colors.push(parseSlug(slug));
+    }
   }
   colors.sort((a, b) => (a.code || '').localeCompare(b.code || ''));
   const out = {

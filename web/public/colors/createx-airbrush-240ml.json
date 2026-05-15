@@ -1,387 +1,461 @@
 {
   "slug": "createx-airbrush-240ml",
-  "productName": "Createx Airbrush Colors 240ml",
+  "productName": "Createx Airbrush 240ml",
   "basePriceClp": 13900,
-  "bsaleProductId": 3186,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2.jpg",
-  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-01-b117a4d0-f175-41aa-8a33-fda910535b66.jpg",
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-240ml/",
-  "generatedAt": "2026-05-15T04:11:48.443Z",
+  "sourceCount": 75,
+  "generatedAt": "2026-05-15T07:31:38.373Z",
   "colors": [
     {
       "code": "5102",
       "name": "Transparent Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-57.jpg",
+      "variantId": 119364
     },
     {
       "code": "5103",
       "name": "Transparent Red Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-62.jpg",
+      "variantId": 119374
     },
     {
       "code": "5105",
       "name": "Transparent Caribbean Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-7.jpg",
+      "variantId": 119263
     },
     {
       "code": "5106",
       "name": "Transparent Brite Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-35.jpg",
+      "variantId": 119320
     },
     {
       "code": "5107",
       "name": "Transparent Ultramarine Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-36.jpg",
+      "variantId": 119322
     },
     {
       "code": "5108",
       "name": "Transparent Deep Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-30.jpg",
+      "variantId": 119310
     },
     {
       "code": "5109",
       "name": "Transparent Brite Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-48.jpg",
+      "variantId": 119346
     },
     {
       "code": "5110",
       "name": "Transparent Forest Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-74.jpg",
+      "variantId": 119398
     },
     {
       "code": "5111",
       "name": "Transparent Aqua",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-32.jpg",
+      "variantId": 119314
     },
     {
       "code": "5112",
       "name": "Transparent Turquoise",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-31.jpg",
+      "variantId": 119312
     },
     {
       "code": "5113",
       "name": "Transparent Sunrise Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-61.jpg",
+      "variantId": 119372
     },
     {
       "code": "5114",
       "name": "Transparent Brite Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-23.jpg",
+      "variantId": 119295
     },
     {
       "code": "5115",
       "name": "Transparent Leaf Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-10.jpg",
+      "variantId": 119269
     },
     {
       "code": "5116",
       "name": "Transparent Tropical Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-42.jpg",
+      "variantId": 119334
     },
     {
       "code": "5117",
       "name": "Transparent Brite Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-15.jpg",
+      "variantId": 119279
     },
     {
       "code": "5118",
       "name": "Transparent Sunset Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-58.jpg",
+      "variantId": 119366
     },
     {
       "code": "5119",
       "name": "Transparent Orange",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-47.jpg",
+      "variantId": 119344
     },
     {
       "code": "5121",
       "name": "Transparent Flamingo Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-8.jpg",
+      "variantId": 119265
     },
     {
       "code": "5122",
       "name": "Transparent Fuchsia",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-44.jpg",
+      "variantId": 119338
     },
     {
       "code": "5123",
       "name": "Transparent Burgundy",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-29.jpg",
+      "variantId": 119307
     },
     {
       "code": "5124",
       "name": "Transparent Deep Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-38.jpg",
+      "variantId": 119326
     },
     {
       "code": "5125",
       "name": "Transparent Peach",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-70.jpg",
+      "variantId": 119390
     },
     {
       "code": "5126",
       "name": "Transparent Sand",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-12.jpg",
+      "variantId": 119273
     },
     {
       "code": "5127",
       "name": "Transparent Light Brown",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-69.jpg",
+      "variantId": 119388
     },
     {
       "code": "5128",
       "name": "Transparent Dark Brown",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-43.jpg",
+      "variantId": 119336
     },
     {
       "code": "5129",
       "name": "Transparent Medium Gray",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-53.jpg",
+      "variantId": 119356
     },
     {
       "code": "5131",
       "name": "Transparent White",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-27.jpg",
+      "variantId": 119303
     },
     {
       "code": "5132",
       "name": "Transparent Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-28.jpg",
+      "variantId": 119305
     },
     {
       "code": "5133",
       "name": "Transparent Canary Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-25.jpg",
+      "variantId": 119299
     },
     {
       "code": "5134",
       "name": "Transparent Maui Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-59.jpg",
+      "variantId": 119368
     },
     {
       "code": "5135",
       "name": "Transparent Purple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-4.jpg",
+      "variantId": 119257
     },
     {
       "code": "5136",
       "name": "Transparent Red Oxide",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-46.jpg",
+      "variantId": 119342
     },
     {
       "code": "5137",
       "name": "Transparent Crimson",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-55.jpg",
+      "variantId": 119360
     },
     {
       "code": "5138",
       "name": "Transparent Carmine",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-11.jpg",
+      "variantId": 119271
     },
     {
       "code": "5201",
       "name": "Opaque Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-73.jpg",
+      "variantId": 119396
     },
     {
       "code": "5202",
       "name": "Opaque Purple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-71.jpg",
+      "variantId": 119392
     },
     {
       "code": "5204",
       "name": "Opaque Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-17.jpg",
+      "variantId": 119283
     },
     {
       "code": "5205",
       "name": "Opaque Light Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-26.jpg",
+      "variantId": 119301
     },
     {
       "code": "5206",
       "name": "Opaque Aqua",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-6.jpg",
+      "variantId": 119261
     },
     {
       "code": "5208",
       "name": "Opaque Coral",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-67.jpg",
+      "variantId": 119384
     },
     {
       "code": "5210",
       "name": "Opaque Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-3.jpg",
+      "variantId": 119255
     },
     {
       "code": "5211",
       "name": "Opaque Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-21.jpg",
+      "variantId": 119291
     },
     {
       "code": "5212",
       "name": "Opaque White",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-41.jpg",
+      "variantId": 119332
     },
     {
       "code": "5301",
       "name": "Pearl Purple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-66.jpg",
+      "variantId": 119382
     },
     {
       "code": "5302",
       "name": "Pearl Magenta",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-39.jpg",
+      "variantId": 119328
     },
     {
       "code": "5303",
       "name": "Pearl Turquoise",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-45.jpg",
+      "variantId": 119340
     },
     {
       "code": "5304",
       "name": "Pearl Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-49.jpg",
+      "variantId": 119348
     },
     {
       "code": "5305",
       "name": "Pearl Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-72.jpg",
+      "variantId": 119394
     },
     {
       "code": "5306",
       "name": "Pearl Copper",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-40.jpg",
+      "variantId": 119330
     },
     {
       "code": "5307",
       "name": "Pearl Satin Gold",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-19.jpg",
+      "variantId": 119287
     },
     {
       "code": "5308",
       "name": "Pearl Silver",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-14.jpg",
+      "variantId": 119277
     },
     {
       "code": "5309",
       "name": "Pearl Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-68.jpg",
+      "variantId": 119386
     },
     {
       "code": "5310",
       "name": "Pearl White",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-1.jpg",
+      "variantId": 119251
     },
     {
       "code": "5311",
       "name": "Pearl Pineapple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-13.jpg",
+      "variantId": 119275
     },
     {
       "code": "5312",
       "name": "Pearl Tangerine",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-54.jpg",
+      "variantId": 119358
     },
     {
       "code": "5313",
       "name": "Pearl Lime",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-24.jpg",
+      "variantId": 119297
     },
     {
       "code": "5315",
       "name": "Pearl Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-60.jpg",
+      "variantId": 119370
     },
     {
       "code": "5316",
       "name": "Pearl Platinum",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-63.jpg",
+      "variantId": 119376
     },
     {
       "code": "5401",
       "name": "Fluorescent Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-22.jpg",
+      "variantId": 119293
     },
     {
       "code": "5402",
       "name": "Fluorescent Raspberry",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-18.jpg",
+      "variantId": 119285
     },
     {
       "code": "5403",
       "name": "Fluorescent Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-16.jpg",
+      "variantId": 119281
     },
     {
       "code": "5404",
       "name": "Fluorescent Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-52.jpg",
+      "variantId": 119354
     },
     {
       "code": "5405",
       "name": "Fluorescent Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-51.jpg",
+      "variantId": 119352
     },
     {
       "code": "5406",
       "name": "Fluorescent Magenta",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-64.jpg",
+      "variantId": 119378
     },
     {
       "code": "5407",
       "name": "Fluorescent Hot Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-2.jpg",
+      "variantId": 119253
     },
     {
       "code": "5408",
       "name": "Fluorescent Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-37.jpg",
+      "variantId": 119324
     },
     {
       "code": "5409",
       "name": "Fluorescent Orange",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-33.jpg",
+      "variantId": 119316
     },
     {
       "code": "5410",
       "name": "Fluorescent Sunburst",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-20.jpg",
+      "variantId": 119289
     },
     {
       "code": "5501",
       "name": "Iridescent Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-9.jpg",
+      "variantId": 119267
     },
     {
       "code": "5502",
       "name": "Iridescent Scarlet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-34.jpg",
+      "variantId": 119318
     },
     {
       "code": "5503",
       "name": "Iridescent Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-5.jpg",
+      "variantId": 119259
     },
     {
       "code": "5504",
       "name": "Iridescent Turquoise",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-65.jpg",
+      "variantId": 119380
     },
     {
       "code": "5505",
       "name": "Iridescent Electric Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-75.jpg",
+      "variantId": 119400
     },
     {
       "code": "5507",
       "name": "Iridescent Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-56.jpg",
+      "variantId": 119362
     },
     {
       "code": "5508",
       "name": "Iridescent Fuchsia",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_240-5f007fa2-dacd-4f1c-9674-5024a6fa12b2-50.jpg",
+      "variantId": 119350
     }
   ]
 }
