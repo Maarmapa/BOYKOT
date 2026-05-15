@@ -12,7 +12,14 @@ import sketchImages from '../../public/colors/copic-sketch-images.json';
 import classicImages from '../../public/colors/copic-classic-images.json';
 import ciaoImages from '../../public/colors/copic-ciao-images.json';
 import wideImages from '../../public/colors/copic-wide-images.json';
+import sketchVariants from '../../data/bsale-sketch-variants.json';
 import type { ColorSwatch } from './types';
+
+// BSale variantId por color code (mapeo generado via
+// /api/bsale/variants?productid=2278 → web/data/bsale-sketch-variants.json).
+// Hydra ColorSwatch.variantId para que getProductStock pueda devolver stock
+// por color en el grid.
+const SKETCH_VARIANT_MAP = (sketchVariants as { colors: Record<string, number> }).colors;
 
 interface RawCopic { code: string; hex: string; family: string; driveId?: string | null; }
 
@@ -79,6 +86,7 @@ function withImages(images: Record<string, string>): ColorSwatch[] {
       ...(byCode[code] || { code, family: 'Other' as const }),
       code,
       imageUrl: images[code],
+      variantId: SKETCH_VARIANT_MAP[code],   // hydra BSale variantId si existe
     }))
     .sort(sort);
 }

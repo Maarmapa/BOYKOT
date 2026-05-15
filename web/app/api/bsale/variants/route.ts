@@ -65,15 +65,28 @@ export async function GET(req: NextRequest) {
     const desc = (v.description || '').trim();
     // Strip "Sketch " prefix if present
     const clean = desc.replace(/^Sketch\s+/i, '').trim();
-    // Color pattern: 1-2 letters + 1-4 digits, optionally suffixed
-    const m = clean.match(/^([A-Z]{1,3}\d{1,4}[A-Z]?)$/i);
+
+    // Pattern 1: letras + dígitos opcionales (B00, BG13, FY)
+    let m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i);
     if (m) {
-      const code = m[1].toUpperCase();
-      codeMap[code] = { variantId: v.id, description: desc, sku: v.code };
+      codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code };
       continue;
     }
-    // Set / kit pattern
-    if (/set|kit|color\b|manga|trio|fusion|portrait/i.test(clean)) {
+    // Pattern 2: fluor con paréntesis — "FRV (FRV1)", "FG (FYG2)"
+    //   → tomá el primer token como código
+    m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i);
+    if (m) {
+      codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code };
+      continue;
+    }
+    // Pattern 3: solo dígitos (0, 100, 110)
+    m = clean.match(/^(\d{1,4})$/);
+    if (m) {
+      codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code };
+      continue;
+    }
+    // Set / kit
+    if (/set|kit|color\b|manga|trio|fusion|portrait|airy|vibrant|pc/i.test(clean)) {
       setEntries.push(v);
       continue;
     }
@@ -90,8 +103,8 @@ export async function GET(req: NextRequest) {
       sets_count: setEntries.length,
       unparsed_count: unparsed.length,
       colors_map: codeMap,
-      sets_sample: setEntries.slice(0, 10),
-      unparsed_sample: unparsed.slice(0, 10),
+      sets: setEntries,
+      unparsed: unparsed,
     },
     { headers: { 'cache-control': 'no-store' } },
   );
