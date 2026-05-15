@@ -15,11 +15,14 @@ export async function GET(req: NextRequest) {
   const token = process.env.BSALE_ACCESS_TOKEN;
   if (!token) return NextResponse.json({ error: 'no token' }, { status: 500 });
 
-  const productId = req.nextUrl.searchParams.get('productid') || '3180';
+  const productId = req.nextUrl.searchParams.get('productid');
+  const variantId = req.nextUrl.searchParams.get('variantid');
   const officeId = req.nextUrl.searchParams.get('officeid');
-  const expand = req.nextUrl.searchParams.get('expand') || 'variant';
+  const expand = req.nextUrl.searchParams.get('expand');
 
-  const params = new URLSearchParams({ productid: productId, limit: '20' });
+  const params = new URLSearchParams({ limit: '20' });
+  if (productId) params.set('productid', productId);
+  if (variantId) params.set('variantid', variantId);
   if (officeId) params.set('officeid', officeId);
   if (expand) params.set('expand', `[${expand}]`);
 
