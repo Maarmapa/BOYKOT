@@ -110,13 +110,13 @@ create or replace view public.reserved_stock as
 -- Sent by the cron job; one row per (cart, email_type).
 
 create table if not exists public.abandoned_cart_emails (
-  id          uuid primary key default gen_random_uuid(),
-  cart_id     uuid not null references public.carts(id) on delete cascade,
-  email_type  text not null check (email_type in ('1h', '24h', '72h')),
-  sent_at     timestamptz not null default now(),
-  opened_at   timestamptz,
-  clicked_at  timestamptz,
-  resend_id   text,
+  id                  uuid primary key default gen_random_uuid(),
+  cart_id             uuid not null references public.carts(id) on delete cascade,
+  email_type          text not null check (email_type in ('1h', '24h', '72h')),
+  sent_at             timestamptz not null default now(),
+  opened_at           timestamptz,
+  clicked_at          timestamptz,
+  provider_message_id text,
   unique(cart_id, email_type)
 );
 

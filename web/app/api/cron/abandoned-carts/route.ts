@@ -46,7 +46,7 @@ export async function GET(req: NextRequest) {
     .eq('status', 'abandoned')
     .not('email', 'is', null);
 
-  const sent: Array<{ cart_id: string; variant: string; resend_id: string | null }> = [];
+  const sent: Array<{ cart_id: string; variant: string; provider_message_id: string | null }> = [];
 
   for (const c of (targets ?? []) as Cart[]) {
     const ageMin = (now.getTime() - new Date(c.abandoned_at || c.last_activity_at).getTime()) / 60_000;
@@ -62,13 +62,13 @@ export async function GET(req: NextRequest) {
     if (already) continue;
 
     try {
-      const resendId = await sendAbandonedCartEmail(c, variant);
+      const messageId = await sendAbandonedCartEmail(c, variant);
       await sb.from('abandoned_cart_emails').insert({
         cart_id: c.id,
         email_type: variant,
-        resend_id: resendId,
+        provider_message_id: messageId,
       });
-      sent.push({ cart_id: c.id, variant, resend_id: resendId });
+      sent.push({ cart_id: c.id, variant, provider_message_id: messageId });
     } catch (err) {
       console.error(`[abandoned-carts] cart=${c.id} variant=${variant} failed:`, err);
     }

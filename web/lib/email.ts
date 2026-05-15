@@ -1,38 +1,54 @@
 import 'server-only';
 import type { Cart } from './types';
 
-// Lazy import so Resend isn't loaded if RESEND_API_KEY is unset.
-async function resend() {
-  const { Resend } = await import('resend');
-  const key = process.env.RESEND_API_KEY;
-  if (!key) throw new Error('RESEND_API_KEY missing');
-  return new Resend(key);
-}
+// Brevo (formerly Sendinblue) transactional email API.
+// Direct HTTPS — no SDK dependency.
+// Docs: https://developers.brevo.com/reference/sendtransacemail
 
-const FROM = process.env.EMAIL_FROM || 'Boykot <hola@boykot.cl>';
+const BREVO_ENDPOINT = 'https://api.brevo.com/v3/smtp/email';
+const FROM_EMAIL = process.env.EMAIL_FROM_ADDRESS || 'hola@boykot.cl';
+const FROM_NAME = process.env.EMAIL_FROM_NAME || 'Boykot';
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
 type Variant = '1h' | '24h' | '72h';
 
 const SUBJECTS: Record<Variant, string> = {
-  '1h': '¿Olvidaste algo en tu carro? 🎨',
+  '1h': '¿Olvidaste algo en tu carro?',
   '24h': 'Tus colores te están esperando',
   '72h': 'Última oportunidad — recupera tu selección',
 };
 
+interface BrevoResponse {
+  messageId?: string;
+  code?: string;
+  message?: string;
+}
+
 export async function sendAbandonedCartEmail(cart: Cart, variant: Variant): Promise<string | null> {
   if (!cart.email) return null;
+  const apiKey = process.env.BREVO_API_KEY;
+  if (!apiKey) throw new Error('BREVO_API_KEY missing');
 
   const html = renderHtml(cart, variant);
-  const r = await resend();
-  const { data, error } = await r.emails.send({
-    from: FROM,
-    to: cart.email,
-    subject: SUBJECTS[variant],
-    html,
+  const res = await fetch(BREVO_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      'accept': 'application/json',
+      'content-type': 'application/json',
+      'api-key': apiKey,
+    },
+    body: JSON.stringify({
+      sender: { email: FROM_EMAIL, name: FROM_NAME },
+      to: [{ email: cart.email, name: cart.customer_name || undefined }],
+      subject: SUBJECTS[variant],
+      htmlContent: html,
+      tags: ['abandoned-cart', `abandoned-${variant}`],
+    }),
   });
-  if (error) throw new Error(error.message);
-  return data?.id ?? null;
+
+  const data = (await res.json()) as BrevoResponse;
+  if (!res.ok) throw new Error(`Brevo ${res.status}: ${data.message || data.code || 'unknown'}`);
+  return data.messageId ?? null;
 }
 
 function renderHtml(cart: Cart, variant: Variant): string {
