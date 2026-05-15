@@ -12,7 +12,7 @@ export const dynamic = 'force-dynamic';
 
 // Operación idempotente — public OK (solo invalida cache local).
 async function handler() {
-  revalidateTag('stock:all');
+  revalidateTag('stock:all', 'max');
   return NextResponse.json({
     ok: true,
     invalidated: ['stock:all'],
