@@ -63,30 +63,22 @@ export async function GET(req: NextRequest) {
 
   for (const v of all) {
     const desc = (v.description || '').trim();
-    // Strip "Sketch " prefix if present
-    const clean = desc.replace(/^Sketch\s+/i, '').trim();
+    const clean = desc.replace(/^(Sketch|Ciao|Ink|Classic|Wide)\s+/i, '').trim();
 
-    // Pattern 1: letras + dígitos opcionales (B00, BG13, FY)
+    // 1. Copic letras+dígitos: B00, BG13, FY
     let m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i);
-    if (m) {
-      codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code };
-      continue;
-    }
-    // Pattern 2: fluor con paréntesis — "FRV (FRV1)", "FG (FYG2)"
-    //   → tomá el primer token como código
+    if (m) { codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code }; continue; }
+    // 2. Fluor con paréntesis
     m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i);
-    if (m) {
-      codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code };
-      continue;
-    }
-    // Pattern 3: solo dígitos (0, 100, 110)
+    if (m) { codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code }; continue; }
+    // 3. Solo dígitos
     m = clean.match(/^(\d{1,4})$/);
-    if (m) {
-      codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code };
-      continue;
-    }
-    // Set / kit
-    if (/set|kit|color\b|manga|trio|fusion|portrait|airy|vibrant|pc/i.test(clean)) {
+    if (m) { codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code }; continue; }
+    // 4. Molotow Premium: "NNN <Color Name> 327NNN" (con sub-variantes opcionales "NNN-N")
+    m = clean.match(/^(\d{1,3}(?:-\d{1,2})?)\s+.+\s+\d{6}$/);
+    if (m) { codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code }; continue; }
+    // Set / kit con boundaries (no más "sunSET" false positive)
+    if (/\b(set|kit|colors?|manga|trio|fusion|portrait|airy|vibrant|pc)\b/i.test(clean)) {
       setEntries.push(v);
       continue;
     }

@@ -36,14 +36,18 @@ function parseCode(description: string): string | null {
     .replace(/^Classic\s+/i, '')
     .replace(/^Wide\s+/i, '')
     .trim();
-  // letras + dígitos opcionales: B00, BG13, FY
+  // Copic letras+dígitos: B00, BG13, FY
   let m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i);
   if (m) return m[1].toUpperCase();
-  // fluor con paréntesis
+  // Fluor con paréntesis
   m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i);
   if (m) return m[1].toUpperCase();
-  // numérico
+  // Numérico solo
   m = clean.match(/^(\d{1,4})$/);
+  if (m) return m[1];
+  // Molotow Premium: "001 Jasmin Yellow 327001" o "220-1 Gold Dollar 327243"
+  //   → code = primer token (001, 220-1, etc)
+  m = clean.match(/^(\d{1,3}(?:-\d{1,2})?)\s+.+\s+\d{6}$/);
   if (m) return m[1];
   return null;
 }
@@ -65,7 +69,7 @@ async function mapBrand(productId: number, token: string) {
         codes[code] = v.id;
         continue;
       }
-      if (/set|kit|color\b|manga|trio|fusion|portrait|airy|vibrant|pc/i.test(v.description || '')) {
+      if (/\b(set|kit|colors?|manga|trio|fusion|portrait|airy|vibrant|pc)\b/i.test(v.description || '')) {
         sets.push(v);
       } else {
         unparsed.push(v);
