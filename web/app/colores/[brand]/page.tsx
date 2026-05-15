@@ -20,33 +20,30 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
 
   return (
     <main className="min-h-screen bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-8 py-8">
-        <nav className="text-sm text-gray-400 mb-2">
-          <a href="/" className="hover:text-orange-500">Inicio</a> /{' '}
-          <a href="/colores" className="hover:text-orange-500">Cartas de color</a> /{' '}
+      <div className="max-w-6xl mx-auto px-4 sm:px-8 py-10 pb-24">
+        <nav className="text-xs text-gray-400 mb-4">
+          <a href="/" className="hover:text-gray-700">Inicio</a> /{' '}
+          <a href="/colores" className="hover:text-gray-700">Cartas de color</a> /{' '}
           <span className="text-gray-700">{brand.productName}</span>
         </nav>
-        <header className="flex items-start justify-between mb-6 pb-6 border-b gap-6">
-          <div className="flex-1">
-            <h1 className="text-2xl font-bold text-gray-900 mb-1">{brand.productName}</h1>
-            <div className="text-2xl font-semibold text-gray-800">
-              ${brand.basePriceClp.toLocaleString('es-CL')}
-            </div>
-            <div className="text-xs text-gray-500 mt-2">
-              {brand.colors.length} colores · BSale product {brand.bsaleProductId || '—'}
-            </div>
-          </div>
+
+        <header className="text-center mb-10">
           {brand.heroImage && (
             <img
               src={brand.heroImage}
               alt={brand.productName}
-              className="w-24 h-24 object-cover rounded-lg border border-gray-100 flex-shrink-0"
+              className="w-28 h-28 mx-auto mb-4 object-cover rounded-lg"
             />
           )}
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">{brand.productName}</h1>
+          <div className="text-2xl text-gray-900">
+            ${brand.basePriceClp.toLocaleString('es-CL')}
+          </div>
+          <div className="text-xs text-gray-400 mt-2">
+            {brand.colors.length} colores disponibles
+          </div>
         </header>
-        <h2 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-6">
-          Selecciona color y cantidad para completar la compra
-        </h2>
+
         <ColorCardGrid brand={brand} />
       </div>
     </main>
