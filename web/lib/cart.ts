@@ -128,7 +128,11 @@ export async function setItemQty(
 
   console.log(
     `[cart.setItemQty] cart=${cartId} variant=${variantId} qty=${qty} ` +
-    `prev_items=${(cart.items?.length ?? 0)} new_items=${items.length}`
+    `cart.items_type=${typeof cart.items} cart.items_is_array=${Array.isArray(cart.items)} ` +
+    `prev_items=${Array.isArray(cart.items) ? cart.items.length : 'N/A'} ` +
+    `new_items=${items.length} ` +
+    `items_in=${JSON.stringify((cart.items as CartItem[] | undefined)?.map(i => i.variant_id))} ` +
+    `items_out=${JSON.stringify(items.map(i => i.variant_id))}`
   );
 
   const subtotal = items.reduce((s, i) => s + i.unit_price_clp * i.qty, 0);
