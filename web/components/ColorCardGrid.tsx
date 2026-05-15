@@ -143,20 +143,26 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
                   </div>
                 )}
 
-                {/* Selector overlay — sits on the right side of the swatch */}
-                <div className="absolute inset-y-0 right-0 flex items-center gap-1.5 pr-2 bg-white/85 backdrop-blur-[1px] rounded-l">
+                {/* Selector overlay — sits on the right side of the swatch.
+                    Thin minus/plus glyphs in dark gray, the qty number gets a
+                    pale circle so it reads as the "current value". */}
+                <div className="absolute inset-y-0 right-0 flex items-center gap-1.5 pr-1.5 bg-white/85 rounded-l">
                   <button
                     onClick={() => setItem({ ...itemTemplate, qty: Math.max(0, qty - 1) })}
                     disabled={qty === 0 || loading}
                     aria-label={`Restar ${color.code}`}
-                    className="w-5 h-5 flex items-center justify-center text-base font-semibold text-gray-900 hover:text-black disabled:opacity-25"
+                    className="w-5 h-5 flex items-center justify-center text-base font-light text-gray-700 hover:text-black disabled:opacity-20 leading-none"
                   >−</button>
-                  <span className="font-mono text-xs w-4 text-center text-gray-900">{qty}</span>
+                  <span
+                    className={`w-6 h-6 inline-flex items-center justify-center rounded-full font-mono text-[11px] ${
+                      qty > 0 ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600'
+                    }`}
+                  >{qty}</span>
                   <button
                     onClick={() => setItem({ ...itemTemplate, qty: qty + 1 })}
                     disabled={!inStock || loading || (stock > 0 && qty >= stock)}
                     aria-label={`Sumar ${color.code}`}
-                    className="w-5 h-5 flex items-center justify-center text-base font-semibold text-gray-900 hover:text-black disabled:opacity-25"
+                    className="w-5 h-5 flex items-center justify-center text-base font-light text-gray-700 hover:text-black disabled:opacity-20 leading-none"
                   >+</button>
                 </div>
               </div>
@@ -164,15 +170,17 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
           );
         })}
 
-        {/* Boykot-celeste CTA as the last item in the multicolumn flow. */}
-        <div className="boykot-color-row">
+        {/* Boykot-celeste CTA as the last item in the multicolumn flow.
+            Same vertical height as a swatch row so the multicol balance keeps
+            it aligned with the bottom of the surrounding columns. */}
+        <div className="boykot-color-row boykot-cta-row">
           <button
             onClick={() => { if (brandTotal > 0) window.location.href = '/carrito'; }}
             disabled={brandTotal === 0}
-            className={`w-full text-center font-medium py-2.5 rounded-md transition-colors text-white ${
+            className={`w-full h-full text-center text-sm font-medium rounded text-white transition-opacity ${
               brandTotal > 0
                 ? 'hover:opacity-90 cursor-pointer'
-                : 'opacity-50 cursor-not-allowed'
+                : 'opacity-40 cursor-not-allowed'
             }`}
             style={{ backgroundColor: '#0066ff' }}
           >

@@ -41,7 +41,13 @@ body {
 .boykot-color-row {
   display: flex;
   align-items: center;
-  padding: 0.4rem 0;
+  padding: 0.35rem 0;
   break-inside: avoid;
   page-break-inside: avoid;
+}
+
+/* CTA stays the same height as a single swatch row so multicol balance
+   doesn't push it onto a row of its own. */
+.boykot-cta-row {
+  min-height: 2.4rem;
 }

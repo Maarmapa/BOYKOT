@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import ColorCardGrid from '@/components/ColorCardGrid';
+import ProductHero from '@/components/ProductHero';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 
 export function generateStaticParams() {
@@ -21,28 +22,24 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-10 pb-24">
-        <nav className="text-xs text-gray-400 mb-4">
+        <nav className="text-xs text-gray-400 mb-6">
           <a href="/" className="hover:text-gray-700">Inicio</a> /{' '}
           <a href="/colores" className="hover:text-gray-700">Cartas de color</a> /{' '}
           <span className="text-gray-700">{brand.productName}</span>
         </nav>
 
-        <header className="text-center mb-10">
-          {brand.heroImage && (
-            <img
-              src={brand.heroImage}
-              alt={brand.productName}
-              className="w-28 h-28 mx-auto mb-4 object-cover rounded-lg"
-            />
-          )}
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">{brand.productName}</h1>
-          <div className="text-2xl text-gray-900">
-            ${brand.basePriceClp.toLocaleString('es-CL')}
-          </div>
-          <div className="text-xs text-gray-400 mt-2">
-            {brand.colors.length} colores disponibles
-          </div>
-        </header>
+        <ProductHero
+          productName={brand.productName}
+          priceClp={brand.basePriceClp}
+          colorsCount={brand.colors.length}
+          heroImage={brand.heroImage}
+          gallery={brand.gallery}
+          description={brand.description}
+        />
+
+        <h2 className="text-sm font-semibold tracking-wide text-gray-700 uppercase mb-6 mt-12">
+          Selecciona color y cantidad
+        </h2>
 
         <ColorCardGrid brand={brand} />
       </div>

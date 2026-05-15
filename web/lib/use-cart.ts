@@ -47,21 +47,28 @@ export function useCart(): CartState {
       return next;
     });
 
-    const res = await fetch('/api/cart/items', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      credentials: 'include',
-      body: JSON.stringify(args),
-    });
-    if (!res.ok) {
-      // Roll back on failure — re-fetch authoritative state.
-      await refresh();
-      return;
+    try {
+      const res = await fetch('/api/cart/items', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify(args),
+      });
+      if (!res.ok) {
+        // Keep optimistic state — surface error so we can see what's wrong
+        // (most common cause: Supabase env vars missing on Vercel).
+        const body = await res.text().catch(() => '');
+        console.error(`[cart] POST /api/cart/items returned ${res.status}`, body);
+        return;
+      }
+      const json = (await res.json()) as { cart: Cart };
+      setCart(json.cart);
+      setQtys(buildQtys(json.cart));
+    } catch (err) {
+      console.error('[cart] network error', err);
+      // Keep optimistic state.
     }
-    const json = (await res.json()) as { cart: Cart };
-    setCart(json.cart);
-    setQtys(buildQtys(json.cart));
-  }, [refresh]);
+  }, []);
 
   return { cart, loading, qtys, setItem, refresh };
 }

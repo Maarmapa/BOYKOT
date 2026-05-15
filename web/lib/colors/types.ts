@@ -34,4 +34,6 @@ export interface BrandColorSet {
   heroImage?: string;
   /** Short marketing description shown under the price. */
   description?: string;
+  /** Extra product photos shown next to the hero — same gallery boykot.cl uses. */
+  gallery?: string[];
 }

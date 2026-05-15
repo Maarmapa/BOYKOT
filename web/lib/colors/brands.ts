@@ -79,6 +79,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2021/07/74a327b3-97a6-4726-b1bb-012cde0ceb85-sketchpost.jpeg',
+    description: 'Nuestro marcador icónico original se lanzó en 1987 y amado por los profesionales creativos desde entonces. Recargable, ergonómico, ultra-mezclable y elaborado con el más alto grado de tintas a base de alcohol. Compatible con el juego de aerógrafo Copic. Ideal para ilustración gráfica y arquitectónica.',
+    gallery: [
+      'https://www.boykot.cl/wp-content/uploads/2021/07/feature1_sketch-1.jpeg',
+      'https://www.boykot.cl/wp-content/uploads/2021/07/feature2_sketch-2.jpeg',
+      'https://www.boykot.cl/wp-content/uploads/2021/07/12d213b6-f39d-49e6-8df4-323427c41607-3_sketch_color_chart.jpeg',
+    ],
   },
   'copic-ink': {
     slug: 'copic-ink',
@@ -89,6 +95,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
     familyOrder: COPIC_FAMILY_ORDER,
     familyNames: COPIC_FAMILY_NAMES,
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2024/12/copic_ink_1-2a9a6ef5-c971-45a8-992d-94ce10085a43.jpg',
+    description: 'Tinta de recarga concentrada para todos los marcadores Copic. Los mismos 358 códigos que Copic Sketch — usá la carta para elegir y agregar las tintas que necesitás.',
+    gallery: [
+      'https://www.boykot.cl/wp-content/uploads/2024/12/copic_ink_2-ca2425ce-e233-4308-87ce-c2383f56cc30.jpg',
+      'https://www.boykot.cl/wp-content/uploads/2024/12/copic_ink_3-8e7276a3-d550-427d-b2f8-3981ec7928bc.jpg',
+      'https://www.boykot.cl/wp-content/uploads/2024/12/copic_ink_4-ab7d9170-6c92-4f62-ab03-fd1dd1cd8103.jpg',
+    ],
   },
   'copic-ciao': {
     slug: 'copic-ciao',
