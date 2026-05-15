@@ -169,7 +169,7 @@ interface Message {
 // In-memory rate limit per IP. Vercel functions cold-start frequently so this
 // is best-effort, not strict. 20 messages / 10 min keeps abuse manageable.
 const RATE_WINDOW_MS = 10 * 60 * 1000;
-const RATE_MAX = 20;
+const RATE_MAX = 10;  // bajado de 20 → 10 para acotar costo Anthropic
 const rateMap = new Map<string, number[]>();
 function rateLimited(ip: string): boolean {
   const now = Date.now();
@@ -205,7 +205,8 @@ export async function POST(req: NextRequest) {
   } catch {
     return NextResponse.json({ error: 'invalid json' }, { status: 400 });
   }
-  const incoming = Array.isArray(body.messages) ? body.messages.slice(-20) : [];
+  // Trim a 8 turnos para acotar el costo (presupuesto Anthropic ajustado)
+  const incoming = Array.isArray(body.messages) ? body.messages.slice(-8) : [];
 
   const client = new Anthropic({ apiKey });
 
@@ -232,7 +233,7 @@ export async function POST(req: NextRequest) {
     while (iterations++ < 4) {
       const completion = await client.messages.create({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 700,
+        max_tokens: 400,
         system,
         tools: TOOLS,
         messages: apiMessages,
