@@ -38,11 +38,15 @@ function extractSwatches(html) {
   const map = {};
   $('.bwe-grouped-products-wrapper .group-product').each((_, el) => {
     const $el = $(el);
-    const code = $el.find('.product-title').text().trim();
-    if (!code) return;
+    // Fluor titles are written like "FB (FB2)" — keep the parenthesized part
+    // so the key matches the actual Copic SKU (and the swatch filename).
+    let label = $el.find('.product-title').text().trim();
+    const paren = label.match(/\(([^)]+)\)\s*$/);
+    if (paren) label = paren[1].trim();
+    if (!label) return;
     const style = $el.find('.product-skin').attr('style') || '';
     const m = style.match(/url\((['"]?)([^)'"]+)\1\)/);
-    if (m) map[code] = m[2];
+    if (m) map[label] = m[2];
   });
   return map;
 }
