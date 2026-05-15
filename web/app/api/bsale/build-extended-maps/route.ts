@@ -110,7 +110,7 @@ export async function GET(_req: NextRequest) {
         if (typeof v.id !== 'number') continue;
         const desc = (v.description || '').trim();
         // "W201 Chinese White" → "W201"
-        const m = desc.match(/^([A-Z]\d{3,4})\s+/i);
+        const m = desc.match(/^([A-Z]{1,3}\d{3,4})\s+/i);
         if (m) byBrand['holbein-acuarela-15ml'][m[1].toUpperCase()] = v.id;
       }
     } catch {}
@@ -129,7 +129,7 @@ export async function GET(_req: NextRequest) {
       for (const v of vs) {
         if (typeof v.id !== 'number') continue;
         const desc = (v.description || '').trim();
-        const m = desc.match(/^([A-Z]\d{3,4})\s+/i);
+        const m = desc.match(/^([A-Z]{1,3}\d{3,4})\s+/i);
         if (m) byBrand['holbein-acuarela-60ml'][m[1].toUpperCase()] = v.id;
       }
     } catch {}
