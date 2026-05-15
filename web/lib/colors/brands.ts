@@ -32,6 +32,13 @@ import angelusGlitterlites from '../../public/colors/angelus-glitterlites-1oz.js
 import angelusTinturaCuero from '../../public/colors/angelus-tintura-cuero-3oz.json';
 import angelusTinturaGamuza from '../../public/colors/angelus-tintura-gamuza-3oz.json';
 
+// Angelus Pintura Cuero sub-líneas extraídas del consolidado BSale 2262
+// (separadas por SKU prefix vía build-extended-maps).
+import angelusStandardPint from '../../public/colors/angelus-standard-pint.json';
+import angelusStandardQuart from '../../public/colors/angelus-standard-quart.json';
+import angelusCollector from '../../public/colors/angelus-collector.json';
+import angelusGlow1oz from '../../public/colors/angelus-glow-1oz.json';
+
 // Holbein individuals: image+sku extracted from JSON-LD background CSS
 // (scripts/build-holbein-individual.js).
 import holbeinGouache15ml from '../../public/colors/holbein-gouache-15ml.json';
@@ -214,6 +221,10 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'angelus-neon-1oz': adapt(angelusNeon1oz as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2262 }),
   'angelus-neon-4oz': adapt(angelusNeon4oz as JsonBrand, { basePriceClp: 19900, bsaleProductId: 2262 }),
   'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2263 }),
+  'angelus-standard-pint': adapt(angelusStandardPint as JsonBrand, { basePriceClp: 39900, bsaleProductId: 2262 }),
+  'angelus-standard-quart': adapt(angelusStandardQuart as JsonBrand, { basePriceClp: 69900, bsaleProductId: 2262 }),
+  'angelus-collector': adapt(angelusCollector as JsonBrand, { basePriceClp: 7900, bsaleProductId: 2262 }),
+  'angelus-glow-1oz': adapt(angelusGlow1oz as JsonBrand, { basePriceClp: 6900, bsaleProductId: 2262 }),
   'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2264 }),
   'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900, bsaleProductId: 2265 }),
 
