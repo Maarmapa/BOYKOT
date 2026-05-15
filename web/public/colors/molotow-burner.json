@@ -1,0 +1,50 @@
+{
+  "slug": "molotow-burner",
+  "productName": "Molotow Burner",
+  "bsaleProductId": 2240,
+  "generatedAt": "2026-05-15T03:50:04.459Z",
+  "colors": [
+    {
+      "code": "Chrome 940443 150ml Pocket",
+      "name": "",
+      "variantId": 24707,
+      "sku": "4015962368170"
+    },
+    {
+      "code": "Chrome 940422 400ml",
+      "name": "",
+      "variantId": 24708,
+      "sku": "4015962368132"
+    },
+    {
+      "code": "Chrome 940590 500ml",
+      "name": "",
+      "variantId": 24709,
+      "sku": "4015962368385"
+    },
+    {
+      "code": "Chrome 940397 600ml",
+      "name": "",
+      "variantId": 24710,
+      "sku": "4015962368101"
+    },
+    {
+      "code": "Gold 940499 600ml",
+      "name": "",
+      "variantId": 24711,
+      "sku": "4015962368286"
+    },
+    {
+      "code": "Copper 940500 600ml",
+      "name": "",
+      "variantId": 24712,
+      "sku": "4015962368293"
+    },
+    {
+      "code": "Black 940398 600ml",
+      "name": "",
+      "variantId": 24713,
+      "sku": "4015962369429"
+    }
+  ]
+}
