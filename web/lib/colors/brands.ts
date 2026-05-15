@@ -19,6 +19,13 @@ import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 import angelus1oz from '../../public/colors/angelus-leather-paint-1oz.json';
 import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
 
+// Holbein individuals: image+sku extracted from JSON-LD background CSS
+// (scripts/build-holbein-individual.js).
+import holbeinGouache15ml from '../../public/colors/holbein-gouache-15ml.json';
+import holbeinOleo20ml from '../../public/colors/holbein-oleo-20ml.json';
+import holbeinAcryla20ml from '../../public/colors/holbein-acryla-gouache-20ml.json';
+import holbeinAcryla40ml from '../../public/colors/holbein-acryla-gouache-40ml.json';
+
 // Scraper-sourced (scraped/products/*.json → scripts/build-from-scraped.js)
 import createx60 from '../../public/colors/createx-airbrush-60ml.json';
 import createx120 from '../../public/colors/createx-airbrush-120ml.json';
@@ -123,6 +130,12 @@ export const BRANDS: Record<string, BrandColorSet> = {
   // Angelus — one product per color on boykot.cl; clustered into single brands
   'angelus-leather-paint-1oz': adapt(angelus1oz as JsonBrand, { basePriceClp: 5500 }),
   'angelus-leather-paint-4oz': adapt(angelus4oz as JsonBrand, { basePriceClp: 16500 }),
+
+  // Holbein lines — codes + images extracted from per-product JSON-LD
+  'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand),
+  'holbein-oleo-20ml': adapt(holbeinOleo20ml as JsonBrand),
+  'holbein-acryla-gouache-20ml': adapt(holbeinAcryla20ml as JsonBrand),
+  'holbein-acryla-gouache-40ml': adapt(holbeinAcryla40ml as JsonBrand),
 
   // Createx — scraper-sourced
   'createx-airbrush-60ml': adapt(createx60 as JsonBrand),
