@@ -54,6 +54,8 @@ export async function GET(req: NextRequest) {
 
   const byCode: Record<string, MapEntry> = {};
   const byBrand: Record<string, Record<string, MapEntry>> = {};
+  const sketchSample: string[] = [];
+  const allNames: string[] = [];
   let total = 0;
   let pages = 0;
   let next: string | null = `${BASE}/products.json?limit=50&offset=0`;
@@ -66,6 +68,8 @@ export async function GET(req: NextRequest) {
     for (const p of data.items ?? []) {
       total++;
       if (!p.name || typeof p.id !== 'number') continue;
+      if (allNames.length < 50) allNames.push(p.name);
+      if (/sketch/i.test(p.name) && sketchSample.length < 60) sketchSample.push(p.name);
 
       for (const { regex, brand } of BRAND_PATTERNS) {
         if (onlyBrand && brand !== onlyBrand) continue;
@@ -103,6 +107,8 @@ export async function GET(req: NextRequest) {
       pages_fetched: pages,
       complete: !next,
       summary,
+      debug_sample_all_names: allNames.slice(0, 30),
+      debug_sample_sketch_names: sketchSample,
       byBrand,
       byCode,
     },
