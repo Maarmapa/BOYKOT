@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import CartBadge from './CartBadge';
+import AccountBadge from './AccountBadge';
 
 const NAV = [
   {
@@ -76,6 +77,7 @@ export default function SiteHeader() {
           />
         </div>
 
+        <AccountBadge />
         <CartBadge />
       </div>
 
