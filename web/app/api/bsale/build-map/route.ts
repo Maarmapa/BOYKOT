@@ -45,10 +45,9 @@ export async function GET(req: NextRequest) {
   const token = process.env.BSALE_ACCESS_TOKEN;
   if (!token) return NextResponse.json({ error: 'BSALE_ACCESS_TOKEN missing' }, { status: 500 });
 
-  const gate = process.env.BSALE_WEBHOOK_TOKEN;
-  if (gate && req.nextUrl.searchParams.get('token') !== gate) {
-    return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  }
+  // No gate: este endpoint solo devuelve productIds + nombres + códigos (no
+  // expone precios ni stock real, esa data ya está en /catalog.json y es
+  // pública). El Vercel SSO de previews ya filtra el acceso público.
 
   // Permite limitar la corrida con ?onlybrand=copic-sketch para test rápido
   const onlyBrand = req.nextUrl.searchParams.get('onlybrand');
