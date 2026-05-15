@@ -240,8 +240,11 @@ export const BRANDS: Record<string, BrandColorSet> = {
   // Note: 2693 is "Gouache Serie A 15ml" (regular gouache); 2690 is Acryla.
   'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand, { bsaleProductId: 2693 }),
   'holbein-oleo-20ml': adapt(holbeinOleo20ml as JsonBrand, { bsaleProductId: 2670 }),
-  'holbein-acryla-gouache-20ml': adapt(holbeinAcryla20ml as JsonBrand),
-  'holbein-acryla-gouache-40ml': adapt(holbeinAcryla40ml as JsonBrand),
+  // Acryla consolidado: 20ml=2690+2691+2692, 40ml=2809+2810. Stock live
+  // via multiple productIds → solo el primary se asigna acá; el resto se
+  // mappea via bsale-variants-all.json.
+  'holbein-acryla-gouache-20ml': adapt(holbeinAcryla20ml as JsonBrand, { bsaleProductId: 2690 }),
+  'holbein-acryla-gouache-40ml': adapt(holbeinAcryla40ml as JsonBrand, { bsaleProductId: 2809 }),
 
   // Createx — BSale IDs confirmados via /api/bsale/list-all-products?q=createx
   // 3180=60ml, 3187=120ml, 3186=240ml, 3196=Illustration 30ml.
