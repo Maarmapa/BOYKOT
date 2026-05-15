@@ -10,8 +10,10 @@
 import { NextResponse } from 'next/server';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 
-export const dynamic = 'force-static';
-export const revalidate = 60 * 60; // re-generate hourly
+// Dynamic on every request. Cache is controlled at the edge via
+// the Cache-Control header below (s-maxage=3600 → CDN holds it 1h).
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
 
 function escapeXml(s: string): string {
   return s.replace(/[<>&'"]/g, c => ({
