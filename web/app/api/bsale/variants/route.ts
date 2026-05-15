@@ -63,26 +63,38 @@ export async function GET(req: NextRequest) {
 
   for (const v of all) {
     const desc = (v.description || '').trim();
-    const clean = desc.replace(/^(Sketch|Ciao|Ink|Classic|Wide)\s+/i, '').trim();
+    let clean = desc
+      .replace(/^(Sketch|Ciao|Ink|Classic|Wide|Brush-chisel)\s+/i, '')
+      .replace(/\s+\d{1,2}\s*(?:onzas?|oz)\s*$/i, '')
+      .replace(/\s+-\s*BS\s+[\d,.\s-]+mm\s*$/i, '')
+      .replace(/^20\s+ml\s+/i, '')
+      .trim();
 
-    // 1. Copic letras+dígitos: B00, BG13, FY
-    let m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i);
-    if (m) { codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code }; continue; }
-    // 2. Fluor con paréntesis
-    m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i);
-    if (m) { codeMap[m[1].toUpperCase()] = { variantId: v.id, description: desc, sku: v.code }; continue; }
-    // 3. Solo dígitos
-    m = clean.match(/^(\d{1,4})$/);
-    if (m) { codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code }; continue; }
-    // 4. Molotow Premium: "NNN <Color Name> 327NNN" (con sub-variantes opcionales "NNN-N")
-    m = clean.match(/^(\d{1,3}(?:-\d{1,2})?)\s+.+\s+\d{6}$/);
-    if (m) { codeMap[m[1]] = { variantId: v.id, description: desc, sku: v.code }; continue; }
-    // Set / kit con boundaries (no más "sunSET" false positive)
+    const set = (k: string) => { codeMap[k.toUpperCase()] = { variantId: v.id, description: desc, sku: v.code }; };
+
+    let m: RegExpMatchArray | null;
+    // Copic
+    if ((m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i))) { set(m[1]); continue; }
+    if ((m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i))) { set(m[1]); continue; }
+    if ((m = clean.match(/^(\d{1,4})$/))) { set(m[1]); continue; }
+    // Molotow Premium full SKU suffix
+    if ((m = clean.match(/^(\d{1,3}(?:-\d{1,2})?)\s+.+\s+\d{6}$/))) { set(m[1]); continue; }
+    // Holbein Oleo: Hxxx suffix
+    if ((m = clean.match(/^.+\s+([HG]\d{3,4})$/i))) { set(m[1]); continue; }
+    // Holbein Gouache / Wicked prefix letter+digits
+    if ((m = clean.match(/^([A-Z]\d{3,4})\s+/i))) { set(m[1]); continue; }
+    // Createx Illustration 4-digit prefix
+    if ((m = clean.match(/^(\d{4})\s+/))) { set(m[1]); continue; }
+    // ZIG/Aqua/POSCA/Angelus number prefix
+    if ((m = clean.match(/^(\d{2,3}(?:-\d{1,2})?)\s+/))) { set(m[1]); continue; }
+    // Molotow Plus / Aqua Twin: number at end
+    if ((m = clean.match(/\s(\d{3})$/))) { set(m[1]); continue; }
+
     if (/\b(set|kit|colors?|manga|trio|fusion|portrait|airy|vibrant|pc)\b/i.test(clean)) {
       setEntries.push(v);
-      continue;
+    } else {
+      unparsed.push(v);
     }
-    unparsed.push(v);
   }
 
   return NextResponse.json(

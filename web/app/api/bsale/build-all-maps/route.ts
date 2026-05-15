@@ -28,27 +28,61 @@ async function call(url: string, token: string): Promise<{
 }
 
 function parseCode(description: string): string | null {
-  const clean = (description || '')
-    .trim()
+  let clean = (description || '').trim()
     .replace(/^Sketch\s+/i, '')
     .replace(/^Ciao\s+/i, '')
     .replace(/^Ink\s+/i, '')
     .replace(/^Classic\s+/i, '')
     .replace(/^Wide\s+/i, '')
+    .replace(/^Brush-chisel\s+/i, '')   // Aqua Twin: "Brush-chisel <Name> <NUM>"
     .trim();
-  // Copic letras+dígitos: B00, BG13, FY
+
+  // Strip common product-size suffixes para no confundir el parser
+  clean = clean
+    .replace(/\s+\d{1,2}\s*(?:onzas?|oz)\s*$/i, '')         // " 1 onza", " 3 onzas"
+    .replace(/\s+-\s*BS\s+[\d,.\s-]+mm\s*$/i, '')           // " - BS 1,8-2,5 mm" (POSCA)
+    .replace(/\s+\d{1,2}\s*ml\s*$/i, '')                   // " 20 ml"
+    .replace(/^20\s+ml\s+/i, '')                            // "20 ml ..." prefix (Holbein Oleo)
+    .trim();
+
+  // 1. Copic letras+dígitos: B00, BG13, FY
   let m = clean.match(/^([A-Z]{1,3}\d{0,4}[A-Z]?)$/i);
   if (m) return m[1].toUpperCase();
-  // Fluor con paréntesis
+
+  // 2. Fluor con paréntesis: "FRV (FRV1)"
   m = clean.match(/^([A-Z]{1,4})\s*\([A-Z0-9]+\)$/i);
   if (m) return m[1].toUpperCase();
-  // Numérico solo
+
+  // 3. Numérico solo
   m = clean.match(/^(\d{1,4})$/);
   if (m) return m[1];
-  // Molotow Premium: "001 Jasmin Yellow 327001" o "220-1 Gold Dollar 327243"
-  //   → code = primer token (001, 220-1, etc)
+
+  // 4. Molotow Premium full: "001 Jasmin Yellow 327001" o "220-1 Gold Dollar 327243"
   m = clean.match(/^(\d{1,3}(?:-\d{1,2})?)\s+.+\s+\d{6}$/);
   if (m) return m[1];
+
+  // 5. Holbein Oleo: <Name> <Hxxx>  (Hxxx al final, ya stripped "20 ml")
+  m = clean.match(/^.+\s+([HG]\d{3,4})$/i);
+  if (m) return m[1].toUpperCase();
+
+  // 6. Holbein Gouache / Wicked: <CODE> <Name> donde CODE = letra+dígitos al inicio
+  //    "G503 Geranium", "W0002 Black"
+  m = clean.match(/^([A-Z]\d{3,4})\s+/i);
+  if (m) return m[1].toUpperCase();
+
+  // 7. Createx Illustration: 4-digit number prefix → "5001 Neutral Grey 1"
+  m = clean.match(/^(\d{4})\s+/);
+  if (m) return m[1];
+
+  // 8. ZIG, Molotow Neon, Angelus Tintura/Glitterlites, POSCA, Aqua:
+  //    "NNN <Name>"  ó  "NNN-N <Name>"
+  m = clean.match(/^(\d{2,3}(?:-\d{1,2})?)\s+/);
+  if (m) return m[1];
+
+  // 9. Molotow Plus & Aqua Twin (number al final): "Quince 601", "Brush-chisel Primary Yellow 001"
+  m = clean.match(/\s(\d{3})$/);
+  if (m) return m[1];
+
   return null;
 }
 
