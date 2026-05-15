@@ -6,7 +6,7 @@
 // qty = 0 removes the line. Anonymous visitors get a session cart auto-created.
 
 import { NextRequest, NextResponse } from 'next/server';
-import { getOrCreateSessionId } from '@/lib/session';
+import { getOrCreateSessionId, withSessionHeader } from '@/lib/session';
 import { ensureSessionCart, setItemQty } from '@/lib/cart';
 import type { CartItem } from '@/lib/types';
 
@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'missing or malformed fields' }, { status: 400 });
   }
 
-  const sid = await getOrCreateSessionId();
+  const { sid } = await getOrCreateSessionId();
   const cart = await ensureSessionCart(sid);
 
   const template: Omit<CartItem, 'qty'> = {
@@ -54,5 +54,5 @@ export async function POST(req: NextRequest) {
   };
 
   const updated = await setItemQty(cart.id, body.variant_id, body.qty, template);
-  return NextResponse.json({ cart: updated });
+  return withSessionHeader(NextResponse.json({ cart: updated, session_id: sid }), sid);
 }

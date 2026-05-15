@@ -31,10 +31,26 @@ export function useCart(): CartState {
   // the first item.
   const inflight = useRef<Promise<unknown>>(Promise.resolve());
 
+  const SID_KEY = 'boykot_sid';
+  const sidHeader = (): Record<string, string> => {
+    if (typeof window === 'undefined') return {};
+    const sid = window.localStorage.getItem(SID_KEY);
+    return sid ? { 'x-boykot-sid': sid } : {};
+  };
+  const persistSidFromResponse = (res: Response, json?: { session_id?: string | null }) => {
+    if (typeof window === 'undefined') return;
+    const sid = res.headers.get('x-boykot-sid') || json?.session_id || null;
+    if (sid) window.localStorage.setItem(SID_KEY, sid);
+  };
+
   const refresh = useCallback(async () => {
     try {
-      const res = await fetch('/api/cart', { credentials: 'include' });
-      const json = (await res.json()) as { cart: Cart | null };
+      const res = await fetch('/api/cart', {
+        credentials: 'include',
+        headers: { ...sidHeader() },
+      });
+      const json = (await res.json()) as { cart: Cart | null; session_id?: string };
+      persistSidFromResponse(res, json);
       setCart(json.cart);
       setQtys(buildQtys(json.cart));
     } finally {
@@ -58,7 +74,7 @@ export function useCart(): CartState {
       try {
         const res = await fetch('/api/cart/items', {
           method: 'POST',
-          headers: { 'content-type': 'application/json' },
+          headers: { 'content-type': 'application/json', ...sidHeader() },
           credentials: 'include',
           body: JSON.stringify(args),
         });
@@ -67,7 +83,8 @@ export function useCart(): CartState {
           console.error(`[cart] POST /api/cart/items returned ${res.status}`, body);
           return;
         }
-        const json = (await res.json()) as { cart: Cart };
+        const json = (await res.json()) as { cart: Cart; session_id?: string };
+        persistSidFromResponse(res, json);
         setCart(json.cart);
         setQtys(buildQtys(json.cart));
       } catch (err) {
