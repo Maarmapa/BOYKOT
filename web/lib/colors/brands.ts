@@ -14,6 +14,11 @@ import molotowPremiumPlus from '../../public/colors/molotow-premium-plus.json';
 import holbein15ml from '../../public/colors/holbein-acuarela-15ml.json';
 import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 
+// Cluster-of-individual-products (scripts/build-angelus-leather-paint.js)
+// Boykot publishes one product page per color, not a variable parent.
+import angelus1oz from '../../public/colors/angelus-leather-paint-1oz.json';
+import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
+
 // Scraper-sourced (scraped/products/*.json → scripts/build-from-scraped.js)
 import createx60 from '../../public/colors/createx-airbrush-60ml.json';
 import createx120 from '../../public/colors/createx-airbrush-120ml.json';
@@ -114,6 +119,10 @@ export const BRANDS: Record<string, BrandColorSet> = {
   // Holbein — via woo-variations-table-grid AJAX selector
   'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
   'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900 }),
+
+  // Angelus — one product per color on boykot.cl; clustered into single brands
+  'angelus-leather-paint-1oz': adapt(angelus1oz as JsonBrand, { basePriceClp: 5500 }),
+  'angelus-leather-paint-4oz': adapt(angelus4oz as JsonBrand, { basePriceClp: 16500 }),
 
   // Createx — scraper-sourced
   'createx-airbrush-60ml': adapt(createx60 as JsonBrand),
