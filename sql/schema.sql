@@ -87,8 +87,11 @@ create table if not exists public.stock_reservations (
   created_at  timestamptz not null default now()
 );
 
-create index if not exists reservations_variant_active_idx
-  on public.stock_reservations(variant_id) where expires_at > now();
+-- Composite (variant_id, expires_at) lets us scan active reservations per variant
+-- efficiently without a now()-based partial index (which Postgres rejects since
+-- now() is not IMMUTABLE).
+create index if not exists reservations_variant_idx
+  on public.stock_reservations(variant_id, expires_at);
 create index if not exists reservations_cart_idx
   on public.stock_reservations(cart_id);
 create index if not exists reservations_expires_idx
