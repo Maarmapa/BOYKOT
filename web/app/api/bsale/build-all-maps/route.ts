@@ -78,7 +78,14 @@ async function mapBrand(productId: number, token: string) {
     next = data.next ?? null;
   }
 
-  return { total, mapped: Object.keys(codes).length, codes, sets_count: sets.length, unparsed_count: unparsed.length };
+  return {
+    total,
+    mapped: Object.keys(codes).length,
+    codes,
+    sets_count: sets.length,
+    unparsed_count: unparsed.length,
+    unparsedList: unparsed,
+  };
 }
 
 export async function GET(_req: NextRequest) {
@@ -101,13 +108,18 @@ export async function GET(_req: NextRequest) {
     }
     try {
       const r = await mapBrand(brand.bsaleProductId, token);
-      results[slug] = {
+      const row: Record<string, unknown> = {
         product_id: brand.bsaleProductId,
         total_variants: r.total,
         colors_mapped: r.mapped,
         sets_count: r.sets_count,
         unparsed_count: r.unparsed_count,
       };
+      // Expose unparsed sample para brands con cobertura baja (debug)
+      if (r.mapped === 0 && r.total > 0) {
+        row.unparsed_sample = r.unparsedList?.slice(0, 5) ?? [];
+      }
+      results[slug] = row;
       consolidatedColors[slug] = r.codes;
     } catch (e) {
       results[slug] = { error: (e as Error).message };
