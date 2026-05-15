@@ -11,6 +11,7 @@ interface CartState {
   /** Quick lookup: { variantId -> qty } for cheap re-render of the grid. */
   qtys: Record<number, number>;
   setItem: (args: SetItemArgs) => Promise<void>;
+  removeItem: (variantId: number) => Promise<void>;
   refresh: () => Promise<void>;
 }
 
@@ -97,5 +98,36 @@ export function useCart(): CartState {
     await next;
   }, []);
 
-  return { cart, loading, qtys, setItem, refresh };
+  const removeItem = useCallback(async (variantId: number) => {
+    setQtys(prev => {
+      const next = { ...prev };
+      delete next[variantId];
+      return next;
+    });
+    const run = async () => {
+      try {
+        const res = await fetch('/api/cart/remove', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json', ...sidHeader() },
+          credentials: 'include',
+          body: JSON.stringify({ variant_id: variantId }),
+        });
+        if (!res.ok) {
+          console.error(`[cart] POST /api/cart/remove returned ${res.status}`);
+          return;
+        }
+        const json = (await res.json()) as { cart: Cart; session_id?: string };
+        persistSidFromResponse(res, json);
+        setCart(json.cart);
+        setQtys(buildQtys(json.cart));
+      } catch (err) {
+        console.error('[cart] remove network error', err);
+      }
+    };
+    const next = inflight.current.then(run, run);
+    inflight.current = next;
+    await next;
+  }, []);
+
+  return { cart, loading, qtys, setItem, removeItem, refresh };
 }
