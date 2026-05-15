@@ -63,8 +63,12 @@ export default function SiteHeader() {
         </Link>
 
         <div className="flex-1 max-w-md">
+          <label htmlFor="site-search" className="sr-only">Buscar productos</label>
           <input
+            id="site-search"
+            name="q"
             type="search"
+            autoComplete="off"
             placeholder="Buscar productos..."
             className="w-full border border-gray-200 rounded-md px-3 py-2 text-sm outline-none focus:border-gray-400"
           />
