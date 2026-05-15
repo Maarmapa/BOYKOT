@@ -160,10 +160,12 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
                   >{qty}</span>
                   <button
                     onClick={() => setItem({ ...itemTemplate, qty: qty + 1 })}
-                    // Only enforce a max-qty when we actually know the real stock
-                    // (stockMap supplied). Otherwise allow any qty — the placeholder
-                    // stock=1 was just "assume available", not "max 1 per click".
-                    disabled={!inStock || loading || (!!stockMap && stock > 0 && qty >= stock)}
+                    // Cap the click only if BSale confirms a real positive stock.
+                    // Stock=0 (sin stock o todo reservado por Centry) no bloquea —
+                    // dejamos que el usuario lo agregue y confirmamos en checkout
+                    // o por WhatsApp. Esto evita que Centry+ML "esconda" todo el
+                    // stock para nuestros propios canales.
+                    disabled={loading || (!!stockMap && stock > 0 && qty >= stock)}
                     aria-label={`Sumar ${color.code}`}
                     className="w-5 h-5 flex items-center justify-center text-base font-light text-gray-700 hover:text-black disabled:opacity-20 leading-none"
                   >+</button>
