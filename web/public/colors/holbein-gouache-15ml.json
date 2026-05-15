@@ -1,0 +1,633 @@
+{
+  "slug": "holbein-gouache-15ml",
+  "productName": "Gouache Holbein 15ml",
+  "basePriceClp": 12200,
+  "bsaleProductId": 0,
+  "sourceCount": 89,
+  "generatedAt": "2026-05-15T05:14:09.972Z",
+  "colors": [
+    {
+      "code": "G501",
+      "name": "Alizarin Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/Alizarin-Crimson.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-jaune-brillant-1/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G502",
+      "name": "Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/carmine.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-imidazolone-lemon/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G503",
+      "name": "Geranium",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G503.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-sepia/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G504",
+      "name": "Cadmium Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G504.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-yellow-deep/",
+      "priceClp": 12200
+    },
+    {
+      "code": "G505",
+      "name": "Cadmium Red Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G505.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-opera/",
+      "priceClp": 12200
+    },
+    {
+      "code": "G506",
+      "name": "Cadmium Red Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G506.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-horizon-blue/",
+      "priceClp": 12200
+    },
+    {
+      "code": "G507",
+      "name": "Flame Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G507.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-green-deep/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G508",
+      "name": "Brilliant Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G508.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-leaf-green/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G509",
+      "name": "Pure Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G509.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-vermilion/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G510",
+      "name": "Brilliant Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G510.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-isoindo-yel-deep/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G520",
+      "name": "Permanent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G520.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-sap-green/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G521",
+      "name": "Permanent Yellow Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G521.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-red-deep/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G522",
+      "name": "Permanent Yellow Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G522.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-terre-verte/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G523",
+      "name": "Cadmium Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G523.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-mars-violet/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G524",
+      "name": "Cadmium Yellow Lemon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G524.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-red-orange/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G525",
+      "name": "Cadmium Yellow Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G525.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-lemon-yellow/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G526",
+      "name": "Lemon Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G526.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-lavender/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G527",
+      "name": "Yellow Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G527.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-marine-blue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G528",
+      "name": "Naples Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G528.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-rose-madder/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G529",
+      "name": "Naples Yellow Italian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G529.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-red-light/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G530",
+      "name": "Jaune Brillant #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G530.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-prussian-blue/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G531",
+      "name": "Jaune Brillant #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G531.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-olive-green/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G532",
+      "name": "Marigold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G532.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-perm-yellow-orange/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G540",
+      "name": "Leaf Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G540.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-indigo/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G541",
+      "name": "Permanent Green Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G541.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cobalt-blue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G542",
+      "name": "Permanent Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G542.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-yellow-light/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G543",
+      "name": "Cadmium Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G543.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-red-purple/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G544",
+      "name": "Cadmium Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G544.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-chinese-white/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G545",
+      "name": "Emerald Green Nova",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G545.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-greenish-yellow/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G546",
+      "name": "Olive Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G546.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-ultramarine-light/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G547",
+      "name": "Cyprus Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G547.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-viridian-hue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G548",
+      "name": "Dark Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G548.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-verditer-blue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G550",
+      "name": "Terre Verte",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G550.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-mineral-violet/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G551",
+      "name": "Cobalt Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G551.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-burnt-umber/",
+      "priceClp": 12200
+    },
+    {
+      "code": "G552",
+      "name": "Cadmium Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G552.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-vandyke-brown/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G553",
+      "name": "Moss Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G553.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-permanent-green-2/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G554",
+      "name": "Turquoise Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G554.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-paynes-grey/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G555",
+      "name": "Ash Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G555.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-shell-pink/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G556",
+      "name": "Phthalo Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G556.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-quinacridone-red/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G560",
+      "name": "Ice Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G560.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-titanium-white/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G561",
+      "name": "Turquoise Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G561.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-yellow-pale/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G562",
+      "name": "Cerulean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G562.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-ivory-black/",
+      "priceClp": 14000
+    },
+    {
+      "code": "G563",
+      "name": "Cobalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G563.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-scarlet-lake/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G564",
+      "name": "Ultramarine Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G564.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-lilac/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G565",
+      "name": "Ultramarine Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G565.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-imidazolone-brown/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G566",
+      "name": "Prussian Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G566.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-brilliant-pink/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G567",
+      "name": "Peacock Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G567.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-turquoise-blue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G568",
+      "name": "Katsura Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G568.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-carmine/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G569",
+      "name": "Cobalt Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G569.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-manganese-blue-nova/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G570",
+      "name": "Aqua Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G570.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-yellow-lemon/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G571",
+      "name": "Pure Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G571.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-light-red/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G572",
+      "name": "Navy Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G572.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-umber/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G573",
+      "name": "Smalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G573.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-gamboge-nova/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G574",
+      "name": "Ash Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G574.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cobalt-green/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G580",
+      "name": "Blue Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G580.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-permanent-yellow-light/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G581",
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G581.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-quinacridone-scarlet/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G582",
+      "name": "Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G582.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-naples-yellow/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G583",
+      "name": "Cobalt Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G583.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-yellow-ochre/",
+      "priceClp": 14000
+    },
+    {
+      "code": "G584",
+      "name": "Opera",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G584.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-vermilion-hue/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G585",
+      "name": "Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G585.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-compose-blue/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G586",
+      "name": "Iris",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G586.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-viridian/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G587",
+      "name": "Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G587.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-pyrrole-rubin/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G588",
+      "name": "Rose Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G588.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-green-pale/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G589",
+      "name": "Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G589.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-peach-black/",
+      "priceClp": 5500
+    },
+    {
+      "code": "G600",
+      "name": "Sepia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G600.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-indian-red/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G601",
+      "name": "Raw Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G601.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-imidazolone-yellow/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G602",
+      "name": "Raw Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G602.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-raw-sienna/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G603",
+      "name": "Burnt Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G603.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-neutral-tint/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G604",
+      "name": "Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G604.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cadmium-yellow-orange/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G605",
+      "name": "Chinese Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G605.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cobalt-violet-light/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G606",
+      "name": "Ivory Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G606.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-royal-blue/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G607",
+      "name": "Jet Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G607.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-lamp-black/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G620",
+      "name": "Grey #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G620.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-hookers-green/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G621",
+      "name": "Grey #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G621.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-grey-of-grey/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G622",
+      "name": "Grey #3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G622.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-emerald-green-nova/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G630",
+      "name": "Permanent White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G630.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-bamboo-green/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G631",
+      "name": "Zinc White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G631.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-ultramarine-deep/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G640",
+      "name": "Pearl White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G640.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-silver/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G641",
+      "name": "Pearl Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G641.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-quinacridone-magenta/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G642",
+      "name": "Pearl Copper",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G642.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-perylene-maroon/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G643",
+      "name": "Rich Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G643.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-peacock-blue/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G644",
+      "name": "Brilliant Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G644.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-shadow-green/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G645",
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G645.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-cobalt-blue-hue/",
+      "priceClp": 7400
+    },
+    {
+      "code": "G646",
+      "name": "Brilliant Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G646.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-permanent-yellow-lemon/",
+      "priceClp": 8700
+    },
+    {
+      "code": "G651",
+      "name": "Primary Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G651.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-green-grey/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G652",
+      "name": "Primary Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G652.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-permanent-violet/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G654",
+      "name": "Primary Cyan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G654.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-brilliant-orange/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G658",
+      "name": "Primary Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G658.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-bright-violet-lumi/",
+      "priceClp": 4900
+    },
+    {
+      "code": "G659",
+      "name": "Primary White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/G659.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/gouache-15-ml-color-primary-white/",
+      "priceClp": 4900
+    }
+  ]
+}

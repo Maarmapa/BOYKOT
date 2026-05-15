@@ -1,0 +1,44 @@
+{
+  "slug": "angelus-pearlescents-4oz",
+  "productName": "Angelus Pearlescents 4oz",
+  "basePriceClp": 19900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/pearlescents/pintura-cuero-angelus-pearlescents-4-onzas/",
+  "sourceCount": 7,
+  "generatedAt": "2026-05-15T07:32:43.908Z",
+  "colors": [
+    {
+      "code": "451",
+      "name": "Riot Red"
+    },
+    {
+      "code": "452",
+      "name": "Pacific Blue"
+    },
+    {
+      "code": "453",
+      "name": "Prince Purple"
+    },
+    {
+      "code": "454",
+      "name": "Sterling Silver"
+    },
+    {
+      "code": "455",
+      "name": "18k Gold"
+    },
+    {
+      "code": "456",
+      "name": "Rose Gold"
+    },
+    {
+      "code": "457",
+      "name": "Emerald Green"
+    }
+  ],
+  "description": "Angelus Pearlescent es una pintura para cuero con terminación perlada que te permitirá dejar un brillo iridiscente brillante en tus zapatillas, perfecto cuando quieres un color metalizado más brillante.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2022/03/angelus-4-onzas-18k-1ddaa01f-5082-4989-82f3-9618d2db7ccd.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/03/angelus-4-onzas-18k-1ddaa01f-5082-4989-82f3-9618d2db7ccd.jpg"
+}

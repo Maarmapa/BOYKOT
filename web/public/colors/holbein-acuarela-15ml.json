@@ -1,0 +1,615 @@
+{
+  "slug": "holbein-acuarela-15ml",
+  "productName": "Acuarela Holbein 15ml",
+  "basePriceClp": 5900,
+  "bsaleProductId": null,
+  "colorChartImage": null,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acuarela-holbein/acuarela-15ml-holbein/",
+  "generatedAt": "2026-05-15T04:11:48.473Z",
+  "colors": [
+    {
+      "code": "W201",
+      "name": "Chinese White",
+      "in_stock": true
+    },
+    {
+      "code": "W203",
+      "name": "Titanium White",
+      "in_stock": true
+    },
+    {
+      "code": "W205",
+      "name": "Quinacridone Red",
+      "in_stock": true
+    },
+    {
+      "code": "W206",
+      "name": "Pyrrole Rubin",
+      "in_stock": true
+    },
+    {
+      "code": "W207",
+      "name": "Pyrrole Red",
+      "in_stock": true
+    },
+    {
+      "code": "W208",
+      "name": "Perylene Maroon",
+      "in_stock": true
+    },
+    {
+      "code": "W209",
+      "name": "Permanent Alizarin Crimson",
+      "in_stock": true
+    },
+    {
+      "code": "W210",
+      "name": "Crimson Lake",
+      "in_stock": true
+    },
+    {
+      "code": "W211",
+      "name": "Carmine",
+      "in_stock": true
+    },
+    {
+      "code": "W212",
+      "name": "Rose Madder",
+      "in_stock": true
+    },
+    {
+      "code": "W213",
+      "name": "Opera",
+      "in_stock": true
+    },
+    {
+      "code": "W214",
+      "name": "Cadmium Red Light",
+      "in_stock": true
+    },
+    {
+      "code": "W215",
+      "name": "Cadmium Red Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W216",
+      "name": "Cadmium Red Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W217",
+      "name": "Cadmium Red Purple",
+      "in_stock": true
+    },
+    {
+      "code": "W218",
+      "name": "Vermilion",
+      "in_stock": true
+    },
+    {
+      "code": "W219",
+      "name": "Vermilion Hue",
+      "in_stock": true
+    },
+    {
+      "code": "W222",
+      "name": "Scarlet Lake",
+      "in_stock": true
+    },
+    {
+      "code": "W225",
+      "name": "Brilliant Pink",
+      "in_stock": true
+    },
+    {
+      "code": "W226",
+      "name": "Shell Pink",
+      "in_stock": true
+    },
+    {
+      "code": "W227",
+      "name": "Quinacridone Scarlet",
+      "in_stock": true
+    },
+    {
+      "code": "W230",
+      "name": "Naples Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W231",
+      "name": "Jaune Brillant 1",
+      "in_stock": true
+    },
+    {
+      "code": "W232",
+      "name": "Jaune Brillant 2",
+      "in_stock": true
+    },
+    {
+      "code": "W233",
+      "name": "Lemon Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W234",
+      "name": "Yellow Ochre",
+      "in_stock": true
+    },
+    {
+      "code": "W235",
+      "name": "Permanent Yellow Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "W236",
+      "name": "Permanent Yellow Light",
+      "in_stock": true
+    },
+    {
+      "code": "W237",
+      "name": "Permanent Yellow Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W238",
+      "name": "Perm Yellow Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W239",
+      "name": "Aureolin",
+      "in_stock": true
+    },
+    {
+      "code": "W240",
+      "name": "Cadmium Yellow Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "W241",
+      "name": "Cadmium Yellow Pale",
+      "in_stock": true
+    },
+    {
+      "code": "W242",
+      "name": "Cadmium Yellow Light",
+      "in_stock": true
+    },
+    {
+      "code": "W243",
+      "name": "Cadmium Yellow Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W244",
+      "name": "Cadmium Yellow Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W246",
+      "name": "Greenish Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W247",
+      "name": "Brilliant Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W248",
+      "name": "Gamboge Nova",
+      "in_stock": true
+    },
+    {
+      "code": "W249",
+      "name": "Isoindo Yel Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W250",
+      "name": "Imidazolone Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W251",
+      "name": "Imidazolone Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "W260",
+      "name": "Viridian",
+      "in_stock": true
+    },
+    {
+      "code": "W261",
+      "name": "Viridian Hue",
+      "in_stock": true
+    },
+    {
+      "code": "W262",
+      "name": "Hookers Green",
+      "in_stock": true
+    },
+    {
+      "code": "W263",
+      "name": "Cobalt Green",
+      "in_stock": true
+    },
+    {
+      "code": "W264",
+      "name": "Emerald Green Nova",
+      "in_stock": true
+    },
+    {
+      "code": "W265",
+      "name": "Terre Verte",
+      "in_stock": true
+    },
+    {
+      "code": "W266",
+      "name": "Permanent Green 1",
+      "in_stock": true
+    },
+    {
+      "code": "W267",
+      "name": "Permanent Green 2",
+      "in_stock": true
+    },
+    {
+      "code": "W269",
+      "name": "Cadmium Green Pale",
+      "in_stock": true
+    },
+    {
+      "code": "W270",
+      "name": "Cadmium Green Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W271",
+      "name": "Compose Green 1",
+      "in_stock": true
+    },
+    {
+      "code": "W274",
+      "name": "Olive Green",
+      "in_stock": true
+    },
+    {
+      "code": "W275",
+      "name": "Sap Green",
+      "in_stock": true
+    },
+    {
+      "code": "W277",
+      "name": "Leaf Green",
+      "in_stock": true
+    },
+    {
+      "code": "W278",
+      "name": "Bamboo Green",
+      "in_stock": true
+    },
+    {
+      "code": "W279",
+      "name": "Shadow Green",
+      "in_stock": true
+    },
+    {
+      "code": "W290",
+      "name": "Cobalt Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W291",
+      "name": "Cobalt Blue Hue",
+      "in_stock": true
+    },
+    {
+      "code": "W292",
+      "name": "Cerulean Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W293",
+      "name": "Ultramarine Light",
+      "in_stock": true
+    },
+    {
+      "code": "W294",
+      "name": "Ultramarine Deep",
+      "in_stock": true
+    },
+    {
+      "code": "W295",
+      "name": "Verditer Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W296",
+      "name": "Compose Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W297",
+      "name": "Prussian Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W298",
+      "name": "Indigo",
+      "in_stock": true
+    },
+    {
+      "code": "W299",
+      "name": "Turquoise Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W301",
+      "name": "Peacock Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W302",
+      "name": "Marine Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W303",
+      "name": "Royal Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W304",
+      "name": "Horizon Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W305",
+      "name": "Manganese Blue Nova",
+      "in_stock": true
+    },
+    {
+      "code": "W306",
+      "name": "Cobalt Turquoise Light",
+      "in_stock": true
+    },
+    {
+      "code": "W307",
+      "name": "Phthalo Blue Yellow Shade",
+      "in_stock": true
+    },
+    {
+      "code": "W308",
+      "name": "Phthalo Blue Red Shade",
+      "in_stock": true
+    },
+    {
+      "code": "W310",
+      "name": "Cobalt Violet Light",
+      "in_stock": true
+    },
+    {
+      "code": "W312",
+      "name": "Mineral Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W313",
+      "name": "Mars Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W315",
+      "name": "Permanent Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W316",
+      "name": "Lavender",
+      "in_stock": true
+    },
+    {
+      "code": "W317",
+      "name": "Lilac",
+      "in_stock": true
+    },
+    {
+      "code": "W319",
+      "name": "Quinacridone Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "W320",
+      "name": "Quinacridone Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W329",
+      "name": "Umber",
+      "in_stock": true
+    },
+    {
+      "code": "W330",
+      "name": "Light Red",
+      "in_stock": true
+    },
+    {
+      "code": "W331",
+      "name": "Raw Umber",
+      "in_stock": true
+    },
+    {
+      "code": "W332",
+      "name": "Raw Sienna",
+      "in_stock": true
+    },
+    {
+      "code": "W333",
+      "name": "Burnt Umber",
+      "in_stock": true
+    },
+    {
+      "code": "W334",
+      "name": "Burnt Sienna",
+      "in_stock": true
+    },
+    {
+      "code": "W335",
+      "name": "Indian Red",
+      "in_stock": true
+    },
+    {
+      "code": "W336",
+      "name": "Sepia",
+      "in_stock": true
+    },
+    {
+      "code": "W337",
+      "name": "Peach Black",
+      "in_stock": true
+    },
+    {
+      "code": "W338",
+      "name": "Ivory Black",
+      "in_stock": true
+    },
+    {
+      "code": "W339",
+      "name": "Vandyke Brown",
+      "in_stock": true
+    },
+    {
+      "code": "W340",
+      "name": "Lamp Black",
+      "in_stock": true
+    },
+    {
+      "code": "W341",
+      "name": "Imidazolone Brown",
+      "in_stock": true
+    },
+    {
+      "code": "W342",
+      "name": "Quinacridone Gold",
+      "in_stock": true
+    },
+    {
+      "code": "W351",
+      "name": "Yellow Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W352",
+      "name": "Green Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W353",
+      "name": "Grey Of Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W355",
+      "name": "Davys Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W356",
+      "name": "Paynes Grey",
+      "in_stock": true
+    },
+    {
+      "code": "W357",
+      "name": "Neutral Tint",
+      "in_stock": true
+    },
+    {
+      "code": "W370",
+      "name": "Bright Rose Lumi",
+      "in_stock": true
+    },
+    {
+      "code": "W375",
+      "name": "Bright Violet Lumi",
+      "in_stock": true
+    },
+    {
+      "code": "W390",
+      "name": "Gold",
+      "in_stock": true
+    },
+    {
+      "code": "W391",
+      "name": "Silver",
+      "in_stock": true
+    },
+    {
+      "code": "W841",
+      "name": "Luminous Red",
+      "in_stock": true
+    },
+    {
+      "code": "W842",
+      "name": "Luminous Orange Red",
+      "in_stock": true
+    },
+    {
+      "code": "W843",
+      "name": "Luminous Orange",
+      "in_stock": true
+    },
+    {
+      "code": "W844",
+      "name": "Luminous Yellow",
+      "in_stock": true
+    },
+    {
+      "code": "W845",
+      "name": "Luminous Lemon",
+      "in_stock": true
+    },
+    {
+      "code": "W846",
+      "name": "Luminous Green",
+      "in_stock": true
+    },
+    {
+      "code": "W847",
+      "name": "Luminous Blue",
+      "in_stock": true
+    },
+    {
+      "code": "W848",
+      "name": "Luminous Blue Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W849",
+      "name": "Luminous Violet",
+      "in_stock": true
+    },
+    {
+      "code": "W850",
+      "name": "Luminous Magenta",
+      "in_stock": true
+    },
+    {
+      "code": "W851",
+      "name": "Luminous Opera",
+      "in_stock": true
+    },
+    {
+      "code": "W852",
+      "name": "Luminous Pink",
+      "in_stock": true
+    }
+  ],
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2025/07/hwc_w213_15ml-a10f10d1-016a-40f3-946e-f0cb8a090da8-4.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2025/07/170908red_tex_new_fx-ec0ab6c9-e1dc-4f63-af58-b2e177b4ece3-4-scaled.jpg"
+  ]
+}

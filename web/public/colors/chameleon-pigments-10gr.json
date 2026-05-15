@@ -1,0 +1,226 @@
+{
+  "slug": "chameleon-pigments-10gr",
+  "productName": "Chameleon Pigments 10gr",
+  "basePriceClp": 6900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/chameleon-pigments-10-gr/",
+  "sourceCount": 35,
+  "generatedAt": "2026-05-15T07:32:59.485Z",
+  "colors": [
+    {
+      "code": "BLUEGREENGOLDVER3",
+      "name": "Blue Green Gold Ver 3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-22.png",
+      "variantId": 73371
+    },
+    {
+      "code": "BLUEGREENGOLDVER4",
+      "name": "Blue Green Gold Ver 4",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-14.png",
+      "variantId": 73342
+    },
+    {
+      "code": "BLUEGREENVER2",
+      "name": "Blue Green Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-23.png",
+      "variantId": 73376
+    },
+    {
+      "code": "BLUEPURPLE",
+      "name": "Blue Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-3.png",
+      "variantId": 73318
+    },
+    {
+      "code": "BLUEYELLOW",
+      "name": "Blue Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-26.png",
+      "variantId": 73383
+    },
+    {
+      "code": "BRIGHTPURPLEBLUEGREEN",
+      "name": "Bright Purple Blue Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-20.png",
+      "variantId": 73363
+    },
+    {
+      "code": "BROWNREDVIOLET",
+      "name": "Brown Red Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-12.png",
+      "variantId": 73337
+    },
+    {
+      "code": "GOLDBLUEVIOLET",
+      "name": "Gold Blue Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-24.png",
+      "variantId": 73379
+    },
+    {
+      "code": "GOLDENGREEN",
+      "name": "Golden Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-32.png",
+      "variantId": 73395
+    },
+    {
+      "code": "GOLDENGREENRED",
+      "name": "Golden Green Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-9.png",
+      "variantId": 73330
+    },
+    {
+      "code": "GOLDENYELLOWGREENBLUEVER2",
+      "name": "Golden Yellow Green Blue Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-10.png",
+      "variantId": 73332
+    },
+    {
+      "code": "GOLDGREENVER2",
+      "name": "Gold Green Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-21.png",
+      "variantId": 73367
+    },
+    {
+      "code": "GOLDRED",
+      "name": "Gold Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-35.png",
+      "variantId": 73402
+    },
+    {
+      "code": "GOLDREDPURPLE",
+      "name": "Gold Red Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-33.png",
+      "variantId": 73397
+    },
+    {
+      "code": "GOLDREDVER2",
+      "name": "Gold Red Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-6.png",
+      "variantId": 73324
+    },
+    {
+      "code": "GOLDREDVIOLET",
+      "name": "Gold Red Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-30.png",
+      "variantId": 73391
+    },
+    {
+      "code": "GOLDYELLOWGREENBLUE",
+      "name": "Gold Yellow Green Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-27.png",
+      "variantId": 73385
+    },
+    {
+      "code": "GREENBLUE",
+      "name": "Green Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-18.png",
+      "variantId": 73356
+    },
+    {
+      "code": "GREENBLUEVER2",
+      "name": "Green Blue Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-11.png",
+      "variantId": 73335
+    },
+    {
+      "code": "GREENGOLDREDVER2",
+      "name": "Green Gold Red Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-8.png",
+      "variantId": 73328
+    },
+    {
+      "code": "GREENYELLOW",
+      "name": "Green Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-4.png",
+      "variantId": 73320
+    },
+    {
+      "code": "MAUVEBLUEGREEN",
+      "name": "Mauve Blue Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-31.png",
+      "variantId": 73393
+    },
+    {
+      "code": "ORANGEBLUE",
+      "name": "Orange Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-34.png",
+      "variantId": 73400
+    },
+    {
+      "code": "ORANGEYELLOWVIOLETBLUE",
+      "name": "Orange Yellow Violet Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-29.png",
+      "variantId": 73389
+    },
+    {
+      "code": "PURPLEBLUEGREENVER2",
+      "name": "Purple Blue Green Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-15.png",
+      "variantId": 73346
+    },
+    {
+      "code": "PURPLEBLUEGREENVER5",
+      "name": "Purple Blue Green Ver 5",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-28.png",
+      "variantId": 73387
+    },
+    {
+      "code": "PURPLERED",
+      "name": "Purple Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-2.png",
+      "variantId": 73316
+    },
+    {
+      "code": "PURPLEREDORANGEYELLOW",
+      "name": "Purple Red Orange Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-13.png",
+      "variantId": 73339
+    },
+    {
+      "code": "PURPLEREDVER2",
+      "name": "Purple Red Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-17.png",
+      "variantId": 73352
+    },
+    {
+      "code": "REDGOLD",
+      "name": "Red Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-5.png",
+      "variantId": 73322
+    },
+    {
+      "code": "REDGREEN",
+      "name": "Red Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-1.png",
+      "variantId": 73314
+    },
+    {
+      "code": "REDORANGEYELLOWGREENVER2",
+      "name": "Red Orange Yellow Green Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-16.png",
+      "variantId": 73349
+    },
+    {
+      "code": "REDPURPLE",
+      "name": "Red Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-7.png",
+      "variantId": 73326
+    },
+    {
+      "code": "REDPURPLEBLUEVER2",
+      "name": "Red Purple Blue Ver 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-19.png",
+      "variantId": 73359
+    },
+    {
+      "code": "YELLOWRED",
+      "name": "Yellow Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e-25.png",
+      "variantId": 73381
+    }
+  ],
+  "description": "Pigmento super concentrado con colores cambiantes. Cambio de color de dos a cinco etapas!",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e.png"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/08/portada-chameleon-679db619-08bb-4ffb-8b7e-0cf3dcead79e.png"
+}

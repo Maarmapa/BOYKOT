@@ -1,0 +1,72 @@
+{
+  "slug": "molotow-premium-neon",
+  "productName": "Molotow Premium Neon 400ml",
+  "bsaleProductId": 2238,
+  "generatedAt": "2026-05-15T03:50:04.458Z",
+  "colors": [
+    {
+      "code": "232 Yellow",
+      "name": "",
+      "variantId": 24689,
+      "sku": "4015962729063",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "233 Orange",
+      "name": "",
+      "variantId": 24690,
+      "sku": "4015962729070",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "234 Pink",
+      "name": "",
+      "variantId": 24691,
+      "sku": "4015962729087",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "235 Blue",
+      "name": "",
+      "variantId": 24692,
+      "sku": "4015962729094",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "236 Green",
+      "name": "",
+      "variantId": 24693,
+      "sku": "4015962729100",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "236-1 Red Antistatik",
+      "name": "",
+      "variantId": 24694,
+      "sku": "4015962729155",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "234-1 Neon Violet",
+      "name": "",
+      "variantId": 30262,
+      "sku": "4015962729339",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    },
+    {
+      "code": "235-1 Neon Turquoise",
+      "name": "",
+      "variantId": 30263,
+      "sku": "4015962729346",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
+      "matchSlug": "molotow-neon-ufa"
+    }
+  ]
+}

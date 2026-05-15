@@ -1,0 +1,160 @@
+{
+  "slug": "angelus-tintura-gamuza-3oz",
+  "productName": "Angelus Tintura Gamuza 3oz",
+  "basePriceClp": 9900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/pintura/angelus/pinturas/angelus-pinturas/tintura-angelus-pinturas/tintura-gamuza-angelus-3-oz/",
+  "sourceCount": 24,
+  "generatedAt": "2026-05-15T07:32:44.751Z",
+  "colors": [
+    {
+      "code": "001",
+      "name": "Black",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "014",
+      "name": "Brown",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "018",
+      "name": "Dark Brown",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "021",
+      "name": "Light Brown",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "026",
+      "name": "Rust",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "029",
+      "name": "Tan",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "040",
+      "name": "Blue",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "041",
+      "name": "Light Blue",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "042",
+      "name": "Navy Blue",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "047",
+      "name": "Purple",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "050",
+      "name": "Green",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "051",
+      "name": "Kelly Green",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "060",
+      "name": "Burgundy",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "061",
+      "name": "Dark Red",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "064",
+      "name": "Red",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "065",
+      "name": "Wine Tone",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "070",
+      "name": "Beige",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "071",
+      "name": "Chamois",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "075",
+      "name": "Yellow",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "080",
+      "name": "Dark Grey",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "081",
+      "name": "Grey",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "082",
+      "name": "Light Grey",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "175",
+      "name": "Lilac",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    },
+    {
+      "code": "188",
+      "name": "Pink",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg",
+      "matchSlug": "tintura-gamuza-angelus-3-oz"
+    }
+  ],
+  "description": "Dale vida a tu calzado de gamuza con la tintura para gamuza Angelus. Este el tinte de calidad industrial vibrante y de gran resistencia que prefieren los zapateros profesionales.Esta tinta penetra profundamente en la gamuza dejando su superficie suave y flexible.Cada botella de tintura para gamuza incluye un aplicador de lana.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/08/tintura-gamuza-angelus-kelly-green-2-ange520e03051-a2ad8aa2-cf05-4bb7-80fd-5f2865231738.jpg"
+}

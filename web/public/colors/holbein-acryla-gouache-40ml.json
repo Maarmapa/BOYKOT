@@ -1,0 +1,661 @@
+{
+  "slug": "holbein-acryla-gouache-40ml",
+  "productName": "Acryla Gouache Holbein 40ml",
+  "basePriceClp": 11900,
+  "bsaleProductId": 0,
+  "sourceCount": 93,
+  "generatedAt": "2026-05-15T05:17:22.464Z",
+  "colors": [
+    {
+      "code": "D701",
+      "name": "Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d701.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-crimson/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D702",
+      "name": "Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d702.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-carmine/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D703",
+      "name": "Scarlet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d703.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-scarlet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D704",
+      "name": "Opera",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d704.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-opera/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D705",
+      "name": "Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d705.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D706",
+      "name": "Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d706.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-rose/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D707",
+      "name": "Wine Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d707.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-wine-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D708",
+      "name": "Cosmos Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d708.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-cosmos-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D709",
+      "name": "Pure Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d709.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pure-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D710",
+      "name": "Coral Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d710.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-coral-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D711",
+      "name": "Shell Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d711.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-shell-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D712",
+      "name": "Vermillion",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d712.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-vermillion/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D713",
+      "name": "Pale Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d713.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D714",
+      "name": "Pale Peach",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d714.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-peach/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D731",
+      "name": "Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d731.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D732",
+      "name": "Light Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d732.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-light-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D733",
+      "name": "Deep Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d733.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-deep-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D734",
+      "name": "Lemon Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d734.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-lemon-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D735",
+      "name": "Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d735.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-orange/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D736",
+      "name": "Orange Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d736.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-orange-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D737",
+      "name": "Cream Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d737.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-cream-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D738",
+      "name": "Jaune Brilliant",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d738.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-jaune-brilliant/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D739",
+      "name": "Yellow Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d739.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-yellow-ochre/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D740",
+      "name": "Naples Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d740.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-naples-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D741",
+      "name": "Flesh",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d741.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-flesh/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D742",
+      "name": "Ivory White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d742.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ivory-white/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D743",
+      "name": "Beige",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d743.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-beige/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D744",
+      "name": "Mustard",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d744.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-mustard/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D761",
+      "name": "Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d761.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D762",
+      "name": "Light Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d762.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-light-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D763",
+      "name": "Deep Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d763.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-deep-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D764",
+      "name": "Viridian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d764.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-viridian/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D765",
+      "name": "Olive",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d765.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-olive/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D766",
+      "name": "Sap Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d766.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-sap-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D767",
+      "name": "Emerald Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d767.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-emerald-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D768",
+      "name": "Cobalt Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d768.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-cobalt-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D769",
+      "name": "Ice Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d769.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ice-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D770",
+      "name": "Leaf Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d770.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-leaf-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D771",
+      "name": "Grass Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d771.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-grass-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D772",
+      "name": "Blue Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d772.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-blue-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D773",
+      "name": "Mint Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d773.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-mint-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D774",
+      "name": "Misty Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d774.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-misty-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D775",
+      "name": "Pale Lime",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d775.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-lime/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D776",
+      "name": "Pale Mint",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d776.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-mint/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D791",
+      "name": "Ultramarine Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d791.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ultramarine-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D792",
+      "name": "Ultramarine Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d792.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ultramarine-deep/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D793",
+      "name": "Cobalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d793.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-cobalt-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D794",
+      "name": "Cerulean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d794.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-cerulean-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D795",
+      "name": "Turquoise Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d795.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-turquoise-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D796",
+      "name": "Peacock Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d796.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-peacock-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D797",
+      "name": "Sky Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d797.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-sky-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D798",
+      "name": "Navy Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d798.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-navy-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D799",
+      "name": "Aqua Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d799.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-aqua-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D800",
+      "name": "Light Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d800.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-light-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D801",
+      "name": "Misty Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d801.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-misty-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D802",
+      "name": "Acryla Gouache 40ml Horizon Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d802.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-horizon-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D803",
+      "name": "Smalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d803.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-smalt-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D804",
+      "name": "Pale Aqua",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d804.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-aqua/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D805",
+      "name": "Prussian Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d805.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-prussian-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D811",
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d811.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D812",
+      "name": "Deep Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d812.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-deep-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D813",
+      "name": "Red Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d813.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-red-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D814",
+      "name": "Blue Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d814.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-blue-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D815",
+      "name": "Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d815.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-magenta/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D816",
+      "name": "Light Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d816.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-light-magenta/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D817",
+      "name": "Deep Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d817.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-deep-magenta/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D818",
+      "name": "Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d818.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-lilac/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D819",
+      "name": "Rose Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d819.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-rose-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D820",
+      "name": "Pale Lavender",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d820.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-lavender/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D821",
+      "name": "Pale Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d821.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-lilac/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D831",
+      "name": "Burnt Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d831.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-burnt-sienna/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D832",
+      "name": "Raw Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d832.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-raw-umber/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D833",
+      "name": "Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d833.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-burnt-umber/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D834",
+      "name": "Light Red Bright",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d834.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-light-red-bright/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D835",
+      "name": "Sepia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d835.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-sepia/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D836",
+      "name": "Jet Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d836.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-jet-black/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D837",
+      "name": "Lamp Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d837.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-lamp-black/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D838",
+      "name": "Raw Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d838.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-raw-sienna/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D851",
+      "name": "Titanium White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d851.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-titanium-white/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D852",
+      "name": "Chinese White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d852.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-chinese-white/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D855",
+      "name": "Ash Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d855.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ash-rose/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D856",
+      "name": "Ash Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d856.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ash-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D857",
+      "name": "Ash Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d857.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ash-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D858",
+      "name": "Ash Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d858.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-ash-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D861",
+      "name": "Neutral Grey #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d861.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-neutral-grey-1/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D862",
+      "name": "Neutral Grey #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d862.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-neutral-grey-2/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D863",
+      "name": "Neutral Grey #3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d863.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-neutral-grey-3/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D864",
+      "name": "Neutral Grey #4",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d864.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-neutral-grey-4/",
+      "priceClp": 7000
+    },
+    {
+      "code": "D871",
+      "name": "Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d871.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-gold/",
+      "priceClp": 9800
+    },
+    {
+      "code": "D872",
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d872.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-silver/",
+      "priceClp": 9800
+    },
+    {
+      "code": "D873",
+      "name": "Bronze",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d873.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-bronze/",
+      "priceClp": 9800
+    },
+    {
+      "code": "D881",
+      "name": "Pale Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d881.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-pale-gold/",
+      "priceClp": 9800
+    },
+    {
+      "code": "D887",
+      "name": "Metallic White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2020/06/d887.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/acryla-gouache-holbein/acryla-gouche-40-ml-color-metallic-white/",
+      "priceClp": 9800
+    }
+  ]
+}

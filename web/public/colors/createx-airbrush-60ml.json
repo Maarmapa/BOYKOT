@@ -1,0 +1,517 @@
+{
+  "slug": "createx-airbrush-60ml",
+  "productName": "Createx Airbrush 60ml",
+  "basePriceClp": 4900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/createx-airbrush-colors-60ml-unidad/",
+  "sourceCount": 83,
+  "generatedAt": "2026-05-15T07:32:44.958Z",
+  "colors": [
+    {
+      "code": "5102",
+      "name": "Transparent Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5102-ref-5cc0802e-c67a-44c6-a924-903e35c0b006.jpg",
+      "variantId": 118947
+    },
+    {
+      "code": "5103",
+      "name": "Transparent Red Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5103-ref-3db2b9ef-05c4-481f-a274-3ae2fa4beba7.jpg",
+      "variantId": 118983
+    },
+    {
+      "code": "5105",
+      "name": "Transparent Caribbean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5105-ref-570255fa-0b01-4a2e-9bfe-ffb875774350.jpg",
+      "variantId": 118985
+    },
+    {
+      "code": "5106",
+      "name": "Transparent Brite Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5106-ref-bcb6145a-dd97-47dd-a3dd-d24b9c99dc0d.jpg",
+      "variantId": 118965
+    },
+    {
+      "code": "5107",
+      "name": "Transparent Ultramarine Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5107-ref-0a0ee702-7695-43b5-a812-bcbf700eea02.jpg",
+      "variantId": 118841
+    },
+    {
+      "code": "5108",
+      "name": "Transparent Deep Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5108-ref-09a51f12-b255-447e-97ef-4d682eabf3e4.jpg",
+      "variantId": 118867
+    },
+    {
+      "code": "5109",
+      "name": "Transparent Brite Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5109-ref-cc488150-d472-4f67-8126-bba31bf092b8.jpg",
+      "variantId": 118951
+    },
+    {
+      "code": "5110",
+      "name": "Transparent Forest Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5110-ref-26bd28df-5cfb-4a3d-80e2-aaa95244d35c.jpg",
+      "variantId": 118837
+    },
+    {
+      "code": "5111",
+      "name": "Transparent Aqua",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5111-ref-b44058c9-edf6-4284-b2e1-cf5b50c4ea4d.jpg",
+      "variantId": 118937
+    },
+    {
+      "code": "5112",
+      "name": "Transparent Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5112-ref-3f4b6d2a-e175-4dfb-82c8-eb2dd33f5133.jpg",
+      "variantId": 118897
+    },
+    {
+      "code": "5113",
+      "name": "Transparent Sunrise Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5113-ref-dc076dfe-6d6b-46fd-a46c-81deb5558841.jpg",
+      "variantId": 118971
+    },
+    {
+      "code": "5114",
+      "name": "Transparent Brite Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5114-ref-4b2272ed-2416-458a-b345-413461fc54ad.jpg",
+      "variantId": 118907
+    },
+    {
+      "code": "5115",
+      "name": "Transparent Leaf Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5115-ref-0814d0cf-b055-49fa-8162-77b6971fbbc6.jpg",
+      "variantId": 118997
+    },
+    {
+      "code": "5116",
+      "name": "Transparent Tropical Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5116-ref-a290251e-4003-4c52-b3fb-48be370766b2.jpg",
+      "variantId": 118855
+    },
+    {
+      "code": "5117",
+      "name": "Transparent Brite Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5117-ref-6d754ffe-6286-4840-a66b-b9210ca0a5a4.jpg",
+      "variantId": 118927
+    },
+    {
+      "code": "5118",
+      "name": "Transparent Sunset Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5118-ref-d024979f-cdc6-49f6-92fa-af27f1645050.jpg",
+      "variantId": 118987
+    },
+    {
+      "code": "5119",
+      "name": "Transparent Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5119-ref-045d37c5-f9b4-4365-afef-55ce6695aacb.jpg",
+      "variantId": 118863
+    },
+    {
+      "code": "5121",
+      "name": "Transparent Flamingo Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5121-ref-191d3031-d03d-4430-8ac4-9ae08858cc14.jpg",
+      "variantId": 118911
+    },
+    {
+      "code": "5122",
+      "name": "Transparent Fuchsia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5122-ref-1fc76bc6-063e-472a-a301-a4b5cfb21a26.jpg",
+      "variantId": 118889
+    },
+    {
+      "code": "5123",
+      "name": "Transparent Burgundy",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5123-ref-b1890acf-e04d-4e46-b3d8-9e5bf0c59cc6.jpg",
+      "variantId": 118925
+    },
+    {
+      "code": "5124",
+      "name": "Transparent Deep Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5124-ref-a0a0fe38-3448-4b88-91a8-c6abd0b60f1b.jpg",
+      "variantId": 118845
+    },
+    {
+      "code": "5125",
+      "name": "Transparent Peach",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5125-ref-dff8ec27-8939-46ff-aca6-e2ad3f3dbfb5.jpg",
+      "variantId": 118899
+    },
+    {
+      "code": "5126",
+      "name": "Transparent Sand",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5126-ref-2659fb5b-d563-444b-bdf0-4e501fae7177.jpg",
+      "variantId": 118847
+    },
+    {
+      "code": "5127",
+      "name": "Transparent Light Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5127-ref-80971635-1545-45c1-b4d3-e51f49a5a989.jpg",
+      "variantId": 118941
+    },
+    {
+      "code": "5128",
+      "name": "Transparent Dark Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5128-ref-b654fd49-0c7e-4306-a99f-ced94c57e7e9.jpg",
+      "variantId": 118883
+    },
+    {
+      "code": "5129",
+      "name": "Transparent Medium Gray",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5129-ref-07dbd435-9b3e-49d0-9f4e-8b3d81a594cf.jpg",
+      "variantId": 118913
+    },
+    {
+      "code": "5131",
+      "name": "Transparent White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5131-ref-494e6bb2-4e5e-47c4-bb29-3b90a607abc5.jpg",
+      "variantId": 118967
+    },
+    {
+      "code": "5132",
+      "name": "Transparent Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5132-ref-9ec8e51f-3cff-499e-9b2a-d8cabc8881fb.jpg",
+      "variantId": 118917
+    },
+    {
+      "code": "5133",
+      "name": "Transparent Canary Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5133-ref-b806aa21-c65c-44e9-a6cb-11f85578d31e.jpg",
+      "variantId": 118975
+    },
+    {
+      "code": "5134",
+      "name": "Transparent Maui Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5134-ref-7bc2a3e7-a15a-4f7e-ad61-fc3340fc7ac4.jpg",
+      "variantId": 118877
+    },
+    {
+      "code": "5135",
+      "name": "Transparent Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5135-ref-e5cba10a-ce8f-4295-818e-3cc6e4cc8afa.jpg",
+      "variantId": 118973
+    },
+    {
+      "code": "5136",
+      "name": "Transparent Red Oxide",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5136-ref-6d846e89-6c9b-420c-b5b9-812a696be68e.jpg",
+      "variantId": 118871
+    },
+    {
+      "code": "5137",
+      "name": "Transparent Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5137-ref-567a47ac-d9e3-4006-bc44-ffa736ef17f4.jpg",
+      "variantId": 118969
+    },
+    {
+      "code": "5138",
+      "name": "Transparent Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5138-ref-67b44ef3-a1b1-4d0a-b77f-49831dc7060e.jpg",
+      "variantId": 118849
+    },
+    {
+      "code": "5201",
+      "name": "Opaque Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5201-ref-73be70b8-c3e7-4a10-b86a-e66b45a0e128.jpg",
+      "variantId": 118923
+    },
+    {
+      "code": "5202",
+      "name": "Opaque Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5202-ref-3501e661-83a5-4e8f-b79f-dec71495df12.jpg",
+      "variantId": 118843
+    },
+    {
+      "code": "5203",
+      "name": "Opaque Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5203-ref-31ced107-921f-40a1-b3d1-f87c9479c388.jpg",
+      "variantId": 118891
+    },
+    {
+      "code": "5204",
+      "name": "Opaque Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5204-ref-c2fe0061-b272-4650-8858-a748d76958c3.jpg",
+      "variantId": 118851
+    },
+    {
+      "code": "5205",
+      "name": "Opaque Light Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5205-ref-1bb35e56-30f8-4101-bacc-7c1c4ad2bbda.jpg",
+      "variantId": 118893
+    },
+    {
+      "code": "5206",
+      "name": "Opaque Aqua",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5206-ref-f7c1e7fc-010e-454c-af3b-e56fca6e42b7.jpg",
+      "variantId": 118929
+    },
+    {
+      "code": "5207",
+      "name": "Opaque Sky Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5207-ref-ebb2259f-e382-4efb-a569-60574ccd619a.jpg",
+      "variantId": 118865
+    },
+    {
+      "code": "5208",
+      "name": "Opaque Coral",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5208-ref-fafeda41-964c-4097-9367-4d1066b1d8e1.jpg",
+      "variantId": 118909
+    },
+    {
+      "code": "5209",
+      "name": "Opaque Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5209-ref-e7f6fecc-03dc-4b56-8e0a-e29d63841203.jpg",
+      "variantId": 118943
+    },
+    {
+      "code": "5210",
+      "name": "Opaque Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5210-ref-81e24d25-7a9e-4fdc-930f-2b0259fc8e77.jpg",
+      "variantId": 118915
+    },
+    {
+      "code": "5211",
+      "name": "Opaque Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5211-ref-b891abeb-4bb7-431f-b617-7dc3f3bf4f9a.jpg",
+      "variantId": 118935
+    },
+    {
+      "code": "5212",
+      "name": "Opaque White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5212-ref-f83c5f44-810c-4bf2-9bdb-86e6ba4fcf91.jpg",
+      "variantId": 118959
+    },
+    {
+      "code": "5301",
+      "name": "Pearl Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5301-ref-a4ca1592-81af-4d88-9eb5-26fcfdfb5e3b.jpg",
+      "variantId": 118957
+    },
+    {
+      "code": "5302",
+      "name": "Pearl Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5302-ref-7b2b5e72-5e4b-4d5f-a857-a2ee0c582e95.jpg",
+      "variantId": 118853
+    },
+    {
+      "code": "5303",
+      "name": "Pearl Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5303-ref-2a022f86-d0f6-47f8-8417-a4aab88a8002.jpg",
+      "variantId": 118873
+    },
+    {
+      "code": "5304",
+      "name": "Pearl Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5304-ref-db5f0223-74cd-488f-bfd0-c7e59a3c1be5.jpg",
+      "variantId": 118879
+    },
+    {
+      "code": "5305",
+      "name": "Pearl Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5305-ref-ee96be62-e6ab-4a95-877c-b87633fae231.jpg",
+      "variantId": 118949
+    },
+    {
+      "code": "5306",
+      "name": "Pearl Copper",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5306-ref-c9e58034-aa02-463d-8ffe-cf5139d0010e.jpg",
+      "variantId": 118875
+    },
+    {
+      "code": "5307",
+      "name": "Pearl Satin Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5307-ref-362511a2-a000-4ee5-af55-3e1cf7f48bba.jpg",
+      "variantId": 118839
+    },
+    {
+      "code": "5308",
+      "name": "Pearl Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5308-ref-4353a4e8-2c9d-4afe-9afc-75d6118f545d.jpg",
+      "variantId": 118933
+    },
+    {
+      "code": "5309",
+      "name": "Pearl Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5309-ref-bc25dce1-783c-4441-a00b-274ed1410640.jpg",
+      "variantId": 118857
+    },
+    {
+      "code": "5310",
+      "name": "Pearl White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5310-ref-6ed0a647-a894-47b0-8607-df13c1fad10c.jpg",
+      "variantId": 118963
+    },
+    {
+      "code": "5311",
+      "name": "Pearl Pineapple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5311-ref-a49398d5-2e1f-473d-a416-edd177bbbb0b.jpg",
+      "variantId": 118885
+    },
+    {
+      "code": "5312",
+      "name": "Pearl Tangerine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5312-ref-f13b7af4-ce50-4ea7-b7bd-c96b2ec8b2db.jpg",
+      "variantId": 118939
+    },
+    {
+      "code": "5313",
+      "name": "Pearl Lime",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5313-ref-679dff92-350e-4164-b528-26f188404506.jpg",
+      "variantId": 118921
+    },
+    {
+      "code": "5314",
+      "name": "Pearl Plum",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5314-ref-9b737a09-4eaf-478b-a8cf-36d365cafabe.jpg",
+      "variantId": 118989
+    },
+    {
+      "code": "5315",
+      "name": "Pearl Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5315-ref-21013754-8f7b-4453-be74-d7d5768ed6ba.jpg",
+      "variantId": 118945
+    },
+    {
+      "code": "5316",
+      "name": "Pearl Platinum",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5316-ref-cc71d77b-7248-43d7-a512-4411dcb01000.jpg",
+      "variantId": 118953
+    },
+    {
+      "code": "5317",
+      "name": "Pearl Lime Ice",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5317-ref-7c4fefcf-c807-44df-92a2-a75c3b62a9f5.jpg",
+      "variantId": 118919
+    },
+    {
+      "code": "5401",
+      "name": "Fluorescent Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5401-ref-5510b432-bb76-4a54-ac8f-c4df7f6c0c59.jpg",
+      "variantId": 118993
+    },
+    {
+      "code": "5402",
+      "name": "Fluorescent Raspberry",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5402-ref-1f4e7f46-80dd-4922-ad5b-f93d6d2f4b14.jpg",
+      "variantId": 118895
+    },
+    {
+      "code": "5403",
+      "name": "Fluorescent Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5403-ref-a9880161-52ab-481e-850a-f23a12adc5a0.jpg",
+      "variantId": 118977
+    },
+    {
+      "code": "5404",
+      "name": "Fluorescent Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5404-ref-aaf840bb-d2ef-4f7b-8e2d-250f6dbd943a.jpg",
+      "variantId": 118955
+    },
+    {
+      "code": "5405",
+      "name": "Fluorescent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5405-ref-fad65d94-1f0a-4c59-8f55-9bacfeb67dbd.jpg",
+      "variantId": 118835
+    },
+    {
+      "code": "5406",
+      "name": "Fluorescent Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5406-ref-bdff1974-9448-434b-b7f4-ad8183f9e355.jpg",
+      "variantId": 118859
+    },
+    {
+      "code": "5407",
+      "name": "Fluorescent Hot Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5407-ref-55c2f672-68b2-48f1-b6d5-9991ae4b4265.jpg",
+      "variantId": 118905
+    },
+    {
+      "code": "5408",
+      "name": "Fluorescent Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5408-ref-efe0ccc3-c14d-4485-9eb7-e49f1887c562.jpg",
+      "variantId": 118903
+    },
+    {
+      "code": "5409",
+      "name": "Fluorescent Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5409-ref-9e662e55-d2bd-4667-bf61-cecf290eb81b.jpg",
+      "variantId": 118961
+    },
+    {
+      "code": "5410",
+      "name": "Fluorescent Sunburst",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5410-ref-9a74a1a6-7cbf-40e9-870c-1dd487d36e68.jpg",
+      "variantId": 118931
+    },
+    {
+      "code": "5501",
+      "name": "Iridescent Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5502-ref-04330dfd-c3da-4e1b-a9cb-1136a3da5a96.jpg",
+      "variantId": 118995
+    },
+    {
+      "code": "5502",
+      "name": "Iridescent Scarlet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5502-ref-cd269148-09ec-4724-a244-10c1c3263984.jpg",
+      "variantId": 118981
+    },
+    {
+      "code": "5503",
+      "name": "Iridescent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5503-ref-fd8cee74-024e-40bd-b527-45f61662547a.jpg",
+      "variantId": 118833
+    },
+    {
+      "code": "5504",
+      "name": "Iridescent Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5504-ref-2f1b9bf8-5791-4a53-977f-9d958b164249.jpg",
+      "variantId": 118881
+    },
+    {
+      "code": "5505",
+      "name": "Iridescent Electric Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5505-ref-bb4e59ab-9c0a-4bd6-bc42-1bf625137830.jpg",
+      "variantId": 118869
+    },
+    {
+      "code": "5506",
+      "name": "Iridescent Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5506-ref-fd1942df-6a56-47cd-b26f-fc454c3fa450.jpg",
+      "variantId": 118991
+    },
+    {
+      "code": "5507",
+      "name": "Iridescent Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5507-ref-65e271bd-4afc-41fb-8f4a-bce49c3feb1d.jpg",
+      "variantId": 118861
+    },
+    {
+      "code": "5508",
+      "name": "Iridescent Fuchsia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5508-ref-9a866983-940f-4775-89aa-a359776d820b.jpg",
+      "variantId": 118901
+    },
+    {
+      "code": "5601",
+      "name": "Transparent Base",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5601-transparent-base-92e1a037-d728-4e22-8b3a-ebea144d47c8.jpg",
+      "variantId": 118887
+    },
+    {
+      "code": "5602",
+      "name": "Opaque Base",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/09/5602-opaque-base-37e5bdcc-dde6-40d8-82f1-66c056b8475d.jpg",
+      "variantId": 118979
+    }
+  ],
+  "description": "Createx Airbrush Colors es una línea de pinturas para aerógrafo base agua. Pueden ser utilizadas en diferentes superficies incluidas telas, plásticos, metales y más. Son particularmente populares para aplicaciones textiles, como poleras de algodón, entre otras telas que serán sometidas a lavado frecuente. Son fáciles de usar, los que los hace ideal para quienes se inician en la aerografía.Posee 5 líneas de colores: transparentes, opacos, fluorescentes, iridiscentes y perlados.-En superficies duras o rígidas, use AutoBorne Sealer como base para garantizar buena adhesión.-En sustratos flexibles mezcle la pintura con 4050 UVLS Gloss Clear, esto mejorará la adherencia y durabilidad.-De ser necesario, se puede diluir con 4011 Reducer.-Para colores fluorescentes en superficies oscuras, se recomienda aplicar primero Createx Airbrush Opaque White como color base. Esto ayuda a que los colores fluor se vean más vivos y brillantes.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_60-22e7c419-0ea1-4d54-9b07-01fc7470781b.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-02-7d7fc77f-55c4-46a8-9c6b-a86844bd792c.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-03-49050c18-6527-4e52-9c8a-ad1c4d40b319.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/09/carta-de-color-04-27fdda96-fc2e-4728-ab2a-fd1ece49e7f4.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/09/airbrush_demo_01_60-22e7c419-0ea1-4d54-9b07-01fc7470781b.jpg"
+}

@@ -1,0 +1,406 @@
+{
+  "slug": "wicked-colors-480ml",
+  "productName": "Wicked Colors 480ml",
+  "basePriceClp": 26900,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/uncategorized/wicked-colors-480ml/",
+  "sourceCount": 65,
+  "generatedAt": "2026-05-15T07:32:45.689Z",
+  "colors": [
+    {
+      "code": "W0002BLACK",
+      "name": "W0002 Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-47.jpg",
+      "variantId": 120613
+    },
+    {
+      "code": "W0003YELLOW",
+      "name": "W0003 Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-4.jpg",
+      "variantId": 120518
+    },
+    {
+      "code": "W0004ORANGE",
+      "name": "W0004 Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-12.jpg",
+      "variantId": 120543
+    },
+    {
+      "code": "W0005RED",
+      "name": "W0005 Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-20.jpg",
+      "variantId": 120559
+    },
+    {
+      "code": "W0006VIOLET",
+      "name": "W0006 Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-54.jpg",
+      "variantId": 120627
+    },
+    {
+      "code": "W0007BLUE",
+      "name": "W0007 Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-18.jpg",
+      "variantId": 120555
+    },
+    {
+      "code": "W0008DEEPBLUE",
+      "name": "W0008 Deep Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-30.jpg",
+      "variantId": 120579
+    },
+    {
+      "code": "W0009PHTHALOGREEN",
+      "name": "W0009 Phthalo Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-17.jpg",
+      "variantId": 120553
+    },
+    {
+      "code": "W0010BROWN",
+      "name": "W0010 Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-16.jpg",
+      "variantId": 120551
+    },
+    {
+      "code": "W0011GOLDENYELLOW",
+      "name": "W0011 Golden Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-56.jpg",
+      "variantId": 120631
+    },
+    {
+      "code": "W0012REDOXIDE",
+      "name": "W0012 Red Oxide",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-6.jpg",
+      "variantId": 120526
+    },
+    {
+      "code": "W0013LAGUNABLUE",
+      "name": "W0013 Laguna Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-23.jpg",
+      "variantId": 120565
+    },
+    {
+      "code": "W0014GREY",
+      "name": "W0014 Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-39.jpg",
+      "variantId": 120597
+    },
+    {
+      "code": "W0015CRIMSON",
+      "name": "W0015 Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-11.jpg",
+      "variantId": 120541
+    },
+    {
+      "code": "W0016APPLEGREEN",
+      "name": "W0016 Apple Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-41.jpg",
+      "variantId": 120601
+    },
+    {
+      "code": "W0020FLUORESCENTPURPLE",
+      "name": "W0020 Fluorescent Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-32.jpg",
+      "variantId": 120583
+    },
+    {
+      "code": "W0021FLUORESCENTRASPBERRY",
+      "name": "W0021 Fluorescent Raspberry",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-9.jpg",
+      "variantId": 120537
+    },
+    {
+      "code": "W0022FLUORESCENTRED",
+      "name": "W0022 Fluorescent Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-15.jpg",
+      "variantId": 120549
+    },
+    {
+      "code": "W0023FLUORESCENTGREEN",
+      "name": "W0023 Fluorescent Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-49.jpg",
+      "variantId": 120617
+    },
+    {
+      "code": "W0024FLUORESCENTYELLOW",
+      "name": "W0024 Fluorescent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-42.jpg",
+      "variantId": 120603
+    },
+    {
+      "code": "W0025FLUORESCENTSUNBURST",
+      "name": "W0025 Fluorescent Sunburst",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-51.jpg",
+      "variantId": 120621
+    },
+    {
+      "code": "W0026FLUORESCENTPINK",
+      "name": "W0026 Fluorescent Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-5.jpg",
+      "variantId": 120522
+    },
+    {
+      "code": "W0027FLUORESCENTORANGE",
+      "name": "W0027 Fluorescent Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-62.jpg",
+      "variantId": 120643
+    },
+    {
+      "code": "W0028FLUORESCENTBLUE",
+      "name": "W0028 Fluorescent Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-26.jpg",
+      "variantId": 120571
+    },
+    {
+      "code": "W0029FLUORESCENTMAGENTA",
+      "name": "W0029 Fluorescent Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-37.jpg",
+      "variantId": 120593
+    },
+    {
+      "code": "W0030OPAQUEWHITE",
+      "name": "W0030 Opaque White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-60.jpg",
+      "variantId": 120639
+    },
+    {
+      "code": "W0031JETBLACK",
+      "name": "W0031 Jet Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-57.jpg",
+      "variantId": 120633
+    },
+    {
+      "code": "W0032DETAILFLATOPAQUEWHITE",
+      "name": "W0032 Detail Flat Opaque White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-50.jpg",
+      "variantId": 120619
+    },
+    {
+      "code": "W0050DETAILWHITE",
+      "name": "W0050 Detail White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-10.jpg",
+      "variantId": 120539
+    },
+    {
+      "code": "W0051DETAILBLACK",
+      "name": "W0051 Detail Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-65.jpg",
+      "variantId": 120649
+    },
+    {
+      "code": "W0052DETAILYELLOW",
+      "name": "W0052 Detail Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-58.jpg",
+      "variantId": 120635
+    },
+    {
+      "code": "W0053DETAILSCARLET",
+      "name": "W0053 Detail Scarlet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-43.jpg",
+      "variantId": 120605
+    },
+    {
+      "code": "W0054DETAILORANGE",
+      "name": "W0054 Detail Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-29.jpg",
+      "variantId": 120577
+    },
+    {
+      "code": "W0055DETAILVIOLET",
+      "name": "W0055 Detail Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-21.jpg",
+      "variantId": 120561
+    },
+    {
+      "code": "W0056DETAILREDVIOLET",
+      "name": "W0056 Detail Red Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-25.jpg",
+      "variantId": 120569
+    },
+    {
+      "code": "W0057DETAILBLUEVIOLET",
+      "name": "W0057 Detail Blue Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-53.jpg",
+      "variantId": 120625
+    },
+    {
+      "code": "W0058DETAILBLUEGREEN",
+      "name": "W0058 Detail Blue Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-13.jpg",
+      "variantId": 120545
+    },
+    {
+      "code": "W0059DETAILMOSSGREEN",
+      "name": "W0059 Detail Moss Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-52.jpg",
+      "variantId": 120623
+    },
+    {
+      "code": "W0060DETAILVIRIDIAN",
+      "name": "W0060 Detail Viridian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-63.jpg",
+      "variantId": 120645
+    },
+    {
+      "code": "W0061DETAILCOBALTBLUE",
+      "name": "W0061 Detail Cobalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-2.jpg",
+      "variantId": 120510
+    },
+    {
+      "code": "W0062DETAILCERULEANBLUE",
+      "name": "W0062 Detail Cerulean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-36.jpg",
+      "variantId": 120591
+    },
+    {
+      "code": "W0063DETAILCARMINE",
+      "name": "W0063 Detail Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-35.jpg",
+      "variantId": 120589
+    },
+    {
+      "code": "W0064DETAILMAGENTA",
+      "name": "W0064 Detail Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-61.jpg",
+      "variantId": 120641
+    },
+    {
+      "code": "W0065DETAILYELLOWOCHRE",
+      "name": "W0065 Detail Yellow Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-27.jpg",
+      "variantId": 120573
+    },
+    {
+      "code": "W0066DETAILBURNTORANGE",
+      "name": "W0066 Detail Burnt Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-40.jpg",
+      "variantId": 120599
+    },
+    {
+      "code": "W0067DETAILRAWSIENA",
+      "name": "W0067 Detail Raw Siena",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-44.jpg",
+      "variantId": 120607
+    },
+    {
+      "code": "W0068DETAILRAWUMBER",
+      "name": "W0068 Detail Raw Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-22.jpg",
+      "variantId": 120563
+    },
+    {
+      "code": "W0069DETAILBURNTUMBER",
+      "name": "W0069 Detail Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-38.jpg",
+      "variantId": 120595
+    },
+    {
+      "code": "W0070DETAILSEPIA",
+      "name": "W0070 Detail Sepia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-8.jpg",
+      "variantId": 120534
+    },
+    {
+      "code": "W0071DETAILPAYNESGREY",
+      "name": "W0071 Detail Paynes Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-28.jpg",
+      "variantId": 120575
+    },
+    {
+      "code": "W0072DETAILSMOKEBLACK",
+      "name": "W0072 Detail Smoke Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-64.jpg",
+      "variantId": 120647
+    },
+    {
+      "code": "W0073DETAILFLESHTONE",
+      "name": "W0073 Detail Flesh Tone",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-59.jpg",
+      "variantId": 120637
+    },
+    {
+      "code": "W0074DETAILBURNTSIENA",
+      "name": "W0074 Detail Burnt Siena",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-34.jpg",
+      "variantId": 120587
+    },
+    {
+      "code": "W0075DETAILBLACKMAGENTA",
+      "name": "W0075 Detail Black Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-45.jpg",
+      "variantId": 120609
+    },
+    {
+      "code": "W0076DETAILUNIVERSALFLESHTONE",
+      "name": "W0076 Detail Universal Fleshtone",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-3.jpg",
+      "variantId": 120514
+    },
+    {
+      "code": "W0080OPAQUEHANSAYELLOW",
+      "name": "W0080 Opaque Hansa Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-14.jpg",
+      "variantId": 120547
+    },
+    {
+      "code": "W0081OPAQUEBISMUTHVANADATEYELLOW",
+      "name": "W0081 Opaque Bismuth Vanadate Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-46.jpg",
+      "variantId": 120611
+    },
+    {
+      "code": "W0082OPAQUEPYRROLEORANGE",
+      "name": "W0082 Opaque Pyrrole Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-7.jpg",
+      "variantId": 120530
+    },
+    {
+      "code": "W0083OPAQUEPYRROLERED",
+      "name": "W0083 Opaque Pyrrole Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-24.jpg",
+      "variantId": 120567
+    },
+    {
+      "code": "W0084OPAQUEPHTHALOGREEN",
+      "name": "W0084 Opaque Phthalo Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-19.jpg",
+      "variantId": 120557
+    },
+    {
+      "code": "W0085OPAQUELIMELIGHTGREEN",
+      "name": "W0085 Opaque Limelight Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-33.jpg",
+      "variantId": 120585
+    },
+    {
+      "code": "W0086OPAQUEPHTHALOBLUE",
+      "name": "W0086 Opaque Phthalo Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-48.jpg",
+      "variantId": 120615
+    },
+    {
+      "code": "W0087OPAQUEDAYLIGHTBLUE",
+      "name": "W0087 Opaque Daylight Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-31.jpg",
+      "variantId": 120581
+    },
+    {
+      "code": "W0088OPAQUEDIOXAZINEPURPLE",
+      "name": "W0088 Opaque Dioxazine Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-1.jpg",
+      "variantId": 120506
+    },
+    {
+      "code": "W0089OPAQUECREAM",
+      "name": "W0089 Opaque Cream",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1-55.jpg",
+      "variantId": 120629
+    }
+  ],
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_variedades-02b6ad1f-76dd-4aa1-81e5-0e02eb71c286.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2024/10/wicked_muestra_480-7b3b5dbe-2365-4a22-99b9-bcfe9202abd1.jpg"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "molotow-premium-plus",
+  "productName": "Molotow Premium Plus 400ml",
+  "bsaleProductId": 2239,
+  "generatedAt": "2026-05-15T03:50:04.458Z",
+  "colors": [
+    {
+      "code": "Quince 601",
+      "name": "",
+      "variantId": 24695,
+      "sku": "4015962336889"
+    },
+    {
+      "code": "Lobster 602",
+      "name": "",
+      "variantId": 24696,
+      "sku": "4015962336896"
+    },
+    {
+      "code": "Traffic Red 603",
+      "name": "",
+      "variantId": 24697,
+      "sku": "4015962336902"
+    },
+    {
+      "code": "Burgundy 604",
+      "name": "",
+      "variantId": 24698,
+      "sku": "4015962336919"
+    },
+    {
+      "code": "Crazy Plum 605",
+      "name": "",
+      "variantId": 24699,
+      "sku": "4015962336926"
+    },
+    {
+      "code": "Pastel Ceramic 606",
+      "name": "",
+      "variantId": 24700,
+      "sku": "4015962336933"
+    },
+    {
+      "code": "Ultramarine Blue 607",
+      "name": "",
+      "variantId": 24701,
+      "sku": "4015962336940"
+    },
+    {
+      "code": "Lagoon Blue 608",
+      "name": "",
+      "variantId": 24702,
+      "sku": "4015962336957"
+    },
+    {
+      "code": "Juice Green 609",
+      "name": "",
+      "variantId": 24703,
+      "sku": "4015962336964"
+    },
+    {
+      "code": "Signal White 610",
+      "name": "",
+      "variantId": 24704,
+      "sku": "4015962336971"
+    },
+    {
+      "code": "Deep Black 611",
+      "name": "",
+      "variantId": 24705,
+      "sku": "4015962336988"
+    },
+    {
+      "code": "Chrome 612",
+      "name": "",
+      "variantId": 24706,
+      "sku": "4015962336995"
+    }
+  ]
+}

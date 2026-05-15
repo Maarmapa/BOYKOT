@@ -1,0 +1,209 @@
+{
+  "slug": "zig-acrylista-6mm",
+  "productName": "ZIG Acrylista 6mm",
+  "basePriceClp": 5500,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/zig-acrylista-6mm/",
+  "sourceCount": 32,
+  "generatedAt": "2026-05-15T07:32:49.577Z",
+  "colors": [
+    {
+      "code": "000",
+      "name": "Arctic White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-23.jpg",
+      "variantId": 142410
+    },
+    {
+      "code": "010",
+      "name": "Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-1.jpg",
+      "variantId": 142342
+    },
+    {
+      "code": "020",
+      "name": "Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-7.jpg",
+      "variantId": 142366
+    },
+    {
+      "code": "025",
+      "name": "Carnation",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-31.jpg",
+      "variantId": 142426
+    },
+    {
+      "code": "030",
+      "name": "True Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-29.jpg",
+      "variantId": 142422
+    },
+    {
+      "code": "031",
+      "name": "Peacock",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-21.jpg",
+      "variantId": 142406
+    },
+    {
+      "code": "050",
+      "name": "Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-30.jpg",
+      "variantId": 142424
+    },
+    {
+      "code": "060",
+      "name": "Rust",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-26.jpg",
+      "variantId": 142416
+    },
+    {
+      "code": "070",
+      "name": "Pumpkin",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-22.jpg",
+      "variantId": 142408
+    },
+    {
+      "code": "080",
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-16.jpg",
+      "variantId": 142396
+    },
+    {
+      "code": "101",
+      "name": "Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-9.jpg",
+      "variantId": 142375
+    },
+    {
+      "code": "102",
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-13.jpg",
+      "variantId": 142390
+    },
+    {
+      "code": "201",
+      "name": "Wild Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-2.jpg",
+      "variantId": 142344
+    },
+    {
+      "code": "202",
+      "name": "Strawberry",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-28.jpg",
+      "variantId": 142420
+    },
+    {
+      "code": "340",
+      "name": "Country Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-6.jpg",
+      "variantId": 142362
+    },
+    {
+      "code": "342",
+      "name": "Harebell",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-4.jpg",
+      "variantId": 142352
+    },
+    {
+      "code": "343",
+      "name": "Forgetmenot",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-17.jpg",
+      "variantId": 142398
+    },
+    {
+      "code": "345",
+      "name": "Bluebell",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-12.jpg",
+      "variantId": 142388
+    },
+    {
+      "code": "441",
+      "name": "Forest Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-11.jpg",
+      "variantId": 142384
+    },
+    {
+      "code": "443",
+      "name": "Sedum",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-27.jpg",
+      "variantId": 142418
+    },
+    {
+      "code": "445",
+      "name": "Green Apple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-3.jpg",
+      "variantId": 142348
+    },
+    {
+      "code": "447",
+      "name": "Salsa Verde",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-25.jpg",
+      "variantId": 142414
+    },
+    {
+      "code": "501",
+      "name": "Gardenia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-18.jpg",
+      "variantId": 142400
+    },
+    {
+      "code": "502",
+      "name": "Primrose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-14.jpg",
+      "variantId": 142392
+    },
+    {
+      "code": "621",
+      "name": "Burnt Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-15.jpg",
+      "variantId": 142394
+    },
+    {
+      "code": "622",
+      "name": "Buttercup",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-10.jpg",
+      "variantId": 142380
+    },
+    {
+      "code": "624",
+      "name": "Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-24.jpg",
+      "variantId": 142412
+    },
+    {
+      "code": "711",
+      "name": "Natural Beige",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-20.jpg",
+      "variantId": 142404
+    },
+    {
+      "code": "712",
+      "name": "Honeysuckle",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-19.jpg",
+      "variantId": 142402
+    },
+    {
+      "code": "842",
+      "name": "Wisteria",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-8.jpg",
+      "variantId": 142371
+    },
+    {
+      "code": "843",
+      "name": "Wild Heather",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34-5.jpg",
+      "variantId": 142357
+    },
+    {
+      "code": "941",
+      "name": "Slate Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/01/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34.jpg",
+      "variantId": 142340
+    }
+  ],
+  "description": "ZIG Acrylista esta diseñado para ser usado en madera, piedra, cerámica, vidrio, plástico, etc. ¡Divertido y fácil de usar sin ensuciar!Resistente al agua una vez seco. 32 Colores disponiblesPunta: 6 mm BiselTipo de tinta: Opaca, Resistente a la luz, inoloro, Libre de Xileno, Pigmento base agua.",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2022/07/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2022/07/min-acrylista-6mm-carta-de-colores-2a10b6a9-5ab2-4fec-83bc-c3e5c55862a3.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-acrylista-6mm-unidad-b265b74e-447b-45b6-b2a6-67742d37cb34.jpg"
+}

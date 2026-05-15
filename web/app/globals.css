@@ -22,5 +22,42 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Display font for editorial titles — h1/h2 across the site.
+   Bricolage Grotesque is a variable geometric sans-serif that reads like
+   Affinity / Piñata: bold, slightly compressed, modern. */
+h1, h2, .font-display {
+  font-family: var(--font-display), var(--font-geist-sans), sans-serif;
+  letter-spacing: -0.02em;
+}
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
+
+/* Boykot color grid — column-major flow, matches /tienda/.../copic-sketch/
+   (90 items per column → 4 cols on desktop, 2 tablet, 1 mobile). */
+.boykot-color-grid {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .boykot-color-grid { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .boykot-color-grid { column-count: 4; }
+}
+
+.boykot-color-row {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* CTA stays the same height as a single swatch row so multicol balance
+   doesn't push it onto a row of its own. */
+.boykot-cta-row {
+  min-height: 2.4rem;
 }

@@ -1,0 +1,174 @@
+{
+  "slug": "uni-posca-5m",
+  "productName": "Uni POSCA 5M",
+  "basePriceClp": 4500,
+  "bsaleProductId": 0,
+  "sourceUrl": "https://www.boykot.cl/tienda/marcadores/posca/uni-posca-5m-bs-1-8-2-5-mm/",
+  "sourceCount": 26,
+  "generatedAt": "2026-05-15T07:32:52.821Z",
+  "colors": [
+    {
+      "code": "003",
+      "name": "Amarillo Vivo",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-17.jpg",
+      "variantId": 212074
+    },
+    {
+      "code": "005",
+      "name": "Verde Claro",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-22.jpg",
+      "variantId": 212084
+    },
+    {
+      "code": "021",
+      "name": "Marron",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-24.jpg",
+      "variantId": 212088
+    },
+    {
+      "code": "024",
+      "name": "Negro",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-25.jpg",
+      "variantId": 212090
+    },
+    {
+      "code": "025",
+      "name": "Oro",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-21.jpg",
+      "variantId": 212082
+    },
+    {
+      "code": "026",
+      "name": "Plata",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-13.jpg",
+      "variantId": 212066
+    },
+    {
+      "code": "033",
+      "name": "Azul",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-7.jpg",
+      "variantId": 212054
+    },
+    {
+      "code": "042",
+      "name": "Bronce",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-12.jpg",
+      "variantId": 212064
+    },
+    {
+      "code": "045",
+      "name": "Beige",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-2.jpg",
+      "variantId": 212044
+    },
+    {
+      "code": "051",
+      "name": "Rosa Claro",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-4.jpg",
+      "variantId": 212048
+    },
+    {
+      "code": "054",
+      "name": "Naranjo Palido",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-18.jpg",
+      "variantId": 212076
+    },
+    {
+      "code": "060",
+      "name": "Rojo Vino",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-6.jpg",
+      "variantId": 212052
+    },
+    {
+      "code": "061",
+      "name": "Gris Pizarra",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-5.jpg",
+      "variantId": 212050
+    },
+    {
+      "code": "066",
+      "name": "Rosa Coral",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-23.jpg",
+      "variantId": 212086
+    },
+    {
+      "code": "073",
+      "name": "Amarillo Pajizo",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-20.jpg",
+      "variantId": 212080
+    },
+    {
+      "code": "F13ROSAFLUOR",
+      "name": "F13 Rosa Fluor",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-3.jpg",
+      "variantId": 212046
+    },
+    {
+      "code": "F2AMARILLOFLUOR",
+      "name": "F2 Amarillo Fluor",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-8.jpg",
+      "variantId": 212056
+    },
+    {
+      "code": "F4NARANJAFLUOR",
+      "name": "F4 Naranja Fluor",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-14.jpg",
+      "variantId": 212068
+    },
+    {
+      "code": "M12VIOLETAMETALICO",
+      "name": "M12 Violeta Metalico",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-19.jpg",
+      "variantId": 212078
+    },
+    {
+      "code": "M13ROSAMETALICO",
+      "name": "M13 Rosa Metalico",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-9.jpg",
+      "variantId": 212058
+    },
+    {
+      "code": "M15ROJOMETALICO",
+      "name": "M15 Rojo Metalico",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-15.jpg",
+      "variantId": 212070
+    },
+    {
+      "code": "M6VERDEMETALICO",
+      "name": "M6 Verde Metalico",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-11.jpg",
+      "variantId": 212062
+    },
+    {
+      "code": "P11LAVANDA",
+      "name": "P11 Lavanda",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-1.jpg",
+      "variantId": 212042
+    },
+    {
+      "code": "P2AMARILLOSOL",
+      "name": "P2 Amarillo Sol",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-10.jpg",
+      "variantId": 212060
+    },
+    {
+      "code": "P4ALBARICOQUE",
+      "name": "P4 Albaricoque",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d.jpg",
+      "variantId": 212040
+    },
+    {
+      "code": "P6VERDEMARINO",
+      "name": "P6 Verde Marino",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/10/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d-16.jpg",
+      "variantId": 212072
+    }
+  ],
+  "description": "Nuestro marcador Posca PC-5M punta media es el más versátil de la gama. Es un material apreciado tanto por profesionales como por aficionados, gracias a su trazo nítido y preciso que permite realizar coloreados impecables.La pintura POSCA es muy rica en pigmentos y ofrece una densidad incomparable.Su fórmula única a base de agua brinda colores cubrientes, tanto mates como brillantes de larga duración. ¡Y no huele!Superponibles, mezclables, al agua e impermeables.Descripción del producto:-Marcador de pintura acrilica base agua.-Desechable-Punta tipo bala de 1.8-2.5mm",
+  "gallery": [
+    "https://www.boykot.cl/wp-content/uploads/2023/05/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d.jpg",
+    "https://www.boykot.cl/wp-content/uploads/2023/05/posca-5m-punta-67608c32-bd86-4e93-afe9-602d45227a4e.png",
+    "https://www.boykot.cl/wp-content/uploads/2023/05/posca-5m-8dab64e7-6ab8-47a5-8185-aeb530b8303c.jpg"
+  ],
+  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/05/posca5m04-49185073-423e-4b37-9c7e-343ad38d5d3d.jpg"
+}

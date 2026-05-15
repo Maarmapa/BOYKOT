@@ -1,0 +1,1263 @@
+{
+  "slug": "holbein-oleo-20ml",
+  "productName": "Óleo Holbein 20ml",
+  "basePriceClp": 8900,
+  "bsaleProductId": 0,
+  "sourceCount": 179,
+  "generatedAt": "2026-05-15T05:15:47.271Z",
+  "colors": [
+    {
+      "code": "H001",
+      "name": "Crimson Lake",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H001.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-crimson-lake/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H002",
+      "name": "Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H002.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-carmine/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H003",
+      "name": "Pink Madder",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H003.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pink-madder/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H004",
+      "name": "Rose Madder",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H004.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-rose-madder/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H006",
+      "name": "Coral Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H006.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-coral-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H007",
+      "name": "Cadmium Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H007.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-red/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H008",
+      "name": "Cadmium Red Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H008.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-red-light/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H009",
+      "name": "Cadmium Red Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H009.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-red-deep/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H010",
+      "name": "Cadmium Orange Red Shade",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H010.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-orange-red-shade/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H011",
+      "name": "Cadmium Red Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H011.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-red-purple/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H015",
+      "name": "Vermilion",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H015.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-vermilion/",
+      "priceClp": 25400
+    },
+    {
+      "code": "H018",
+      "name": "Vermilion Hue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H018.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-vermilion-hue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H019",
+      "name": "Perylene Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H019.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-perylene-red/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H020",
+      "name": "Quinacridone Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H020.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-quinacridone-red/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H021",
+      "name": "Brilliant Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H021.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-brilliant-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H022",
+      "name": "Bright Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H022.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-bright-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H023",
+      "name": "Alizarin Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H023.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-alizarin-crimson/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H025",
+      "name": "Cadmium Maroon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H025.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-maroon/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H026",
+      "name": "Shell Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H026.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-shell-pink/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H027",
+      "name": "Anthraquinone Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H027.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-anthraquinone-red/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H028",
+      "name": "Pyrrole Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H028.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pyrrole-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H029",
+      "name": "Pyrrole Red Transparent",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H029.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pyrrole-red-transparent/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H030",
+      "name": "Naples Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H030.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-naples-yellow/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H032",
+      "name": "Naples Yellow Italian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H032.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-naples-yellow-italian/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H033",
+      "name": "Jaune Brillant #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H033.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-jaune-brillant-1/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H034",
+      "name": "Jaune Brillant #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H034.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-jaune-brillant-2/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H035",
+      "name": "Jaune Brillant #3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H035.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-jaune-brillant-3/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H036",
+      "name": "Jaune Brillant #4",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H036.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-jaune-brillant-4/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H037",
+      "name": "Lemon Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H037.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-lemon-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H040",
+      "name": "Yellow Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H040.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-yellow-ochre/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H041",
+      "name": "Gold Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H041.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-gold-ochre/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H043",
+      "name": "Permanent Yellow Lemon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H043.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-yellow-lemon/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H044",
+      "name": "Permanent Yellow Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H044.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-yellow-light/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H045",
+      "name": "Permanent Yellow Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H045.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-yellow-deep/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H046",
+      "name": "Permanent Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H046.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-orange/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H047",
+      "name": "Greenish Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H047.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-greenish-yellow/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H048",
+      "name": "Aureolin",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H048.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-aureolin/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H049",
+      "name": "Cadmium Yellow Lemon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H049.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-yellow-lemon/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H051",
+      "name": "Cadmium Yellow Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H051.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-yellow-light/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H052",
+      "name": "Cadmium Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H052.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-yellow/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H053",
+      "name": "Cadmium Yellow Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H053.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-yellow-deep/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H057",
+      "name": "Cadmium Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H057.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-orange/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H058",
+      "name": "Permanent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H058.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-yellow/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H060",
+      "name": "Yellow Ochre Pale Natural",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H060.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-yellow-ochre-pale-natural/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H061",
+      "name": "Ivory White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H061.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ivory-white/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H062",
+      "name": "Pyrrole Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H062.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pyrrole-orange/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H063",
+      "name": "Pyrrole Orange Transparent",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H063.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pyrrole-orange-transparent/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H064",
+      "name": "Bismuth Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H064.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-bismuth-yellow/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H065",
+      "name": "Quinophthalone Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H065.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-quinophthalone-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H066",
+      "name": "Polyazo Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H066.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-polyazo-yellow/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H067",
+      "name": "Imidazolone Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H067.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-imidazolone-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H068",
+      "name": "Nickel Azo Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H068.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-nickel-azo-yellow/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H069",
+      "name": "Isoindolinone Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H069.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-isoindolinone-yellow/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H070",
+      "name": "Viridian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H070.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-viridian/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H071",
+      "name": "Viridian Hue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H071.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-viridian-hue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H073",
+      "name": "Cobalt Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H073.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-green-deep/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H074",
+      "name": "Emerald Green Nova",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H074.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-emerald-green-nova/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H075",
+      "name": "Terre Verte",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H075.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-terre-verte/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H076",
+      "name": "Sap Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H076.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-sap-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H077",
+      "name": "Permanent Green Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H077.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-green-light/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H078",
+      "name": "Permanent Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H078.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-green-pale/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H079",
+      "name": "Permanent Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H079.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-green/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H080",
+      "name": "Permanent Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H080.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-green-deep/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H081",
+      "name": "Cadmium Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H081.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-green-pale/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H082",
+      "name": "Cadmium Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H082.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-green/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H083",
+      "name": "Cadmium Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H083.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-green-deep/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H084",
+      "name": "Compose Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H084.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-compose-green/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H088",
+      "name": "Oxide of Chromium",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H088.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-oxide-of-chromium/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H089",
+      "name": "Terre Verte Opaque",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H089.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-terre-verte-opaque/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H090",
+      "name": "Olive Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H090.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-olive-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H091",
+      "name": "Cinnabar Green Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H091.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cinnabar-green-light/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H092",
+      "name": "Cinnabar Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H092.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cinnabar-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H093",
+      "name": "Baryte Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H093.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-baryte-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H094",
+      "name": "Phthalo Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H094.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-phthalo-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H095",
+      "name": "Cobalt Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H095.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-green/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H096",
+      "name": "Cadmium Green Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H096.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cadmium-green-light/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H099",
+      "name": "Phthalo Green Yellow Shade",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H099.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-phthalo-green-yellow-shade/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H100",
+      "name": "Perylene Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H100.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-perylene-green/",
+      "priceClp": 10800
+    },
+    {
+      "code": "H101",
+      "name": "Cobalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H101.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-blue/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H102",
+      "name": "Cobalt Blue Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H102.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-blue-pale/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H103",
+      "name": "Cobalt Blue Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H103.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-blue-deep/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H104",
+      "name": "Cobalt Blue Hue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H104.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-blue-hue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H105",
+      "name": "Cerulean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H105.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cerulean-blue/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H106",
+      "name": "Cerulean Blue Hue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H106.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cerulean-blue-hue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H107",
+      "name": "Ultramarine Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H107.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ultramarine-light/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H108",
+      "name": "Ultramarine Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H108.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ultramarine-deep/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H110",
+      "name": "Verditer Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H110.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-verditer-blue/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H111",
+      "name": "Compose Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H111.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-compose-blue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H112",
+      "name": "Prussian Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H112.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-prussian-blue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H113",
+      "name": "Phthalo Blue Red Shade",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H113.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-phthalo-blue-red-shade/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H114",
+      "name": "Indigo",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H114.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-indigo/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H115",
+      "name": "Turquoise Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H115.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-turquoise-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H116",
+      "name": "Cobalt Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H116.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-turquoise/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H117",
+      "name": "Horizon Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H117.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-horizon-blue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H118",
+      "name": "Misty Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H118.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-misty-blue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H119",
+      "name": "Phthalo Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H119.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-phthalo-turquoise/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H121",
+      "name": "Cerulean Blue Red Shade",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H121.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cerulean-blue-red-shade/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H122",
+      "name": "Ultramarine Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H122.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ultramarine-blue/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H123",
+      "name": "Manganese Blue Nova",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H123.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-manganese-blue-nova/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H124",
+      "name": "Phthalo Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H124.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-phthalo-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H125",
+      "name": "Indanthrene Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H125.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-indanthrene-blue/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H126",
+      "name": "Cobalt Turquoise Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H126.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-turquoise-deep/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H127",
+      "name": "Quinacridone Opera",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H127.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-quinacridone-opera/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H128",
+      "name": "Quinacridone Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H128.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-quinacridone-violet/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H129",
+      "name": "Cobalt Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H129.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-violet/",
+      "priceClp": 19600
+    },
+    {
+      "code": "H130",
+      "name": "Cobalt Violet Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H130.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-violet-light/",
+      "priceClp": 19600
+    },
+    {
+      "code": "H131",
+      "name": "Cobalt Violet Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H131.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-violet-deep/",
+      "priceClp": 19600
+    },
+    {
+      "code": "H132",
+      "name": "Cobalt Violet Light Hue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H132.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-cobalt-violet-light-hue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H133",
+      "name": "Mineral Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H133.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-mineral-violet/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H134",
+      "name": "Mars Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H134.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-mars-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H135",
+      "name": "Mauve",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H135.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-mauve/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H136",
+      "name": "Rose Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H136.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-rose-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H137",
+      "name": "Quinacridone Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H137.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-quinacridone-magenta/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H138",
+      "name": "Dioxazine Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H138.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-dioxazine-violet/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H139",
+      "name": "Light Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H139.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-light-magenta/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H140",
+      "name": "Light Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H140.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-light-red/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H142",
+      "name": "Raw Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H142.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-raw-umber/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H143",
+      "name": "Raw Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H143.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-raw-sienna/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H144",
+      "name": "Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H144.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-burnt-umber/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H145",
+      "name": "Burnt Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H145.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-burnt-sienna/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H146",
+      "name": "Indian Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H146.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-indian-red/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H147",
+      "name": "Terra Rosa",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H147.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-terra-rosa/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H148",
+      "name": "Imidazolone Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H148.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-imidazolone-brown/",
+      "priceClp": 8900
+    },
+    {
+      "code": "H149",
+      "name": "Mars Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H149.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-mars-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H150",
+      "name": "Mars Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H150.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-mars-orange/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H151",
+      "name": "Sepia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H151.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-sepia/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H152",
+      "name": "Vandyke Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H152.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-vandyke-brown/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H153",
+      "name": "Peach Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H153.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-peach-black/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H154",
+      "name": "Ivory Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H154.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ivory-black/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H156",
+      "name": "Lamp Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H156.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-lamp-black/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H157",
+      "name": "Blue Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H157.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-blue-black/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H159",
+      "name": "Transparent Gold Oxide",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H159.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-gold-oxide/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H160",
+      "name": "Transparent Red Oxide",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H160.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-red-oxide/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H161",
+      "name": "Transparent Brown Oxide",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H161.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-brown-oxide/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H163",
+      "name": "Pyrrole Rubin Transparent",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H163.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-pyrrole-rubin-transparent/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H169",
+      "name": "Neutral Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H169.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-neutral-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H170",
+      "name": "Blue Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H170.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-blue-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H171",
+      "name": "Yellow Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H171.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-yellow-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H172",
+      "name": "Green Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H172.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-green-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H173",
+      "name": "Grey of Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H173.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-grey-of-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H174",
+      "name": "Violet Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H174.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-violet-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H175",
+      "name": "Davy's Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H175.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-davys-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H176",
+      "name": "Rose Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H176.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-rose-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H178",
+      "name": "Monochrome Tint Warm",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H178.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-monochrome-tint-warm/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H179",
+      "name": "Monochrome Tint Cool",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H179.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-monochrome-tint-cool/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H180",
+      "name": "Payne's Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H180.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-paynes-grey/",
+      "priceClp": 6400
+    },
+    {
+      "code": "H181",
+      "name": "ntique Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H181.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-red/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H183",
+      "name": "ntique Yellow No.1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H183.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-yellow-no-1/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H184",
+      "name": "ntique Yellow No.2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H184.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-yellow-no-2/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H185",
+      "name": "ntique Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H185.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-green/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H187",
+      "name": "ntique Blue No.1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H187.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-blue-no-1/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H188",
+      "name": "ntique Blue No.2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H188.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-blue-no-2/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H189",
+      "name": "ntique Blue No.3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H189.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ntique-blue-no-3/",
+      "priceClp": 33000
+    },
+    {
+      "code": "H190",
+      "name": "Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H190.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-gold/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H191",
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H191.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-silver/",
+      "priceClp": 16800
+    },
+    {
+      "code": "H194",
+      "name": "Zinc White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H194.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-zinc-white-sf/",
+      "priceClp": 5400
+    },
+    {
+      "code": "H195",
+      "name": "Silver White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H195.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-silver-white/",
+      "priceClp": 6600
+    },
+    {
+      "code": "H196",
+      "name": "Titanium White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H196.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-titanium-white/",
+      "priceClp": 5400
+    },
+    {
+      "code": "H197",
+      "name": "Permanent White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H197.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-white-sf/",
+      "priceClp": 5400
+    },
+    {
+      "code": "H198",
+      "name": "Permanent White EX",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H198.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-white-ex/",
+      "priceClp": 4100
+    },
+    {
+      "code": "H199",
+      "name": "Ceramic White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H199.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ceramic-white-sf-2/",
+      "priceClp": 7900
+    },
+    {
+      "code": "H405",
+      "name": "Zinc White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H405.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-zinc-white-sf-2/",
+      "priceClp": 12100
+    },
+    {
+      "code": "H411",
+      "name": "Silver White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H411.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-silver-white-sf/",
+      "priceClp": 12100
+    },
+    {
+      "code": "H413",
+      "name": "Titanium White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H413.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-titanium-white-sf/",
+      "priceClp": 12100
+    },
+    {
+      "code": "H415",
+      "name": "Permanent White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H415.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-white-sf-2/",
+      "priceClp": 12100
+    },
+    {
+      "code": "H417",
+      "name": "Permanent White EX",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H417.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-permanent-white-ex-2/",
+      "priceClp": 9500
+    },
+    {
+      "code": "H419",
+      "name": "Ceramic White SF",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H419.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-ceramic-white-sf/",
+      "priceClp": 17800
+    },
+    {
+      "code": "H421",
+      "name": "Oleo Serie W1 Oleo 20 ml color Quick Drying White SF",
+      "imageUrl": null,
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/holbein/sets-holbein/oleo-20-ml-color-quick-drying-white-sf/",
+      "priceClp": 9500
+    },
+    {
+      "code": "H801",
+      "name": "Transparent Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H801.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-rose/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H802",
+      "name": "Transparent Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H802.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-red/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H803",
+      "name": "Transparent Vermilion",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H803.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-vermilion/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H806",
+      "name": "Transparent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H806.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-yellow/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H807",
+      "name": "Transparent Lemon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H807.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-lemon/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H810",
+      "name": "Transparent Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H810.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-green/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H813",
+      "name": "Transparent Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H813.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-blue/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H816",
+      "name": "Transparent Garnet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H816.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-garnet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H819",
+      "name": "Transparent Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H819.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-violet/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H822",
+      "name": "Transparent Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H822.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-brown/",
+      "priceClp": 7000
+    },
+    {
+      "code": "H825",
+      "name": "Transparent Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/H825.jpg",
+      "sourceUrl": "https://www.boykot.cl/tienda/pintura/oleo/oleo-20-ml-color-transparent-black/",
+      "priceClp": 7000
+    }
+  ]
+}
