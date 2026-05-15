@@ -94,7 +94,7 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
         )}
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-x-4 gap-y-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-6">
         {filtered.map(color => {
           const stock = stockMap ? stockMap[color.code] ?? 0 : 1;
           const inStock = stock > 0 || !stockMap;
@@ -105,7 +105,8 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
 
           return (
             <div key={color.code} className="flex flex-col">
-              <div className="relative w-full bg-gray-50 aspect-square overflow-hidden">
+              {/* Boykot's theme swatches are 560×120 (≈4.67:1, horizontal strip). */}
+              <div className="relative w-full bg-gray-50 overflow-hidden" style={{ paddingBottom: '21.4%' }}>
                 {showImage ? (
                   <img
                     src={color.imageUrl!}
