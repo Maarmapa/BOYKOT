@@ -16,7 +16,11 @@
 //   product:{productId}
 
 const BASE = 'https://api.bsale.io/v1';
-const DEFAULT_REVALIDATE = 3600;
+// 5 minutos: balance entre frescura del stock y latencia de BSale. El
+// webhook BSale invalida tags específicos cuando hay cambios reales (ver
+// app/api/webhooks/bsale/route.ts), así que 5min es solo el ceiling para
+// brands sin actividad reciente.
+const DEFAULT_REVALIDATE = 300;
 
 function token(): string {
   const t = process.env.BSALE_ACCESS_TOKEN;
