@@ -9,9 +9,13 @@ interface Props {
   stockMap?: Record<string, number>;
 }
 
-function familyOf(code: string, order: string[]): string {
+// Group by the swatch's explicit family field when present (Molotow uses
+// 'yellow' / 'red' / 'pastel' / ...), otherwise fall back to detecting a code
+// prefix from the brand's familyOrder list (the Copic pattern: B / BG / BV ...).
+function familyOf(swatch: ColorSwatch, order: string[]): string {
+  if (swatch.family) return swatch.family;
   for (const p of [...order].sort((a, b) => b.length - a.length)) {
-    if (code.startsWith(p) && (code.length === p.length || /\d/.test(code[p.length]))) return p;
+    if (swatch.code.startsWith(p) && (swatch.code.length === p.length || /\d/.test(swatch.code[p.length]))) return p;
   }
   return 'Other';
 }
@@ -34,15 +38,21 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
   const order = brand.familyOrder || [];
   const names = brand.familyNames || {};
 
-  const availableFamilies = useMemo(
-    () => order.filter(f => brand.colors.some(c => familyOf(c.code, order) === f)),
-    [brand.colors, order]
-  );
+  // When the brand has explicit families on its swatches (Molotow), discover
+  // them dynamically. When it has a static familyOrder (Copic), use that.
+  const availableFamilies = useMemo(() => {
+    if (order.length > 0) {
+      return order.filter(f => brand.colors.some(c => familyOf(c, order) === f));
+    }
+    const set = new Set<string>();
+    for (const c of brand.colors) if (c.family) set.add(c.family);
+    return Array.from(set).sort();
+  }, [brand.colors, order]);
 
   const familyCounts = useMemo(() => {
     const map: Record<string, number> = {};
     for (const c of brand.colors) {
-      const f = familyOf(c.code, order);
+      const f = familyOf(c, order);
       map[f] = (map[f] || 0) + 1;
     }
     return map;
@@ -51,8 +61,8 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
   const filtered = useMemo(() => {
     const s = search.toLowerCase().trim();
     return brand.colors.filter(c => {
-      if (activeFamily && familyOf(c.code, order) !== activeFamily) return false;
-      if (s && !(c.code.toLowerCase().includes(s) || c.name?.toLowerCase().includes(s))) return false;
+      if (activeFamily && familyOf(c, order) !== activeFamily) return false;
+      if (s && !(c.code.toLowerCase().includes(s) || (c.name?.toLowerCase().includes(s) ?? false))) return false;
       return true;
     });
   }, [brand.colors, search, activeFamily, order]);
@@ -114,7 +124,7 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
           const variantId = color.variantId || syntheticVariantId(brand.bsaleProductId, color.code);
           const qty = qtys[variantId] || 0;
           const hasImg = !!color.driveId && !imgErrors[color.code];
-          const family = familyOf(color.code, order);
+          const family = familyOf(color, order);
 
           return (
             <ColorCard
