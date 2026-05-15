@@ -1,0 +1,133 @@
+{
+  "slug": "angelus-collector",
+  "productName": "Angelus Collector Edition 1oz",
+  "basePriceClp": 7900,
+  "bsaleProductId": 2262,
+  "sourceCount": 30,
+  "generatedAt": "2026-05-15T20:16:22Z",
+  "colors": [
+    {
+      "code": "310",
+      "name": "Collector E Aqua 8"
+    },
+    {
+      "code": "312",
+      "name": "Collector E Blaze 8"
+    },
+    {
+      "code": "313",
+      "name": "Collector E Concord 8"
+    },
+    {
+      "code": "314",
+      "name": "Collector E White Cement/Grey 4"
+    },
+    {
+      "code": "315",
+      "name": "Collector E Volt"
+    },
+    {
+      "code": "317",
+      "name": "Collector E Emerald 5"
+    },
+    {
+      "code": "319",
+      "name": "Collector E Infrared"
+    },
+    {
+      "code": "321",
+      "name": "Collector E Maize"
+    },
+    {
+      "code": "323",
+      "name": "Collector E Mid-Navy 8"
+    },
+    {
+      "code": "324",
+      "name": "Collector E Military Blue"
+    },
+    {
+      "code": "326",
+      "name": "Collector E Royal 5"
+    },
+    {
+      "code": "329",
+      "name": "Collector E True Blue"
+    },
+    {
+      "code": "330",
+      "name": "Collector E Varsity"
+    },
+    {
+      "code": "331",
+      "name": "Collector E Miami Vice"
+    },
+    {
+      "code": "332",
+      "name": "Collector E Melo 2"
+    },
+    {
+      "code": "333",
+      "name": "Collector E DTRT Yellow"
+    },
+    {
+      "code": "334",
+      "name": "Collector E Play Off 8 / Grey"
+    },
+    {
+      "code": "335",
+      "name": "Collector E Yeezy"
+    },
+    {
+      "code": "336",
+      "name": "Collector E Maroon"
+    },
+    {
+      "code": "337",
+      "name": "Collector E Grape 5"
+    },
+    {
+      "code": "338",
+      "name": "Collector E Squadron"
+    },
+    {
+      "code": "339",
+      "name": "Collector E French Blue"
+    },
+    {
+      "code": "341",
+      "name": "Collector E Gamma Blue"
+    },
+    {
+      "code": "342",
+      "name": "Collector E Joker Green"
+    },
+    {
+      "code": "343",
+      "name": "Collector E Tour Yellow"
+    },
+    {
+      "code": "344",
+      "name": "Collector E Thunder Yellow"
+    },
+    {
+      "code": "345",
+      "name": "Collector E 2014 Infrared"
+    },
+    {
+      "code": "346",
+      "name": "Collector E Shattered Orange"
+    },
+    {
+      "code": "347",
+      "name": "Collector E Uni Blued"
+    },
+    {
+      "code": "348",
+      "name": "Collector E Shadow Grey"
+    }
+  ],
+  "description": null,
+  "gallery": null,
+  "heroImage": null
+}

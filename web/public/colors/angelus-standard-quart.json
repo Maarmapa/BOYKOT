@@ -1,0 +1,33 @@
+{
+  "slug": "angelus-standard-quart",
+  "productName": "Angelus Pintura Cuero Quart",
+  "basePriceClp": 69900,
+  "bsaleProductId": 2262,
+  "sourceCount": 5,
+  "generatedAt": "2026-05-15T20:16:22Z",
+  "colors": [
+    {
+      "code": "001",
+      "name": "Black"
+    },
+    {
+      "code": "005",
+      "name": "White"
+    },
+    {
+      "code": "101",
+      "name": "Flat Black"
+    },
+    {
+      "code": "105",
+      "name": "Flat White"
+    },
+    {
+      "code": "162",
+      "name": "Cream"
+    }
+  ],
+  "description": null,
+  "gallery": null,
+  "heroImage": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020"
+}

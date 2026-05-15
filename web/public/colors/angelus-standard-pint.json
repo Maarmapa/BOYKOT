@@ -1,0 +1,381 @@
+{
+  "slug": "angelus-standard-pint",
+  "productName": "Angelus Pintura Cuero Pint",
+  "basePriceClp": 39900,
+  "bsaleProductId": 2262,
+  "sourceCount": 92,
+  "generatedAt": "2026-05-15T20:16:22Z",
+  "colors": [
+    {
+      "code": "001",
+      "name": "Black"
+    },
+    {
+      "code": "004",
+      "name": "Neutral"
+    },
+    {
+      "code": "005",
+      "name": "White"
+    },
+    {
+      "code": "014",
+      "name": "Brown"
+    },
+    {
+      "code": "015",
+      "name": "Chocolate"
+    },
+    {
+      "code": "018",
+      "name": "Dark Brown"
+    },
+    {
+      "code": "019",
+      "name": "English Tan"
+    },
+    {
+      "code": "021",
+      "name": "Light Brown"
+    },
+    {
+      "code": "024",
+      "name": "Orange"
+    },
+    {
+      "code": "027",
+      "name": "Saddle"
+    },
+    {
+      "code": "029",
+      "name": "Tan"
+    },
+    {
+      "code": "040",
+      "name": "Blue"
+    },
+    {
+      "code": "041",
+      "name": "Light Blue"
+    },
+    {
+      "code": "042",
+      "name": "Navy Blue"
+    },
+    {
+      "code": "043",
+      "name": "Turquoise"
+    },
+    {
+      "code": "045",
+      "name": "Blue Turquoise"
+    },
+    {
+      "code": "047",
+      "name": "Purple"
+    },
+    {
+      "code": "050",
+      "name": "Green"
+    },
+    {
+      "code": "052",
+      "name": "Midnite Green"
+    },
+    {
+      "code": "060",
+      "name": "Burgundy"
+    },
+    {
+      "code": "064",
+      "name": "Red"
+    },
+    {
+      "code": "070",
+      "name": "Beige"
+    },
+    {
+      "code": "072",
+      "name": "Gold"
+    },
+    {
+      "code": "075",
+      "name": "Yellow"
+    },
+    {
+      "code": "080",
+      "name": "Dark Grey"
+    },
+    {
+      "code": "081",
+      "name": "Grey"
+    },
+    {
+      "code": "082",
+      "name": "Light Grey"
+    },
+    {
+      "code": "093",
+      "name": "Brick"
+    },
+    {
+      "code": "101",
+      "name": "Flat Black"
+    },
+    {
+      "code": "105",
+      "name": "Flat White"
+    },
+    {
+      "code": "141",
+      "name": "Copper"
+    },
+    {
+      "code": "142",
+      "name": "Bronze"
+    },
+    {
+      "code": "143",
+      "name": "Pewter"
+    },
+    {
+      "code": "150",
+      "name": "Silver"
+    },
+    {
+      "code": "155",
+      "name": "Bone"
+    },
+    {
+      "code": "156",
+      "name": "Champagne"
+    },
+    {
+      "code": "157",
+      "name": "Dark Bone"
+    },
+    {
+      "code": "159",
+      "name": "Mist"
+    },
+    {
+      "code": "160",
+      "name": "Vanilla"
+    },
+    {
+      "code": "161",
+      "name": "Natural"
+    },
+    {
+      "code": "162",
+      "name": "Cream"
+    },
+    {
+      "code": "163",
+      "name": "Capezio Tan"
+    },
+    {
+      "code": "165",
+      "name": "Beige Taupe"
+    },
+    {
+      "code": "166",
+      "name": "Grey Taupe"
+    },
+    {
+      "code": "167",
+      "name": "Taupe"
+    },
+    {
+      "code": "168",
+      "name": "Dark Taupe"
+    },
+    {
+      "code": "169",
+      "name": "Mauve"
+    },
+    {
+      "code": "170",
+      "name": "Avocado"
+    },
+    {
+      "code": "171",
+      "name": "Dark Green"
+    },
+    {
+      "code": "172",
+      "name": "Light Green"
+    },
+    {
+      "code": "174",
+      "name": "Gift Box Blue"
+    },
+    {
+      "code": "175",
+      "name": "Lilac"
+    },
+    {
+      "code": "176",
+      "name": "Pale Blue"
+    },
+    {
+      "code": "177",
+      "name": "Sapphire"
+    },
+    {
+      "code": "178",
+      "name": "Violet"
+    },
+    {
+      "code": "179",
+      "name": "Dark Blue"
+    },
+    {
+      "code": "180",
+      "name": "Cognac"
+    },
+    {
+      "code": "181",
+      "name": "Rich Brown"
+    },
+    {
+      "code": "182",
+      "name": "Sand"
+    },
+    {
+      "code": "183",
+      "name": "Terra Cotta Red"
+    },
+    {
+      "code": "184",
+      "name": "Autumn Red"
+    },
+    {
+      "code": "185",
+      "name": "Fire Red"
+    },
+    {
+      "code": "186",
+      "name": "Hot Pink"
+    },
+    {
+      "code": "187",
+      "name": "Magenta"
+    },
+    {
+      "code": "188",
+      "name": "Pink"
+    },
+    {
+      "code": "189",
+      "name": "Petal Pink"
+    },
+    {
+      "code": "190",
+      "name": "Scarlet Red"
+    },
+    {
+      "code": "191",
+      "name": "Shell Pink"
+    },
+    {
+      "code": "194",
+      "name": "Caramel"
+    },
+    {
+      "code": "196",
+      "name": "Mustard"
+    },
+    {
+      "code": "197",
+      "name": "Pale Yellow"
+    },
+    {
+      "code": "198",
+      "name": "Buttercup"
+    },
+    {
+      "code": "260",
+      "name": "Chili Red"
+    },
+    {
+      "code": "261",
+      "name": "South Beach"
+    },
+    {
+      "code": "262",
+      "name": "Play in the Sand"
+    },
+    {
+      "code": "263",
+      "name": "Grinch Green"
+    },
+    {
+      "code": "264",
+      "name": "Putty"
+    },
+    {
+      "code": "265",
+      "name": "Tangerine"
+    },
+    {
+      "code": "266",
+      "name": "Georgia PeachPINT"
+    },
+    {
+      "code": "267",
+      "name": "Salmon"
+    },
+    {
+      "code": "268",
+      "name": "Raspberry"
+    },
+    {
+      "code": "272",
+      "name": "Olive"
+    },
+    {
+      "code": "273",
+      "name": "Bowler Brown"
+    },
+    {
+      "code": "274",
+      "name": "Luggage Brown"
+    },
+    {
+      "code": "275",
+      "name": "Satchel Tan"
+    },
+    {
+      "code": "451",
+      "name": "Riot Red"
+    },
+    {
+      "code": "452",
+      "name": "Pacific Blue"
+    },
+    {
+      "code": "453",
+      "name": "Prince Purple"
+    },
+    {
+      "code": "454",
+      "name": "Sterling Silver"
+    },
+    {
+      "code": "455",
+      "name": "18k Gold"
+    },
+    {
+      "code": "456",
+      "name": "Rose Gold"
+    },
+    {
+      "code": "457",
+      "name": "Emerald Green"
+    }
+  ],
+  "description": null,
+  "gallery": null,
+  "heroImage": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020"
+}
