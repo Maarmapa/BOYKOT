@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CartBadge from './CartBadge';
 
 const NAV = [
   {
@@ -75,10 +76,7 @@ export default function SiteHeader() {
           />
         </div>
 
-        <Link href="/carrito" className="text-sm text-gray-700 hover:text-gray-900 inline-flex items-center gap-1">
-          <span className="hidden sm:inline">Carrito</span>
-          <span aria-hidden>→</span>
-        </Link>
+        <CartBadge />
       </div>
 
       {/* Nav */}
