@@ -59,7 +59,12 @@ export default async function BrandPage({ params }: { params: Promise<{ brand: s
   let stockMap: Record<string, number> | undefined;
   if (brand.bsaleProductId && process.env.BSALE_ACCESS_TOKEN) {
     try {
-      const rows = await getProductStock(brand.bsaleProductId);
+      // Pasamos los variantIds explícitos porque BSale `?productid=` filter
+      // está roto en /stocks.json (ver lib/bsale-api.ts).
+      const variantIds = brand.colors
+        .map(c => c.variantId)
+        .filter((v): v is number => typeof v === 'number');
+      const rows = await getProductStock(brand.bsaleProductId, variantIds);
       const byVariant: Record<number, number> = {};
       for (const r of rows) byVariant[r.variant_id] = r.available;
       stockMap = {};

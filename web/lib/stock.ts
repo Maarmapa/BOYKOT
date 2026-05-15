@@ -16,8 +16,11 @@ export interface StockRow {
 
 const OFFICE_ID = process.env.BSALE_OFFICE_ID ? Number(process.env.BSALE_OFFICE_ID) : undefined;
 
-export async function getProductStock(productId: number): Promise<StockRow[]> {
-  const map = await fetchProductStock(productId, { officeId: OFFICE_ID });
+export async function getProductStock(
+  productId: number,
+  variantIds?: number[],
+): Promise<StockRow[]> {
+  const map = await fetchProductStock(productId, { officeId: OFFICE_ID, variantIds });
   return Promise.all(
     Array.from(map.entries()).map(async ([variant_id, stock]) => {
       const reserved = await reservedFor(variant_id);
