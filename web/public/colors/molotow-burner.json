@@ -8,43 +8,57 @@
       "code": "Chrome 940443 150ml Pocket",
       "name": "",
       "variantId": 24707,
-      "sku": "4015962368170"
+      "sku": "4015962368170",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/0a92eb2f-4bcb-4b57-9c7d-8866b61f475c-2dbe227e-9654-4fba-8989-a9ec6060d05d-940443_2.png",
+      "matchSlug": "molotow-burner-chrome-940443-150ml-pocket"
     },
     {
       "code": "Chrome 940422 400ml",
       "name": "",
       "variantId": 24708,
-      "sku": "4015962368132"
+      "sku": "4015962368132",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/a1bad0ea-95da-4d3a-a64e-39ef5876d620-d1bf8b24-b843-466b-af23-b6398d5ffd88-940422_2.png",
+      "matchSlug": "molotow-burner-chrome-940422-400ml-2"
     },
     {
       "code": "Chrome 940590 500ml",
       "name": "",
       "variantId": 24709,
-      "sku": "4015962368385"
+      "sku": "4015962368385",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/4aaa0d5d-b33c-4f66-a7e5-78c2eea48810-1ae81753-a26a-42d4-b94a-54b4abcda5e3-940590_1_burner_chrome_500ml_1.png",
+      "matchSlug": "molotow-burner-chrome-940590-500ml"
     },
     {
       "code": "Chrome 940397 600ml",
       "name": "",
       "variantId": 24710,
-      "sku": "4015962368101"
+      "sku": "4015962368101",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/a1bad0ea-95da-4d3a-a64e-39ef5876d620-d1bf8b24-b843-466b-af23-b6398d5ffd88-940422_2.png",
+      "matchSlug": "molotow-burner-chrome-940422-400ml-2"
     },
     {
       "code": "Gold 940499 600ml",
       "name": "",
       "variantId": 24711,
-      "sku": "4015962368286"
+      "sku": "4015962368286",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/eda30c8d-018e-4f26-845a-33d3df874b93-d6ae29d3-f365-4efc-8fd5-742fe71d7639-940397_1_burner_chrome_600ml_5.png",
+      "matchSlug": "molotow-burner-600ml"
     },
     {
       "code": "Copper 940500 600ml",
       "name": "",
       "variantId": 24712,
-      "sku": "4015962368293"
+      "sku": "4015962368293",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/7f478860-9663-48f4-9e99-94f13d8387d9-f4d1d4a2-342b-462a-bc50-5872077e5081-940500_1_burner_copper_600ml_2_1.png",
+      "matchSlug": "molotow-burner-copper-940500-600ml"
     },
     {
       "code": "Black 940398 600ml",
       "name": "",
       "variantId": 24713,
-      "sku": "4015962369429"
+      "sku": "4015962369429",
+      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/eda30c8d-018e-4f26-845a-33d3df874b93-d6ae29d3-f365-4efc-8fd5-742fe71d7639-940397_1_burner_chrome_600ml_5.png",
+      "matchSlug": "molotow-burner-600ml"
     }
   ]
 }
