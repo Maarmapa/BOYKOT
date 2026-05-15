@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import type { Cart, CartItem } from './types';
 
 type SetItemArgs = Omit<CartItem, 'qty'> & { qty: number };
@@ -25,6 +25,12 @@ export function useCart(): CartState {
   const [loading, setLoading] = useState(true);
   const [qtys, setQtys] = useState<Record<number, number>>({});
 
+  // Serialize POST /api/cart/items so that two fast clicks don't race the
+  // server: each request reads cart, then writes. Without a queue, the
+  // second request can read the cart BEFORE the first one wrote, losing
+  // the first item.
+  const inflight = useRef<Promise<unknown>>(Promise.resolve());
+
   const refresh = useCallback(async () => {
     try {
       const res = await fetch('/api/cart', { credentials: 'include' });
@@ -47,27 +53,31 @@ export function useCart(): CartState {
       return next;
     });
 
-    try {
-      const res = await fetch('/api/cart/items', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        credentials: 'include',
-        body: JSON.stringify(args),
-      });
-      if (!res.ok) {
-        // Keep optimistic state — surface error so we can see what's wrong
-        // (most common cause: Supabase env vars missing on Vercel).
-        const body = await res.text().catch(() => '');
-        console.error(`[cart] POST /api/cart/items returned ${res.status}`, body);
-        return;
+    // Chain this request after the previous one — preserves order.
+    const run = async () => {
+      try {
+        const res = await fetch('/api/cart/items', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify(args),
+        });
+        if (!res.ok) {
+          const body = await res.text().catch(() => '');
+          console.error(`[cart] POST /api/cart/items returned ${res.status}`, body);
+          return;
+        }
+        const json = (await res.json()) as { cart: Cart };
+        setCart(json.cart);
+        setQtys(buildQtys(json.cart));
+      } catch (err) {
+        console.error('[cart] network error', err);
       }
-      const json = (await res.json()) as { cart: Cart };
-      setCart(json.cart);
-      setQtys(buildQtys(json.cart));
-    } catch (err) {
-      console.error('[cart] network error', err);
-      // Keep optimistic state.
-    }
+    };
+
+    const next = inflight.current.then(run, run);
+    inflight.current = next;
+    await next;
   }, []);
 
   return { cart, loading, qtys, setItem, refresh };
