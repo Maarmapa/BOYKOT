@@ -93,6 +93,60 @@ export async function addToCart(cartId: string, item: CartItem): Promise<Cart> {
   return data as Cart;
 }
 
+// Set the absolute quantity for one item (used by the +/- buttons).
+// qty=0 removes the item from the cart and releases its reservation.
+export async function setItemQty(
+  cartId: string,
+  variantId: number,
+  qty: number,
+  itemTemplate: Omit<CartItem, 'qty'>,
+): Promise<Cart> {
+  const cart = await getCart(cartId);
+  if (!cart) throw new Error(`cart ${cartId} not found`);
+
+  let items = [...cart.items];
+  const idx = items.findIndex(i => i.variant_id === variantId);
+
+  if (qty <= 0) {
+    if (idx >= 0) items.splice(idx, 1);
+  } else if (idx >= 0) {
+    items[idx] = { ...items[idx], qty };
+  } else {
+    items.push({ ...itemTemplate, qty });
+  }
+
+  const subtotal = items.reduce((s, i) => s + i.unit_price_clp * i.qty, 0);
+
+  const { data, error } = await supabaseAdmin()
+    .from('carts')
+    .update({
+      items,
+      subtotal_clp: subtotal,
+      total_clp: subtotal + cart.shipping_clp,
+    })
+    .eq('id', cartId)
+    .select('*')
+    .single();
+  if (error) throw error;
+
+  // Replace reservation for this variant rather than stacking.
+  await supabaseAdmin()
+    .from('stock_reservations')
+    .delete()
+    .eq('cart_id', cartId)
+    .eq('variant_id', variantId);
+  if (qty > 0) await reserve(cartId, variantId, qty);
+
+  return data as Cart;
+}
+
+// Convenience: load active cart for the current session, creating it on demand.
+export async function ensureSessionCart(sessionId: string): Promise<Cart> {
+  const existing = await getActiveCartForSession(sessionId);
+  if (existing) return existing;
+  return createCart({ sessionId });
+}
+
 export async function reserve(cartId: string, variantId: number, quantity: number): Promise<void> {
   const expiresAt = new Date(Date.now() + RESERVATION_TTL_MIN * 60_000).toISOString();
   await supabaseAdmin().from('stock_reservations').insert({
