@@ -38,6 +38,7 @@ export default function SiteFooter() {
             <li><Link href="/marcas" className="text-gray-600 hover:text-gray-900">Marcas</Link></li>
             <li><Link href="/b2b" className="text-gray-600 hover:text-gray-900">B2B / Mayoristas</Link></li>
             <li><Link href="/contacto" className="text-gray-600 hover:text-gray-900">Contacto</Link></li>
+            <li><Link href="/como-comprar" className="text-gray-600 hover:text-gray-900">Cómo comprar</Link></li>
           </ul>
         </div>
       </div>
