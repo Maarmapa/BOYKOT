@@ -154,9 +154,14 @@ export default function MegaMenu() {
     if (closeTimer.current) clearTimeout(closeTimer.current);
     setOpenIdx(i);
   }
+  function cancelClose() {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+  }
   function scheduleClose() {
     if (closeTimer.current) clearTimeout(closeTimer.current);
-    closeTimer.current = setTimeout(() => setOpenIdx(null), 120);
+    // 280ms da tiempo suficiente para que el mouse cruce el gap entre el
+    // <li> trigger y el panel sin que el menú se cierre.
+    closeTimer.current = setTimeout(() => setOpenIdx(null), 280);
   }
 
   useEffect(() => {
@@ -168,7 +173,11 @@ export default function MegaMenu() {
   }, []);
 
   return (
-    <nav className="border-t border-gray-100 relative">
+    <nav
+      className="border-t border-gray-100 relative"
+      onMouseLeave={() => scheduleClose()}
+      onMouseEnter={cancelClose}
+    >
       <ul className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-wrap gap-x-6 text-sm">
         {NAV.map((item, i) => {
           const hasMega = isCategory(item);
@@ -177,7 +186,6 @@ export default function MegaMenu() {
               key={item.label}
               className="relative py-3"
               onMouseEnter={() => hasMega && open(i)}
-              onMouseLeave={() => hasMega && scheduleClose()}
             >
               <Link
                 href={item.href}
@@ -192,12 +200,13 @@ export default function MegaMenu() {
         })}
       </ul>
 
-      {/* Mega panel — absolute, full-width below the nav */}
+      {/* Mega panel — absolute, full-width below the nav.
+          NO gap entre el ul y el panel: el padding del panel actúa como
+          puente para que mouse-leave del nav no se dispare. */}
       {openIdx !== null && isCategory(NAV[openIdx]) && (
         <div
           className="absolute left-0 right-0 top-full bg-white border-t border-gray-200 shadow-lg z-40"
-          onMouseEnter={() => open(openIdx)}
-          onMouseLeave={scheduleClose}
+          onMouseEnter={cancelClose}
         >
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Left intro */}
