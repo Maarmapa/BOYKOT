@@ -6,6 +6,7 @@
 
 import { fetchVariantStock, fetchProductStock } from './bsale-api';
 import { reservedFor } from './cart';
+import { readSnapshot } from './stock-snapshot';
 
 export interface StockRow {
   variant_id: number;
@@ -23,7 +24,35 @@ export async function getProductStock(
   productId: number,
   variantIds?: number[],
 ): Promise<StockRow[]> {
-  const map = await fetchProductStock(productId, { variantIds });
+  // Fast path: si tenemos variantIds, leer del snapshot Supabase (50ms).
+  // Solo caer al live BSale fetch si el snapshot no tiene esos IDs.
+  if (variantIds && variantIds.length > 0) {
+    const snapshot = await readSnapshot(variantIds);
+    const missing = variantIds.filter(vid => !snapshot.has(vid));
+
+    // Para los que no están en snapshot, fetcheamos live (lento) y los
+    // agregamos al map. Esto cubre la primera ejecución antes del cron.
+    let liveMap = new Map<number, number>();
+    if (missing.length > 0) {
+      liveMap = await fetchProductStock(productId, { variantIds: missing });
+    }
+
+    return Promise.all(
+      variantIds.map(async vid => {
+        const stock = snapshot.get(vid) ?? liveMap.get(vid) ?? 0;
+        const reserved = await reservedFor(vid);
+        return {
+          variant_id: vid,
+          stock,
+          reserved,
+          available: Math.max(0, stock - reserved),
+        };
+      }),
+    );
+  }
+
+  // Fallback legacy: sin variantIds, productId filter (broken para muchos products).
+  const map = await fetchProductStock(productId);
   return Promise.all(
     Array.from(map.entries()).map(async ([variant_id, stock]) => {
       const reserved = await reservedFor(variant_id);
