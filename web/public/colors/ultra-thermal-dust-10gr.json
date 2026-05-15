@@ -2,111 +2,130 @@
   "slug": "ultra-thermal-dust-10gr",
   "productName": "Ultra Thermal Dust 10gr",
   "basePriceClp": 8900,
-  "bsaleProductId": 3075,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936.png",
-  "colorChartImage": null,
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/ultra-thermal-dust-10gr-2/",
-  "generatedAt": "2026-05-15T04:11:48.462Z",
+  "sourceCount": 20,
+  "generatedAt": "2026-05-15T07:32:59.737Z",
   "colors": [
     {
-      "code": "PURPLE",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "BLACKBERRYTOORANGE",
+      "name": "Blackberry To Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-20.png",
+      "variantId": 83226
     },
     {
-      "code": "ORCHID",
-      "name": "To Pink",
-      "in_stock": true
+      "code": "BLACKTOGREEN",
+      "name": "Black To Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-6.png",
+      "variantId": 83198
     },
     {
-      "code": "BLACK",
-      "name": "To Red",
-      "in_stock": true
+      "code": "BLACKTOGREY",
+      "name": "Black To Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-9.png",
+      "variantId": 83204
     },
     {
-      "code": "BLUE",
-      "name": "To Cream",
-      "in_stock": true
+      "code": "BLACKTOMINT",
+      "name": "Black To Mint",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-7.png",
+      "variantId": 83200
     },
     {
-      "code": "GREEN",
-      "name": "To Yellow",
-      "in_stock": true
+      "code": "BLACKTORED",
+      "name": "Black To Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-12.png",
+      "variantId": 83210
     },
     {
-      "code": "BLUE",
-      "name": "To Lilac",
-      "in_stock": true
+      "code": "BLUETOCREAM",
+      "name": "Blue To Cream",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-2.png",
+      "variantId": 83190
     },
     {
-      "code": "VIOLET",
-      "name": "To Pink",
-      "in_stock": true
+      "code": "BLUETOLILAC",
+      "name": "Blue To Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-3.png",
+      "variantId": 83192
     },
     {
-      "code": "BLUE",
-      "name": "To Vanilla",
-      "in_stock": true
+      "code": "BLUETOVANILLA",
+      "name": "Blue To Vanilla",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-4.png",
+      "variantId": 83194
     },
     {
-      "code": "RED",
-      "name": "To Grey",
-      "in_stock": true
+      "code": "DARKGREENTOLIGHTGREEN",
+      "name": "Dark Green To Light Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-5.png",
+      "variantId": 83196
     },
     {
-      "code": "DARK",
-      "name": "Green To Light Green",
-      "in_stock": true
+      "code": "GREENTOBLUE",
+      "name": "Green To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-19.png",
+      "variantId": 83224
     },
     {
-      "code": "RED",
-      "name": "To Green",
-      "in_stock": true
+      "code": "GREENTOYELLOW",
+      "name": "Green To Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-13.png",
+      "variantId": 83212
     },
     {
-      "code": "BLACK",
-      "name": "To Green",
-      "in_stock": true
+      "code": "ORANGETOYELLOW",
+      "name": "Orange To Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-8.png",
+      "variantId": 83202
     },
     {
-      "code": "PURPLE",
-      "name": "To Magenta",
-      "in_stock": true
+      "code": "ORCHIDTOPINK",
+      "name": "Orchid To Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-1.png",
+      "variantId": 83188
     },
     {
-      "code": "BLACK",
-      "name": "To Mint",
-      "in_stock": true
+      "code": "PURPLETOBLUE",
+      "name": "Purple To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-11.png",
+      "variantId": 83208
     },
     {
-      "code": "RED",
-      "name": "To Yellow",
-      "in_stock": true
+      "code": "PURPLETOMAGENTA",
+      "name": "Purple To Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-17.png",
+      "variantId": 83220
     },
     {
-      "code": "ORANGE",
-      "name": "To Yellow",
-      "in_stock": true
+      "code": "PURPLETOTURQUOISE",
+      "name": "Purple To Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-10.png",
+      "variantId": 83206
     },
     {
-      "code": "GREEN",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "REDTOGREEN",
+      "name": "Red To Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-16.png",
+      "variantId": 83218
     },
     {
-      "code": "BLACK",
-      "name": "To Grey",
-      "in_stock": true
+      "code": "REDTOGREY",
+      "name": "Red To Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-15.png",
+      "variantId": 83216
     },
     {
-      "code": "BLACKBERRY",
-      "name": "To Orange",
-      "in_stock": true
+      "code": "REDTOYELLOW",
+      "name": "Red To Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-18.png",
+      "variantId": 83222
     },
     {
-      "code": "PURPLE",
-      "name": "To Turquoise",
-      "in_stock": true
+      "code": "VIOLETTOPINK",
+      "name": "Violet To Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/12/ultra-thermal-dust-02f25505-9733-4aa4-9476-da0d07e180a4-afceb6ce-58a6-4b62-beb1-ef9abf128936-14.png",
+      "variantId": 83214
     }
   ]
 }

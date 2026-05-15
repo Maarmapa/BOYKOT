@@ -2,151 +2,178 @@
   "slug": "poplol-gel",
   "productName": "Lápiz Gel POPLOL",
   "basePriceClp": 2500,
-  "bsaleProductId": 3105,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/05/poplol-6-77d42505-b45e-4a02-acc6-23d3d166c359.jpg",
-  "colorChartImage": null,
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/lapices/boligrafo/lapiz-gel-poplol/",
-  "generatedAt": "2026-05-15T04:11:48.467Z",
+  "sourceCount": 28,
+  "generatedAt": "2026-05-15T07:32:56.116Z",
   "colors": [
     {
-      "code": "LEAF",
-      "name": "Green Bl Pl 7 Lg",
-      "in_stock": true
+      "code": "AQUABLUEBLPL7AL",
+      "name": "Aqua Blue Bl Pl 7 Al",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7al-d012ef7d-d288-424b-aa28-31ff8f9e5848.jpg",
+      "variantId": 88460
     },
     {
-      "code": "METALLIC",
-      "name": "Green Bl Pl 7 Mg",
-      "in_stock": true
+      "code": "CORALPINKBLPL7CP",
+      "name": "Coral Pink Bl Pl 7 Cp",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7cp-0758a152-9d95-426e-b5a1-a34a06571e55.jpg",
+      "variantId": 88474
     },
     {
-      "code": "NEON",
-      "name": "Pink Bl Pl 7 Np",
-      "in_stock": true
+      "code": "GOLDBLPL7GD",
+      "name": "Gold Bl Pl 7 Gd",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7gd-6ddd18f9-0aec-49f5-a546-deadcc710c96.jpg",
+      "variantId": 88484
     },
     {
-      "code": "CORAL",
-      "name": "Pink Bl Pl 7 Cp",
-      "in_stock": true
+      "code": "GRAPEBLPL7GR",
+      "name": "Grape Bl Pl 7 Gr",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7gr-0b8c81cb-0dce-44ac-acba-57e04c737740.jpg",
+      "variantId": 88496
     },
     {
-      "code": "GRAPE",
-      "name": "Bl Pl 7 Gr",
-      "in_stock": true
+      "code": "LEAFGREENBLPL7LG",
+      "name": "Leaf Green Bl Pl 7 Lg",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7lg-dbb965db-2479-4940-ba2a-3b199af01993.jpg",
+      "variantId": 88472
     },
     {
-      "code": "PASTEL",
-      "name": "Violet Bl Pl 7 Pv",
-      "in_stock": true
+      "code": "METALLICBLUEBLPL7ML",
+      "name": "Metallic Blue Bl Pl 7 Ml",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7ml-ead86021-768b-42f6-a35f-75c0dad77f65.jpg",
+      "variantId": 88468
     },
     {
-      "code": "METALLIC",
-      "name": "Pink Bl Pl 7 Mp",
-      "in_stock": true
+      "code": "METALLICGREENBLPL7MG",
+      "name": "Metallic Green Bl Pl 7 Mg",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7mg-2917633d-940d-4b06-aad9-408a28adbe63.jpg",
+      "variantId": 88494
     },
     {
-      "code": "PINK",
-      "name": "Bl Pl 7 P",
-      "in_stock": true
+      "code": "METALLICPINKBLPL7MP",
+      "name": "Metallic Pink Bl Pl 7 Mp",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7mp-7069de53-6925-414f-8275-4b55f06ab31a.jpg",
+      "variantId": 88476
     },
     {
-      "code": "METALLIC",
-      "name": "Violet Bl Pl 7 Mv",
-      "in_stock": true
+      "code": "METALLICVIOLETBLPL7MV",
+      "name": "Metallic Violet Bl Pl 7 Mv",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7mv-f21c8287-d155-4303-bd06-97a3b4205917.jpg",
+      "variantId": 88456
     },
     {
-      "code": "NEON",
-      "name": "Yellow Bl Pl 7 Ny",
-      "in_stock": true
+      "code": "NEONAPRICOTORANGEBLPL7NAO",
+      "name": "Neon Apricot Orange Bl Pl 7 Nao",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7nao-9d61728e-c6bb-4b75-b8a8-732c66d4b8bf.jpg",
+      "variantId": 88462
     },
     {
-      "code": "ROSE",
-      "name": "Pink Bl Pl 7 Rp",
-      "in_stock": true
+      "code": "NEONGREENBLPL7NG",
+      "name": "Neon Green Bl Pl 7 Ng",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/poplol-6-77d42505-b45e-4a02-acc6-23d3d166c359-1.jpg",
+      "variantId": 88466
     },
     {
-      "code": "PASTEL",
-      "name": "Pink Bl Pl 7 Pp",
-      "in_stock": true
+      "code": "NEONORANGEBLPL7NO",
+      "name": "Neon Orange Bl Pl 7 No",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7w-743a19ce-55af-4228-abbf-d56a4b9edea1.jpg",
+      "variantId": 88488
     },
     {
-      "code": "YELLOW",
-      "name": "Bl Pl 7 Y",
-      "in_stock": true
+      "code": "NEONPINKBLPL7NP",
+      "name": "Neon Pink Bl Pl 7 Np",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7np-9d07d45b-fcc7-4fd6-bf46-8232a499f46f.jpg",
+      "variantId": 88452
     },
     {
-      "code": "PASTEL",
-      "name": "Green Bl Pl 7 Pg",
-      "in_stock": true
+      "code": "NEONREDBLPL7NR",
+      "name": "Neon Red Bl Pl 7 Nr",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7nr-3c61e0fb-8cd1-4a93-82b1-b3cf920d251e.jpg",
+      "variantId": 88486
     },
     {
-      "code": "AQUA",
-      "name": "Blue Bl Pl 7 Al",
-      "in_stock": true
+      "code": "NEONYELLOWBLPL7NY",
+      "name": "Neon Yellow Bl Pl 7 Ny",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7ny-29a1920b-0371-4f95-90e4-648f2f139e2e.jpg",
+      "variantId": 88478
     },
     {
-      "code": "RED",
-      "name": "Bl Pl 7 R",
-      "in_stock": true
+      "code": "ORANGEBLPL7O",
+      "name": "Orange Bl Pl 7 O",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7o-06d9fc92-547f-45ea-ab80-96cc26a123bc.jpg",
+      "variantId": 88464
     },
     {
-      "code": "VIOLET",
-      "name": "Bl Pl 7 V",
-      "in_stock": true
+      "code": "PASTELBLUEBLPL7PL",
+      "name": "Pastel Blue Bl Pl 7 Pl",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7pl-3ddf0b32-5393-45f8-9f60-fae2252ac26c.jpg",
+      "variantId": 88506
     },
     {
-      "code": "NEON",
-      "name": "Apricot Orange Bl Pl 7 Nao",
-      "in_stock": true
+      "code": "PASTELGREENBLPL7PG",
+      "name": "Pastel Green Bl Pl 7 Pg",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7pg-6ba20a15-efec-4701-ac9b-0d10240e8b6f.jpg",
+      "variantId": 88502
     },
     {
-      "code": "GOLD",
-      "name": "Bl Pl 7 Gd",
-      "in_stock": true
+      "code": "PASTELPINKBLPL7PP",
+      "name": "Pastel Pink Bl Pl 7 Pp",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7pp-addc3056-137c-40ac-b7b4-5f6b9bda4b9e.jpg",
+      "variantId": 88458
     },
     {
-      "code": "PASTEL",
-      "name": "Blue Bl Pl 7 Pl",
-      "in_stock": true
+      "code": "PASTELVIOLETBLPL7PV",
+      "name": "Pastel Violet Bl Pl 7 Pv",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7pv-9cea3cf4-c3d0-4c69-b168-b08d7a4e7b06.jpg",
+      "variantId": 88454
     },
     {
-      "code": "ORANGE",
-      "name": "Bl Pl 7 O",
-      "in_stock": true
+      "code": "PASTELYELLOWBLPL7PY",
+      "name": "Pastel Yellow Bl Pl 7 Py",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7py-cb89292a-2a43-47ed-ad06-f006c33297fd.jpg",
+      "variantId": 88470
     },
     {
-      "code": "NEON",
-      "name": "Red Bl Pl 7 Nr",
-      "in_stock": true
+      "code": "PINKBLPL7P",
+      "name": "Pink Bl Pl 7 P",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7p-a78d54d5-e2af-4f99-bf63-6f18e8ed2c46.jpg",
+      "variantId": 88498
     },
     {
-      "code": "NEON",
-      "name": "Green Bl Pl 7 Ng",
-      "in_stock": true
+      "code": "REDBLPL7R",
+      "name": "Red Bl Pl 7 R",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7r-e272c84f-5400-42b7-964d-5bddfe9a109e.jpg",
+      "variantId": 88482
     },
     {
-      "code": "NEON",
-      "name": "Orange Bl Pl 7 No",
-      "in_stock": true
+      "code": "ROSEPINKBLPL7RP",
+      "name": "Rose Pink Bl Pl 7 Rp",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7rp-719deaf4-75eb-4145-a690-ebf5c6c53ab3.jpg",
+      "variantId": 88500
     },
     {
-      "code": "METALLIC",
-      "name": "Blue Bl Pl 7 Ml",
-      "in_stock": true
+      "code": "SILVERBLPL7S",
+      "name": "Silver Bl Pl 7 S",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7s-56613a98-81dd-4500-b9bc-80789c152ac9.jpg",
+      "variantId": 88492
     },
     {
-      "code": "WHITE",
-      "name": "Bl Pl 7 W",
-      "in_stock": true
+      "code": "VIOLETBLPL7V",
+      "name": "Violet Bl Pl 7 V",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/blpl7v-d0dd7051-6230-4cca-a16f-77a6afee844b.jpg",
+      "variantId": 88504
     },
     {
-      "code": "PASTEL",
-      "name": "Yellow Bl Pl 7 Py",
-      "in_stock": true
+      "code": "WHITEBLPL7W",
+      "name": "White Bl Pl 7 W",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/poplol-6-77d42505-b45e-4a02-acc6-23d3d166c359-3.jpg",
+      "variantId": 88490
     },
     {
-      "code": "SILVER",
-      "name": "Bl Pl 7 S",
-      "in_stock": true
+      "code": "YELLOWBLPL7Y",
+      "name": "Yellow Bl Pl 7 Y",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/poplol-6-77d42505-b45e-4a02-acc6-23d3d166c359-2.jpg",
+      "variantId": 88480
     }
   ]
 }

@@ -2,131 +2,154 @@
   "slug": "atyou-spica",
   "productName": "Marcador Atyou Spica",
   "basePriceClp": 3900,
-  "bsaleProductId": 2295,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/04/atyou-spica-2358559c-d079-403e-9fa0-9d1324c61f07.jpg",
-  "colorChartImage": null,
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/marcadores/copic-markers/copic-individual/marcador-copic-spica/",
-  "generatedAt": "2026-05-15T04:11:48.468Z",
+  "sourceCount": 24,
+  "generatedAt": "2026-05-15T07:32:58.654Z",
   "colors": [
     {
       "code": "00",
       "name": "Clear",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/00-clear-dc5a627f-01b6-4771-bedd-b04f72cd0817.jpg",
+      "variantId": 87912
     },
     {
       "code": "01",
       "name": "Lavender",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/01-lavender-ce4ac164-9bb3-4d55-9c6a-33f6bdd773db.jpg",
+      "variantId": 87908
     },
     {
       "code": "02",
       "name": "Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/02-pink-2542ef49-f903-45be-93ec-e3de41c5bea7.jpg",
+      "variantId": 87934
     },
     {
       "code": "03",
       "name": "Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/03-red-657592b1-6bb1-49b2-8af8-5be4e3057c2b-1.jpg",
+      "variantId": 87928
     },
     {
       "code": "04",
       "name": "Orange",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/04-orange-ab19fe83-df9c-454c-8aae-525ba281d06f.jpg",
+      "variantId": 87910
     },
     {
       "code": "05",
       "name": "Lemon",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/05-lemon-75f00257-176a-46bb-a6d4-5315d23c2b63.jpg",
+      "variantId": 87914
     },
     {
       "code": "06",
       "name": "Melon",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/06-melon-c435a9d8-ed00-4299-a873-891f2103f83c.jpg",
+      "variantId": 87906
     },
     {
       "code": "07",
       "name": "Olive",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/07-olive-239b7f6e-2cf5-4677-ab18-95132c0c71ed-1.jpg",
+      "variantId": 87932
     },
     {
       "code": "08",
       "name": "Turquoise",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/08-turqouise-9c777f68-6a81-4800-99f6-1b4a62fbb01b-1.jpg",
+      "variantId": 87926
     },
     {
       "code": "09",
       "name": "Sky Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/05-sky-blue-ad20df72-5de1-4ba0-896a-22197a1bc2f3.jpg",
+      "variantId": 87938
     },
     {
       "code": "10",
       "name": "Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/10-black-6559feff-1a09-4ca4-bbc6-e371a63037bb.jpg",
+      "variantId": 87936
     },
     {
       "code": "11",
       "name": "Gold",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/11-gold-916a5146-5d68-4be7-8cd8-f5a8a2777493.jpg",
+      "variantId": 87898
     },
     {
       "code": "12",
       "name": "Silver",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/12-silver-4d39bc1c-5b4e-4a3a-959f-956ab3e8babd-1.jpg",
+      "variantId": 87930
     },
     {
       "code": "13",
       "name": "Lilac",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/13-lilac-1b28a1e2-51be-4ea5-8ec1-20eab7fc852f.jpg",
+      "variantId": 87942
     },
     {
       "code": "14",
       "name": "Blossom",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/14-blossom-d0a1ea21-b18c-43d2-ad83-abb5d0c7e45b.jpg",
+      "variantId": 87918
     },
     {
       "code": "15",
       "name": "Peach",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/15-peach-470079fc-7261-4005-b2ab-3d4b14d0c3ef.jpg",
+      "variantId": 87924
     },
     {
       "code": "16",
       "name": "Buttermilk",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/16-buttermilk-5b71575a-84ab-4d89-b30a-9c57aa385530.jpg",
+      "variantId": 87940
     },
     {
       "code": "17",
       "name": "Mint",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/17-mint-096ab943-d8df-4dc5-b293-1b9b55399c15.jpg",
+      "variantId": 87902
     },
     {
       "code": "18",
       "name": "Baby Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/18-baby-blue-b9b3f25d-1674-41c8-aee8-9387379ac110.jpg",
+      "variantId": 87900
     },
     {
       "code": "19",
       "name": "Sand",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/19-sand-0a7ed173-d0a3-472f-9b60-2c126936fd08.jpg",
+      "variantId": 87916
     },
     {
       "code": "20",
       "name": "Chocolate",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/20-chocolate-d2b9e4b9-596c-44bf-b243-00b4de497796.jpg",
+      "variantId": 87944
     },
     {
       "code": "21",
       "name": "Lipstick",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/21-lipstick-9658a3ff-48ce-4e64-a928-229dac7be837.jpg",
+      "variantId": 87920
     },
     {
       "code": "22",
       "name": "Garnet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/22-garnet-c1651d92-81fe-4c31-86fd-08ca8669a0c2.jpg",
+      "variantId": 87922
     },
     {
       "code": "23",
       "name": "Pitch Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/04/23-pitch-black-3957f9f1-95b6-4fc7-98b7-9a44d3b713de.jpg",
+      "variantId": 87904
     }
   ]
 }

@@ -2,161 +2,190 @@
   "slug": "zig-fabricolor-twin",
   "productName": "ZIG Fabricolor Twin",
   "basePriceClp": 3500,
-  "bsaleProductId": 3023,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336.jpg",
-  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-carta-de-colores-efc6445e-2e4b-4406-a28f-baf14767cb77.jpg",
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/marcadores/zig-fabricolor-twin/",
-  "generatedAt": "2026-05-15T04:11:48.456Z",
+  "sourceCount": 30,
+  "generatedAt": "2026-05-15T07:32:52.667Z",
   "colors": [
     {
       "code": "000",
       "name": "Blender",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-8.jpg",
+      "variantId": 97660
     },
     {
       "code": "001",
       "name": "Fluorescent Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-26.jpg",
+      "variantId": 97696
     },
     {
       "code": "003",
       "name": "Fluorescent Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-27.jpg",
+      "variantId": 97698
     },
     {
       "code": "004",
       "name": "Fluorescent Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-11.jpg",
+      "variantId": 97666
     },
     {
       "code": "010",
       "name": "Black",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-21.jpg",
+      "variantId": 97686
     },
     {
       "code": "020",
       "name": "Red",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-4.jpg",
+      "variantId": 97652
     },
     {
       "code": "021",
       "name": "Light Carmine",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-10.jpg",
+      "variantId": 97664
     },
     {
       "code": "025",
       "name": "Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-13.jpg",
+      "variantId": 97670
     },
     {
       "code": "026",
       "name": "Light Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-30.jpg",
+      "variantId": 97704
     },
     {
       "code": "027",
       "name": "Dark Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-25.jpg",
+      "variantId": 97694
     },
     {
       "code": "030",
       "name": "Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-16.jpg",
+      "variantId": 97676
     },
     {
       "code": "031",
       "name": "Cobalt Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-17.jpg",
+      "variantId": 97678
     },
     {
       "code": "033",
       "name": "Persian Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-24.jpg",
+      "variantId": 97692
     },
     {
       "code": "036",
       "name": "Light Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-20.jpg",
+      "variantId": 97684
     },
     {
       "code": "040",
       "name": "Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-6.jpg",
+      "variantId": 97656
     },
     {
       "code": "041",
       "name": "Light Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-2.jpg",
+      "variantId": 97648
     },
     {
       "code": "042",
       "name": "Turquoise Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-29.jpg",
+      "variantId": 97702
     },
     {
       "code": "050",
       "name": "Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-15.jpg",
+      "variantId": 97674
     },
     {
       "code": "060",
       "name": "Brown",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-23.jpg",
+      "variantId": 97690
     },
     {
       "code": "062",
       "name": "Dark Brown",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-3.jpg",
+      "variantId": 97650
     },
     {
       "code": "066",
       "name": "Dark Oatmeal",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-28.jpg",
+      "variantId": 97700
     },
     {
       "code": "070",
       "name": "Orange",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-9.jpg",
+      "variantId": 97662
     },
     {
       "code": "071",
       "name": "Natural Beige",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-14.jpg",
+      "variantId": 97672
     },
     {
       "code": "080",
       "name": "Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-12.jpg",
+      "variantId": 97668
     },
     {
       "code": "081",
       "name": "Light Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-5.jpg",
+      "variantId": 97654
     },
     {
       "code": "093",
       "name": "Green Gray",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-1.jpg",
+      "variantId": 97646
     },
     {
       "code": "403",
       "name": "Pale Mint",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-19.jpg",
+      "variantId": 97682
     },
     {
       "code": "502",
       "name": "Butter",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-7.jpg",
+      "variantId": 97658
     },
     {
       "code": "805",
       "name": "Pale Violet",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-22.jpg",
+      "variantId": 97688
     },
     {
       "code": "904",
       "name": "Warm Gray",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/07/min-fabricolor-unidad-634cf0d9-9bc7-4c4a-89b5-fbc88cde5336-18.jpg",
+      "variantId": 97680
     }
   ]
 }

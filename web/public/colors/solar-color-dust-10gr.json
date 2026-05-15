@@ -2,251 +2,298 @@
   "slug": "solar-color-dust-10gr",
   "productName": "SOLAR Color Dust 10gr",
   "basePriceClp": 6900,
-  "bsaleProductId": 2991,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/08/so-co-dust-po-b534ab02-595d-4d97-8ca3-2e5bc4470d9d.png",
-  "colorChartImage": null,
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/pintura/solar-color/solar-color-dust-10gr/",
-  "generatedAt": "2026-05-15T04:11:48.459Z",
+  "sourceCount": 48,
+  "generatedAt": "2026-05-15T07:32:59.155Z",
   "colors": [
     {
-      "code": "GREEN",
-      "name": "To Red",
-      "in_stock": true
+      "code": "BERRYTOVIOLET",
+      "name": "Berry To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/berry-to-violet-f6ee52fc-86cf-4d93-be3b-319e286fbf8a.jpg",
+      "variantId": 84958
     },
     {
-      "code": "YELLOW",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "BLUETOGREEN",
+      "name": "Blue To Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/blue-to-green-981bd3c2-cdb5-4f46-bd60-3b78b907a9e8.jpg",
+      "variantId": 73217
     },
     {
-      "code": "WHITE",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "BLUETOMAGENTA",
+      "name": "Blue To Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/blue-to-magenta-b6b6b64b-9397-4ee5-8927-0661c05bfa31.jpg",
+      "variantId": 73210
     },
     {
-      "code": "WHITE",
-      "name": "To Marine Blue",
-      "in_stock": true
+      "code": "BLUETOMOSS",
+      "name": "Blue To Moss",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/blue-to-moss-18185065-f864-4350-95b6-96831cc7d89d.jpg",
+      "variantId": 84949
     },
     {
-      "code": "BLUE",
-      "name": "To Green",
-      "in_stock": true
-    },
-    {
-      "code": "WHITE",
-      "name": "To Purple",
-      "in_stock": true
-    },
-    {
-      "code": "WHITE",
-      "name": "To Eggplant",
-      "in_stock": true
-    },
-    {
-      "code": "BRIGHT",
+      "code": "BLUETOPURPLE",
       "name": "Blue To Purple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/blue-to-purple-1693ea02-db4f-477e-898e-a3ed260a1bc2.jpg",
+      "variantId": 73277
     },
     {
-      "code": "YELLOW",
-      "name": "To Purple",
-      "in_stock": true
+      "code": "BRIGHTBLUETOPURPLE",
+      "name": "Bright Blue To Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/bright-blue-to-purple-a5025901-baf3-4d54-b427-1886dfbeec5d.jpg",
+      "variantId": 84950
     },
     {
-      "code": "WHITE",
-      "name": "To Olive Green",
-      "in_stock": true
+      "code": "CORALTOBLUE",
+      "name": "Coral To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/coral-to-blue-866a59e5-7acc-42b2-8d55-bd33cf8caf9c.jpg",
+      "variantId": 73234
     },
     {
-      "code": "WHITE",
-      "name": "To Yellow",
-      "in_stock": true
+      "code": "GRAYTOPURPLE",
+      "name": "Gray To Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/grey-to-purple-c25eb783-f1c7-42e8-a0cb-a535136b61d5.jpg",
+      "variantId": 84954
     },
     {
-      "code": "WHITE",
-      "name": "To Burnt Orange",
-      "in_stock": true
+      "code": "GREENTOBLUE",
+      "name": "Green To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/green-to-blue-0e69a64b-cf59-466e-b22c-a0aec6fbc82e.jpg",
+      "variantId": 84959
     },
     {
-      "code": "BERRY",
-      "name": "To Violet",
-      "in_stock": true
+      "code": "GREENTOEGGPLANT",
+      "name": "Green To Eggplant",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/green-to-eggplant-b8490fc0-0b03-48e1-befa-18570b1be478.jpg",
+      "variantId": 84957
     },
     {
-      "code": "WHITE",
-      "name": "To Green Fades To Yellow",
-      "in_stock": true
+      "code": "GREENTORED",
+      "name": "Green To Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/green-to-red-2a65e3e5-0dcf-4b7a-afbf-b57555b48adf.jpg",
+      "variantId": 73300
     },
     {
-      "code": "WHITE",
-      "name": "To Merlot",
-      "in_stock": true
+      "code": "HOTPINKTOVIOLET",
+      "name": "Hot Pink To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/hot-pink-to-violet-61e0e864-be2a-4e1f-bfef-75eb66d367ef.jpg",
+      "variantId": 73269
     },
     {
-      "code": "YELLOW",
-      "name": "To Orange",
-      "in_stock": true
+      "code": "ORANGETOBLUE",
+      "name": "Orange To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/orange-to-blue-f3bc5031-aaed-4b9b-9372-a8a0f31cccb0.jpg",
+      "variantId": 73296
     },
     {
-      "code": "CORAL",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "ORANGETOMAROON",
+      "name": "Orange To Maroon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/orage-to-maroon-d8a7f3ae-b9b8-47ce-a09f-ce830b2312db.jpg",
+      "variantId": 84951
     },
     {
-      "code": "PINK",
-      "name": "To Blurple",
-      "in_stock": true
+      "code": "ORANGETOVIOLET",
+      "name": "Orange To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/orange-to-violet-621b61d3-891f-431d-822f-cb5f61777473.jpg",
+      "variantId": 84956
     },
     {
-      "code": "WHITE",
-      "name": "To Dark Blue",
-      "in_stock": true
+      "code": "PEACHTOVIOLET",
+      "name": "Peach To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/peach-to-violet-75539feb-0767-4fe9-a30e-4f9c1c419e8b.jpg",
+      "variantId": 73298
     },
     {
-      "code": "WHITE",
-      "name": "To Tan",
-      "in_stock": true
+      "code": "PINKTOBLURPLE",
+      "name": "Pink To Blurple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/pink-to-blurple-9092088d-fb74-448d-b836-a238d602e228.jpg",
+      "variantId": 84960
     },
     {
-      "code": "GREEN",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "REDTOVIOLET",
+      "name": "Red To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/red-to-violet-df49d7bd-eabe-4784-b574-e5ff6d216430.jpg",
+      "variantId": 84953
     },
     {
-      "code": "WHITE",
-      "name": "To Orange Red",
-      "in_stock": true
+      "code": "WHITETOBLUE",
+      "name": "White To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-blue-8468541d-9507-4ff2-9c83-9973c130ac5f.jpg",
+      "variantId": 84952
     },
     {
-      "code": "RED",
-      "name": "To Violet",
-      "in_stock": true
+      "code": "WHITETOBRICKRED",
+      "name": "White To Brick Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-brick-red-91ad6bd0-0310-44ae-87e3-de861c52b8e7.jpg",
+      "variantId": 73293
     },
     {
-      "code": "HOT",
-      "name": "Pink To Violet",
-      "in_stock": true
+      "code": "WHITETOBURNTORANGE",
+      "name": "White To Burnt Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-burnt-orange-f43f6b5d-b3ff-4d80-9089-8cc6c99788ec.jpg",
+      "variantId": 73232
     },
     {
-      "code": "BLUE",
-      "name": "To Magenta",
-      "in_stock": true
+      "code": "WHITETOCLAY",
+      "name": "White To Clay",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-clay-083da534-5d00-4558-ab77-15e42c40889e.jpg",
+      "variantId": 73240
     },
     {
-      "code": "BLUE",
-      "name": "To Moss",
-      "in_stock": true
+      "code": "WHITETODARKBLUE",
+      "name": "White To Dark Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-dark-blue-f6e4a021-f593-4757-a826-afe68bd9e475.jpg",
+      "variantId": 73261
     },
     {
-      "code": "YELLOW",
-      "name": "To Blue Green",
-      "in_stock": true
+      "code": "WHITETOEGGPLANT",
+      "name": "White To Eggplant",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-eggplant-25e1f267-ffc1-4880-b4bd-487e93956bd9.jpg",
+      "variantId": 73229
     },
     {
-      "code": "GRAY",
-      "name": "To Purple",
-      "in_stock": true
+      "code": "WHITETOGOLD",
+      "name": "White To Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-gold-e8052d15-31cb-4ab4-b52d-fb32d8dfda62.jpg",
+      "variantId": 84961
     },
     {
-      "code": "BLUE",
-      "name": "To Purple",
-      "in_stock": true
+      "code": "WHITETOGREENFADESTOYELLOW",
+      "name": "White To Green Fades To Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-green-fades-to-yellow-6a24d8e4-a4f5-4358-b21a-d333c9eea4f6.jpg",
+      "variantId": 73257
     },
     {
-      "code": "WHITE",
-      "name": "To Sapphire Blue",
-      "in_stock": true
+      "code": "WHITETOMAGENTA",
+      "name": "White To Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-magenta-99a0c4f1-9622-4ce3-badb-cff6351ff7b4.jpg",
+      "variantId": 73246
     },
     {
-      "code": "WHITE",
-      "name": "To Peach",
-      "in_stock": true
+      "code": "WHITETOMARINEBLUE",
+      "name": "White To Marine Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-marine-blue-8a2d882e-f441-42c3-b99e-894800f39af4.jpg",
+      "variantId": 73252
     },
     {
-      "code": "WHITE",
-      "name": "To Clay",
-      "in_stock": true
+      "code": "WHITETOMERLOT",
+      "name": "White To Merlot",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-merlot-0c7bad19-06a5-47dd-b27e-0d39e08f1f2f.jpg",
+      "variantId": 73200
     },
     {
-      "code": "WHITE",
-      "name": "To Vibrant Blue",
-      "in_stock": true
+      "code": "WHITETOMIXEDBERRY",
+      "name": "White To Mixed Berry",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-mixed-berry-f432fcd3-3114-4d41-bc66-8dcdeb45d418.jpg",
+      "variantId": 73248
     },
     {
-      "code": "WHITE",
-      "name": "To Sky Blue",
-      "in_stock": true
+      "code": "WHITETOOLIVEGREEN",
+      "name": "White To Olive Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-olive-green-2c95034b-ad21-46ae-b6aa-da4fd7b14106.jpg",
+      "variantId": 73195
     },
     {
-      "code": "WHITE",
-      "name": "To Gold",
-      "in_stock": true
+      "code": "WHITETOORANGE",
+      "name": "White To Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-orange-549f7060-317f-4f6a-afa4-39ccffe11c9e.jpg",
+      "variantId": 73221
     },
     {
-      "code": "WHITE",
-      "name": "To Orchid",
-      "in_stock": true
+      "code": "WHITETOORANGERED",
+      "name": "White To Orange Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-orange-red-66119b24-1c40-4921-8042-c380d56e5b92.jpg",
+      "variantId": 73236
     },
     {
-      "code": "WHITE",
-      "name": "To Brick Red",
-      "in_stock": true
+      "code": "WHITETOORCHID",
+      "name": "White To Orchid",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-orchid-2e6c4043-1968-4a2c-b02a-58943744020b.jpg",
+      "variantId": 73242
     },
     {
-      "code": "WHITE",
-      "name": "To Orange",
-      "in_stock": true
+      "code": "WHITETOPEACH",
+      "name": "White To Peach",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-peach-7ed269ca-b330-4feb-8246-f4bfd03f4ec6.jpg",
+      "variantId": 84955
     },
     {
-      "code": "ORANGE",
-      "name": "To Violet",
-      "in_stock": true
+      "code": "WHITETOPLUM",
+      "name": "White To Plum",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-plum-0772a93a-1101-4313-bb27-862bcc34deed.jpg",
+      "variantId": 73250
     },
     {
-      "code": "WHITE",
-      "name": "To Magenta",
-      "in_stock": true
+      "code": "WHITETOPURPLE",
+      "name": "White To Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-purple-aceaf759-b8e0-40f3-b057-680a4b8c7586.jpg",
+      "variantId": 73302
     },
     {
-      "code": "ORANGE",
-      "name": "To Blue",
-      "in_stock": true
+      "code": "WHITETOSAPPHIREBLUE",
+      "name": "White To Sapphire Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-sapphire-blue-fdbecaa4-4c18-42f6-b65b-66a2daa4e14f.jpg",
+      "variantId": 73214
     },
     {
-      "code": "WHITE",
-      "name": "To Wine Red",
-      "in_stock": true
+      "code": "WHITETOSKYBLUE",
+      "name": "White To Sky Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/08/so-co-dust-po-b534ab02-595d-4d97-8ca3-2e5bc4470d9d-7.png",
+      "variantId": 73219
     },
     {
-      "code": "ORANGE",
-      "name": "To Maroon",
-      "in_stock": true
+      "code": "WHITETOTAN",
+      "name": "White To Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-tan-7c081453-64c6-4501-85a3-b4287d5e57e3.jpg",
+      "variantId": 73205
     },
     {
-      "code": "WHITE",
-      "name": "To Mixed Berry",
-      "in_stock": true
+      "code": "WHITETOVIBRANTBLUE",
+      "name": "White To Vibrant Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-vibrant-blue-a9b23a35-03ce-4a44-b72c-d8569e154bdf.jpg",
+      "variantId": 73285
     },
     {
-      "code": "PEACH",
-      "name": "To Violet",
-      "in_stock": true
+      "code": "WHITETOVIOLET",
+      "name": "White To Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-violet-18ecc22e-3ca5-40f4-b8b5-b76470c9d446.jpg",
+      "variantId": 73225
     },
     {
-      "code": "WHITE",
-      "name": "To Violet",
-      "in_stock": true
+      "code": "WHITETOWINERED",
+      "name": "White To Wine Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-wine-red-481dbc6c-c384-40ea-a577-6d238110bdc0.jpg",
+      "variantId": 73223
     },
     {
-      "code": "GREEN",
-      "name": "To Eggplant",
-      "in_stock": true
+      "code": "WHITETOYELLOW",
+      "name": "White To Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/white-to-yellow-a34e396b-f63b-4ab6-9511-dee25cbf91df.jpg",
+      "variantId": 73304
     },
     {
-      "code": "WHITE",
-      "name": "To Plum",
-      "in_stock": true
+      "code": "YELLOWTOBLUE",
+      "name": "Yellow To Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/yellow-to-blue-43cda000-b929-4258-b340-761020a7f8c2.jpg",
+      "variantId": 73227
+    },
+    {
+      "code": "YELLOWTOBLUEGREEN",
+      "name": "Yellow To Blue Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/yellow-to-blue-green-859cbd08-0d59-485f-a5ad-989be00511e8.jpg",
+      "variantId": 73238
+    },
+    {
+      "code": "YELLOWTOORANGE",
+      "name": "Yellow To Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/yellow-to-orange-32246a9e-0c7d-450f-8fc8-a8ab6b7cb030.jpg",
+      "variantId": 73307
+    },
+    {
+      "code": "YELLOWTOPURPLE",
+      "name": "Yellow To Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/02/yellow-to-purple-a78326d8-1b2e-488b-bc58-335756552f30.jpg",
+      "variantId": 73254
     }
   ]
 }

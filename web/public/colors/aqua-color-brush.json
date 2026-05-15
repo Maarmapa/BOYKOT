@@ -2,191 +2,226 @@
   "slug": "aqua-color-brush",
   "productName": "Aqua Color Brush",
   "basePriceClp": 4500,
-  "bsaleProductId": 2797,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
-  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2022/07/aqua-color-chart-1f71007c-429a-42bc-b2da-f912843f9d7a.jpg",
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-color-brush/",
-  "generatedAt": "2026-05-15T04:11:48.464Z",
+  "sourceCount": 36,
+  "generatedAt": "2026-05-15T07:32:53.104Z",
   "colors": [
     {
-      "code": "008",
-      "name": "Pink",
-      "in_stock": true
-    },
-    {
-      "code": "010",
-      "name": "Purple",
-      "in_stock": true
-    },
-    {
       "code": "001",
-      "name": "Primary Yellow",
-      "in_stock": true
+      "name": "Primary Yellow Art Nr 727201",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/ba3b81b4-26c3-4d24-874f-263b299f3152-727200_1_1.png",
+      "variantId": 14749
     },
     {
       "code": "003",
-      "name": "Orange",
-      "in_stock": true
+      "name": "Orange 727203",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97199
     },
     {
       "code": "005",
-      "name": "Vermillion",
-      "in_stock": true
+      "name": "Vermillion Art Nr 727205",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/81666e9e-3b4d-4c53-8241-5ba823f71895-727200_1_1.png",
+      "variantId": 14754
+    },
+    {
+      "code": "008",
+      "name": "Pink Art Nr 727008",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97201
+    },
+    {
+      "code": "010",
+      "name": "Purple Art Nr 727010",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97211
     },
     {
       "code": "011",
-      "name": "Primary Blue",
-      "in_stock": true
+      "name": "Primary Blue Art Nr 727211",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/2f1feb4b-bf0d-4d5b-8f2c-76e08b4f3e48-727200_1_1.png",
+      "variantId": 14734
     },
     {
       "code": "012",
-      "name": "Cyan",
-      "in_stock": true
+      "name": "Cyan Art Nr 727212",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/c9d607fa-e5b9-4142-b3d5-ae3f3ac6a875-727200_1_1.png",
+      "variantId": 14735
     },
     {
       "code": "013",
-      "name": "Turquoise",
-      "in_stock": true
+      "name": "Turquoise Art Nr 727213",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/a10be5e6-2a9f-4a92-b7b2-6c5813bb7e9b-727200_1_1.png",
+      "variantId": 14736
     },
     {
       "code": "015",
-      "name": "Dark Green",
-      "in_stock": true
+      "name": "Dark Green Art Nr 727215",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/90a556c3-ddca-49b8-85df-544a105cd94d-727200_1_1.png",
+      "variantId": 14737
     },
     {
       "code": "016",
-      "name": "Yellow Green",
-      "in_stock": true
+      "name": "Yellow Green Art Nr 727216",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/67953657-9b25-479e-89c9-c066a4a093ed-727200_1_1.png",
+      "variantId": 14738
     },
     {
       "code": "019",
-      "name": "Brown",
-      "in_stock": true
+      "name": "Brown Art Nr 727219",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/fb2df091-3d11-4ce4-9728-b999537784ef-727200_1_1.png",
+      "variantId": 14739
     },
     {
       "code": "022",
-      "name": "Deep Black",
-      "in_stock": true
+      "name": "Deep Black Art Nr 727222",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/10/6799d146-47b9-47fc-b077-172ab1424728-727200_1_1.png",
+      "variantId": 14750
     },
     {
       "code": "024",
-      "name": "Neutral Grey 01",
-      "in_stock": true
+      "name": "Neutral Grey 01 727224",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97202
     },
     {
       "code": "025",
-      "name": "Neutral Grey 02",
-      "in_stock": true
+      "name": "Neutral Grey 02 727225",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97208
     },
     {
       "code": "026",
-      "name": "Neutral Grey 03",
-      "in_stock": true
+      "name": "Neutral Grey 03 727226",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97186
     },
     {
       "code": "027",
-      "name": "Neutral Grey 04",
-      "in_stock": true
+      "name": "Neutral Grey 04 727227",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97188
     },
     {
       "code": "029",
-      "name": "Cool Grey",
-      "in_stock": true
+      "name": "Cool Grey 727229",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97189
     },
     {
       "code": "030",
-      "name": "Cool Grey 01",
-      "in_stock": true
+      "name": "Cool Grey 01 727230",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97196
     },
     {
       "code": "031",
-      "name": "Cool Grey 02",
-      "in_stock": true
+      "name": "Cool Grey 02 727231",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97192
     },
     {
       "code": "032",
-      "name": "Cool Grey 03",
-      "in_stock": true
+      "name": "Cool Grey 03 727232",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97203
     },
     {
       "code": "033",
-      "name": "Cool Grey 04",
-      "in_stock": true
+      "name": "Cool Grey 04 727233",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97195
     },
     {
       "code": "035",
-      "name": "Warm Grey",
-      "in_stock": true
+      "name": "Warm Grey 727235",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97204
     },
     {
       "code": "037",
-      "name": "Warm Grey 02",
-      "in_stock": true
+      "name": "Warm Grey 02 727237",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97200
     },
     {
       "code": "039",
-      "name": "Warm Grey 04",
-      "in_stock": true
+      "name": "Warm Grey 04 727239",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97206
     },
     {
       "code": "041",
-      "name": "Light Orange",
-      "in_stock": true
+      "name": "Light Orange 727241",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97193
     },
     {
       "code": "043",
-      "name": "Burgundy",
-      "in_stock": true
+      "name": "Burgundy 727243",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97209
     },
     {
       "code": "045",
-      "name": "Fuchsia",
-      "in_stock": true
+      "name": "Fuchsia 727245",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97207
     },
     {
       "code": "048",
-      "name": "Violet",
-      "in_stock": true
+      "name": "Violet 727248",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97205
     },
     {
       "code": "050",
-      "name": "Olive",
-      "in_stock": true
+      "name": "Olive 727250",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97191
     },
     {
       "code": "051",
-      "name": "Riviera",
-      "in_stock": true
+      "name": "Riviera 727251",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97185
     },
     {
       "code": "052",
-      "name": "Light Blue",
-      "in_stock": true
+      "name": "Light Blue 727252",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97198
     },
     {
       "code": "053",
-      "name": "Light Brown",
-      "in_stock": true
+      "name": "Light Brown 727253",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97194
     },
     {
       "code": "055",
-      "name": "Rose Pastel",
-      "in_stock": true
+      "name": "Rose Pastel 727255",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97210
     },
     {
       "code": "056",
-      "name": "Skin 1",
-      "in_stock": true
+      "name": "Skin 1 727256",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97187
     },
     {
       "code": "059",
-      "name": "Skin 2",
-      "in_stock": true
+      "name": "Skin 2 727259",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97190
     },
     {
       "code": "062",
-      "name": "Apricot",
-      "in_stock": true
+      "name": "Apricot 727262",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2021/06/5a5f8482-3821-45c7-8432-d408b6938bdf-727200_1_1.png",
+      "variantId": 97197
     }
   ]
 }

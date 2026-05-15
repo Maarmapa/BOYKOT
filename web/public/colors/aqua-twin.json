@@ -2,111 +2,130 @@
   "slug": "aqua-twin",
   "productName": "Aqua Twin",
   "basePriceClp": 5500,
-  "bsaleProductId": 2419,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef.webp",
-  "colorChartImage": "https://www.boykot.cl/wp-content/uploads/2023/06/aqua-color-chart-ad7a71ad-3f22-45a0-ae2f-c056fdb6ea5e.jpg",
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-twin-unidad-pincel-bisel/",
-  "generatedAt": "2026-05-15T04:11:48.472Z",
+  "sourceCount": 20,
+  "generatedAt": "2026-05-15T07:32:54.528Z",
   "colors": [
     {
-      "code": "DARK",
-      "name": "Green 015",
-      "in_stock": true
+      "code": "BROWN019",
+      "name": "Brown 019",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-13.webp",
+      "variantId": 106825
     },
     {
-      "code": "DEEP",
-      "name": "Black 022",
-      "in_stock": true
+      "code": "COOLGREY0130",
+      "name": "Cool Grey 01 30",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-6.webp",
+      "variantId": 106811
     },
     {
-      "code": "NEUTRAL",
-      "name": "Grey 04 27",
-      "in_stock": true
+      "code": "COOLGREY0332",
+      "name": "Cool Grey 03 32",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-20.webp",
+      "variantId": 106839
     },
     {
-      "code": "COOL",
-      "name": "Grey 29",
-      "in_stock": true
+      "code": "COOLGREY0433",
+      "name": "Cool Grey 04 33",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-17.webp",
+      "variantId": 106833
     },
     {
-      "code": "BROWN",
-      "name": "019",
-      "in_stock": true
+      "code": "COOLGREY29",
+      "name": "Cool Grey 29",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-2.webp",
+      "variantId": 106803
     },
     {
-      "code": "PRIMARY",
-      "name": "Yellow 001",
-      "in_stock": true
+      "code": "CYAN012",
+      "name": "Cyan 012",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-10.webp",
+      "variantId": 106819
     },
     {
-      "code": "WARM",
-      "name": "Grey 35",
-      "in_stock": true
+      "code": "DARKGREEN015",
+      "name": "Dark Green 015",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-11.webp",
+      "variantId": 106821
     },
     {
-      "code": "PURPLE",
-      "name": "010",
-      "in_stock": true
+      "code": "DEEPBLACK022",
+      "name": "Deep Black 022",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-1.webp",
+      "variantId": 106801
     },
     {
-      "code": "VERMILLON",
-      "name": "005",
-      "in_stock": true
+      "code": "NEUTRALGREY0225",
+      "name": "Neutral Grey 02 25",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-18.webp",
+      "variantId": 106835
     },
     {
-      "code": "YELLOW",
-      "name": "Green 016",
-      "in_stock": true
+      "code": "NEUTRALGREY0326",
+      "name": "Neutral Grey 03 26",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-7.webp",
+      "variantId": 106813
     },
     {
-      "code": "TURQUOISE",
-      "name": "013",
-      "in_stock": true
+      "code": "NEUTRALGREY0427",
+      "name": "Neutral Grey 04 27",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-12.webp",
+      "variantId": 106823
     },
     {
-      "code": "COOL",
-      "name": "Grey 01 30",
-      "in_stock": true
+      "code": "ORANGE003",
+      "name": "Orange 003",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-19.webp",
+      "variantId": 106837
     },
     {
-      "code": "COOL",
-      "name": "Grey 04 33",
-      "in_stock": true
+      "code": "PINK008",
+      "name": "Pink 008",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-9.webp",
+      "variantId": 106817
     },
     {
-      "code": "NEUTRAL",
-      "name": "Grey 03 26",
-      "in_stock": true
+      "code": "PRIMARYBLUE011",
+      "name": "Primary Blue 011",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-8.webp",
+      "variantId": 106815
     },
     {
-      "code": "NEUTRAL",
-      "name": "Grey 02 25",
-      "in_stock": true
+      "code": "PRIMARYYELLOW001",
+      "name": "Primary Yellow 001",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-3.webp",
+      "variantId": 106805
     },
     {
-      "code": "PRIMARY",
-      "name": "Blue 011",
-      "in_stock": true
+      "code": "PURPLE010",
+      "name": "Purple 010",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-4.webp",
+      "variantId": 106807
     },
     {
-      "code": "ORANGE",
-      "name": "003",
-      "in_stock": true
+      "code": "TURQUOISE013",
+      "name": "Turquoise 013",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-16.webp",
+      "variantId": 106831
     },
     {
-      "code": "PINK",
-      "name": "008",
-      "in_stock": true
+      "code": "VERMILLON005",
+      "name": "Vermillon 005",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-15.webp",
+      "variantId": 106829
     },
     {
-      "code": "COOL",
-      "name": "Grey 03 32",
-      "in_stock": true
+      "code": "WARMGREY35",
+      "name": "Warm Grey 35",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-14.webp",
+      "variantId": 106827
     },
     {
-      "code": "CYAN",
-      "name": "012",
-      "in_stock": true
+      "code": "YELLOWGREEN016",
+      "name": "Yellow Green 016",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/ezgifcom-webp-to-png-3c65b1e0-4b48-4968-9bdf-61a7c6da10ef-5.webp",
+      "variantId": 106809
     }
   ]
 }

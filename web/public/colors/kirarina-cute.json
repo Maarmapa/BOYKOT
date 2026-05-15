@@ -2,111 +2,130 @@
   "slug": "kirarina-cute",
   "productName": "Kirarina Cute",
   "basePriceClp": 3500,
-  "bsaleProductId": 2332,
-  "heroImage": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-2.jpeg",
-  "colorChartImage": null,
+  "bsaleProductId": 0,
   "sourceUrl": "https://www.boykot.cl/tienda/marcadores/kirarina/kirarina-cute-unidad/",
-  "generatedAt": "2026-05-15T04:11:48.470Z",
+  "sourceCount": 20,
+  "generatedAt": "2026-05-15T07:32:58.834Z",
   "colors": [
-    {
-      "code": "123",
-      "name": "Lovely Blue",
-      "in_stock": true
-    },
     {
       "code": "101",
       "name": "Bright Pink",
-      "in_stock": true
-    },
-    {
-      "code": "141",
-      "name": "Pearl White",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-21.jpeg",
+      "variantId": 107231
     },
     {
       "code": "102",
       "name": "Bright Yellow",
-      "in_stock": true
-    },
-    {
-      "code": "142",
-      "name": "Pearl Blue",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-20.jpeg",
+      "variantId": 107229
     },
     {
       "code": "103",
       "name": "Bright Green",
-      "in_stock": true
-    },
-    {
-      "code": "143",
-      "name": "Pearl Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-14.jpeg",
+      "variantId": 107217
     },
     {
       "code": "104",
       "name": "Bright Orange",
-      "in_stock": true
-    },
-    {
-      "code": "151",
-      "name": "Kira Kira Gold",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-15.jpeg",
+      "variantId": 107219
     },
     {
       "code": "111",
       "name": "Cool Black",
-      "in_stock": true
-    },
-    {
-      "code": "152",
-      "name": "Kira Kira Silver",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-7.jpeg",
+      "variantId": 107203
     },
     {
       "code": "112",
       "name": "Cool Red",
-      "in_stock": true
-    },
-    {
-      "code": "161",
-      "name": "Kira Kira Pink",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-16.jpeg",
+      "variantId": 107221
     },
     {
       "code": "113",
       "name": "Cool Gold",
-      "in_stock": true
-    },
-    {
-      "code": "162",
-      "name": "Kira Kira Yellow",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-11.jpeg",
+      "variantId": 107211
     },
     {
       "code": "114",
       "name": "Cool Silver",
-      "in_stock": true
-    },
-    {
-      "code": "163",
-      "name": "Kira Kira Green",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-4.jpeg",
+      "variantId": 107197
     },
     {
       "code": "121",
       "name": "Lovely Pink",
-      "in_stock": true
-    },
-    {
-      "code": "124",
-      "name": "Lovely Orange",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-6.jpeg",
+      "variantId": 107201
     },
     {
       "code": "122",
       "name": "Lovely Purple",
-      "in_stock": true
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-10.jpeg",
+      "variantId": 107209
+    },
+    {
+      "code": "123",
+      "name": "Lovely Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-9.jpeg",
+      "variantId": 107207
+    },
+    {
+      "code": "124",
+      "name": "Lovely Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-18.jpeg",
+      "variantId": 107225
+    },
+    {
+      "code": "141",
+      "name": "Pearl White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-22.jpeg",
+      "variantId": 107233
+    },
+    {
+      "code": "142",
+      "name": "Pearl Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-12.jpeg",
+      "variantId": 107213
+    },
+    {
+      "code": "143",
+      "name": "Pearl Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-17.jpeg",
+      "variantId": 107223
+    },
+    {
+      "code": "151",
+      "name": "Kira Kira Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-13.jpeg",
+      "variantId": 107215
+    },
+    {
+      "code": "152",
+      "name": "Kira Kira Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-8.jpeg",
+      "variantId": 107205
+    },
+    {
+      "code": "161",
+      "name": "Kira Kira Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-3.jpeg",
+      "variantId": 107195
+    },
+    {
+      "code": "162",
+      "name": "Kira Kira Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-19.jpeg",
+      "variantId": 107227
+    },
+    {
+      "code": "163",
+      "name": "Kira Kira Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2023/06/acd0a317-7b4b-433e-8b81-eae352d42068-kiracu-5.jpeg",
+      "variantId": 107199
     }
   ]
 }

@@ -86,6 +86,30 @@ const TARGETS = [
     productName: 'Wicked Colors 480ml',
     basePriceClp: 26900,
   },
+  {
+    url: 'https://www.boykot.cl/tienda/uncategorized/createx-illustration-30ml/',
+    slug: 'createx-illustration-30ml',
+    productName: 'Createx Illustration 30ml',
+    basePriceClp: 5900,
+  },
+  // ZIG
+  { url: 'https://www.boykot.cl/tienda/marcadores/zig-calligraphy/', slug: 'zig-calligraphy', productName: 'ZIG Calligraphy', basePriceClp: 3900 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/zig-acrylista-6mm/', slug: 'zig-acrylista-6mm', productName: 'ZIG Acrylista 6mm', basePriceClp: 5500 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/zig-acrylista-15mm/', slug: 'zig-acrylista-15mm', productName: 'ZIG Acrylista 15mm', basePriceClp: 7900 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/zig-fabricolor-twin/', slug: 'zig-fabricolor-twin', productName: 'ZIG Fabricolor Twin', basePriceClp: 3500 },
+  // POSCA
+  { url: 'https://www.boykot.cl/tienda/marcadores/posca/uni-posca-5m-bs-1-8-2-5-mm/', slug: 'uni-posca-5m', productName: 'Uni POSCA 5M', basePriceClp: 4500 },
+  // Aqua / Molotow ink
+  { url: 'https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-color-brush/', slug: 'aqua-color-brush', productName: 'Aqua Color Brush', basePriceClp: 4500 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/molotow-markers/aqua-ink/aqua-twin-unidad-pincel-bisel/', slug: 'aqua-twin', productName: 'Aqua Twin', basePriceClp: 5500 },
+  // Lápices / markers misc
+  { url: 'https://www.boykot.cl/tienda/lapices/boligrafo/lapiz-gel-poplol/', slug: 'poplol-gel', productName: 'Lápiz Gel POPLOL', basePriceClp: 2500 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/copic-markers/copic-individual/marcador-copic-spica/', slug: 'atyou-spica', productName: 'Marcador Atyou Spica', basePriceClp: 3900 },
+  { url: 'https://www.boykot.cl/tienda/marcadores/kirarina/kirarina-cute-unidad/', slug: 'kirarina-cute', productName: 'Kirarina Cute', basePriceClp: 3500 },
+  // Pigmentos
+  { url: 'https://www.boykot.cl/tienda/pintura/solar-color/solar-color-dust-10gr/', slug: 'solar-color-dust-10gr', productName: 'SOLAR Color Dust 10gr', basePriceClp: 6900 },
+  { url: 'https://www.boykot.cl/tienda/pintura/solar-color/chameleon-pigments-10-gr/', slug: 'chameleon-pigments-10gr', productName: 'Chameleon Pigments 10gr', basePriceClp: 6900 },
+  { url: 'https://www.boykot.cl/tienda/pintura/solar-color/ultra-thermal-dust-10gr-2/', slug: 'ultra-thermal-dust-10gr', productName: 'Ultra Thermal Dust 10gr', basePriceClp: 8900 },
 ];
 
 function titleCase(slug) {
