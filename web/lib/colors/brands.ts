@@ -19,6 +19,9 @@ import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 import angelus1oz from '../../public/colors/angelus-leather-paint-1oz.json';
 import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
 
+// Angelus Standard 1oz with theme swatches (bwe-grouped page).
+import angelusStandard1oz from '../../public/colors/angelus-standard-1oz.json';
+
 // Holbein individuals: image+sku extracted from JSON-LD background CSS
 // (scripts/build-holbein-individual.js).
 import holbeinGouache15ml from '../../public/colors/holbein-gouache-15ml.json';
@@ -139,7 +142,13 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'holbein-acuarela-15ml': adapt(holbein15ml as JsonBrand, { basePriceClp: 5900 }),
   'holbein-acuarela-60ml': adapt(holbein60ml as JsonBrand, { basePriceClp: 19900 }),
 
-  // Angelus — one product per color on boykot.cl; clustered into single brands
+  // Angelus Standard 1oz — preferred: bwe-grouped theme swatches with names merged
+  'angelus-standard-1oz': adapt(angelusStandard1oz as JsonBrand, {
+    basePriceClp: 5500,
+    heroImage: 'https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020',
+  }),
+  // Older cluster-based variants — kept for backwards compatibility while the
+  // remaining Angelus lines (4oz etc.) wait on a grouped-page source.
   'angelus-leather-paint-1oz': adapt(angelus1oz as JsonBrand, { basePriceClp: 5500 }),
   'angelus-leather-paint-4oz': adapt(angelus4oz as JsonBrand, { basePriceClp: 16500 }),
 
