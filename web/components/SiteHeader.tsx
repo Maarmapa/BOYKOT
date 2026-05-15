@@ -2,6 +2,8 @@ import Link from 'next/link';
 import CartBadge from './CartBadge';
 import AccountBadge from './AccountBadge';
 import MegaMenu from './MegaMenu';
+import MobileMenu from './MobileMenu';
+import SearchBar from './SearchBar';
 
 export default function SiteHeader() {
   return (
@@ -12,28 +14,23 @@ export default function SiteHeader() {
       </div>
 
       {/* Main bar */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-4 sm:gap-6">
         <Link href="/" className="font-bold text-2xl tracking-tight text-gray-900">
           Boykot
         </Link>
 
-        <div className="flex-1 max-w-md">
-          <label htmlFor="site-search" className="sr-only">Buscar productos</label>
-          <input
-            id="site-search"
-            name="q"
-            type="search"
-            autoComplete="off"
-            placeholder="Buscar productos..."
-            className="w-full border border-gray-200 rounded-md px-3 py-2 text-sm outline-none focus:border-gray-400"
-          />
-        </div>
+        <SearchBar />
 
-        <AccountBadge />
+        <div className="hidden md:flex items-center gap-6">
+          <AccountBadge />
+        </div>
         <CartBadge />
+        <MobileMenu />
       </div>
 
-      <MegaMenu />
+      <div className="hidden md:block">
+        <MegaMenu />
+      </div>
     </header>
   );
 }
