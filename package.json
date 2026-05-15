@@ -1,0 +1,17 @@
+{
+  "name": "boykot-scripts",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "scrape": "node scripts/scrape-boykot.js",
+    "scrape:images": "node scripts/scrape-boykot.js --images",
+    "build-colors": "node build-colors.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.10",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
