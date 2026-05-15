@@ -79,6 +79,29 @@ const TOOLS = [
     description: 'Lista las cartas de color disponibles (slug, marca, producto, # colores, precio base).',
     inputSchema: { type: 'object', properties: {} },
   },
+  {
+    name: 'get_quote',
+    description: 'Arma un quote para los items del carro y devuelve total + payment_link para entregar al humano. No cobra, solo cotiza.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        items: {
+          type: 'array',
+          description: 'Items a cotizar: cada uno con slug (producto suelto) o variant_id (un color de una carta), y qty.',
+          items: {
+            type: 'object',
+            properties: {
+              slug: { type: 'string' },
+              variant_id: { type: 'number' },
+              qty: { type: 'number' },
+            },
+          },
+        },
+        ref: { type: 'string', description: 'Referral key opcional del agente para track de conversiones' },
+      },
+      required: ['items'],
+    },
+  },
 ];
 
 // ───────────────────────── tool implementations ─────────────────────────
@@ -184,7 +207,7 @@ function rpcError(id: string | number | null | undefined, code: number, message:
   return { jsonrpc: '2.0', id: id ?? null, error: { code, message } };
 }
 
-function handleRequest(req: JsonRpcRequest) {
+async function handleRequest(req: JsonRpcRequest) {
   switch (req.method) {
     case 'initialize':
       return rpcResult(req.id, {
@@ -213,6 +236,16 @@ function handleRequest(req: JsonRpcRequest) {
         else if (name === 'get_product') result = runGetProduct(args as { slug?: string });
         else if (name === 'get_color_card') result = runGetColorCard(args as { brand?: string });
         else if (name === 'list_brands') result = runListBrands();
+        else if (name === 'get_quote') {
+          // Forward to /api/checkout/quote on the same host
+          const origin = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
+          const res = await fetch(`${origin}/api/checkout/quote`, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(args),
+          });
+          result = await res.json();
+        }
         else return rpcError(req.id, -32601, `Unknown tool: ${name}`);
       } catch (e) {
         return rpcError(req.id, -32603, `Tool error: ${(e as Error).message}`);
@@ -239,10 +272,10 @@ export async function POST(req: NextRequest) {
   }
 
   if (Array.isArray(body)) {
-    const responses = body.map(handleRequest).filter(r => r !== null);
+    const responses = (await Promise.all(body.map(handleRequest))).filter(r => r !== null);
     return NextResponse.json(responses);
   }
-  const result = handleRequest(body);
+  const result = await handleRequest(body);
   if (result === null) return new Response(null, { status: 202 });
   return NextResponse.json(result);
 }

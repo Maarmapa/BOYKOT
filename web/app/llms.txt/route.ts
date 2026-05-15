@@ -33,8 +33,12 @@ referencias entre 36 marcas registradas.
   página con descripción, gallery, precio y stock.
 - **Búsqueda**: [/api/search?q={query}](https://boykot.cl/api/search) —
   devuelve top 12 resultados ordenados por relevancia.
-- **MCP server**: [/api/mcp](https://boykot.cl/api/mcp) — expone los tools
-  \`search_products\`, \`get_product\` y \`get_color_card\` bajo protocolo MCP.
+- **MCP server**: [/api/mcp](https://boykot.cl/api/mcp) — expone tools
+  \`search_products\`, \`get_product\`, \`get_color_card\`, \`list_brands\`,
+  \`get_quote\` bajo protocolo MCP (JSON-RPC 2.0 sobre Streamable HTTP).
+- **Quote endpoint**: [/api/checkout/quote](https://boykot.cl/api/checkout/quote)
+  POST con \`{items: [{slug | variant_id, qty}], ref?}\`. Devuelve total
+  CLP + payment_link para que el agente entregue al humano.
 
 ## Cartas de color destacadas
 
