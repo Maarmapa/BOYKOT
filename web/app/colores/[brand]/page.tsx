@@ -12,7 +12,32 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
   const { brand: slug } = await params;
   const brand = BRANDS[slug];
   if (!brand) return { title: 'No encontrado · Boykot' };
-  return { title: `${brand.productName} · Boykot` };
+  const fullName = brand.brandName ? `${brand.brandName} ${brand.productName}` : brand.productName;
+  const desc =
+    brand.description ||
+    `Carta de color ${fullName} con ${brand.colors.length} colores. Distribuido por Boykot en Chile con despacho a todo el país.`;
+  const site = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
+  const url = `${site}/colores/${slug}`;
+  return {
+    title: `${fullName} · Boykot`,
+    description: desc.slice(0, 160),
+    openGraph: {
+      title: `${fullName} · Boykot`,
+      description: desc.slice(0, 200),
+      url,
+      siteName: 'Boykot',
+      images: brand.heroImage ? [{ url: brand.heroImage }] : undefined,
+      locale: 'es_CL',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${fullName} · Boykot`,
+      description: desc.slice(0, 160),
+      images: brand.heroImage ? [brand.heroImage] : undefined,
+    },
+    alternates: { canonical: url },
+  };
 }
 
 export default async function BrandPage({ params }: { params: Promise<{ brand: string }> }) {
