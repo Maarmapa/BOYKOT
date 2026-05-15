@@ -69,18 +69,18 @@ const BASE_COPIC: ColorSwatch[] = Object.values(raw)
   .sort(sort);
 
 function withImages(images: Record<string, string>): ColorSwatch[] {
-  // Union of (codes with theme swatch) ∪ (codes Boykot has hex for).
-  // Codes without a theme swatch (e.g. fluorescents) still render with their
-  // hex value as a flat color block — matches what Boykot does when a swatch
-  // image is missing.
-  const haveHex = new Set(BASE_COPIC.map(c => c.code));
-  const fromImagesOnly: ColorSwatch[] = Object.keys(images)
-    .filter(code => !haveHex.has(code))
-    .map(code => ({ code, hex: undefined, imageUrl: images[code], family: 'Other' }));
-  return [
-    ...BASE_COPIC.map(c => images[c.code] ? { ...c, imageUrl: images[c.code] } : c),
-    ...fromImagesOnly,
-  ].sort(sort);
+  // The theme swatch map is the authoritative list of what Boykot actually
+  // ships for this line. Anything not in the map is dropped (e.g. R09 lives
+  // in copic-colors.json but Boykot Sketch doesn't list it).
+  const byCode: Record<string, ColorSwatch> = {};
+  for (const c of BASE_COPIC) byCode[c.code] = c;
+  return Object.keys(images)
+    .map(code => ({
+      ...(byCode[code] || { code, family: 'Other' as const }),
+      code,
+      imageUrl: images[code],
+    }))
+    .sort(sort);
 }
 
 export const ALL_COPIC: ColorSwatch[] = withImages(sketchImages as Record<string, string>);
