@@ -41,7 +41,10 @@ export async function GET(req: NextRequest) {
 
   const start = Date.now();
   try {
-    const rows = await getProductStock(brand.bsaleProductId);
+    const variantIds = brand.colors
+      .map(c => c.variantId)
+      .filter((v): v is number => typeof v === 'number');
+    const rows = await getProductStock(brand.bsaleProductId, variantIds);
     out.stock_rows_total = rows.length;
     out.took_ms = Date.now() - start;
 

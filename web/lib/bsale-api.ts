@@ -100,18 +100,41 @@ export async function fetchVariantStock(
 }
 
 /**
- * Stock for all variants of a product, paginated through BSale until exhausted.
- * Returns a map { variantId: availableQty }.
+ * Stock for all variants of a product. ⚠️ BSale's `/stocks.json?productid=X`
+ * filter is BROKEN (ignora el filter y devuelve TODOS los stocks de la
+ * cuenta). Workaround: si pasás `variantIds`, hacemos parallel chunked
+ * fetchVariantStock que SÍ filtra correctamente. Si no, fallback al
+ * approach productid (que solo va a funcionar para productos cuyos
+ * variants estén en las primeras ~1000 rows del dump entero).
  */
 export async function fetchProductStock(
   productId: number,
-  opts: { officeId?: number } = {},
+  opts: { officeId?: number; variantIds?: number[] } = {},
 ): Promise<Map<number, number>> {
   const out = new Map<number, number>();
+
+  // ── Fast path: parallel per-variant (recomendado, único confiable) ──
+  if (opts.variantIds && opts.variantIds.length > 0) {
+    const CHUNK = 12; // paralelismo limitado para no saturar BSale
+    const ids = opts.variantIds;
+    for (let i = 0; i < ids.length; i += CHUNK) {
+      const slice = ids.slice(i, i + CHUNK);
+      const results = await Promise.all(
+        slice.map(vid => fetchVariantStock(vid, opts).catch(() => null)),
+      );
+      for (let j = 0; j < slice.length; j++) {
+        const r = results[j];
+        if (r) out.set(slice[j], r.raw);
+      }
+    }
+    return out;
+  }
+
+  // ── Legacy path: productid filter (broken para muchos productos) ──
   const params = new URLSearchParams({ productid: String(productId), limit: '50' });
   if (opts.officeId) params.set('officeid', String(opts.officeId));
   let next: string | null = `/stocks.json?${params}`;
-  let safety = 20; // 50 * 20 = 1000 variants ceiling
+  let safety = 20;
   while (next && safety-- > 0) {
     try {
       const data: BsaleListResponse<BsaleStockItem> = await call(next, {
@@ -120,10 +143,6 @@ export async function fetchProductStock(
       for (const item of data.items ?? []) {
         const vid = item.variant?.id;
         if (!vid) continue;
-        // Usamos `quantity` (físico) en vez de `quantityAvailable` porque
-        // Centry/Loading Play reserva todo el stock para marketplaces y nos
-        // dejaba available=0. La reserva real para nuestro carro vive en
-        // Supabase (stock_reservations) y se descuenta en lib/stock.ts.
         out.set(vid, (out.get(vid) ?? 0) + (item.quantity ?? 0));
       }
       next = data.next ?? null;
