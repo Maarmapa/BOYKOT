@@ -104,7 +104,18 @@ export async function setItemQty(
   const cart = await getCart(cartId);
   if (!cart) throw new Error(`cart ${cartId} not found`);
 
-  let items = [...cart.items];
+  // Defensive: cart.items may be undefined / null / string-encoded depending on
+  // how the supabase-js driver returned the jsonb column. Coerce to a real array.
+  let items: CartItem[];
+  if (Array.isArray(cart.items)) {
+    items = [...cart.items];
+  } else if (typeof cart.items === 'string') {
+    try { items = JSON.parse(cart.items as unknown as string) as CartItem[]; }
+    catch { items = []; }
+  } else {
+    items = [];
+  }
+
   const idx = items.findIndex(i => i.variant_id === variantId);
 
   if (qty <= 0) {
@@ -114,6 +125,11 @@ export async function setItemQty(
   } else {
     items.push({ ...itemTemplate, qty });
   }
+
+  console.log(
+    `[cart.setItemQty] cart=${cartId} variant=${variantId} qty=${qty} ` +
+    `prev_items=${(cart.items?.length ?? 0)} new_items=${items.length}`
+  );
 
   const subtotal = items.reduce((s, i) => s + i.unit_price_clp * i.qty, 0);
 

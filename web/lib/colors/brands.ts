@@ -14,10 +14,8 @@ import molotowPremiumPlus from '../../public/colors/molotow-premium-plus.json';
 import holbein15ml from '../../public/colors/holbein-acuarela-15ml.json';
 import holbein60ml from '../../public/colors/holbein-acuarela-60ml.json';
 
-// Cluster-of-individual-products (scripts/build-angelus-leather-paint.js)
-// Boykot publishes one product page per color, not a variable parent.
-import angelus1oz from '../../public/colors/angelus-leather-paint-1oz.json';
-import angelus4oz from '../../public/colors/angelus-leather-paint-4oz.json';
+// Hero image map (built by `node scripts/build-hero-images.js`)
+import heroImages from '../../public/colors/_hero-images.json';
 
 // Angelus Standard 1oz with theme swatches (bwe-grouped page).
 import angelusStandard1oz from '../../public/colors/angelus-standard-1oz.json';
@@ -68,14 +66,17 @@ interface JsonBrand {
   colors: ColorSwatch[];
 }
 
+const heroMap = heroImages as Record<string, string>;
+
 function adapt(data: JsonBrand, overrides: Partial<BrandColorSet> = {}): BrandColorSet {
+  // Hero priority: explicit override → field in JSON → auto-mapped from scrape.
   return {
     slug: data.slug,
     productName: data.productName,
     basePriceClp: data.basePriceClp ?? 0,
     bsaleProductId: data.bsaleProductId ?? 0,
     colors: data.colors,
-    heroImage: data.heroImage ?? undefined,
+    heroImage: data.heroImage ?? heroMap[data.slug] ?? undefined,
     ...overrides,
   };
 }
@@ -167,10 +168,6 @@ export const BRANDS: Record<string, BrandColorSet> = {
   'angelus-glitterlites-1oz': adapt(angelusGlitterlites as JsonBrand, { basePriceClp: 6900 }),
   'angelus-tintura-cuero-3oz': adapt(angelusTinturaCuero as JsonBrand, { basePriceClp: 9900 }),
   'angelus-tintura-gamuza-3oz': adapt(angelusTinturaGamuza as JsonBrand, { basePriceClp: 9900 }),
-  // Older cluster-based variants — kept for backwards compatibility while the
-  // remaining Angelus lines (4oz etc.) wait on a grouped-page source.
-  'angelus-leather-paint-1oz': adapt(angelus1oz as JsonBrand, { basePriceClp: 5500 }),
-  'angelus-leather-paint-4oz': adapt(angelus4oz as JsonBrand, { basePriceClp: 16500 }),
 
   // Holbein lines — codes + images extracted from per-product JSON-LD
   'holbein-gouache-15ml': adapt(holbeinGouache15ml as JsonBrand),
