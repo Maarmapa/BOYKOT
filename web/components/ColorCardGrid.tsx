@@ -143,6 +143,20 @@ export default function ColorCardGrid({ brand, stockMap }: Props) {
                   </div>
                 )}
 
+                {/* Stock badge — top-right corner. Solo aparece si stockMap
+                    está set (sino asumimos disponibilidad). Genera urgencia
+                    cuando hay poco stock. */}
+                {stockMap && stock > 0 && stock < 5 && (
+                  <div className="absolute top-1 left-1 px-1.5 py-0.5 bg-amber-500 text-white text-[9px] font-bold uppercase tracking-wider rounded shadow-sm">
+                    {stock === 1 ? 'última' : `últimas ${stock}`}
+                  </div>
+                )}
+                {stockMap && stock === 0 && (
+                  <div className="absolute top-1 left-1 px-1.5 py-0.5 bg-gray-700 text-white text-[9px] font-bold uppercase tracking-wider rounded shadow-sm opacity-90">
+                    Bajo pedido
+                  </div>
+                )}
+
                 {/* Selector overlay — sits on the right side of the swatch.
                     Thin minus/plus glyphs in dark gray, the qty number gets a
                     pale circle so it reads as the "current value". */}
