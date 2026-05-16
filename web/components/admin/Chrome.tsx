@@ -11,6 +11,7 @@ export default function AdminChrome({ children }: { children: React.ReactNode })
             </Link>
             <nav className="flex gap-6 text-sm">
               <Link href="/admin" className="text-gray-600 hover:text-gray-900">Dashboard</Link>
+              <Link href="/admin/analytics" className="text-gray-600 hover:text-gray-900">Analytics</Link>
               <Link href="/admin/buscar" className="text-gray-600 hover:text-gray-900 font-semibold">Buscar (DM)</Link>
               <Link href="/admin/orders" className="text-gray-600 hover:text-gray-900">Pedidos</Link>
               <Link href="/admin/customers" className="text-gray-600 hover:text-gray-900">Clientes</Link>
