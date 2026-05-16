@@ -1,7 +1,13 @@
 import type { MetadataRoute } from 'next';
 import { BRAND_SLUGS } from '@/lib/colors/brands';
 import { BRAND_META_SLUGS } from '@/lib/brands-meta';
-import { allPostSlugs } from '@/lib/wp-archive';
+import { allPostSlugs, allPageSlugs } from '@/lib/wp-archive';
+
+// Slugs que NO se exponen via /p/[slug] (tienen su propia ruta)
+const SKIP_PAGE_SLUGS = new Set([
+  'home', 'cart', 'checkout', 'my-account', 'tienda', 'contacto', 'sobre-boykot',
+  'privacidad', 'terminos', 'b2b', 'como-comprar', 'carrito', 'marcas',
+]);
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
@@ -44,5 +50,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       priority: 0.85,
     })),
+    // SEO landings rescatadas del WP original (preservar Google juice)
+    ...allPageSlugs()
+      .filter(slug => !SKIP_PAGE_SLUGS.has(slug))
+      .map(slug => ({
+        url: `${SITE}/p/${slug}`,
+        lastModified: now,
+        priority: 0.6,
+      })),
   ];
 }
