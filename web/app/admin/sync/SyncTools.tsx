@@ -13,6 +13,9 @@ interface SyncResult {
 const ACTIONS = [
   { label: '🔄 Refresh stock snapshot (cache de TODO el stock — ~45s)', endpoint: '/api/admin/refresh-stock-snapshot' },
   { label: 'Invalidar cache stock (forzar refetch en próximas requests)', endpoint: '/api/admin/revalidate-stock' },
+  { label: '💳 Diagnóstico MP (account + webhook + envs)', endpoint: '/api/admin/mp/setup' },
+  { label: '💳 Sync payment status MP (pedido específico)', endpoint: '/api/admin/mp/sync-payment?short_id=BK-260516-DHCT', editable: true, hint: 'Cambiá short_id por el del pedido a resincronizar' },
+  { label: '🔍 Diagnóstico runtime envs', endpoint: '/api/admin/diag' },
   { label: 'Re-build variant maps (todos los brands con bsaleProductId)', endpoint: '/api/bsale/build-all-maps' },
   { label: 'Re-build extended maps (Angelus consolidado + Holbein multi-product)', endpoint: '/api/bsale/build-extended-maps' },
   { label: 'Diagnóstico BSale (token + offices + sample stock)', endpoint: '/api/bsale/selftest' },
