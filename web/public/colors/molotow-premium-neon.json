@@ -1,72 +1,70 @@
 {
   "slug": "molotow-premium-neon",
-  "productName": "Molotow Premium Neon 400ml",
+  "productName": "Molotow Premium Neon",
+  "basePriceClp": 6000,
   "bsaleProductId": 2238,
-  "generatedAt": "2026-05-15T03:50:04.458Z",
+  "sourceCount": 8,
+  "sourceOfficial": true,
+  "generatedAt": "2026-05-16T03:51:26Z",
   "colors": [
     {
-      "code": "232 Yellow",
-      "name": "",
+      "code": "232",
+      "name": "Yellow Neon",
+      "hex": "#dfff00",
       "variantId": 24689,
-      "sku": "4015962729063",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
+      "sku": "4015962729063"
     },
     {
-      "code": "233 Orange",
-      "name": "",
+      "code": "233",
+      "name": "Orange Neon",
+      "hex": "#ff6700",
       "variantId": 24690,
-      "sku": "4015962729070",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
+      "sku": "4015962729070"
     },
     {
-      "code": "234 Pink",
-      "name": "",
+      "code": "234",
+      "name": "Pink Neon",
+      "hex": "#ff1493",
       "variantId": 24691,
-      "sku": "4015962729087",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
+      "sku": "4015962729087"
     },
     {
-      "code": "235 Blue",
-      "name": "",
-      "variantId": 24692,
-      "sku": "4015962729094",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
-    },
-    {
-      "code": "236 Green",
-      "name": "",
-      "variantId": 24693,
-      "sku": "4015962729100",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
-    },
-    {
-      "code": "236-1 Red Antistatik",
-      "name": "",
-      "variantId": 24694,
-      "sku": "4015962729155",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
-    },
-    {
-      "code": "234-1 Neon Violet",
-      "name": "",
+      "code": "234-1",
+      "name": "Violet Neon",
+      "hex": "#bf00ff",
       "variantId": 30262,
-      "sku": "4015962729339",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
+      "sku": "4015962729339"
     },
     {
-      "code": "235-1 Neon Turquoise",
-      "name": "",
+      "code": "235",
+      "name": "Blue Neon",
+      "hex": "#1f51ff",
+      "variantId": 24692,
+      "sku": "4015962729094"
+    },
+    {
+      "code": "235-1",
+      "name": "Turquoise Neon",
+      "hex": "#00ffff",
       "variantId": 30263,
-      "sku": "4015962729346",
-      "image": "https://www.boykot.cl/wp-content/uploads/2021/06/b965e9b0-c1ea-42bb-b0d7-63f92ea36750-337300_1_ufa_neon_1.png",
-      "matchSlug": "molotow-neon-ufa"
+      "sku": "4015962729346"
+    },
+    {
+      "code": "236",
+      "name": "Green Neon",
+      "hex": "#39ff14",
+      "variantId": 24693,
+      "sku": "4015962729100"
+    },
+    {
+      "code": "236-1",
+      "name": "Red Antistatik Neon",
+      "hex": "#ff073a",
+      "variantId": 24694,
+      "sku": "4015962729155"
     }
-  ]
+  ],
+  "description": "Aerosol Molotow Premium Neon — pigmentos fluorescentes de alta visibilidad para piezas, highlights y conceptos. Tecnología no-dust™, anti-drip™, covers-all™.",
+  "gallery": null,
+  "heroImage": null
 }

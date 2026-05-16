@@ -1,80 +1,98 @@
 {
   "slug": "molotow-premium-plus",
-  "productName": "Molotow Premium Plus 400ml",
+  "productName": "Molotow Premium Plus",
+  "basePriceClp": 7900,
   "bsaleProductId": 2239,
-  "generatedAt": "2026-05-15T03:50:04.458Z",
+  "sourceCount": 12,
+  "sourceOfficial": true,
+  "generatedAt": "2026-05-16T03:51:26Z",
   "colors": [
     {
-      "code": "Quince 601",
-      "name": "",
+      "code": "601",
+      "name": "Quince",
+      "hex": "#bcda00",
       "variantId": 24695,
       "sku": "4015962336889"
     },
     {
-      "code": "Lobster 602",
-      "name": "",
+      "code": "602",
+      "name": "Lobster",
+      "hex": "#ff4040",
       "variantId": 24696,
       "sku": "4015962336896"
     },
     {
-      "code": "Traffic Red 603",
-      "name": "",
+      "code": "603",
+      "name": "Traffic Red",
+      "hex": "#cc0000",
       "variantId": 24697,
       "sku": "4015962336902"
     },
     {
-      "code": "Burgundy 604",
-      "name": "",
+      "code": "604",
+      "name": "Burgundy",
+      "hex": "#800020",
       "variantId": 24698,
       "sku": "4015962336919"
     },
     {
-      "code": "Crazy Plum 605",
-      "name": "",
+      "code": "605",
+      "name": "Crazy Plum",
+      "hex": "#6b2d5c",
       "variantId": 24699,
       "sku": "4015962336926"
     },
     {
-      "code": "Pastel Ceramic 606",
-      "name": "",
+      "code": "606",
+      "name": "Pastel Ceramic",
+      "hex": "#e8dccc",
       "variantId": 24700,
       "sku": "4015962336933"
     },
     {
-      "code": "Ultramarine Blue 607",
-      "name": "",
+      "code": "607",
+      "name": "Ultramarine Blue",
+      "hex": "#120a8f",
       "variantId": 24701,
       "sku": "4015962336940"
     },
     {
-      "code": "Lagoon Blue 608",
-      "name": "",
+      "code": "608",
+      "name": "Lagoon Blue",
+      "hex": "#00a8b5",
       "variantId": 24702,
       "sku": "4015962336957"
     },
     {
-      "code": "Juice Green 609",
-      "name": "",
+      "code": "609",
+      "name": "Juice Green",
+      "hex": "#4fe042",
       "variantId": 24703,
       "sku": "4015962336964"
     },
     {
-      "code": "Signal White 610",
-      "name": "",
+      "code": "610",
+      "name": "Signal White",
+      "hex": "#ffffff",
       "variantId": 24704,
       "sku": "4015962336971"
     },
     {
-      "code": "Deep Black 611",
-      "name": "",
+      "code": "611",
+      "name": "Deep Black",
+      "hex": "#0a0a0a",
       "variantId": 24705,
       "sku": "4015962336988"
     },
     {
-      "code": "Chrome 612",
-      "name": "",
+      "code": "612",
+      "name": "Chrome",
+      "hex": "#c0c0c0",
       "variantId": 24706,
       "sku": "4015962336995"
     }
-  ]
+  ],
+  "description": "Aerosol Molotow Premium Plus — edición especial con colores fuera del catálogo regular Premium. Mismas tecnologías premium (anti-drip, no-dust, covers-all).",
+  "gallery": null,
+  "heroImage": null
 }
