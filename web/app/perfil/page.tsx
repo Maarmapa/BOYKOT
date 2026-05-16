@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation';
 import { supabaseServer } from '@/lib/supabase-server';
 import { listOrdersByEmail } from '@/lib/pending-orders';
 import { getCreditsAccount } from '@/lib/credits';
+import ReferralCard from '@/components/ReferralCard';
 
 export const dynamic = 'force-dynamic';
 
@@ -65,6 +66,9 @@ export default async function PerfilPage() {
             </div>
           </section>
         )}
+
+        {/* Referral card */}
+        <ReferralCard />
 
         {/* Atajos */}
         <section>
