@@ -20,102 +20,122 @@
     {
       "code": "W205",
       "name": "Quinacridone Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W005-Quinacridone-Red.jpg"
     },
     {
       "code": "W206",
       "name": "Pyrrole Rubin",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W006-Pyrrole-Rubin.jpg"
     },
     {
       "code": "W207",
       "name": "Pyrrole Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W007-Pyrrole-Red.jpg"
     },
     {
       "code": "W208",
       "name": "Perylene Maroon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W008-Perylene-Maroon.jpg"
     },
     {
       "code": "W209",
       "name": "Permanent Alizarin Crimson",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W009-Permanent-Alizarin-Crimson.jpg"
     },
     {
       "code": "W210",
       "name": "Crimson Lake",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W010-Crimson-Lake.jpg"
     },
     {
       "code": "W211",
       "name": "Carmine",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W011-Carmine.jpg"
     },
     {
       "code": "W212",
       "name": "Rose Madder",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W012-Rose-Madder.jpg"
     },
     {
       "code": "W213",
       "name": "Opera",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W013-Opera-1.jpg"
     },
     {
       "code": "W214",
       "name": "Cadmium Red Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W014-Cadmium-Red-Light.jpg"
     },
     {
       "code": "W215",
       "name": "Cadmium Red Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W015-Cadmium-Red-Deep.jpg"
     },
     {
       "code": "W216",
       "name": "Cadmium Red Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W016-Cadmium-Red-Orange.jpg"
     },
     {
       "code": "W217",
       "name": "Cadmium Red Purple",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W017-Cadmium-Red-Purple.jpg"
     },
     {
       "code": "W218",
       "name": "Vermilion",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W018-Vermilion.jpg"
     },
     {
       "code": "W219",
       "name": "Vermilion Hue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W019-Vermilion-Hue.jpg"
     },
     {
       "code": "W222",
       "name": "Scarlet Lake",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W022-Scarlet-Lake.jpg"
     },
     {
       "code": "W225",
       "name": "Brilliant Pink",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W025-Brilliant-Pink.jpg"
     },
     {
       "code": "W226",
       "name": "Shell Pink",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W026-Shell-Pink.jpg"
     },
     {
       "code": "W227",
       "name": "Quinacridone Scarlet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W027-Quinacridone-Scarlet.jpg"
     },
     {
       "code": "W230",
       "name": "Naples Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W030-Naples-Yellow.jpg"
     },
     {
       "code": "W231",
@@ -130,7 +150,8 @@
     {
       "code": "W233",
       "name": "Lemon Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W033-Lemon-Yellow.jpg"
     },
     {
       "code": "W234",
@@ -140,17 +161,20 @@
     {
       "code": "W235",
       "name": "Permanent Yellow Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W035-Permanent-Yellow-Lemon.jpg"
     },
     {
       "code": "W236",
       "name": "Permanent Yellow Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W036-Permanent-Yellow-Light.jpg"
     },
     {
       "code": "W237",
       "name": "Permanent Yellow Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W037-Permanent-Yellow-Deep.jpg"
     },
     {
       "code": "W238",
@@ -160,47 +184,56 @@
     {
       "code": "W239",
       "name": "Aureolin",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W039-Aureolin.jpg"
     },
     {
       "code": "W240",
       "name": "Cadmium Yellow Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W040-Cadmium-Yellow-Lemon.jpg"
     },
     {
       "code": "W241",
       "name": "Cadmium Yellow Pale",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W041-Cadmium-Yellow-Pale.jpg"
     },
     {
       "code": "W242",
       "name": "Cadmium Yellow Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W042-Cadmium-Yellow-Light.jpg"
     },
     {
       "code": "W243",
       "name": "Cadmium Yellow Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W043-Cadmium-Yellow-Deep.jpg"
     },
     {
       "code": "W244",
       "name": "Cadmium Yellow Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W044-Cadmium-Yellow-Orange.jpg"
     },
     {
       "code": "W246",
       "name": "Greenish Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W046-Greenish-Yellow.jpg"
     },
     {
       "code": "W247",
       "name": "Brilliant Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W047-Brilliant-Orange.jpg"
     },
     {
       "code": "W248",
       "name": "Gamboge Nova",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W048-Gamboge-Nova.jpg"
     },
     {
       "code": "W249",
@@ -210,42 +243,50 @@
     {
       "code": "W250",
       "name": "Imidazolone Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W050-Imidazolone-Yellow.jpg"
     },
     {
       "code": "W251",
       "name": "Imidazolone Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W051-Imidazolone-Lemon.jpg"
     },
     {
       "code": "W260",
       "name": "Viridian",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W060-Viridian.jpg"
     },
     {
       "code": "W261",
       "name": "Viridian Hue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W061-Viridian-Hue.jpg"
     },
     {
       "code": "W262",
       "name": "Hookers Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W062-Hookers-Green.jpg"
     },
     {
       "code": "W263",
       "name": "Cobalt Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W063-Cobalt-Green.jpg"
     },
     {
       "code": "W264",
       "name": "Emerald Green Nova",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W064-Emerald-Green-Nova.jpg"
     },
     {
       "code": "W265",
       "name": "Terre Verte",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W065-Terre-Verte.jpg"
     },
     {
       "code": "W266",
@@ -260,12 +301,14 @@
     {
       "code": "W269",
       "name": "Cadmium Green Pale",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W069-Cadmium-Green-Pale.jpg"
     },
     {
       "code": "W270",
       "name": "Cadmium Green Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W070-Cadmium-Green-Deep.jpg"
     },
     {
       "code": "W271",
@@ -275,237 +318,284 @@
     {
       "code": "W274",
       "name": "Olive Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W074-Olive-Green.jpg"
     },
     {
       "code": "W275",
       "name": "Sap Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W075-Sap-Green.jpg"
     },
     {
       "code": "W277",
       "name": "Leaf Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W077-Leaf-Green.jpg"
     },
     {
       "code": "W278",
       "name": "Bamboo Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W078-Bamboo-Green.jpg"
     },
     {
       "code": "W279",
       "name": "Shadow Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W079-Shadow-Green.jpg"
     },
     {
       "code": "W290",
       "name": "Cobalt Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W090-Cobalt-Blue.jpg"
     },
     {
       "code": "W291",
       "name": "Cobalt Blue Hue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W091-Cobalt-Blue-Hue.jpg"
     },
     {
       "code": "W292",
       "name": "Cerulean Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W092-Cerulean-Blue.jpg"
     },
     {
       "code": "W293",
       "name": "Ultramarine Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W093-Ultramarine-Light.jpg"
     },
     {
       "code": "W294",
       "name": "Ultramarine Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W094-Ultramarine-Deep.jpg"
     },
     {
       "code": "W295",
       "name": "Verditer Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W095-Verditer-Blue.jpg"
     },
     {
       "code": "W296",
       "name": "Compose Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W096-Compose-Blue.jpg"
     },
     {
       "code": "W297",
       "name": "Prussian Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W097-Prussian-Blue.jpg"
     },
     {
       "code": "W298",
       "name": "Indigo",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W098-Indigo.jpg"
     },
     {
       "code": "W299",
       "name": "Turquoise Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W099-Turquoise-Blue.jpg"
     },
     {
       "code": "W301",
       "name": "Peacock Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W101-Peacock-Blue.jpg"
     },
     {
       "code": "W302",
       "name": "Marine Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W102-Marine-Blue.jpg"
     },
     {
       "code": "W303",
       "name": "Royal Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W103-Royal-Blue.jpg"
     },
     {
       "code": "W304",
       "name": "Horizon Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W104-Horizon-Blue.jpg"
     },
     {
       "code": "W305",
       "name": "Manganese Blue Nova",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W105-Manganese-Blue-Nova.jpg"
     },
     {
       "code": "W306",
       "name": "Cobalt Turquoise Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W106-Cobalt-Turquoise-Light.jpg"
     },
     {
       "code": "W307",
       "name": "Phthalo Blue Yellow Shade",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W107-Phthalo-Blue-Yellow-Shade.jpg"
     },
     {
       "code": "W308",
       "name": "Phthalo Blue Red Shade",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W108-Phthalo-Blue-Red-Shade.jpg"
     },
     {
       "code": "W310",
       "name": "Cobalt Violet Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W110-Cobalt-Violet-Light.jpg"
     },
     {
       "code": "W312",
       "name": "Mineral Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W112-Mineral-Violet.jpg"
     },
     {
       "code": "W313",
       "name": "Mars Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W113-Mars-Violet.jpg"
     },
     {
       "code": "W315",
       "name": "Permanent Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W115-Permanent-Violet.jpg"
     },
     {
       "code": "W316",
       "name": "Lavender",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W116-Lavender.jpg"
     },
     {
       "code": "W317",
       "name": "Lilac",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W117-Lilac.jpg"
     },
     {
       "code": "W319",
       "name": "Quinacridone Magenta",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W119-Quinacridone-Magenta.jpg"
     },
     {
       "code": "W320",
       "name": "Quinacridone Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W120-Quinacridone-Violet.jpg"
     },
     {
       "code": "W329",
       "name": "Umber",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W129-Umber.jpg"
     },
     {
       "code": "W330",
       "name": "Light Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W130-Light-Red.jpg"
     },
     {
       "code": "W331",
       "name": "Raw Umber",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W131-Raw-Umber.jpg"
     },
     {
       "code": "W332",
       "name": "Raw Sienna",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W132-Raw-Sienna.jpg"
     },
     {
       "code": "W333",
       "name": "Burnt Umber",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W133-Burnt-Umber.jpg"
     },
     {
       "code": "W334",
       "name": "Burnt Sienna",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W134-Burnt-Sienna.jpg"
     },
     {
       "code": "W335",
       "name": "Indian Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W135-Indian-Red.jpg"
     },
     {
       "code": "W336",
       "name": "Sepia",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W136-Sepia.jpg"
     },
     {
       "code": "W337",
       "name": "Peach Black",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W137-Peach-Black.jpg"
     },
     {
       "code": "W338",
       "name": "Ivory Black",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W138-Ivory-Black.jpg"
     },
     {
       "code": "W339",
       "name": "Vandyke Brown",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W139-Vandyke-Brown.jpg"
     },
     {
       "code": "W340",
       "name": "Lamp Black",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W140-Lamp-Black.jpg"
     },
     {
       "code": "W341",
       "name": "Imidazolone Brown",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W141-Imidazolone-Brown.jpg"
     },
     {
       "code": "W342",
       "name": "Quinacridone Gold",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W142-Quinacridone-Gold.jpg"
     },
     {
       "code": "W351",
       "name": "Yellow Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W151-Yellow-Grey.jpg"
     },
     {
       "code": "W352",
       "name": "Green Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W152-Green-Grey.jpg"
     },
     {
       "code": "W353",
@@ -515,12 +605,14 @@
     {
       "code": "W355",
       "name": "Davys Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W155-Davys-Grey.jpg"
     },
     {
       "code": "W356",
       "name": "Paynes Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W156-Paynes-Grey.jpg"
     },
     {
       "code": "W357",
@@ -540,12 +632,14 @@
     {
       "code": "W390",
       "name": "Gold",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W190-Gold.jpg"
     },
     {
       "code": "W391",
       "name": "Silver",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W191-Silver.jpg"
     },
     {
       "code": "W841",
