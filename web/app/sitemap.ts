@@ -11,6 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/`, lastModified: now, priority: 1.0 },
     { url: `${SITE}/colores`, lastModified: now, priority: 0.9 },
     { url: `${SITE}/marcas`, lastModified: now, priority: 0.9 },
+    { url: `${SITE}/tienda`, lastModified: now, priority: 0.9 },
+    { url: `${SITE}/b2b`, lastModified: now, priority: 0.7 },
+    { url: `${SITE}/sobre-boykot`, lastModified: now, priority: 0.6 },
+    { url: `${SITE}/contacto`, lastModified: now, priority: 0.6 },
+    { url: `${SITE}/como-comprar`, lastModified: now, priority: 0.5 },
+    { url: `${SITE}/terminos`, lastModified: now, priority: 0.3 },
+    { url: `${SITE}/privacidad`, lastModified: now, priority: 0.3 },
     { url: `${SITE}/carrito`, lastModified: now, priority: 0.3 },
     ...CATEGORIES.map(slug => ({
       url: `${SITE}/categoria/${slug}`,

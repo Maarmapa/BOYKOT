@@ -17,10 +17,58 @@ const display = Bricolage_Grotesque({
   weight: ['400', '500', '600', '700', '800'],
 });
 
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
+
 export const metadata: Metadata = {
-  title: 'Boykot — Arte y Graffiti',
+  metadataBase: new URL(SITE),
+  title: {
+    default: 'Boykot — Arte y Graffiti · Distribuidor Oficial Copic, Angelus, Holbein en Chile',
+    template: '%s · Boykot',
+  },
   description:
-    'Distribuidores oficiales de Copic, Angelus y Holbein en Chile. Marcadores, lápices, pintura y materiales de arte con despacho a todo el país.',
+    'Tienda de materiales de arte, ilustración y graffiti. Distribuidores oficiales Copic, Angelus, Holbein, Molotow en Chile. Stock real, despacho a todo el país.',
+  keywords: ['Copic Chile', 'Angelus Chile', 'Holbein Chile', 'Molotow Chile', 'materiales arte', 'graffiti Chile', 'marcadores Copic', 'pintura cuero', 'acuarela artística', 'aerógrafo', 'cartas de color'],
+  authors: [{ name: 'Boykot' }],
+  openGraph: {
+    type: 'website',
+    locale: 'es_CL',
+    siteName: 'Boykot',
+    title: 'Boykot — Arte y Graffiti',
+    description: 'Distribuidor Oficial Copic, Angelus, Holbein en Chile.',
+  },
+};
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Store',
+  name: 'Boykot',
+  url: SITE,
+  logo: `${SITE}/icon.png`,
+  description: 'Tienda de materiales de arte, ilustración y graffiti. Distribuidores oficiales Copic, Angelus, Holbein en Chile.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Av. Providencia 2251, local 69',
+    addressLocality: 'Providencia',
+    addressRegion: 'Santiago Metropolitana',
+    postalCode: '7500000',
+    addressCountry: 'CL',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: -33.4244,
+    longitude: -70.6109,
+  },
+  telephone: '+56-2-2335-0961',
+  email: 'providencia@boykot.cl',
+  sameAs: [
+    'https://instagram.com/boykot.cl',
+    'https://facebook.com/molotowchile',
+  ],
+  openingHoursSpecification: [
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '10:00', closes: '18:00' },
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '10:00', closes: '15:00' },
+  ],
+  priceRange: '$$',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -29,6 +77,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} ${display.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-white">
         <SiteHeader />
         <div className="flex-1">{children}</div>
