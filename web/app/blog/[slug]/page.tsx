@@ -84,7 +84,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
         <section className="border-b border-gray-100">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
             <div
-              className="prose prose-lg max-w-none prose-img:rounded-lg prose-img:my-6 prose-a:text-gray-900 prose-headings:text-gray-900"
+              className="wp-content"
               dangerouslySetInnerHTML={{ __html: post.content.rendered }}
             />
           </div>
