@@ -13,6 +13,7 @@ export default function AdminChrome({ children }: { children: React.ReactNode })
               <Link href="/admin" className="text-gray-600 hover:text-gray-900">Dashboard</Link>
               <Link href="/admin/buscar" className="text-gray-600 hover:text-gray-900 font-semibold">Buscar (DM)</Link>
               <Link href="/admin/orders" className="text-gray-600 hover:text-gray-900">Pedidos</Link>
+              <Link href="/admin/credits" className="text-gray-600 hover:text-gray-900">Credits</Link>
               <Link href="/admin/brands" className="text-gray-600 hover:text-gray-900">Brands & Stock</Link>
               <Link href="/admin/sync" className="text-gray-600 hover:text-gray-900">Sync</Link>
             </nav>

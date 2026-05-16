@@ -146,6 +146,29 @@ h2 { font-weight: 600; }
 }
 .wp-content .wp-block-button__link:hover { background: #374151; color: #fff; }
 
+/* Scroll fade-in: agrega .scroll-fade-in en el elemento, JS observa
+   intersection y agrega .is-visible. Polish para landing premium. */
+.scroll-fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 700ms ease-out, transform 700ms ease-out;
+  will-change: opacity, transform;
+}
+.scroll-fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.scroll-fade-in.delay-1 { transition-delay: 100ms; }
+.scroll-fade-in.delay-2 { transition-delay: 200ms; }
+.scroll-fade-in.delay-3 { transition-delay: 300ms; }
+@media (prefers-reduced-motion: reduce) {
+  .scroll-fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* Mega-menu entrada smooth: fade + slide down sutil */
 @keyframes mega-in {
   from { opacity: 0; transform: translateY(-6px); }
