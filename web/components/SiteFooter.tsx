@@ -48,6 +48,10 @@ export default function SiteFooter() {
       </div>
       <div className="border-t border-gray-200 py-4 text-center text-xs text-gray-500">
         © {new Date().getFullYear()} Boykot Graffiti y Materiales de Arte
+        <span className="mx-2">·</span>
+        <Link href="/terminos" className="hover:text-gray-900 hover:underline underline-offset-4">Términos</Link>
+        <span className="mx-2">·</span>
+        <Link href="/privacidad" className="hover:text-gray-900 hover:underline underline-offset-4">Privacidad</Link>
       </div>
     </footer>
   );
