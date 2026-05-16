@@ -8,9 +8,8 @@ export default function SiteFooter() {
         <div>
           <div className="font-bold text-xl mb-3">Boykot</div>
           <p className="text-sm text-gray-600 leading-relaxed">
-            Nacida como tienda de Graffiti en 2010, Boykot se ha expandido hacia la
-            ilustración y materiales de arte. Distribuidores oficiales de Copic,
-            Angelus y Holbein en Chile.
+            Tienda de graffiti, arte e ilustración fundada en 2010.
+            Distribuidores oficiales <strong>Copic</strong>, <strong>Angelus</strong> y <strong>Holbein</strong> en Chile.
           </p>
           <Link href="/sobre-boykot" className="text-xs text-gray-700 hover:text-gray-900 underline underline-offset-4 mt-3 inline-block">
             Conocé la historia →
