@@ -31,10 +31,28 @@ export default async function OrdersAdminPage() {
       </div>
 
       {orders.length === 0 ? (
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 text-center">
-          <p className="text-sm text-gray-500">
-            Todavía no hay pedidos. Cuando alguien complete <code>/checkout</code> aparecen acá.
+        <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-200 rounded-lg p-12 text-center">
+          <div className="text-5xl mb-4">📋</div>
+          <h2 className="text-lg font-bold text-gray-900 mb-2">Sin pedidos todavía</h2>
+          <p className="text-sm text-gray-600 mb-6 max-w-md mx-auto">
+            Cuando alguien complete el checkout va a aparecer acá con todos sus datos.
+            Mientras tanto podés probar haciendo un pedido de prueba.
           </p>
+          <div className="flex flex-col sm:flex-row gap-2 justify-center">
+            <Link
+              href="/colores/copic-sketch"
+              target="_blank"
+              className="inline-flex items-center gap-2 text-sm font-medium text-blue-700 bg-blue-100 hover:bg-blue-200 px-4 py-2 rounded-md"
+            >
+              Hacer pedido de prueba ↗
+            </Link>
+            <Link
+              href="/admin"
+              className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 px-4 py-2"
+            >
+              Volver al dashboard
+            </Link>
+          </div>
         </div>
       ) : (
         <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
