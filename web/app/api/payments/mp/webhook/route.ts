@@ -12,6 +12,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { fetchPayment, verifyWebhookSignature } from '@/lib/mercadopago';
 import { supabaseAdmin } from '@/lib/supabase';
 import { sendPaymentConfirmation } from '@/lib/email';
+import { applyCreditsTransaction } from '@/lib/credits';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -164,20 +165,41 @@ export async function POST(req: NextRequest) {
         .eq('id', webhookRowId);
     }
 
-    // Email de confirmación al cliente — solo en la PRIMERA transición a paid.
-    // Best-effort: si Brevo falla, NO bloqueamos la respuesta del webhook.
+    // Email + Loyalty credits — solo en la PRIMERA transicion a paid.
+    // Best-effort: si fallan, NO bloqueamos la respuesta del webhook.
     if (mapped.isFinal && mapped.status === 'paid' && !wasAlreadyPaid && orderBefore?.customer_email) {
+      const total = orderBefore.total_clp || payment.transaction_amount || 0;
+
+      // 1) Email de confirmacion
       try {
         await sendPaymentConfirmation({
           short_id: shortId,
           customer_email: orderBefore.customer_email,
           customer_name: orderBefore.customer_name || undefined,
-          total_clp: orderBefore.total_clp || payment.transaction_amount || 0,
+          total_clp: total,
           payment_reference: String(payment.id),
           payment_method: payment.payment_method_id || undefined,
         });
       } catch (mailErr) {
         console.warn('[mp-webhook] payment confirmation email failed (non-fatal)', mailErr);
+      }
+
+      // 2) Loyalty: ganar 3% del total en Boykot Credits
+      try {
+        const earnPercent = 0.03;
+        const earned = Math.round(total * earnPercent);
+        if (earned > 0) {
+          await applyCreditsTransaction({
+            email: orderBefore.customer_email,
+            amountClp: earned,
+            type: 'bonus',
+            reference: shortId,
+            note: `Cashback ${(earnPercent * 100).toFixed(0)}% por compra ${shortId}`,
+            createdBy: 'webhook:mp',
+          });
+        }
+      } catch (creditsErr) {
+        console.warn('[mp-webhook] loyalty credits earn failed (non-fatal)', creditsErr);
       }
     }
 

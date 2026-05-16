@@ -89,7 +89,14 @@ interface OrderEmailInput {
   short_id: string;
   customer: { name: string; email: string; phone: string; rut?: string };
   shipping: { address?: string; city?: string; store_pickup: boolean };
-  items: Array<{ name: string; color_code?: string; qty: number; unit_price_clp: number }>;
+  items: Array<{
+    name: string;
+    color_code?: string;
+    qty: number;
+    unit_price_clp: number;
+    image_url?: string;
+    brand?: string;
+  }>;
   subtotal_clp: number;
   shipping_clp: number;
   total_clp: number;
@@ -156,42 +163,100 @@ export async function sendOrderNotificationToAdmin(order: OrderEmailInput): Prom
 }
 
 function renderCustomerHtml(order: OrderEmailInput): string {
+  // Rich item rows with image thumbnail + brand badge
   const rows = order.items.map(i => {
     const label = i.color_code ? `${escape(i.color_code)} · ${escape(i.name)}` : escape(i.name);
     const lineTotal = (i.unit_price_clp * i.qty).toLocaleString('es-CL');
-    return `<tr><td style="padding:10px 0;border-bottom:1px solid #eee">${label} <span style="color:#777">× ${i.qty}</span></td><td style="text-align:right;padding:10px 0;border-bottom:1px solid #eee">$${lineTotal}</td></tr>`;
+    const imgTd = i.image_url
+      ? `<td style="padding:12px 12px 12px 0;border-bottom:1px solid #eee;width:60px"><img src="${escape(i.image_url)}" alt="" width="60" height="60" style="border-radius:8px;display:block;object-fit:cover" /></td>`
+      : `<td style="padding:12px 12px 12px 0;border-bottom:1px solid #eee;width:60px"></td>`;
+    const brandLine = i.brand ? `<div style="font-size:11px;color:#777;text-transform:uppercase;letter-spacing:1px;font-weight:600">${escape(i.brand)}</div>` : '';
+    return `<tr>
+      ${imgTd}
+      <td style="padding:12px 0;border-bottom:1px solid #eee">
+        ${brandLine}
+        <div style="font-weight:500">${label}</div>
+        <div style="font-size:12px;color:#777;margin-top:2px">× ${i.qty} · $${i.unit_price_clp.toLocaleString('es-CL')} c/u</div>
+      </td>
+      <td style="text-align:right;padding:12px 0;border-bottom:1px solid #eee;font-weight:600;white-space:nowrap">$${lineTotal}</td>
+    </tr>`;
   }).join('');
 
   const shippingLine = order.shipping.store_pickup
-    ? 'Retiro en tienda · Av. Providencia 2251, local 69'
+    ? 'Retiro en tienda · Av. Providencia 2251, local 69 · Metro Los Leones'
     : `${escape(order.shipping.address ?? '')}${order.shipping.city ? ', ' + escape(order.shipping.city) : ''}`;
 
-  return `<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#222">
-    <h1 style="font-size:22px;margin:0 0 8px">Recibimos tu pedido 🎨</h1>
-    <p style="font-size:13px;color:#777;margin:0 0 24px">Número: <strong style="font-family:monospace;color:#222">${escape(order.short_id)}</strong></p>
+  return `<!doctype html><html lang="es"><head><meta charset="utf-8"></head><body style="margin:0;padding:0;background:#f5f5f5;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#222">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;background:#f5f5f5;padding:24px 12px">
+      <tr><td align="center">
+        <table role="presentation" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.06)">
 
-    <p style="font-size:15px;line-height:1.6">Hola ${escape(order.customer.name)}, recibimos tu pedido. <strong>Te confirmamos stock + link de pago por WhatsApp en máx 2h hábiles.</strong></p>
+          <!-- Header dark con logo -->
+          <tr><td style="background:#111827;padding:32px 32px 24px">
+            <div style="color:#0066ff;font-weight:700;letter-spacing:4px;text-transform:uppercase;font-size:14px;margin-bottom:8px">BOYKOT</div>
+            <h1 style="color:#fff;font-size:28px;margin:0;font-weight:700;line-height:1.2">Recibimos tu pedido 🎨</h1>
+            <div style="color:#9ca3af;font-size:13px;margin-top:8px">
+              Número: <strong style="font-family:'SF Mono','Courier New',monospace;color:#fff">${escape(order.short_id)}</strong>
+            </div>
+          </td></tr>
 
-    <table style="width:100%;margin:24px 0;border-collapse:collapse;font-size:14px">
-      ${rows}
-      <tr><td style="padding:10px 0;color:#777">Subtotal</td><td style="text-align:right;padding:10px 0">$${order.subtotal_clp.toLocaleString('es-CL')}</td></tr>
-      <tr><td style="padding:10px 0;color:#777">Despacho</td><td style="text-align:right;padding:10px 0">${order.shipping.store_pickup ? 'Retiro en tienda' : (order.shipping_clp === 0 ? 'Gratis' : '$' + order.shipping_clp.toLocaleString('es-CL'))}</td></tr>
-      <tr><td style="padding:12px 0;font-weight:700;border-top:2px solid #222">Total</td><td style="text-align:right;padding:12px 0;font-weight:700;border-top:2px solid #222">$${order.total_clp.toLocaleString('es-CL')}</td></tr>
+          <!-- Body -->
+          <tr><td style="padding:32px">
+            <p style="font-size:15px;line-height:1.6;margin:0 0 24px">
+              Hola <strong>${escape(order.customer.name)}</strong>,<br>
+              recibimos tu pedido. <strong>Te confirmamos stock + link de pago por WhatsApp en máx 2 hrs hábiles.</strong>
+            </p>
+
+            <!-- Items table -->
+            <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;margin:0 0 24px;border-collapse:collapse;font-size:14px">
+              ${rows}
+              <tr><td colspan="3" style="padding:14px 0 6px 0;color:#777;font-size:13px">Subtotal</td>
+                <td style="text-align:right;padding:14px 0 6px 0;font-weight:500"></td></tr>
+              <tr><td colspan="2" style="padding:0 0 6px 0;color:#777;font-size:13px">Subtotal</td>
+                <td style="text-align:right;padding:0 0 6px 0;font-weight:500">$${order.subtotal_clp.toLocaleString('es-CL')}</td></tr>
+              <tr><td colspan="2" style="padding:0 0 6px 0;color:#777;font-size:13px">Despacho</td>
+                <td style="text-align:right;padding:0 0 6px 0;font-weight:500">${order.shipping.store_pickup ? 'Retiro en tienda' : (order.shipping_clp === 0 ? 'Gratis' : '$' + order.shipping_clp.toLocaleString('es-CL'))}</td></tr>
+              <tr><td colspan="2" style="padding:12px 0;font-weight:700;font-size:17px;border-top:2px solid #111827">Total CLP</td>
+                <td style="text-align:right;padding:12px 0;font-weight:700;font-size:17px;border-top:2px solid #111827">$${order.total_clp.toLocaleString('es-CL')}</td></tr>
+            </table>
+
+            <!-- Despacho card -->
+            <div style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 18px;border-radius:8px;margin:24px 0;font-size:13px;line-height:1.7">
+              <div style="font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:600;color:#6b7280;margin-bottom:8px">Despacho</div>
+              ${shippingLine}
+            </div>
+            <div style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 18px;border-radius:8px;margin:0 0 24px;font-size:13px;line-height:1.7">
+              <div style="font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:600;color:#6b7280;margin-bottom:8px">Contacto</div>
+              ${escape(order.customer.name)}<br>
+              ${escape(order.customer.email)}<br>
+              ${escape(order.customer.phone)}
+              ${order.customer.rut ? `<br><span style="color:#6b7280">RUT:</span> ${escape(order.customer.rut)}` : ''}
+            </div>
+
+            ${order.whatsapp_url ? `
+              <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%">
+                <tr><td align="center" style="padding:8px 0 16px">
+                  <a href="${order.whatsapp_url}" style="display:inline-block;background:#25D366;color:#fff;text-decoration:none;padding:16px 32px;border-radius:8px;font-weight:600;font-size:15px">
+                    Confirmar por WhatsApp →
+                  </a>
+                </td></tr>
+              </table>
+            ` : ''}
+          </td></tr>
+
+          <!-- Footer -->
+          <tr><td style="background:#f9fafb;padding:24px 32px;text-align:center;border-top:1px solid #e5e7eb">
+            <p style="margin:0 0 8px;font-size:12px;color:#6b7280;line-height:1.6">
+              ¿Dudas? Respondé este mail o escribinos a
+              <a href="mailto:providencia@boykot.cl" style="color:#0066ff;text-decoration:none">providencia@boykot.cl</a>
+            </p>
+            <p style="margin:0;font-size:11px;color:#9ca3af">
+              Boykot · Av. Providencia 2251, Santiago · <a href="${SITE}" style="color:#9ca3af;text-decoration:none">boykot.cl</a>
+            </p>
+          </td></tr>
+        </table>
+      </td></tr>
     </table>
-
-    <div style="background:#f8f8f8;padding:16px;border-radius:8px;margin:24px 0;font-size:13px;line-height:1.6">
-      <strong>📦 Despacho:</strong><br>${shippingLine}<br><br>
-      <strong>👤 Contacto:</strong><br>
-      ${escape(order.customer.name)}<br>
-      ${escape(order.customer.email)}<br>
-      ${escape(order.customer.phone)}
-      ${order.customer.rut ? `<br>RUT: ${escape(order.customer.rut)}` : ''}
-    </div>
-
-    ${order.whatsapp_url ? `<a href="${order.whatsapp_url}" style="display:inline-block;background:#25D366;color:#fff;text-decoration:none;padding:14px 24px;border-radius:6px;font-weight:600">Confirmar por WhatsApp →</a>` : ''}
-
-    <p style="margin-top:32px;font-size:12px;color:#777">¿Dudas? Respondé este mail o escribinos a <a href="mailto:providencia@boykot.cl" style="color:#777">providencia@boykot.cl</a>.</p>
-    <p style="font-size:11px;color:#aaa">Boykot · Av. Providencia 2251, Santiago · <a href="${SITE}" style="color:#aaa">boykot.cl</a></p>
   </body></html>`;
 }
 
