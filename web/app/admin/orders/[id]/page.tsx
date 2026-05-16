@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { requireAdmin } from '../../layout';
 import AdminChrome from '@/components/admin/Chrome';
 import { getOrderByShortId } from '@/lib/pending-orders';
+import StatusForm from './status-form';
 
 export const dynamic = 'force-dynamic';
 
@@ -58,6 +59,9 @@ export default async function OrderDetailPage({ params }: { params: Promise<Para
           )}
         </div>
       </div>
+
+      {/* Status update */}
+      <StatusForm shortId={order.short_id} currentStatus={order.status} />
 
       {/* Quick actions */}
       <section className="bg-white border border-gray-200 rounded-lg p-4 mb-6">
