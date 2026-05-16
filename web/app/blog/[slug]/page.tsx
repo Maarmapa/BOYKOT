@@ -10,6 +10,9 @@ import {
   firstImageFromContent,
   sanitizeWpContent,
 } from '@/lib/wp-archive';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
 interface Params {
   slug: string;
@@ -55,6 +58,13 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
 
   return (
     <main className="bg-white min-h-screen">
+      <BreadcrumbSchema
+        crumbs={[
+          { name: 'Inicio', url: SITE },
+          { name: 'Blog', url: `${SITE}/blog` },
+          { name: title, url: `${SITE}/blog/${slug}` },
+        ]}
+      />
       <article>
         {/* Hero */}
         <section className="border-b border-gray-100">

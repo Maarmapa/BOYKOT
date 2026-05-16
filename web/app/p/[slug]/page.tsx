@@ -9,6 +9,9 @@ import {
   firstImageFromContent,
   sanitizeWpContent,
 } from '@/lib/wp-archive';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
 // Páginas SEO rescatadas del WP original (regalos-para-artistas, sets-base-agua,
 // copic-award-chile-2025, etc). Sirvalas como /p/[slug] para preservar el SEO
@@ -60,6 +63,12 @@ export default async function SeoLandingPage({ params }: { params: Promise<Param
 
   return (
     <main className="bg-white min-h-screen">
+      <BreadcrumbSchema
+        crumbs={[
+          { name: 'Inicio', url: SITE },
+          { name: title, url: `${SITE}/p/${slug}` },
+        ]}
+      />
       <article>
         {/* Breadcrumbs + title */}
         <section className="border-b border-gray-100">

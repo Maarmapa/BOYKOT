@@ -6,6 +6,7 @@ import { getWcProduct, uniqueImages, getVariationsFor } from '@/lib/wc-products'
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 import { BRANDS_META } from '@/lib/brands-meta';
 import ProductGallery from '@/components/ProductGallery';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 interface Params {
   slug: string;
@@ -127,12 +128,21 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
       : undefined,
   };
 
+  // Breadcrumb crumbs para JSON-LD
+  const breadcrumbCrumbs = [
+    { name: 'Inicio', url: SITE },
+    ...(p.cat ? [{ name: p.cat.charAt(0).toUpperCase() + p.cat.slice(1), url: `${SITE}/categoria/${p.cat}` }] : []),
+    ...(brandMetaSlug && p.brand ? [{ name: p.brand, url: `${SITE}/marca/${brandMetaSlug}` }] : []),
+    { name: p.name, url: `${SITE}/producto/${p.slug}` },
+  ];
+
   return (
     <main className="bg-white min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
+      <BreadcrumbSchema crumbs={breadcrumbCrumbs} />
 
       {/* Breadcrumbs */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-2">
