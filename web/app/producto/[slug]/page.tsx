@@ -8,6 +8,8 @@ import { BRANDS_META } from '@/lib/brands-meta';
 import ProductGallery from '@/components/ProductGallery';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WishlistButton from '@/components/WishlistButton';
+import BackInStockNotify from '@/components/BackInStockNotify';
+import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
 
 interface Params {
   slug: string;
@@ -144,6 +146,13 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <BreadcrumbSchema crumbs={breadcrumbCrumbs} />
+      <RecentlyViewedTracker
+        slug={p.slug}
+        name={p.name}
+        image={p.image}
+        price={displayPrice ?? null}
+        brand={p.brand}
+      />
 
       {/* Breadcrumbs */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-2">
@@ -231,6 +240,18 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
               />
               {inStock ? 'En stock — Envío 24-48 hrs Chile' : 'Agotado — Consultar disponibilidad'}
             </div>
+
+            {/* Back-in-stock notify form — solo cuando esta agotado */}
+            {!inStock && (
+              <div className="mb-6">
+                <BackInStockNotify
+                  productSlug={p.slug}
+                  productName={p.name}
+                  productSku={p.sku}
+                  variantId={wc?.variations?.[0]?.id || undefined}
+                />
+              </div>
+            )}
 
             {/* Description — prefer rich HTML de WC, fallback a plain de products.json */}
             {richDescription ? (
