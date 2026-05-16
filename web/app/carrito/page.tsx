@@ -13,7 +13,14 @@ export default function CartPage() {
   if (loading) {
     return (
       <main className="min-h-[60vh] bg-white">
-        <div className="max-w-4xl mx-auto px-4 py-12 text-gray-500">Cargando carro…</div>
+        <div className="max-w-4xl mx-auto px-4 py-12">
+          <div className="animate-pulse space-y-3">
+            <div className="h-7 w-32 bg-gray-200 rounded" />
+            <div className="h-4 w-48 bg-gray-100 rounded" />
+            <div className="h-20 bg-gray-100 rounded mt-6" />
+            <div className="h-20 bg-gray-100 rounded" />
+          </div>
+        </div>
       </main>
     );
   }
@@ -21,16 +28,28 @@ export default function CartPage() {
   if (!cart || cart.items.length === 0) {
     return (
       <main className="min-h-[60vh] bg-white">
-        <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="max-w-2xl mx-auto px-4 py-16 text-center">
+          <div className="text-6xl mb-4">🎨</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-3">Tu carro está vacío</h1>
-          <p className="text-gray-500 mb-6">Empezá agregando colores desde una carta.</p>
-          <Link
-            href="/colores"
-            className="inline-block text-white px-5 py-2.5 rounded-md font-semibold transition-opacity hover:opacity-90"
-            style={{ backgroundColor: '#0066ff' }}
-          >
-            Ver cartas de color
-          </Link>
+          <p className="text-gray-500 mb-8 max-w-md mx-auto">
+            Empezá agregando colores desde alguna de nuestras cartas — Copic Sketch,
+            Angelus Cuero, Holbein Acuarela y más.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href="/colores"
+              className="inline-block text-white px-6 py-3 rounded-md font-semibold transition-opacity hover:opacity-90"
+              style={{ backgroundColor: '#0066ff' }}
+            >
+              Ver cartas de color →
+            </Link>
+            <Link
+              href="/marcas"
+              className="inline-block border border-gray-300 text-gray-900 px-6 py-3 rounded-md font-semibold hover:border-gray-900 transition-colors"
+            >
+              Explorar marcas
+            </Link>
+          </div>
         </div>
       </main>
     );
