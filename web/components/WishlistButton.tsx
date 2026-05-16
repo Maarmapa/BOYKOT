@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useWishlist } from '@/lib/use-wishlist';
+import { useToast } from './Toast';
 
 interface Props {
   slug: string;
@@ -23,12 +24,15 @@ export default function WishlistButton({
   className = '',
 }: Props) {
   const { slugs, toggle } = useWishlist();
+  const toast = useToast();
   const isInWishlist = slugs.has(slug);
   const [pulsing, setPulsing] = useState(false);
 
   async function onClick() {
+    const wasIn = isInWishlist;
     setPulsing(true);
     await toggle({ slug, name, image, price, brand });
+    toast.push(wasIn ? '♡ Quitado de favoritos' : '❤ Agregado a favoritos', 'success', 2000);
     setTimeout(() => setPulsing(false), 280);
   }
 

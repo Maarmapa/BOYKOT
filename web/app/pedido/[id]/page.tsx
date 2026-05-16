@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getOrderByShortId } from '@/lib/pending-orders';
+import ReorderButton from './reorder-button';
 
 export const dynamic = 'force-dynamic';
 
@@ -157,6 +158,9 @@ export default async function OrderTrackingPage({ params }: { params: Promise<Pa
             Te respondemos por WhatsApp o email en horario hábil.
           </p>
           <div className="flex flex-wrap gap-2 justify-center">
+            {order.items && order.items.length > 0 && (
+              <ReorderButton shortId={order.short_id} itemCount={order.items.length} />
+            )}
             <a
               href={`https://wa.me/56223350961?text=Hola%2C+consulta+por+pedido+${encodeURIComponent(order.short_id)}`}
               target="_blank"
@@ -170,7 +174,7 @@ export default async function OrderTrackingPage({ params }: { params: Promise<Pa
               href="/perfil/pedidos"
               className="inline-block bg-white text-gray-900 px-5 py-2.5 rounded-md font-semibold text-xs uppercase tracking-wider hover:bg-gray-100"
             >
-              Ver todos mis pedidos
+              Ver todos
             </Link>
           </div>
         </div>

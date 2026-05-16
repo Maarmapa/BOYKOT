@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useCart } from '@/lib/use-cart';
+import FreeShippingBar from '@/components/FreeShippingBar';
+import CheckoutDiscounts, { type AppliedDiscount, type AppliedCredits } from '@/components/CheckoutDiscounts';
 
 const FREE_SHIPPING_THRESHOLD = 50_000;
 const FLAT_SHIPPING = 4_990;
@@ -12,6 +14,9 @@ export default function CheckoutPage() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<{ short_id: string; whatsapp_url: string } | null>(null);
+  const [email, setEmail] = useState('');
+  const [discount, setDiscount] = useState<AppliedDiscount | null>(null);
+  const [credits, setCredits] = useState<AppliedCredits | null>(null);
 
   if (loading) {
     return (
@@ -40,8 +45,12 @@ export default function CheckoutPage() {
   }
 
   const subtotal = cart.items.reduce((s, i) => s + i.unit_price_clp * i.qty, 0);
-  const shipping = subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : FLAT_SHIPPING;
-  const total = subtotal + shipping;
+  const discountAmount = discount?.discount_clp || 0;
+  const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
+  const isFreeShippingByCode = discount?.type === 'promo' && discount?.code; // free_shipping codes set discount_clp=0 but unlock free
+  const shipping = subtotalAfterDiscount >= FREE_SHIPPING_THRESHOLD || isFreeShippingByCode ? 0 : FLAT_SHIPPING;
+  const creditsApplied = credits?.amount_clp || 0;
+  const total = Math.max(0, subtotalAfterDiscount + shipping - creditsApplied);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -74,6 +83,8 @@ export default function CheckoutPage() {
       shipping_clp: shipping,
       total_clp: total,
       notes: String(fd.get('notes') || '').trim() || undefined,
+      discount: discount ? { type: discount.type, code: discount.code, amount_clp: discount.discount_clp } : undefined,
+      credits_applied_clp: creditsApplied || undefined,
     };
 
     try {
@@ -155,8 +166,15 @@ export default function CheckoutPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <input name="full_name" placeholder="Nombre completo" required
                   className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
-                <input name="email" type="email" placeholder="Email" required
-                  className="border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                  className="border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600"
+                />
                 <input name="phone" type="tel" placeholder="Teléfono (+56 9 ...)" required
                   className="border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
                 <input name="rut" placeholder="RUT (opcional, para boleta)" className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
@@ -218,7 +236,17 @@ export default function CheckoutPage() {
           </form>
         </div>
 
-        <aside className="lg:col-span-1">
+        <aside className="lg:col-span-1 space-y-3">
+          {/* Free shipping progress */}
+          <FreeShippingBar currentClp={subtotalAfterDiscount} thresholdClp={FREE_SHIPPING_THRESHOLD} />
+
+          {/* Discounts (promo/referral + credits) */}
+          <CheckoutDiscounts
+            email={email}
+            subtotalClp={subtotal}
+            onChange={({ discount: d, credits: c }) => { setDiscount(d); setCredits(c); }}
+          />
+
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 sticky top-4">
             <h2 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-4">Tu pedido</h2>
             <ul className="space-y-3 max-h-80 overflow-y-auto pr-2">
@@ -243,12 +271,24 @@ export default function CheckoutPage() {
             </ul>
             <div className="border-t border-gray-200 mt-4 pt-3 space-y-1 text-sm">
               <div className="flex justify-between"><span className="text-gray-600">Subtotal</span><span className="text-gray-900 font-medium">${subtotal.toLocaleString('es-CL')}</span></div>
+              {discountAmount > 0 && (
+                <div className="flex justify-between">
+                  <span className="text-emerald-700">Descuento ({discount?.code})</span>
+                  <span className="text-emerald-700 font-medium">−${discountAmount.toLocaleString('es-CL')}</span>
+                </div>
+              )}
               <div className="flex justify-between">
                 <span className="text-gray-600">Despacho</span>
-                <span className={shipping === 0 ? 'text-green-600 font-medium' : 'text-gray-900 font-medium'}>
+                <span className={shipping === 0 ? 'text-emerald-600 font-medium' : 'text-gray-900 font-medium'}>
                   {shipping === 0 ? 'Gratis' : `$${shipping.toLocaleString('es-CL')}`}
                 </span>
               </div>
+              {creditsApplied > 0 && (
+                <div className="flex justify-between">
+                  <span className="text-amber-700">💰 Boykot Credits</span>
+                  <span className="text-amber-700 font-medium">−${creditsApplied.toLocaleString('es-CL')}</span>
+                </div>
+              )}
             </div>
             <div className="border-t border-gray-200 mt-3 pt-3 flex justify-between items-baseline">
               <span className="text-sm font-semibold text-gray-900">Total</span>

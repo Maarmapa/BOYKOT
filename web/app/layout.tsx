@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import SiteHeader from '@/components/SiteHeader';
+import { ToastProvider } from '@/components/Toast';
 import SiteFooter from '@/components/SiteFooter';
 import ChatWidget from '@/components/ChatWidget';
 
@@ -138,10 +139,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         />
       </head>
       <body className="min-h-full flex flex-col bg-white">
-        <SiteHeader />
-        <div className="flex-1">{children}</div>
-        <SiteFooter />
-        <ChatWidget />
+        <ToastProvider>
+          <SiteHeader />
+          <div className="flex-1">{children}</div>
+          <SiteFooter />
+          <ChatWidget />
+        </ToastProvider>
         <Analytics />
         <SpeedInsights />
       </body>
