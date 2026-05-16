@@ -11,6 +11,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { fetchPayment, verifyWebhookSignature } from '@/lib/mercadopago';
 import { supabaseAdmin } from '@/lib/supabase';
+import { sendPaymentConfirmation } from '@/lib/email';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -130,7 +131,16 @@ export async function POST(req: NextRequest) {
       throw new Error('payment has no external_reference (short_id)');
     }
 
+    // Leer el estado actual ANTES de actualizar — necesario para saber si
+    // ya mandamos el mail de confirmación (paid_at era null → vamos a mandar).
+    const { data: orderBefore } = await supabaseAdmin()
+      .from('pending_orders')
+      .select('customer_email, customer_name, total_clp, paid_at')
+      .eq('short_id', shortId)
+      .maybeSingle();
+
     const mapped = mapMpStatus(payment.status);
+    const wasAlreadyPaid = Boolean(orderBefore?.paid_at);
     const updates: Record<string, unknown> = {
       payment_provider: 'mercadopago',
       payment_status: mapped.status,
@@ -154,11 +164,29 @@ export async function POST(req: NextRequest) {
         .eq('id', webhookRowId);
     }
 
+    // Email de confirmación al cliente — solo en la PRIMERA transición a paid.
+    // Best-effort: si Brevo falla, NO bloqueamos la respuesta del webhook.
+    if (mapped.isFinal && mapped.status === 'paid' && !wasAlreadyPaid && orderBefore?.customer_email) {
+      try {
+        await sendPaymentConfirmation({
+          short_id: shortId,
+          customer_email: orderBefore.customer_email,
+          customer_name: orderBefore.customer_name || undefined,
+          total_clp: orderBefore.total_clp || payment.transaction_amount || 0,
+          payment_reference: String(payment.id),
+          payment_method: payment.payment_method_id || undefined,
+        });
+      } catch (mailErr) {
+        console.warn('[mp-webhook] payment confirmation email failed (non-fatal)', mailErr);
+      }
+    }
+
     return NextResponse.json({
       ok: true,
       short_id: shortId,
       mp_status: payment.status,
       mapped_status: mapped.status,
+      email_sent: mapped.status === 'paid' && !wasAlreadyPaid,
     });
   } catch (e) {
     if (webhookRowId) {

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
 interface Hit {
@@ -13,6 +14,7 @@ interface Hit {
 }
 
 export default function SearchBar() {
+  const router = useRouter();
   const [q, setQ] = useState('');
   const [hits, setHits] = useState<Hit[]>([]);
   const [total, setTotal] = useState(0);
@@ -67,6 +69,12 @@ export default function SearchBar() {
           setOpen(true);
         }}
         onFocus={() => setOpen(true)}
+        onKeyDown={e => {
+          if (e.key === 'Enter' && q.trim().length >= 2) {
+            setOpen(false);
+            router.push(`/buscar?q=${encodeURIComponent(q.trim())}`);
+          }
+        }}
         className="w-full border border-gray-200 rounded-md px-3 py-2 text-sm outline-none focus:border-gray-400"
       />
 
@@ -100,11 +108,15 @@ export default function SearchBar() {
                   </li>
                 ))}
               </ul>
-              {total > hits.length && (
-                <div className="border-t border-gray-100 px-3 py-2 text-xs text-gray-500">
-                  Mostrando {hits.length} de {total} resultados
-                </div>
-              )}
+              <Link
+                href={`/buscar?q=${encodeURIComponent(q)}`}
+                onClick={() => setOpen(false)}
+                className="block border-t border-gray-100 px-3 py-2.5 text-xs font-semibold text-gray-900 hover:bg-gray-50 text-center"
+              >
+                {total > hits.length
+                  ? `Ver los ${total} resultados →`
+                  : 'Ver página completa →'}
+              </Link>
             </>
           )}
         </div>

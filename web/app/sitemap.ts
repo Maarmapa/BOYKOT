@@ -13,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/colores`, lastModified: now, priority: 0.9 },
     { url: `${SITE}/marcas`, lastModified: now, priority: 0.9 },
     { url: `${SITE}/tienda`, lastModified: now, priority: 0.9 },
+    { url: `${SITE}/promociones`, lastModified: now, priority: 0.85 },
+    { url: `${SITE}/buscar`, lastModified: now, priority: 0.5 },
     { url: `${SITE}/b2b`, lastModified: now, priority: 0.7 },
     { url: `${SITE}/sobre-boykot`, lastModified: now, priority: 0.6 },
     { url: `${SITE}/contacto`, lastModified: now, priority: 0.6 },
