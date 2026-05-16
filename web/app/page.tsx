@@ -1,14 +1,17 @@
 import Link from 'next/link';
 import natProducts from '../data/natekla-products.json';
 
-// 6 marcas destacadas con imágenes del nuevo sitio natekla
+// 8 marcas destacadas en grid 4x2 — apuntan a /marca/[slug] (landing brand)
+// con fallback a /colores/[carta] para las brands sin landing dedicada.
 const MARCAS = [
-  { name: 'Copic', href: '/categoria/marcadores', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/copic-chile.webp' },
-  { name: 'Angelus', href: '/colores/angelus-standard-1oz', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/Boton_Angelus.webp' },
-  { name: 'Molotow', href: '/colores/molotow-premium', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/molotow-chile.webp' },
-  { name: 'Krack', href: '/marcas', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/krack-chile.webp' },
-  { name: 'Holbein', href: '/colores/holbein-acuarela-15ml', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/holbein-chile.webp' },
+  { name: 'Copic', href: '/marca/copic', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/copic-chile.webp' },
+  { name: 'Angelus', href: '/marca/angelus', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/Boton_Angelus.webp' },
+  { name: 'Molotow', href: '/marca/molotow', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/molotow-chile.webp' },
+  { name: 'Holbein', href: '/marca/holbein', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/holbein-chile.webp' },
   { name: 'ZIG Kuretake', href: '/colores/zig-calligraphy', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/zig-kuretake-chile.webp' },
+  { name: 'Createx', href: '/colores/createx-airbrush-60ml', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/copic-chile.webp' },
+  { name: 'POSCA', href: '/colores/uni-posca-5m', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/krack-chile.webp' },
+  { name: 'Acrilex', href: '/marcas', image: 'https://natekla.es/boytok/wp-content/uploads/2026/04/krack-chile.webp' },
 ];
 
 // Proceso de creación de manga — 6 categorías visuales (del diseño natekla)
@@ -53,9 +56,21 @@ export default function HomePage() {
 
   return (
     <main className="bg-white">
-      {/* HERO */}
-      <section className="border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-12 sm:pt-20">
+      {/* HERO con backdrop animado de swatches */}
+      <section className="relative border-b border-gray-100 overflow-hidden bg-white">
+        {/* Backdrop animado — gradiente sutil que rota lento */}
+        <div
+          className="absolute inset-0 opacity-[0.04] pointer-events-none"
+          style={{
+            background: 'conic-gradient(from 0deg at 50% 50%, #FF073A, #FF6700, #DFFF00, #39FF14, #00FFFF, #1F51FF, #BF00FF, #FF073A)',
+            animation: 'hero-rotate 60s linear infinite',
+          }}
+        />
+        <style>{`
+          @keyframes hero-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        `}</style>
+
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-12 sm:pt-20 sm:pb-16">
           <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-6">
             Distribuidor oficial · Chile · Desde 2010
           </div>
@@ -66,9 +81,9 @@ export default function HomePage() {
             <span className="text-gray-900">, sin atajos.</span>
           </h1>
           <p className="text-gray-600 text-base sm:text-lg max-w-2xl leading-relaxed mb-8">
-            Copic, Angelus, Holbein, Molotow y más. Stock real, asesoría técnica y despacho a todo Chile.
+            <strong className="text-gray-900">Copic</strong>, <strong className="text-gray-900">Angelus</strong>, <strong className="text-gray-900">Holbein</strong>, <strong className="text-gray-900">Molotow</strong> y más. Stock real, asesoría técnica y despacho a todo Chile.
           </p>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 mb-10">
             <Link
               href="/colores"
               className="inline-block px-6 sm:px-7 py-3 sm:py-4 text-white font-semibold rounded-md hover:opacity-90 transition-opacity text-sm uppercase tracking-wider"
@@ -83,11 +98,27 @@ export default function HomePage() {
               Ir a la tienda
             </Link>
           </div>
+
+          {/* Stats inline */}
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl border-t border-gray-200 pt-6">
+            <div>
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">2,000+</div>
+              <div className="text-xs text-gray-500 mt-1">colores con stock real-time</div>
+            </div>
+            <div>
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">15+</div>
+              <div className="text-xs text-gray-500 mt-1">marcas premium</div>
+            </div>
+            <div>
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">16</div>
+              <div className="text-xs text-gray-500 mt-1">años en Chile</div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* NUESTRAS MARCAS */}
-      <section className="border-b border-gray-100">
+      {/* NUESTRAS MARCAS — grid 4x2 (8 logos) inspirado en natekla */}
+      <section className="border-b border-gray-100 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           <div className="flex items-end justify-between mb-8">
             <div>
@@ -100,17 +131,17 @@ export default function HomePage() {
               Ver todas →
             </Link>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
             {MARCAS.map(m => (
               <Link
                 key={m.name}
                 href={m.href}
-                className="group block aspect-square bg-gray-50 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+                className="group block aspect-square bg-white rounded-lg overflow-hidden hover:shadow-lg border border-gray-100 hover:border-gray-300 transition-all"
               >
                 <img
                   src={m.image}
                   alt={m.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </Link>

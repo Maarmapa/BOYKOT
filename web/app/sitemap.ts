@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { BRAND_SLUGS } from '@/lib/colors/brands';
+import { BRAND_META_SLUGS } from '@/lib/brands-meta';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
@@ -28,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE}/colores/${slug}`,
       lastModified: now,
       priority: 0.8,
+    })),
+    ...BRAND_META_SLUGS.map(slug => ({
+      url: `${SITE}/marca/${slug}`,
+      lastModified: now,
+      priority: 0.85,
     })),
   ];
 }
