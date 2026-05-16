@@ -8,123 +8,153 @@
   "colors": [
     {
       "code": "310",
-      "name": "Collector E Aqua 8"
+      "name": "Collector E Aqua 8",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-Collector-310-Aqua-8.jpg"
     },
     {
       "code": "312",
-      "name": "Collector E Blaze 8"
+      "name": "Collector E Blaze 8",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-312-Blaze-8.jpg"
     },
     {
       "code": "313",
-      "name": "Collector E Concord 8"
+      "name": "Collector E Concord 8",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-313-Concord.jpg"
     },
     {
       "code": "314",
-      "name": "Collector E White Cement/Grey 4"
+      "name": "Collector E White Cement/Grey 4",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-314-White-cement-grey.jpg"
     },
     {
       "code": "315",
-      "name": "Collector E Volt"
+      "name": "Collector E Volt",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-315-Volt.jpg"
     },
     {
       "code": "317",
-      "name": "Collector E Emerald 5"
+      "name": "Collector E Emerald 5",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-316-Emerald-5.jpg"
     },
     {
       "code": "319",
-      "name": "Collector E Infrared"
+      "name": "Collector E Infrared",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-319-Infrared.jpg"
     },
     {
       "code": "321",
-      "name": "Collector E Maize"
+      "name": "Collector E Maize",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-321-Maize.jpg"
     },
     {
       "code": "323",
-      "name": "Collector E Mid-Navy 8"
+      "name": "Collector E Mid-Navy 8",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-323-Mid-Navy-8.jpg"
     },
     {
       "code": "324",
-      "name": "Collector E Military Blue"
+      "name": "Collector E Military Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-324-Military-blue.jpg"
     },
     {
       "code": "326",
-      "name": "Collector E Royal 5"
+      "name": "Collector E Royal 5",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-326-Royal-5.jpg"
     },
     {
       "code": "329",
-      "name": "Collector E True Blue"
+      "name": "Collector E True Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-329-True-blue.jpg"
     },
     {
       "code": "330",
-      "name": "Collector E Varsity"
+      "name": "Collector E Varsity",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-330-Varsity.jpg"
     },
     {
       "code": "331",
-      "name": "Collector E Miami Vice"
+      "name": "Collector E Miami Vice",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-331-Miami-Vice.jpg"
     },
     {
       "code": "332",
-      "name": "Collector E Melo 2"
+      "name": "Collector E Melo 2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-332-Melo-2.jpg"
     },
     {
       "code": "333",
-      "name": "Collector E DTRT Yellow"
+      "name": "Collector E DTRT Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-333-DTRT-Yellow.jpg"
     },
     {
       "code": "334",
-      "name": "Collector E Play Off 8 / Grey"
+      "name": "Collector E Play Off 8 / Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-334-Play-off-8.jpg"
     },
     {
       "code": "335",
-      "name": "Collector E Yeezy"
+      "name": "Collector E Yeezy",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-335-Yeezy.jpg"
     },
     {
       "code": "336",
-      "name": "Collector E Maroon"
+      "name": "Collector E Maroon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-336-Maroon.jpg"
     },
     {
       "code": "337",
-      "name": "Collector E Grape 5"
+      "name": "Collector E Grape 5",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-337-Grape.jpg"
     },
     {
       "code": "338",
-      "name": "Collector E Squadron"
+      "name": "Collector E Squadron",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-338-Squadron.jpg"
     },
     {
       "code": "339",
-      "name": "Collector E French Blue"
+      "name": "Collector E French Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-339-French-blue.jpg"
     },
     {
       "code": "341",
-      "name": "Collector E Gamma Blue"
+      "name": "Collector E Gamma Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-341-Gamma-Blue.jpg"
     },
     {
       "code": "342",
-      "name": "Collector E Joker Green"
+      "name": "Collector E Joker Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-342-Joker-green.jpg"
     },
     {
       "code": "343",
-      "name": "Collector E Tour Yellow"
+      "name": "Collector E Tour Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-343-Tour-yellow.jpg"
     },
     {
       "code": "344",
-      "name": "Collector E Thunder Yellow"
+      "name": "Collector E Thunder Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-344-Thunder-yellow.jpg"
     },
     {
       "code": "345",
-      "name": "Collector E 2014 Infrared"
+      "name": "Collector E 2014 Infrared",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-345-2014-Infrared.jpg"
     },
     {
       "code": "346",
-      "name": "Collector E Shattered Orange"
+      "name": "Collector E Shattered Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-346-Shatered-orange.jpg"
     },
     {
       "code": "347",
-      "name": "Collector E Uni Blued"
+      "name": "Collector E Uni Blued",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-347-Uni-blue.jpg"
     },
     {
       "code": "348",
-      "name": "Collector E Shadow Grey"
+      "name": "Collector E Shadow Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2022/05/Collector-348-Shadow-grey.jpg"
     }
   ],
   "description": null,

@@ -10,192 +10,230 @@
     {
       "code": "WW002",
       "name": "Chinese White",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W002-Chinese-White.jpg"
     },
     {
       "code": "WW007",
       "name": "Pyrrole Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W007-Pyrrole-Red.jpg"
     },
     {
       "code": "WW010",
       "name": "Crimson Lake",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W010-Crimson-Lake.jpg"
     },
     {
       "code": "WW012",
       "name": "Rose Madder",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W012-Rose-Madder.jpg"
     },
     {
       "code": "WW019",
       "name": "Vermilion Hue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W019-Vermilion-Hue.jpg"
     },
     {
       "code": "WW031",
       "name": "Jaune Brillant No 1",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W031-Jaune-Brillant-No1.jpg"
     },
     {
       "code": "WW034",
       "name": "Yellow Ochre",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W034-Yellow-Ocher.jpg"
     },
     {
       "code": "WW035",
       "name": "Permanent Yellow Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W035-Permanent-Yellow-Lemon.jpg"
     },
     {
       "code": "WW037",
       "name": "Permanent Yellow Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W037-Permanent-Yellow-Deep.jpg"
     },
     {
       "code": "WW038",
       "name": "Permanent Yellow Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W038-Permanent-Yellow-Orange.jpg"
     },
     {
       "code": "WW047",
       "name": "Brilliant Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W047-Brilliant-Orange.jpg"
     },
     {
       "code": "WW050",
       "name": "Imidazolone Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W050-Imidazolone-Yellow.jpg"
     },
     {
       "code": "WW051",
       "name": "Imidazolone Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W051-Imidazolone-Lemon.jpg"
     },
     {
       "code": "WW061",
       "name": "Viridian Hue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W061-Viridian-Hue.jpg"
     },
     {
       "code": "WW066",
       "name": "Permanent Green 1",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W066-Permanent-Green-No1.jpg"
     },
     {
       "code": "WW074",
       "name": "Olive Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W074-Olive-Green.jpg"
     },
     {
       "code": "WW075",
       "name": "Sap Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W075-Sap-Green.jpg"
     },
     {
       "code": "WW077",
       "name": "Leaf Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W077-Leaf-Green.jpg"
     },
     {
       "code": "WW079",
       "name": "Shadow Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W079-Shadow-Green.jpg"
     },
     {
       "code": "WW092",
       "name": "Cerulean Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W092-Cerulean-Blue.jpg"
     },
     {
       "code": "WW095",
       "name": "Verditer Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W095-Verditer-Blue.jpg"
     },
     {
       "code": "WW097",
       "name": "Prussian Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W097-Prussian-Blue.jpg"
     },
     {
       "code": "WW098",
       "name": "Indigo",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W098-Indigo.jpg"
     },
     {
       "code": "WW104",
       "name": "Horizon Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W104-Horizon-Blue.jpg"
     },
     {
       "code": "WW106",
       "name": "Cobalt Turquoise Light",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W106-Cobalt-Turquoise-Light.jpg"
     },
     {
       "code": "WW107",
       "name": "Phthalo Blue Yellow Shade",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W107-Phthalo-Blue-Yellow-Shade.jpg"
     },
     {
       "code": "WW108",
       "name": "Phthalo Blue Red Shade",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W108-Phthalo-Blue-Red-Shade.jpg"
     },
     {
       "code": "WW115",
       "name": "Permanent Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W115-Permanent-Violet.jpg"
     },
     {
       "code": "WW116",
       "name": "Lavender",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W116-Lavender.jpg"
     },
     {
       "code": "WW131",
       "name": "Raw Umber",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W131-Raw-Umber.jpg"
     },
     {
       "code": "WW132",
       "name": "Raw Sienna",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W132-Raw-Sienna.jpg"
     },
     {
       "code": "WW133",
       "name": "Burnt Umber",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W133-Burnt-Umber.jpg"
     },
     {
       "code": "WW138",
       "name": "Ivory Black",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W138-Ivory-Black.jpg"
     },
     {
       "code": "WW139",
       "name": "Vandyke Brown",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W139-Vandyke-Brown.jpg"
     },
     {
       "code": "WW151",
       "name": "Yellow Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W151-Yellow-Grey.jpg"
     },
     {
       "code": "WW152",
       "name": "Green Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W152-Green-Grey.jpg"
     },
     {
       "code": "WW153",
       "name": "Grey Of Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W153-Grey-of-Grey.jpg"
     },
     {
       "code": "WW155",
       "name": "Davys Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W155-Davys-Grey.jpg"
     }
   ],
   "gallery": [
