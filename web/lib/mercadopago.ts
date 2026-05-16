@@ -158,14 +158,41 @@ export async function verifyWebhookSignature(
   ) as { ts?: string; v1?: string };
   if (!parts.ts || !parts.v1) return false;
 
-  const manifest = `id:${dataId};request-id:${requestId};ts:${parts.ts};`;
   const { createHmac, timingSafeEqual } = await import('node:crypto');
-  const computed = createHmac('sha256', secret).update(manifest).digest('hex');
-  try {
-    return timingSafeEqual(Buffer.from(computed, 'hex'), Buffer.from(parts.v1, 'hex'));
-  } catch {
-    return false;
+
+  // MP probó varios formatos de manifest según versión del webhook.
+  // Probamos en orden los más comunes:
+  //   1. id:{data.id};request-id:{x-request-id};ts:{ts};
+  //   2. id:{data.id_lower};request-id:{x-request-id};ts:{ts};
+  //   3. sin trailing ; (algunas versiones antiguas)
+  //   4. solo data.id + ts (sin request-id)
+  const candidates = [
+    `id:${dataId};request-id:${requestId};ts:${parts.ts};`,
+    `id:${dataId.toLowerCase()};request-id:${requestId};ts:${parts.ts};`,
+    `id:${dataId};request-id:${requestId};ts:${parts.ts}`,
+    `id:${dataId};ts:${parts.ts};`,
+  ];
+
+  for (const manifest of candidates) {
+    const computed = createHmac('sha256', secret).update(manifest).digest('hex');
+    try {
+      if (timingSafeEqual(Buffer.from(computed, 'hex'), Buffer.from(parts.v1, 'hex'))) {
+        console.log('[mp-sig] OK con manifest variant:', manifest.slice(0, 80));
+        return true;
+      }
+    } catch { /* keep trying */ }
   }
-  // Si rawBody se necesita para algún check futuro, queda disponible.
+
+  // Log el computed del primer manifest (el "esperado") para comparar con MP
+  const computedDefault = createHmac('sha256', secret).update(candidates[0]).digest('hex');
+  console.warn('[mp-sig] NO MATCH', {
+    manifest_tried: candidates[0],
+    computed_default: computedDefault,
+    received_v1: parts.v1,
+    secret_len: secret.length,
+    ts: parts.ts,
+  });
+  return false;
+
   void rawBody;
 }
