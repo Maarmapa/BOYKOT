@@ -48,6 +48,7 @@ export default function SiteFooter() {
               <li><Link href="/colores" className="text-gray-300 hover:text-white">Cartas de color</Link></li>
               <li><Link href="/marcas" className="text-gray-300 hover:text-white">Marcas</Link></li>
               <li><Link href="/promociones" className="text-gray-300 hover:text-white">Promociones</Link></li>
+              <li><Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link></li>
               <li><Link href="/b2b" className="text-gray-300 hover:text-white">B2B / Mayoristas</Link></li>
               <li><Link href="/como-comprar" className="text-gray-300 hover:text-white">Cómo comprar</Link></li>
               <li><Link href="/contacto" className="text-gray-300 hover:text-white">Contacto</Link></li>

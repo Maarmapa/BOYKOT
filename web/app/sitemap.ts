@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { BRAND_SLUGS } from '@/lib/colors/brands';
 import { BRAND_META_SLUGS } from '@/lib/brands-meta';
+import { allPostSlugs } from '@/lib/wp-archive';
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || 'https://boykot.cl';
 
@@ -15,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/tienda`, lastModified: now, priority: 0.9 },
     { url: `${SITE}/promociones`, lastModified: now, priority: 0.85 },
     { url: `${SITE}/buscar`, lastModified: now, priority: 0.5 },
+    { url: `${SITE}/blog`, lastModified: now, priority: 0.7 },
+    ...allPostSlugs().map(slug => ({
+      url: `${SITE}/blog/${slug}`,
+      lastModified: now,
+      priority: 0.5,
+    })),
     { url: `${SITE}/b2b`, lastModified: now, priority: 0.7 },
     { url: `${SITE}/sobre-boykot`, lastModified: now, priority: 0.6 },
     { url: `${SITE}/contacto`, lastModified: now, priority: 0.6 },
