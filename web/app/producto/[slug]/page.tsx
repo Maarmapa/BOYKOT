@@ -10,6 +10,8 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import WishlistButton from '@/components/WishlistButton';
 import BackInStockNotify from '@/components/BackInStockNotify';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
+import ProductReviews from '@/components/ProductReviews';
+import { getReviewsForProduct, getRatingSummary } from '@/lib/reviews';
 
 interface Params {
   slug: string;
@@ -77,6 +79,11 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
   const variations = wc ? getVariationsFor(wc.id) : [];
 
   const related = relatedProducts(p, 8);
+  // Load reviews + rating summary en paralelo (no bloqueante)
+  const [reviews, ratingSummary] = await Promise.all([
+    getReviewsForProduct(slug, 10),
+    getRatingSummary(slug),
+  ]);
   const inStock = wc ? wc.is_in_stock : p.availability !== 'OutOfStock';
 
   const colorLineSlug = matchColorLine(p.slug, p.brand);
@@ -127,6 +134,15 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
             '@type': 'Organization',
             name: 'Boykot',
           },
+        }
+      : undefined,
+    aggregateRating: ratingSummary && ratingSummary.count > 0
+      ? {
+          '@type': 'AggregateRating',
+          ratingValue: ratingSummary.average.toFixed(1),
+          reviewCount: ratingSummary.count,
+          bestRating: 5,
+          worstRating: 1,
         }
       : undefined,
   };
@@ -404,6 +420,11 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
             )}
           </div>
         </div>
+      </div>
+
+      {/* Reviews section (solo se renderiza si hay reviews — skeleton hasta entonces) */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <ProductReviews reviews={reviews} summary={ratingSummary} />
       </div>
 
       {/* Related products */}

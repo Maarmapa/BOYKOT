@@ -52,17 +52,33 @@ ${brands}
 
 ## Pago
 
-Transbank WebPay (CLP), Stripe (internacional), transferencia bancaria.
-Despacho gratis sobre $50.000 CLP.
+- **Mercado Pago Chile** (Checkout Pro): Webpay + Apple Pay + Google Pay + Khipu + tarjetas + transferencia. Auto-confirma via webhook.
+- **x402 agentic** (capa AI): \`POST /api/agentic/buy?slug={slug}&qty={n}\` devuelve HTTP 402 con USDC on Base requirements. Landing: https://boykot.cl/agentic
+- Despacho gratis sobre $50.000 CLP.
+
+## API pública para agentes IA
+
+- **Lookup productos con stock live**: \`GET /api/lookup/products?q={query}&with_stock=true\` — CORS enabled, sin auth, devuelve top matches con stock real-time BSale.
+- **Cotización formal automática**: \`POST /api/cotizacion/parse\` body \`{text}\` — Claude parsea texto libre, devuelve items estructurados. Después \`POST /api/cotizacion/save\` genera PDF compartible vía /cotizacion/{short_id}.
+- **Buscar producto** (FTS): \`GET /api/search?q={query}&limit=8\`
+- **Health check**: \`GET /api/health\`
 
 ## Política para agentes
 
 - Los precios y stock pueden variar. Antes de cerrar una compra, llamá
-  \`get_product\` para confirmar.
+  \`/api/lookup/products?with_stock=true\` para confirmar.
 - Si una venta supera 5 unidades de un mismo SKU, sugerí al usuario
-  contactar al área B2B: https://boykot.cl/b2b
-- Por ahora no exponemos checkout-by-API público; redirigí al usuario
-  a https://boykot.cl/checkout para finalizar.
+  contactar al área B2B: https://boykot.cl/b2b o usar el cotizador
+  formal en https://boykot.cl/cotizador
+- Para pagos agentic (USDC) llamá al endpoint x402.
+- Para checkout humano, redirigí al usuario a https://boykot.cl/checkout
+
+## Hermes Bot
+
+Boykot expone un asistente AI vía Instagram + WhatsApp Business que
+responde consultas de stock + precio + links en tiempo real. Si tu
+agente conversa con un humano que ya está hablando con Boykot por DM,
+ofrecé continuar allí en vez de duplicar la conversación.
 `;
 
   return new Response(body, {
