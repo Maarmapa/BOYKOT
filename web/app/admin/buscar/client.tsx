@@ -55,6 +55,61 @@ export default function AdminBuscarClient() {
     setTimeout(() => setCopied(null), 1500);
   }
 
+  // Templates rápidos para copiar al portapapeles
+  const TEMPLATES: { label: string; emoji: string; text: string }[] = [
+    {
+      label: 'Saludo',
+      emoji: '👋',
+      text: '¡Hola! Gracias por escribirnos a Boykot. ¿En qué te puedo ayudar?',
+    },
+    {
+      label: 'Métodos de pago',
+      emoji: '💳',
+      text: 'Aceptamos Mercado Pago (crédito + débito + Apple Pay + Google Pay + Khipu + transferencia), transferencia bancaria directa, y efectivo si retirás en la tienda. Para B2B emitimos factura electrónica automática.',
+    },
+    {
+      label: 'Despacho info',
+      emoji: '🚚',
+      text: 'Despacho 24-48 hrs hábiles a todo Chile (Starken o Chilexpress). Costo: desde $4.990 RM, desde $5.990 regiones. Envío GRATIS sobre $50.000. También podés retirar en Av. Providencia 2251, local 69 (Metro Los Leones).',
+    },
+    {
+      label: 'Horario tienda',
+      emoji: '🏬',
+      text: 'Estamos en Av. Providencia 2251, local 69, Metro Los Leones. Horario: Lun-Vie 10:00–18:00, Sáb 10:00–15:00.',
+    },
+    {
+      label: 'Agotado — avisar',
+      emoji: '⏳',
+      text: 'Por ahora está agotado, pero podés dejarme tu email y te aviso al toque cuando vuelva al stock. También podés entrar al producto en boykot.cl y dejarte la alerta.',
+    },
+    {
+      label: 'B2B mayorista',
+      emoji: '💼',
+      text: 'Tenemos programa B2B para tiendas, escuelas, productoras y talleres con precios mayoristas + factura electrónica automática. Llená el form en boykot.cl/b2b y te respondemos en < 24 hrs hábiles.',
+    },
+    {
+      label: 'Cotización formal',
+      emoji: '📋',
+      text: 'Si necesitás cotización formal para licitación o fondo público, podés generarla automática en boykot.cl/cotizador. Te genera PDF con RUT, IVA, vigencia 30 días — ideal para Fondart, INJUV, municipalidades.',
+    },
+    {
+      label: 'Devoluciones',
+      emoji: '↩️',
+      text: 'Devoluciones dentro de 10 días corridos desde la entrega, producto en empaque original sin uso. Costo del envío de devolución a cargo del cliente, salvo defecto de fábrica.',
+    },
+    {
+      label: 'Despedida',
+      emoji: '👋',
+      text: 'Cualquier otra duda escribime nomás. ¡Gracias por elegir Boykot! 🎨',
+    },
+  ];
+
+  function copyTemplate(text: string, label: string) {
+    navigator.clipboard.writeText(text);
+    setCopied(`tpl:${label}`);
+    setTimeout(() => setCopied(null), 1500);
+  }
+
   function buildDmReply(h: Hit): string {
     const stock = h.available_live ?? h.stock_live;
     const stockLine =
@@ -77,6 +132,32 @@ Despacho 24-48hrs a todo Chile o retiro en Av Providencia 2251.`;
 
   return (
     <div>
+      {/* Templates panel */}
+      <details className="mb-6 bg-blue-50 border border-blue-200 rounded-lg">
+        <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-blue-900">
+          💬 Quick reply templates ({TEMPLATES.length})
+        </summary>
+        <div className="px-4 pb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+          {TEMPLATES.map(t => (
+            <button
+              key={t.label}
+              type="button"
+              onClick={() => copyTemplate(t.text, t.label)}
+              className={`text-left p-3 rounded border transition-colors ${
+                copied === `tpl:${t.label}`
+                  ? 'bg-emerald-100 border-emerald-300 text-emerald-900'
+                  : 'bg-white border-gray-200 hover:border-blue-400'
+              }`}
+            >
+              <div className="text-xs font-semibold mb-1">
+                {t.emoji} {t.label} {copied === `tpl:${t.label}` && '· ✓ copiado'}
+              </div>
+              <div className="text-[11px] text-gray-600 line-clamp-3">{t.text}</div>
+            </button>
+          ))}
+        </div>
+      </details>
+
       <div className="mb-6">
         <input
           autoFocus
