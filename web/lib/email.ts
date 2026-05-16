@@ -225,3 +225,57 @@ function renderAdminHtml(order: OrderEmailInput): string {
     <p style="margin-top:16px;font-size:12px;color:#777">Respondé este mail para escribirle directo al cliente.</p>
   </body></html>`;
 }
+
+// ───────────────────────── Payment confirmation ─────────────────────────
+
+interface PaymentEmailInput {
+  short_id: string;
+  customer_email: string;
+  customer_name?: string;
+  total_clp: number;
+  payment_reference: string;
+  payment_method?: string;
+}
+
+/**
+ * Cuando MP confirma el pago (webhook approved), mandamos email al cliente
+ * cerrando el loop. Best-effort: si falla, NO bloqueamos el webhook.
+ */
+export async function sendPaymentConfirmation(input: PaymentEmailInput): Promise<string | null> {
+  const apiKey = process.env.BREVO_API_KEY;
+  if (!apiKey) {
+    console.warn('[email] BREVO_API_KEY missing, skipping payment confirmation');
+    return null;
+  }
+
+  const html = `<!doctype html><html><body style="font-family:system-ui,-apple-system,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#222">
+    <div style="background:#10b981;color:#fff;padding:18px;border-radius:8px;text-align:center;margin-bottom:24px">
+      <div style="font-size:32px;margin-bottom:4px">✓</div>
+      <h1 style="font-size:22px;margin:0">Pago confirmado</h1>
+    </div>
+    <p style="font-size:13px;color:#777;margin:0 0 24px">Pedido: <strong style="font-family:monospace;color:#222">${escape(input.short_id)}</strong></p>
+    <p style="font-size:15px;line-height:1.6">${input.customer_name ? `Hola ${escape(input.customer_name)}, ` : ''}recibimos tu pago de <strong>$${input.total_clp.toLocaleString('es-CL')} CLP</strong>. Estamos preparando tu pedido — te avisamos por WhatsApp cuando esté listo para retiro o envío.</p>
+    <div style="background:#f8f8f8;padding:16px;border-radius:8px;margin:24px 0;font-size:13px;line-height:1.6">
+      <strong>Referencia de pago:</strong> ${escape(input.payment_reference)}<br>
+      ${input.payment_method ? `<strong>Método:</strong> ${escape(input.payment_method)}<br>` : ''}
+      <strong>Total:</strong> $${input.total_clp.toLocaleString('es-CL')} CLP
+    </div>
+    <p style="margin-top:32px;font-size:12px;color:#777">¿Dudas? Respondé este mail o escribinos a <a href="mailto:providencia@boykot.cl" style="color:#777">providencia@boykot.cl</a>.</p>
+    <p style="font-size:11px;color:#aaa">Boykot · Av. Providencia 2251, Santiago · <a href="${SITE}" style="color:#aaa">boykot.cl</a></p>
+  </body></html>`;
+
+  const res = await fetch(BREVO_ENDPOINT, {
+    method: 'POST',
+    headers: { 'accept': 'application/json', 'content-type': 'application/json', 'api-key': apiKey },
+    body: JSON.stringify({
+      sender: { email: FROM_EMAIL, name: FROM_NAME },
+      to: [{ email: input.customer_email, name: input.customer_name }],
+      subject: `✓ Pago confirmado · ${input.short_id}`,
+      htmlContent: html,
+      tags: ['payment-confirmation', 'mp-webhook'],
+    }),
+  });
+  const data = (await res.json()) as BrevoResponse;
+  if (!res.ok) throw new Error(`Brevo ${res.status}: ${data.message || data.code || 'unknown'}`);
+  return data.messageId ?? null;
+}

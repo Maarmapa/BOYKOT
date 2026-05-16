@@ -88,25 +88,44 @@ export default async function CategoryPage({
   const start = (page - 1) * PAGE_SIZE;
   const slice = products.slice(start, start + PAGE_SIZE);
 
+  const otherCategories = Object.entries(CATEGORIES).filter(([s]) => s !== slug);
+
   return (
     <main className="bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        <nav className="text-xs text-gray-400 mb-4">
-          <Link href="/" className="hover:text-gray-700">Inicio</Link> /{' '}
-          <span className="text-gray-700">{cat.title}</span>
-        </nav>
-
-        <header className="mb-10">
-          <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-2">
+      {/* Dark hero */}
+      <section className="bg-gray-900 text-white border-b border-gray-800">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+          <nav className="text-xs text-gray-500 mb-6">
+            <Link href="/" className="hover:text-white">Inicio</Link> /{' '}
+            <Link href="/tienda" className="hover:text-white">Tienda</Link> /{' '}
+            <span className="text-gray-300">{cat.title}</span>
+          </nav>
+          <div className="text-xs font-semibold tracking-[0.18em] text-gray-400 uppercase mb-2">
             Categoría
           </div>
-          <h1 className="text-4xl sm:text-5xl text-gray-900 mb-3">{cat.title}</h1>
-          {cat.intro && <p className="text-gray-600 max-w-2xl text-lg leading-relaxed">{cat.intro}</p>}
-          <div className="text-xs text-gray-400 mt-4">
-            {brands.length} cartas de color · {brands.reduce((s, b) => s + b.colors.length, 0)} colores
-            {products.length > 0 && <> · {products.length} productos</>}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl mb-4 leading-tight">{cat.title}</h1>
+          {cat.intro && <p className="text-lg text-gray-300 max-w-2xl leading-relaxed mb-4">{cat.intro}</p>}
+          <div className="flex items-baseline gap-6 text-sm text-gray-400 mb-6">
+            <div><strong className="text-white text-xl">{brands.length}</strong> cartas</div>
+            <div><strong className="text-white text-xl">{brands.reduce((s, b) => s + b.colors.length, 0)}</strong> colores</div>
+            {products.length > 0 && <div><strong className="text-white text-xl">{products.length}</strong> productos</div>}
           </div>
-        </header>
+          {/* Category jumper */}
+          <div className="flex flex-wrap gap-2 mt-6">
+            {otherCategories.map(([s, c]) => (
+              <Link
+                key={s}
+                href={`/categoria/${s}`}
+                className="inline-block text-xs font-medium px-3 py-1.5 border border-gray-700 hover:border-white rounded-full text-gray-300 hover:text-white transition-colors"
+              >
+                {c.title} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
 
         {brands.length > 0 && (
           <section className="mb-16">
