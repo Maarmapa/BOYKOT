@@ -1,0 +1,27 @@
+/*
+Theme Name: Boykot
+Theme URI: https://www.autoplanet.cl/elmeson/
+Author: Rodrigo Olave Carrasco, Victor Jara Farias
+Author URI: https://www.rinkstudio.cl/
+Description: 2018 Boykot, E-commerce, Multi Page Design, Responsive Website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: parallax, flexible-width, custom-header, custom-menu, editor-style, featured-images
+Text Domain: boykot
+*/
+
+@import url('./css/main.css?v=12 ');
+
+p#invoice_field, p#billing_company_name_field, p#billing_company_id_field, p#billing_business_type_field , 
+p#billing_company_address_field { display: none;}
+
+span#select2-billing_field_574-container {
+    text-transform: capitalize;
+}
+
+img.attachment-blog.size-blog.wp-post-image {
+    /* width: 360px; */
+    height: 241px!important;
+}
+
