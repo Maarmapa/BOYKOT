@@ -205,20 +205,24 @@ export default function MegaMenu() {
   return (
     <div
       ref={containerRef}
-      className="border-t border-gray-100 relative"
+      className="relative bg-gray-900 text-white"
       onMouseLeave={scheduleClose}
     >
-      <ul className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-wrap gap-x-6 text-sm">
+      {/* Barra dark 38px exactos — items distribuidos uniforme (copic.jp style) */}
+      <ul
+        className="max-w-[1600px] mx-auto flex h-[38px] items-stretch justify-between text-[0.875rem] font-medium uppercase tracking-wide"
+      >
         {NAV.map((item, i) => {
           const hasMega = isCategory(item);
+          const baseLi = 'flex-1 text-center transition-colors';
           if (!hasMega) {
             return (
-              <li key={item.label} className="py-3" onMouseEnter={scheduleClose}>
+              <li key={item.label} className={baseLi} onMouseEnter={scheduleClose}>
                 <Link
                   href={item.href}
                   prefetch
                   onClick={() => onNavigate(item.href)}
-                  className="font-medium text-gray-700 hover:text-gray-900 transition-colors"
+                  className="block h-full px-2 py-[11px] text-white hover:bg-gray-700 transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -229,7 +233,7 @@ export default function MegaMenu() {
           return (
             <li
               key={item.label}
-              className="py-3"
+              className={baseLi}
               onMouseEnter={() => scheduleOpen(i)}
             >
               <button
@@ -241,12 +245,12 @@ export default function MegaMenu() {
                 onFocus={() => scheduleOpen(i)}
                 aria-expanded={isOpen}
                 aria-haspopup="true"
-                className={`font-medium inline-flex items-center gap-1 transition-colors ${
-                  isOpen ? 'text-gray-900' : 'text-gray-700 hover:text-gray-900'
+                className={`w-full h-full px-2 py-[11px] inline-flex items-center justify-center gap-1 transition-colors ${
+                  isOpen ? 'bg-gray-700 text-white' : 'text-white hover:bg-gray-700'
                 }`}
               >
                 {item.label}
-                <span className={`text-gray-400 text-xs transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
+                <span className={`text-white/60 text-[10px] transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
               </button>
             </li>
           );
@@ -262,14 +266,14 @@ export default function MegaMenu() {
         />
       )}
 
-      {/* Mega panel */}
+      {/* Mega panel — bg blanco, ancho 1600px max para alinearse con la barra */}
       {openIdx !== null && isCategory(NAV[openIdx]) && (
         <div
-          className="absolute left-0 right-0 top-full bg-white border-t border-gray-200 shadow-xl z-40 animate-mega-in"
+          className="absolute left-0 right-0 top-full bg-white text-gray-900 border-t border-gray-200 shadow-xl z-40 animate-mega-in"
           onMouseEnter={cancelTimers}
           onMouseLeave={scheduleClose}
         >
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="max-w-[1600px] mx-auto px-4 sm:px-6 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="md:col-span-1">
               <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-2">
                 {(NAV[openIdx] as MegaCategory).label}
