@@ -45,6 +45,10 @@ export interface PendingOrder {
   total_clp: number;
   channel: string;
   items: PendingOrderItem[];
+  payment_status?: string | null;
+  payment_url?: string | null;
+  payment_reference?: string | null;
+  paid_at?: string | null;
 }
 
 function makeShortId(): string {
@@ -86,7 +90,12 @@ export async function createPendingOrder(input: CreatePendingOrderInput, whatsap
   return { id: data.id as number, short_id: data.short_id as string };
 }
 
-export function buildWhatsappLink(input: CreatePendingOrderInput, shortId: string, baseNumber: string): string {
+export function buildWhatsappLink(
+  input: CreatePendingOrderInput,
+  shortId: string,
+  baseNumber: string,
+  paymentUrl?: string,
+): string {
   const lines: string[] = [];
   lines.push(`🎨 *Pedido Boykot ${shortId}*`);
   lines.push('');
@@ -112,11 +121,17 @@ export function buildWhatsappLink(input: CreatePendingOrderInput, shortId: strin
     lines.push('');
     lines.push(`📝 ${input.notes}`);
   }
-  lines.push('');
-  lines.push(`✅ Confirmáme stock y mandame el link de pago, porfa.`);
+  if (paymentUrl) {
+    lines.push('');
+    lines.push(`💳 *Link de pago Mercado Pago:*`);
+    lines.push(paymentUrl);
+    lines.push(`(Aceptamos tarjeta, Apple Pay, Google Pay, Khipu, transferencia)`);
+  } else {
+    lines.push('');
+    lines.push(`✅ Confirmáme stock y mandame el link de pago, porfa.`);
+  }
 
   const text = encodeURIComponent(lines.join('\n'));
-  // Normalizar número: solo dígitos, sin +
   const num = baseNumber.replace(/[^0-9]/g, '');
   return `https://wa.me/${num}?text=${text}`;
 }
@@ -124,7 +139,7 @@ export function buildWhatsappLink(input: CreatePendingOrderInput, shortId: strin
 export async function listPendingOrders(limit = 50): Promise<PendingOrder[]> {
   const { data, error } = await supabaseAdmin()
     .from('pending_orders')
-    .select('id, short_id, status, created_at, customer_name, customer_email, customer_phone, total_clp, channel, items')
+    .select('id, short_id, status, created_at, customer_name, customer_email, customer_phone, total_clp, channel, items, payment_status, payment_url, payment_reference, paid_at')
     .order('created_at', { ascending: false })
     .limit(limit);
   if (error) return [];
