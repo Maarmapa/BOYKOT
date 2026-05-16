@@ -17,7 +17,8 @@
       "code": "004",
       "name": "Neutral",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/004.jpg?2020"
     },
     {
       "code": "010",
@@ -35,13 +36,15 @@
       "code": "014",
       "name": "Brown",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/014.jpg?2020"
     },
     {
       "code": "015",
       "name": "Chocolate",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/015.jpg?2020"
     },
     {
       "code": "017",
@@ -53,19 +56,22 @@
       "code": "018",
       "name": "Dark Brown",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/018.jpg?2020"
     },
     {
       "code": "019",
       "name": "English Tan",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/019.jpg?2020"
     },
     {
       "code": "021",
       "name": "Light Brown",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/021.jpg?2020"
     },
     {
       "code": "022",
@@ -83,7 +89,8 @@
       "code": "024",
       "name": "Orange",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/024.jpg?2020"
     },
     {
       "code": "028",
@@ -95,31 +102,36 @@
       "code": "029",
       "name": "Tan",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/029.jpg?2020"
     },
     {
       "code": "040",
       "name": "Blue",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/040.jpg?2020"
     },
     {
       "code": "041",
       "name": "Light Blue",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/041.jpg?2020"
     },
     {
       "code": "042",
       "name": "Navy Blue",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/042.jpg?2020"
     },
     {
       "code": "043",
       "name": "Turquoise",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/043.jpg?2020"
     },
     {
       "code": "044",
@@ -131,13 +143,15 @@
       "code": "047",
       "name": "Purple",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/047.jpg?2020"
     },
     {
       "code": "050",
       "name": "Green",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/050.jpg?2020"
     },
     {
       "code": "051",
@@ -149,7 +163,8 @@
       "code": "060",
       "name": "Burgundy",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/060.jpg?2020"
     },
     {
       "code": "062",
@@ -161,7 +176,8 @@
       "code": "064",
       "name": "Red",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/064.jpg?2020"
     },
     {
       "code": "065",
@@ -179,7 +195,8 @@
       "code": "075",
       "name": "Yellow",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/075.jpg?2020"
     },
     {
       "code": "091",
@@ -197,7 +214,8 @@
       "code": "093",
       "name": "Brick",
       "image": "https://www.boykot.cl/wp-content/uploads/2022/01/tintura-cuero-angelus-3862306f-f9a0-42e8-b67c-e699f4f8d4c4.png",
-      "matchSlug": "tintura-cuero-angelus-3-oz"
+      "matchSlug": "tintura-cuero-angelus-3-oz",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/093.jpg?2020"
     },
     {
       "code": "094",

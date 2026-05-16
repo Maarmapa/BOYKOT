@@ -8,91 +8,113 @@
   "colors": [
     {
       "code": "001",
-      "name": "Black"
+      "name": "Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020"
     },
     {
       "code": "004",
-      "name": "Neutral"
+      "name": "Neutral",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/004.jpg?2020"
     },
     {
       "code": "005",
-      "name": "White"
+      "name": "White",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/005-white.jpg?2021"
     },
     {
       "code": "014",
-      "name": "Brown"
+      "name": "Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/014.jpg?2020"
     },
     {
       "code": "015",
-      "name": "Chocolate"
+      "name": "Chocolate",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/015.jpg?2020"
     },
     {
       "code": "018",
-      "name": "Dark Brown"
+      "name": "Dark Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/018.jpg?2020"
     },
     {
       "code": "019",
-      "name": "English Tan"
+      "name": "English Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/019.jpg?2020"
     },
     {
       "code": "021",
-      "name": "Light Brown"
+      "name": "Light Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/021.jpg?2020"
     },
     {
       "code": "024",
-      "name": "Orange"
+      "name": "Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/024.jpg?2020"
     },
     {
       "code": "027",
-      "name": "Saddle"
+      "name": "Saddle",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/027.jpg?2020"
     },
     {
       "code": "029",
-      "name": "Tan"
+      "name": "Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/029.jpg?2020"
     },
     {
       "code": "040",
-      "name": "Blue"
+      "name": "Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/040.jpg?2020"
     },
     {
       "code": "041",
-      "name": "Light Blue"
+      "name": "Light Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/041.jpg?2020"
     },
     {
       "code": "042",
-      "name": "Navy Blue"
+      "name": "Navy Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/042.jpg?2020"
     },
     {
       "code": "043",
-      "name": "Turquoise"
+      "name": "Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/043.jpg?2020"
     },
     {
       "code": "045",
-      "name": "Blue Turquoise"
+      "name": "Blue Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/045.jpg?2020"
     },
     {
       "code": "047",
-      "name": "Purple"
+      "name": "Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/047.jpg?2020"
     },
     {
       "code": "050",
-      "name": "Green"
+      "name": "Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/050.jpg?2020"
     },
     {
       "code": "052",
-      "name": "Midnite Green"
+      "name": "Midnite Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/052.jpg?2020"
     },
     {
       "code": "060",
-      "name": "Burgundy"
+      "name": "Burgundy",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/060.jpg?2020"
     },
     {
       "code": "064",
-      "name": "Red"
+      "name": "Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/064.jpg?2020"
     },
     {
       "code": "070",
-      "name": "Beige"
+      "name": "Beige",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/070.jpg?2020"
     },
     {
       "code": "072",
@@ -100,139 +122,173 @@
     },
     {
       "code": "075",
-      "name": "Yellow"
+      "name": "Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/075.jpg?2020"
     },
     {
       "code": "080",
-      "name": "Dark Grey"
+      "name": "Dark Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/080.jpg?2020"
     },
     {
       "code": "081",
-      "name": "Grey"
+      "name": "Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/081.jpg?2020"
     },
     {
       "code": "082",
-      "name": "Light Grey"
+      "name": "Light Grey",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/082.jpg?2020"
     },
     {
       "code": "093",
-      "name": "Brick"
+      "name": "Brick",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/093.jpg?2020"
     },
     {
       "code": "101",
-      "name": "Flat Black"
+      "name": "Flat Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/101.jpg?2020"
     },
     {
       "code": "105",
-      "name": "Flat White"
+      "name": "Flat White",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/105.jpg?2020"
     },
     {
       "code": "141",
-      "name": "Copper"
+      "name": "Copper",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/141.jpg?2020"
     },
     {
       "code": "142",
-      "name": "Bronze"
+      "name": "Bronze",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/142.jpg?2020"
     },
     {
       "code": "143",
-      "name": "Pewter"
+      "name": "Pewter",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/143.jpg?2020"
     },
     {
       "code": "150",
-      "name": "Silver"
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/150.jpg?2020"
     },
     {
       "code": "155",
-      "name": "Bone"
+      "name": "Bone",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/155.jpg?2020"
     },
     {
       "code": "156",
-      "name": "Champagne"
+      "name": "Champagne",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/156.jpg?2021"
     },
     {
       "code": "157",
-      "name": "Dark Bone"
+      "name": "Dark Bone",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/157.jpg?2020"
     },
     {
       "code": "159",
-      "name": "Mist"
+      "name": "Mist",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/159.jpg?2020"
     },
     {
       "code": "160",
-      "name": "Vanilla"
+      "name": "Vanilla",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/160.jpg?2020"
     },
     {
       "code": "161",
-      "name": "Natural"
+      "name": "Natural",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/161.jpg?2020"
     },
     {
       "code": "162",
-      "name": "Cream"
+      "name": "Cream",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/162.jpg?2020"
     },
     {
       "code": "163",
-      "name": "Capezio Tan"
+      "name": "Capezio Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/163.jpg?2020"
     },
     {
       "code": "165",
-      "name": "Beige Taupe"
+      "name": "Beige Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/165.jpg?2020"
     },
     {
       "code": "166",
-      "name": "Grey Taupe"
+      "name": "Grey Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/166.jpg?2020"
     },
     {
       "code": "167",
-      "name": "Taupe"
+      "name": "Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/167.jpg?2020"
     },
     {
       "code": "168",
-      "name": "Dark Taupe"
+      "name": "Dark Taupe",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/168.jpg?2020"
     },
     {
       "code": "169",
-      "name": "Mauve"
+      "name": "Mauve",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/169.jpg?2020"
     },
     {
       "code": "170",
-      "name": "Avocado"
+      "name": "Avocado",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/170.jpg?2020"
     },
     {
       "code": "171",
-      "name": "Dark Green"
+      "name": "Dark Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/171.jpg?2020"
     },
     {
       "code": "172",
-      "name": "Light Green"
+      "name": "Light Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/172.jpg?2020"
     },
     {
       "code": "174",
-      "name": "Gift Box Blue"
+      "name": "Gift Box Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/174.jpg?2020"
     },
     {
       "code": "175",
-      "name": "Lilac"
+      "name": "Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/175.jpg?2020"
     },
     {
       "code": "176",
-      "name": "Pale Blue"
+      "name": "Pale Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/176.jpg?2020"
     },
     {
       "code": "177",
-      "name": "Sapphire"
+      "name": "Sapphire",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/177.jpg?2020"
     },
     {
       "code": "178",
-      "name": "Violet"
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/178.jpg?2020"
     },
     {
       "code": "179",
-      "name": "Dark Blue"
+      "name": "Dark Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/179.jpg?2020"
     },
     {
       "code": "180",
-      "name": "Cognac"
+      "name": "Cognac",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/180.jpg?2020"
     },
     {
       "code": "181",
@@ -240,111 +296,138 @@
     },
     {
       "code": "182",
-      "name": "Sand"
+      "name": "Sand",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/182.jpg?2020"
     },
     {
       "code": "183",
-      "name": "Terra Cotta Red"
+      "name": "Terra Cotta Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/183.jpg?2020"
     },
     {
       "code": "184",
-      "name": "Autumn Red"
+      "name": "Autumn Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/184.jpg?2020"
     },
     {
       "code": "185",
-      "name": "Fire Red"
+      "name": "Fire Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/185.jpg?2020"
     },
     {
       "code": "186",
-      "name": "Hot Pink"
+      "name": "Hot Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/186.jpg?2020"
     },
     {
       "code": "187",
-      "name": "Magenta"
+      "name": "Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/187.jpg?2020"
     },
     {
       "code": "188",
-      "name": "Pink"
+      "name": "Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/188.jpg?2020"
     },
     {
       "code": "189",
-      "name": "Petal Pink"
+      "name": "Petal Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/189.jpg?2020"
     },
     {
       "code": "190",
-      "name": "Scarlet Red"
+      "name": "Scarlet Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/190.jpg?2020"
     },
     {
       "code": "191",
-      "name": "Shell Pink"
+      "name": "Shell Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/191.jpg?2020"
     },
     {
       "code": "194",
-      "name": "Caramel"
+      "name": "Caramel",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/194.jpg?2020"
     },
     {
       "code": "196",
-      "name": "Mustard"
+      "name": "Mustard",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/196.jpg?2020"
     },
     {
       "code": "197",
-      "name": "Pale Yellow"
+      "name": "Pale Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/197.jpg?2020"
     },
     {
       "code": "198",
-      "name": "Buttercup"
+      "name": "Buttercup",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/198.jpg?2020"
     },
     {
       "code": "260",
-      "name": "Chili Red"
+      "name": "Chili Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/260.jpg?2020"
     },
     {
       "code": "261",
-      "name": "South Beach"
+      "name": "South Beach",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/261.jpg?2020"
     },
     {
       "code": "262",
-      "name": "Play in the Sand"
+      "name": "Play in the Sand",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/262.jpg?2020"
     },
     {
       "code": "263",
-      "name": "Grinch Green"
+      "name": "Grinch Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/263.jpg?2020"
     },
     {
       "code": "264",
-      "name": "Putty"
+      "name": "Putty",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/264.jpg?2020"
     },
     {
       "code": "265",
-      "name": "Tangerine"
+      "name": "Tangerine",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/265.jpg?2020"
     },
     {
       "code": "266",
-      "name": "Georgia PeachPINT"
+      "name": "Georgia PeachPINT",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/266.jpg?2020"
     },
     {
       "code": "267",
-      "name": "Salmon"
+      "name": "Salmon",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/267.jpg?2020"
     },
     {
       "code": "268",
-      "name": "Raspberry"
+      "name": "Raspberry",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/268.jpg?2020"
     },
     {
       "code": "272",
-      "name": "Olive"
+      "name": "Olive",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/272.jpg?2020"
     },
     {
       "code": "273",
-      "name": "Bowler Brown"
+      "name": "Bowler Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/273.jpg?2020"
     },
     {
       "code": "274",
-      "name": "Luggage Brown"
+      "name": "Luggage Brown",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/274.jpg?2022"
     },
     {
       "code": "275",
-      "name": "Satchel Tan"
+      "name": "Satchel Tan",
+      "imageUrl": "https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/275.jpg?2020"
     },
     {
       "code": "451",
