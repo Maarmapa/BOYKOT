@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'node:fs';
 import path from 'node:path';
+import { ftsSearch } from '@/lib/search-fts';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -37,6 +38,29 @@ export async function GET(req: NextRequest) {
 
   if (q.length < 2) return NextResponse.json({ results: [] });
 
+  // 1) Primero intentar FTS (Supabase). Si tabla esta poblada, ranking es mucho mejor.
+  try {
+    const ftsResults = await ftsSearch(q, limit);
+    if (ftsResults.length > 0) {
+      return NextResponse.json({
+        results: ftsResults.map(r => ({
+          slug: r.slug,
+          name: r.name,
+          sku: r.sku,
+          price: r.price_clp,
+          image: r.image,
+          brand: r.brand,
+          cat: r.category,
+        })),
+        total: ftsResults.length,
+        engine: 'fts',
+      });
+    }
+  } catch {
+    // Si FTS falla (tabla vacia o RPC error), caer al index file
+  }
+
+  // 2) Fallback: naive string-match sobre public/products-index.json
   const idx = loadIndex();
   const qn = normalize(q);
   const tokens = qn.split(/\s+/).filter(Boolean);
@@ -58,5 +82,6 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({
     results: scored.slice(0, limit).map(s => s.p),
     total: scored.length,
+    engine: 'string-match',
   });
 }
