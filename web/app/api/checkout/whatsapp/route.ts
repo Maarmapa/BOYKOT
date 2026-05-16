@@ -6,6 +6,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createPendingOrder, buildWhatsappLink, type PendingOrderItem } from '@/lib/pending-orders';
 import { sendOrderConfirmationToCustomer, sendOrderNotificationToAdmin } from '@/lib/email';
+import { createPreference } from '@/lib/mercadopago';
+import { supabaseAdmin } from '@/lib/supabase';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -50,10 +52,51 @@ export async function POST(req: NextRequest) {
 
   try {
     const saved = await createPendingOrder(body, provisional_url);
-    const final_url = buildWhatsappLink(body, saved.short_id, whatsappNumber);
 
-    // Disparar emails en paralelo. Si Brevo no está set o falla, no
-    // bloqueamos la respuesta — el WhatsApp ya cumple el rol de confirmar.
+    // Generar preference MP en paralelo (best-effort, no bloqueante).
+    // Si MP_ACCESS_TOKEN no está set o falla, igual seguimos — el cliente
+    // puede generar el link desde /pago/<short_id> después.
+    let mp_payment_url: string | null = null;
+    try {
+      const items = body.items.map(i => ({
+        title: i.color_code ? `${i.color_code} – ${i.name}` : i.name,
+        quantity: i.qty,
+        unit_price: i.unit_price_clp,
+        description: i.name,
+      }));
+      if (body.shipping_clp > 0 && !body.shipping.store_pickup) {
+        items.push({ title: 'Despacho', quantity: 1, unit_price: body.shipping_clp, description: 'Envío a domicilio' });
+      }
+      const pref = await createPreference({
+        short_id: saved.short_id,
+        items,
+        payer: { name: body.customer.name, email: body.customer.email, phone: body.customer.phone },
+        notes: body.notes,
+      });
+      mp_payment_url = pref.init_point;
+      await supabaseAdmin()
+        .from('pending_orders')
+        .update({
+          payment_provider: 'mercadopago',
+          payment_status: 'pending',
+          payment_reference: pref.preference_id,
+          payment_url: mp_payment_url,
+        })
+        .eq('short_id', saved.short_id);
+    } catch (e) {
+      console.warn('[checkout] MP preference failed (continuing):', (e as Error).message);
+    }
+
+    // Construir WhatsApp link CON el payment_url si se pudo generar
+    const final_url = buildWhatsappLink(body, saved.short_id, whatsappNumber, mp_payment_url ?? undefined);
+
+    // Update whatsapp_message_url con el final
+    await supabaseAdmin()
+      .from('pending_orders')
+      .update({ whatsapp_message_url: final_url })
+      .eq('short_id', saved.short_id);
+
+    // Disparar emails en paralelo (no bloqueantes)
     const emailInput = {
       short_id: saved.short_id,
       customer: body.customer,
@@ -74,6 +117,7 @@ export async function POST(req: NextRequest) {
       ok: true,
       short_id: saved.short_id,
       whatsapp_url: final_url,
+      payment_url: mp_payment_url,
     });
   } catch (e) {
     return NextResponse.json({ error: (e as Error).message }, { status: 500 });

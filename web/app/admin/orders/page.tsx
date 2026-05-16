@@ -47,6 +47,7 @@ export default async function OrdersAdminPage() {
                 <th className="px-4 py-3 text-right">Total</th>
                 <th className="px-4 py-3">Items</th>
                 <th className="px-4 py-3">Status</th>
+                <th className="px-4 py-3">Pago</th>
                 <th className="px-4 py-3">Fecha</th>
               </tr>
             </thead>
@@ -69,6 +70,9 @@ export default async function OrdersAdminPage() {
                   </td>
                   <td className="px-4 py-3">
                     <StatusBadge status={o.status} />
+                  </td>
+                  <td className="px-4 py-3">
+                    <PaymentBadge status={o.payment_status ?? 'unpaid'} url={o.payment_url ?? null} shortId={o.short_id} />
                   </td>
                   <td className="px-4 py-3 text-xs text-gray-500 whitespace-nowrap">
                     {new Date(o.created_at).toLocaleString('es-CL', { dateStyle: 'short', timeStyle: 'short' })}
@@ -109,5 +113,28 @@ function StatusBadge({ status }: { status: string }) {
     <span className={`inline-block px-2 py-0.5 text-[10px] uppercase tracking-wider border rounded ${cls}`}>
       {status}
     </span>
+  );
+}
+
+function PaymentBadge({ status, url, shortId }: { status: string; url: string | null; shortId: string }) {
+  const colors: Record<string, string> = {
+    paid: 'bg-green-100 text-green-800 border-green-300 font-semibold',
+    processing: 'bg-blue-50 text-blue-800 border-blue-200',
+    pending: 'bg-amber-50 text-amber-800 border-amber-200',
+    failed: 'bg-red-50 text-red-800 border-red-200',
+    refunded: 'bg-gray-100 text-gray-600 border-gray-200',
+    unpaid: 'bg-gray-100 text-gray-500 border-gray-200',
+  };
+  const cls = colors[status] || 'bg-gray-100 text-gray-500 border-gray-200';
+  const label = status === 'paid' ? '✓ pagado' : status;
+  return (
+    <div className="flex flex-col gap-1">
+      <span className={`inline-block px-2 py-0.5 text-[10px] uppercase tracking-wider border rounded ${cls}`}>
+        {label}
+      </span>
+      {url && status !== 'paid' && (
+        <a href={`/pago/${shortId}`} target="_blank" className="text-[10px] text-blue-600 hover:underline">link pago →</a>
+      )}
+    </div>
   );
 }
