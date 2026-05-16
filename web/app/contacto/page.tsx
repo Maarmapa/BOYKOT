@@ -61,7 +61,7 @@ export default function ContactPage() {
             <div className="border border-gray-100 rounded-lg p-5">
               <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Redes</h2>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://instagram.com/boykot187" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:underline">Instagram @boykot187</a></li>
+                <li><a href="https://instagram.com/boykot.cl" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:underline">Instagram @boykot.cl</a></li>
                 <li><a href="https://facebook.com/molotowchile" target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:underline">Facebook</a></li>
               </ul>
             </div>

@@ -5,6 +5,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { createPendingOrder, buildWhatsappLink, type PendingOrderItem } from '@/lib/pending-orders';
+import { sendOrderConfirmationToCustomer, sendOrderNotificationToAdmin } from '@/lib/email';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -49,8 +50,26 @@ export async function POST(req: NextRequest) {
 
   try {
     const saved = await createPendingOrder(body, provisional_url);
-    // Generar el URL final con el short_id real
     const final_url = buildWhatsappLink(body, saved.short_id, whatsappNumber);
+
+    // Disparar emails en paralelo. Si Brevo no está set o falla, no
+    // bloqueamos la respuesta — el WhatsApp ya cumple el rol de confirmar.
+    const emailInput = {
+      short_id: saved.short_id,
+      customer: body.customer,
+      shipping: body.shipping,
+      items: body.items,
+      subtotal_clp: body.subtotal_clp,
+      shipping_clp: body.shipping_clp,
+      total_clp: body.total_clp,
+      notes: body.notes,
+      whatsapp_url: final_url,
+    };
+    Promise.all([
+      sendOrderConfirmationToCustomer(emailInput).catch(e => console.error('[checkout] customer email:', e.message)),
+      sendOrderNotificationToAdmin(emailInput).catch(e => console.error('[checkout] admin email:', e.message)),
+    ]).catch(() => {});
+
     return NextResponse.json({
       ok: true,
       short_id: saved.short_id,
