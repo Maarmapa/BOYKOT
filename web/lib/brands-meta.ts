@@ -18,6 +18,10 @@ export interface BrandMeta {
   origin: string;     // 'Japón', 'Estados Unidos'
   since: string;      // '1987'
   heroImage: string;
+  /** Optional brand video for hero — autoplay muted loop, falls back to heroImage poster. */
+  heroVideo?: string;
+  /** Optional secondary video shown smaller in the page (process / detail shot). */
+  detailVideo?: string;
   logo?: string;
   officialDistributor: boolean;
   subLines: BrandSubLine[];
@@ -33,6 +37,8 @@ export const BRANDS_META: Record<string, BrandMeta> = {
     origin: 'Japón',
     since: '1987',
     heroImage: 'https://www.boykot.cl/wp-content/uploads/2021/07/74a327b3-97a6-4726-b1bb-012cde0ceb85-sketchpost.jpeg',
+    // Hero video oficial copic.jp/en/ (mismo del homepage) — perfecto loop japonés
+    heroVideo: '/videos/copic-hero-pc.mp4',
     officialDistributor: true,
     subLines: [
       { name: 'Sketch', slug: 'copic-sketch', description: 'El icónico — punta súper brush flexible, 358 colores, recargable.', colors: 358, priceFrom: 4300 },
@@ -56,6 +62,9 @@ export const BRANDS_META: Record<string, BrandMeta> = {
     origin: 'Estados Unidos',
     since: '1907',
     heroImage: 'https://www.boykot.cl/wp-content/themes/boykot/images/angelus/standard/color/001.jpg?2020',
+    // Custom sneakers en proceso (angelusdirect.com) — visual fuerte
+    heroVideo: '/videos/angelus-1.mp4',
+    detailVideo: '/videos/angelus-2.mp4',
     officialDistributor: true,
     subLines: [
       { name: 'Standard 1oz', slug: 'angelus-standard-1oz', description: 'Pintura para cuero clásica en 88 colores. Formato 30ml.', colors: 88, priceFrom: 5500 },

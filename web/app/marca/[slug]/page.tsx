@@ -94,11 +94,57 @@ export default async function BrandLandingPage({ params }: { params: Promise<{ s
               </Link>
             </div>
           </div>
-          <div className="aspect-square bg-gray-50 rounded-2xl overflow-hidden">
-            <img src={brand.heroImage} alt={brand.name} className="w-full h-full object-cover" />
+          <div className="aspect-square bg-gray-50 rounded-2xl overflow-hidden relative">
+            {brand.heroVideo ? (
+              <video
+                src={brand.heroVideo}
+                poster={brand.heroImage}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                className="w-full h-full object-cover"
+              />
+            ) : (
+              <img src={brand.heroImage} alt={brand.name} className="w-full h-full object-cover" />
+            )}
           </div>
         </div>
       </section>
+
+      {/* DETAIL VIDEO — solo si la marca tiene segundo video (Angelus por ej.) */}
+      {brand.detailVideo && (
+        <section className="border-b border-gray-100 bg-black">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="aspect-video bg-gray-900 rounded-xl overflow-hidden">
+                <video
+                  src={brand.detailVideo}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-white">
+                <div className="text-xs font-semibold tracking-[0.18em] text-gray-400 uppercase mb-2">
+                  El proceso
+                </div>
+                <h2 className="text-3xl sm:text-4xl mb-4 leading-tight">
+                  {brand.name} en acción
+                </h2>
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                  {brand.tagline}. Hecho para profesionales que necesitan calidad y consistencia
+                  en cada proyecto. Si querés asesoría técnica para un encargo específico, hablemos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* HIGHLIGHTS */}
       <section className="border-b border-gray-100 bg-gray-50">

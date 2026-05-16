@@ -74,3 +74,26 @@ export function firstImageFromContent(item: WpItem): string | null {
   const m = item.content.rendered.match(/<img[^>]+src=["']([^"']+)["']/i);
   return m ? m[1] : null;
 }
+
+// Sanitiza shortcodes de WP que no podemos ejecutar fuera de WordPress.
+// Sustituye por placeholders amigables o los strippea.
+export function sanitizeWpContent(html: string): string {
+  return html
+    // Contact Form 7 — redirige a /contacto en lugar de mostrar shortcode
+    .replace(
+      /\[contact-form-7[^\]]*\]/gi,
+      '<p><a href="/contacto" class="inline-block bg-gray-900 text-white px-5 py-2.5 rounded-md font-semibold text-sm uppercase tracking-wider no-underline hover:bg-gray-700">Ir al formulario de contacto →</a></p>'
+    )
+    // Newsletter preferences — link a contacto
+    .replace(
+      /\[automatewoo_communication_preferences[^\]]*\]/gi,
+      '<p class="text-sm text-gray-500"><em>Para gestionar tus preferencias de mail escribinos a hola@boykot.cl</em></p>'
+    )
+    // WooCommerce shortcodes — strip silenciosamente
+    .replace(/\[woocommerce_checkout[^\]]*\]/gi, '')
+    .replace(/\[woocommerce_prl_recommendations[^\]]*\]/gi, '')
+    // Wrappers de WP block que no aportan visualmente
+    .replace(/<!--\s*\/?wp:[^>]*-->/g, '')
+    // Cleanup espacios excesivos
+    .replace(/\n{3,}/g, '\n\n');
+}

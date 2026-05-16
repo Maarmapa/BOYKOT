@@ -7,6 +7,7 @@ import {
   plainTitle,
   plainExcerpt,
   firstImageFromContent,
+  sanitizeWpContent,
 } from '@/lib/wp-archive';
 
 // Páginas SEO rescatadas del WP original (regalos-para-artistas, sets-base-agua,
@@ -86,7 +87,7 @@ export default async function SeoLandingPage({ params }: { params: Promise<Param
           <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
             <div
               className="wp-content"
-              dangerouslySetInnerHTML={{ __html: page.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: sanitizeWpContent(page.content.rendered) }}
             />
           </div>
         </section>

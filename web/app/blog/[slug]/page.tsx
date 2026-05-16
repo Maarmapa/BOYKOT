@@ -8,6 +8,7 @@ import {
   plainTitle,
   plainExcerpt,
   firstImageFromContent,
+  sanitizeWpContent,
 } from '@/lib/wp-archive';
 
 interface Params {
@@ -85,7 +86,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
             <div
               className="wp-content"
-              dangerouslySetInnerHTML={{ __html: post.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: sanitizeWpContent(post.content.rendered) }}
             />
           </div>
         </section>

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getProduct, relatedProducts } from '@/lib/products';
+import { getWcProduct, uniqueImages, getVariationsFor } from '@/lib/wc-products';
 import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 import { BRANDS_META } from '@/lib/brands-meta';
 import ProductGallery from '@/components/ProductGallery';
@@ -67,18 +68,32 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
   const p = getProduct(slug);
   if (!p) notFound();
 
+  // Enriquecer con wc-products.json (descripcion HTML completa + multi-image + variations)
+  const wc = getWcProduct(slug);
+  const variations = wc ? getVariationsFor(wc.id) : [];
+
   const related = relatedProducts(p, 8);
-  const inStock = p.availability !== 'OutOfStock';
+  const inStock = wc ? wc.is_in_stock : p.availability !== 'OutOfStock';
 
   const colorLineSlug = matchColorLine(p.slug, p.brand);
   const colorLine = colorLineSlug ? BRANDS[colorLineSlug] : null;
   const brandMetaSlug = matchBrandMeta(p.brand);
 
-  // Gallery: image + gallery extras + colorLine heroes para tener variedad
-  const galleryImages = [p.image, ...(p.gallery || [])].filter(Boolean) as string[];
+  // Gallery: priorizar imagenes de wc-products (suelen ser mas y mejor calidad),
+  // fallback a products.json
+  const wcGallery = wc ? uniqueImages(wc) : [];
+  const galleryImages = wcGallery.length > 0
+    ? wcGallery
+    : ([p.image, ...(p.gallery || [])].filter(Boolean) as string[]);
   if (colorLine?.heroImage && !galleryImages.includes(colorLine.heroImage)) {
     galleryImages.push(colorLine.heroImage);
   }
+
+  // Descripcion: preferir el HTML rico de WC sobre el plano de products.json
+  const richDescription = wc?.description || '';
+  const plainDescription = p.description || p.short || '';
+  // Precio: WC esta mas updated, fallback a products.json
+  const displayPrice = wc?.price ?? p.price;
 
   // Schema.org Product JSON-LD
   const productSchema = {
@@ -180,11 +195,16 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
             </h1>
 
             {/* Price */}
-            {p.price && (
+            {displayPrice && (
               <div className="flex items-baseline gap-3 mb-5">
                 <div className="text-3xl sm:text-4xl font-bold text-gray-900">
-                  ${p.price.toLocaleString('es-CL')}
+                  ${displayPrice.toLocaleString('es-CL')}
                 </div>
+                {wc?.on_sale && wc.regular_price && wc.regular_price > (wc.price || 0) && (
+                  <span className="text-base text-gray-400 line-through">
+                    ${wc.regular_price.toLocaleString('es-CL')}
+                  </span>
+                )}
                 <span className="text-xs text-gray-500">CLP · IVA incluido</span>
               </div>
             )}
@@ -201,10 +221,51 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
               {inStock ? 'En stock — Envío 24-48 hrs Chile' : 'Agotado — Consultar disponibilidad'}
             </div>
 
-            {/* Description */}
-            {p.description && (
-              <div className="prose prose-sm max-w-none text-gray-700 leading-relaxed mb-8 whitespace-pre-line">
-                {p.description}
+            {/* Description — prefer rich HTML de WC, fallback a plain de products.json */}
+            {richDescription ? (
+              <div
+                className="wp-content text-sm sm:text-base mb-8"
+                dangerouslySetInnerHTML={{ __html: richDescription }}
+              />
+            ) : plainDescription ? (
+              <div className="text-gray-700 leading-relaxed mb-8 whitespace-pre-line text-sm sm:text-base">
+                {plainDescription}
+              </div>
+            ) : null}
+
+            {/* Variations — si es producto variable (tallas/colores), mostrar opciones */}
+            {variations.length > 1 && (
+              <div className="mb-8 p-5 bg-gray-50 border border-gray-200 rounded-xl">
+                <div className="text-xs font-semibold tracking-wider text-gray-500 uppercase mb-3">
+                  {variations.length} variantes disponibles
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                  {variations.slice(0, 9).map(v => {
+                    const label = v.attributes?.map(a => a.value).join(' / ') || v.name;
+                    return (
+                      <div
+                        key={v.id}
+                        className={`text-xs p-2 rounded border ${
+                          v.is_in_stock
+                            ? 'bg-white border-gray-200 text-gray-900'
+                            : 'bg-gray-100 border-gray-200 text-gray-400 line-through'
+                        }`}
+                      >
+                        <div className="font-medium capitalize line-clamp-1">{label}</div>
+                        {v.price && (
+                          <div className="text-gray-500 mt-0.5">
+                            ${v.price.toLocaleString('es-CL')}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+                {variations.length > 9 && (
+                  <div className="text-xs text-gray-500 mt-3">
+                    +{variations.length - 9} variantes más. Consultá por WhatsApp.
+                  </div>
+                )}
               </div>
             )}
 
