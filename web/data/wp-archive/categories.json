@@ -1,0 +1,26 @@
+[
+  {
+    "id": 864,
+    "count": 31,
+    "description": "",
+    "name": "Blog",
+    "slug": "blog",
+    "parent": 0
+  },
+  {
+    "id": 5052,
+    "count": 1,
+    "description": "",
+    "name": "Destacada",
+    "slug": "destacada",
+    "parent": 0
+  },
+  {
+    "id": 1,
+    "count": 3,
+    "description": "",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "parent": 0
+  }
+]
