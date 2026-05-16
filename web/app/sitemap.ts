@@ -28,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/comparar`, lastModified: now, priority: 0.5 },
     { url: `${SITE}/regalos`, lastModified: now, priority: 0.7 },
     { url: `${SITE}/community`, lastModified: now, priority: 0.6 },
+    { url: `${SITE}/regalo`, lastModified: now, priority: 0.7 },
+    { url: `${SITE}/regalo/canjear`, lastModified: now, priority: 0.5 },
     ...allPostSlugs().map(slug => ({
       url: `${SITE}/blog/${slug}`,
       lastModified: now,
