@@ -1,0 +1,331 @@
+[
+  {
+    "id": 3195,
+    "name": "Acrilex",
+    "slug": "acrilex",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2011,
+    "name": "Angelus",
+    "slug": "angelus",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5638,
+    "name": "Arches",
+    "slug": "arches",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5492,
+    "name": "Canson",
+    "slug": "canson",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3299,
+    "name": "Capas y cuidados",
+    "slug": "capas-y-cuidados",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 1890,
+    "name": "Copic",
+    "slug": "copic",
+    "count": 0,
+    "description": "Copic"
+  },
+  {
+    "id": 5700,
+    "name": "Createx",
+    "slug": "createx",
+    "count": 0,
+    "description": "Marca europea líder en pinturas para aerógrafo de alta calidad"
+  },
+  {
+    "id": 6813,
+    "name": "Daler Rowney",
+    "slug": "daler-rowney",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5493,
+    "name": "Derwent",
+    "slug": "derwent",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 1999,
+    "name": "Ecoline",
+    "slug": "ecoline",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3158,
+    "name": "Edding",
+    "slug": "edding",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5458,
+    "name": "Faber-Castell",
+    "slug": "faber-castell-chile",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5498,
+    "name": "Glasurit",
+    "slug": "glasurit",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2005,
+    "name": "Golden",
+    "slug": "golden",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2155,
+    "name": "Grog",
+    "slug": "grog",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2007,
+    "name": "Hahnemühle",
+    "slug": "hahnemuhle",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5491,
+    "name": "Higashiyama",
+    "slug": "higashiyama",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2341,
+    "name": "Holbein",
+    "slug": "holbein",
+    "count": 188,
+    "description": ""
+  },
+  {
+    "id": 2012,
+    "name": "IC",
+    "slug": "ic",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2056,
+    "name": "Kirarina",
+    "slug": "kirarina",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 4359,
+    "name": "Krack",
+    "slug": "krack",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 4640,
+    "name": "Kuretake",
+    "slug": "kuretake",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3614,
+    "name": "Lace Lab",
+    "slug": "lace-lab",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3606,
+    "name": "Lamy",
+    "slug": "lamy",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3872,
+    "name": "LK SHOES",
+    "slug": "lk-shoes",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 1889,
+    "name": "Molotow",
+    "slug": "molotow",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3021,
+    "name": "Nikko",
+    "slug": "nikko",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5637,
+    "name": "Official",
+    "slug": "official",
+    "count": 0,
+    "description": "Ropa urbana"
+  },
+  {
+    "id": 5497,
+    "name": "OLFA",
+    "slug": "olfa",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5494,
+    "name": "Pentel",
+    "slug": "pentel",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5007,
+    "name": "Pilot",
+    "slug": "pilot",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3410,
+    "name": "POSCA",
+    "slug": "posca",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5487,
+    "name": "Preval",
+    "slug": "preval",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2003,
+    "name": "Princeton",
+    "slug": "princeton",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2002,
+    "name": "Prismacolor",
+    "slug": "prismacolor",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 1997,
+    "name": "QOR",
+    "slug": "qor",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3083,
+    "name": "Raleigh",
+    "slug": "raleigh",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5490,
+    "name": "Real Value",
+    "slug": "real-value",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5496,
+    "name": "Sin marca",
+    "slug": "sin-marca",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 4102,
+    "name": "SOLAR COLOR",
+    "slug": "solar-color",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5488,
+    "name": "Solar Color Dust",
+    "slug": "solar-color-dust",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 3608,
+    "name": "Speedball",
+    "slug": "speedball",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2907,
+    "name": "Tachikawa",
+    "slug": "tachikawa",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5639,
+    "name": "Uniball",
+    "slug": "uniball",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 2165,
+    "name": "VanGogh",
+    "slug": "vangogh",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 5486,
+    "name": "X-press it",
+    "slug": "x-press-it",
+    "count": 0,
+    "description": ""
+  },
+  {
+    "id": 4462,
+    "name": "ZIG",
+    "slug": "zig",
+    "count": 0,
+    "description": ""
+  }
+]
