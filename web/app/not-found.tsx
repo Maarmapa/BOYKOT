@@ -11,44 +11,50 @@ const POPULAR = [
 
 export default function NotFound() {
   return (
-    <main className="min-h-[60vh] bg-white">
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="text-center mb-10">
-          <div className="text-7xl font-bold text-gray-200 mb-4">404</div>
-          <h1 className="text-2xl font-bold text-gray-900 mb-3">
-            Esta página no existe (o ya no)
+    <main className="bg-white min-h-screen">
+      {/* Hero dark */}
+      <section className="bg-gray-900 text-white border-b border-gray-800">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24 text-center">
+          <div className="text-8xl sm:text-9xl font-bold text-gray-700 mb-3 leading-none">
+            404
+          </div>
+          <h1 className="text-2xl sm:text-3xl mb-3 leading-tight">
+            Esta página no existe (o ya no).
           </h1>
-          <p className="text-gray-600 mb-6 max-w-md mx-auto">
+          <p className="text-gray-400 max-w-md mx-auto text-sm sm:text-base mb-6">
             La URL que buscás no está acá. Quizás fue movida, escribiste algo distinto,
-            o simplemente nunca existió. Probá con algo popular abajo.
+            o simplemente nunca existió.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link
               href="/"
-              className="text-white px-5 py-2.5 rounded-md font-semibold hover:opacity-90 transition-opacity"
-              style={{ backgroundColor: '#0066ff' }}
+              className="inline-block bg-white text-gray-900 px-6 py-3 rounded-md font-semibold text-sm uppercase tracking-wider hover:bg-gray-100 transition-colors"
             >
               Volver al inicio
             </Link>
             <Link
-              href="/colores"
-              className="border border-gray-300 text-gray-900 px-5 py-2.5 rounded-md font-semibold hover:border-gray-900 transition-colors"
+              href="/buscar"
+              className="inline-block border border-gray-700 text-white px-6 py-3 rounded-md font-semibold text-sm uppercase tracking-wider hover:bg-gray-800 transition-colors"
             >
-              Todas las cartas
+              Buscar productos
             </Link>
           </div>
         </div>
+      </section>
 
-        <div className="border-t border-gray-200 pt-10">
-          <h2 className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-5 text-center">
-            Lo más buscado en Boykot
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      {/* Popular */}
+      <section className="border-b border-gray-100">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+          <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-2">
+            Lo más buscado
+          </div>
+          <h2 className="text-2xl text-gray-900 mb-6">Para que no te vayas con las manos vacías</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
             {POPULAR.map(p => (
               <Link
                 key={p.href}
                 href={p.href}
-                className="block bg-gray-50 hover:bg-gray-100 border border-gray-100 hover:border-gray-300 rounded-lg p-4 transition-colors"
+                className="block bg-white hover:bg-gray-50 border border-gray-200 hover:border-gray-900 rounded-lg p-4 transition-colors"
               >
                 <div className="font-semibold text-gray-900 text-sm mb-1">{p.name}</div>
                 <div className="text-xs text-gray-500">{p.subtitle}</div>
@@ -56,21 +62,21 @@ export default function NotFound() {
             ))}
           </div>
         </div>
+      </section>
 
-        <div className="text-center mt-10">
-          <p className="text-xs text-gray-400">
-            ¿Buscás algo específico? Escribinos por{' '}
-            <a href="https://wa.me/56223350961" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">
-              WhatsApp
-            </a>{' '}
-            o a{' '}
-            <a href="mailto:providencia@boykot.cl" className="text-blue-700 hover:underline">
-              providencia@boykot.cl
-            </a>
-            .
-          </p>
+      {/* CTA */}
+      <section className="bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10 text-center text-sm text-gray-600">
+          ¿Buscás algo específico que no encontrás? Escribinos por{' '}
+          <a href="https://wa.me/56223350961" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">
+            WhatsApp
+          </a>
+          {' '}o{' '}
+          <a href="mailto:providencia@boykot.cl" className="text-blue-600 hover:underline font-semibold">
+            email
+          </a>.
         </div>
-      </div>
+      </section>
     </main>
   );
 }
