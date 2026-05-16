@@ -3,15 +3,17 @@ import { BRANDS } from '@/lib/colors/brands';
 import bsaleVariants from '@/data/bsale-variants-all.json';
 import Link from 'next/link';
 import AdminChrome from '@/components/admin/Chrome';
+import { listPendingOrders } from '@/lib/pending-orders';
 
 export const dynamic = 'force-dynamic';
 
 export default async function AdminDashboard() {
   await requireAdmin();
-  return <AdminChrome><DashboardBody /></AdminChrome>;
+  const orders = await listPendingOrders(100);
+  return <AdminChrome><DashboardBody ordersCount={orders.length} pendingOrdersCount={orders.filter(o => o.status === 'pending').length} /></AdminChrome>;
 }
 
-function DashboardBody() {
+function DashboardBody({ ordersCount, pendingOrdersCount }: { ordersCount: number; pendingOrdersCount: number }) {
   const variantsByBrand = (bsaleVariants as { by_brand: Record<string, Record<string, number>> }).by_brand;
 
   const brandSlugs = Object.keys(BRANDS);
@@ -31,9 +33,9 @@ function DashboardBody() {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+        <Stat label="Pedidos pendientes" value={pendingOrdersCount} note={`${ordersCount} totales`} highlight={pendingOrdersCount > 0} />
         <Stat label="Brand pages activas" value={totalBrands} note={`${brandsWithBsaleId} con stock live`} />
-        <Stat label="Colores registrados" value={totalColorsRegistered} note="suma de todos los swatches" />
-        <Stat label="VariantIds BSale mapeados" value={totalVariantsMapped} note="stock-live ready" />
+        <Stat label="VariantIds mapeados" value={totalVariantsMapped} note={`${totalColorsRegistered} colores totales`} />
         <Stat label="Sub-slugs pendientes" value={slugsInJsonNotInBrands.length} note="en JSON, no en brands.ts" />
       </div>
 
@@ -65,11 +67,11 @@ function DashboardBody() {
   );
 }
 
-function Stat({ label, value, note }: { label: string; value: number; note?: string }) {
+function Stat({ label, value, note, highlight }: { label: string; value: number; note?: string; highlight?: boolean }) {
   return (
-    <div className="bg-white rounded-lg border border-gray-200 p-4">
+    <div className={`rounded-lg border p-4 ${highlight ? 'bg-amber-50 border-amber-300' : 'bg-white border-gray-200'}`}>
       <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">{label}</div>
-      <div className="text-3xl font-bold mt-1">{value.toLocaleString('es-CL')}</div>
+      <div className={`text-3xl font-bold mt-1 ${highlight ? 'text-amber-900' : ''}`}>{value.toLocaleString('es-CL')}</div>
       {note && <div className="text-xs text-gray-400 mt-1">{note}</div>}
     </div>
   );
