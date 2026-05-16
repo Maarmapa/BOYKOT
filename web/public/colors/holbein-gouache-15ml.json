@@ -8,47 +8,58 @@
   "colors": [
     {
       "code": "A503",
-      "name": "Geranium"
+      "name": "Geranium",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G503.jpg"
     },
     {
       "code": "A507",
-      "name": "Flame Red"
+      "name": "Flame Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G507.jpg"
     },
     {
       "code": "A508",
-      "name": "Brilliant Orange"
+      "name": "Brilliant Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G508.jpg"
     },
     {
       "code": "A520",
-      "name": "Permanent Yellow"
+      "name": "Permanent Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G520.jpg"
     },
     {
       "code": "A521",
-      "name": "Permanent Yellow Deep"
+      "name": "Permanent Yellow Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G521.jpg"
     },
     {
       "code": "A522",
-      "name": "Permanent Yellow Orange"
+      "name": "Permanent Yellow Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G522.jpg"
     },
     {
       "code": "A526",
-      "name": "Lemon Yellow"
+      "name": "Lemon Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G526.jpg"
     },
     {
       "code": "A527",
-      "name": "Yellow Ochre"
+      "name": "Yellow Ochre",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G527.jpg"
     },
     {
       "code": "A540",
-      "name": "Leaf Green"
+      "name": "Leaf Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G540.jpg"
     },
     {
       "code": "A541",
-      "name": "Permanent Green Light"
+      "name": "Permanent Green Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G541.jpg"
     },
     {
       "code": "A542",
-      "name": "Permanent Green Deep"
+      "name": "Permanent Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G542.jpg"
     },
     {
       "code": "A545",
@@ -56,131 +67,163 @@
     },
     {
       "code": "A547",
-      "name": "Cyprus Green"
+      "name": "Cyprus Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G547.jpg"
     },
     {
       "code": "A548",
-      "name": "Dark Green"
+      "name": "Dark Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G548.jpg"
     },
     {
       "code": "A550",
-      "name": "Terre Verte"
+      "name": "Terre Verte",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G550.jpg"
     },
     {
       "code": "A553",
-      "name": "Moss Green"
+      "name": "Moss Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G553.jpg"
     },
     {
       "code": "A554",
-      "name": "Turquoise Green"
+      "name": "Turquoise Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G554.jpg"
     },
     {
       "code": "A555",
-      "name": "Ash Green"
+      "name": "Ash Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G555.jpg"
     },
     {
       "code": "A560",
-      "name": "Ice Blue"
+      "name": "Ice Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G560.jpg"
     },
     {
       "code": "A564",
-      "name": "Ultramarine Light"
+      "name": "Ultramarine Light",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G564.jpg"
     },
     {
       "code": "A565",
-      "name": "Ultramarine Deep"
+      "name": "Ultramarine Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G565.jpg"
     },
     {
       "code": "A566",
-      "name": "Prussian Blue"
+      "name": "Prussian Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G566.jpg"
     },
     {
       "code": "A567",
-      "name": "Peacock Blue"
+      "name": "Peacock Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G567.jpg"
     },
     {
       "code": "A570",
-      "name": "Aqua Blue"
+      "name": "Aqua Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G570.jpg"
     },
     {
       "code": "A571",
-      "name": "Pure Blue"
+      "name": "Pure Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G571.jpg"
     },
     {
       "code": "A572",
-      "name": "Navy Blue"
+      "name": "Navy Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G572.jpg"
     },
     {
       "code": "A573",
-      "name": "Smalt Blue"
+      "name": "Smalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G573.jpg"
     },
     {
       "code": "A574",
-      "name": "Ash Blue"
+      "name": "Ash Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G574.jpg"
     },
     {
       "code": "A600",
-      "name": "Sepia"
+      "name": "Sepia",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G600.jpg"
     },
     {
       "code": "A601",
-      "name": "Raw Sienna"
+      "name": "Raw Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G601.jpg"
     },
     {
       "code": "A602",
-      "name": "Raw Umber"
+      "name": "Raw Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G602.jpg"
     },
     {
       "code": "A603",
-      "name": "Burnt Sienna"
+      "name": "Burnt Sienna",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G603.jpg"
     },
     {
       "code": "A604",
-      "name": "Burnt Umber"
+      "name": "Burnt Umber",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G604.jpg"
     },
     {
       "code": "A606",
-      "name": "Ivory Black"
+      "name": "Ivory Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G606.jpg"
     },
     {
       "code": "A607",
-      "name": "Jet Black"
+      "name": "Jet Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G607.jpg"
     },
     {
       "code": "A620",
-      "name": "Grey #1"
+      "name": "Grey #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G620.jpg"
     },
     {
       "code": "A621",
-      "name": "Grey #2"
+      "name": "Grey #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G621.jpg"
     },
     {
       "code": "A622",
-      "name": "Grey #3"
+      "name": "Grey #3",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G622.jpg"
     },
     {
       "code": "A630",
-      "name": "Permanent White"
+      "name": "Permanent White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G630.jpg"
     },
     {
       "code": "A631",
-      "name": "Zinc White"
+      "name": "Zinc White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G631.jpg"
     },
     {
       "code": "A651",
-      "name": "Primary Magenta"
+      "name": "Primary Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G651.jpg"
     },
     {
       "code": "A652",
-      "name": "Primary Yellow"
+      "name": "Primary Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G652.jpg"
     },
     {
       "code": "A654",
-      "name": "Primary Cyan"
+      "name": "Primary Cyan",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G654.jpg"
     },
     {
       "code": "A658",
-      "name": "Primary Black"
+      "name": "Primary Black",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G658.jpg"
     },
     {
       "code": "A659",
@@ -188,179 +231,223 @@
     },
     {
       "code": "B502",
-      "name": "Carmine"
+      "name": "Carmine",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/carmine.jpg"
     },
     {
       "code": "B510",
-      "name": "Brilliant Pink"
+      "name": "Brilliant Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G510.jpg"
     },
     {
       "code": "B546",
-      "name": "Olive Green"
+      "name": "Olive Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G546.jpg"
     },
     {
       "code": "B556",
-      "name": "Phthalo Green"
+      "name": "Phthalo Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G556.jpg"
     },
     {
       "code": "B561",
-      "name": "Turquoise Blue"
+      "name": "Turquoise Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G561.jpg"
     },
     {
       "code": "B568",
-      "name": "Katsura Blue"
+      "name": "Katsura Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G568.jpg"
     },
     {
       "code": "B580",
-      "name": "Blue Violet"
+      "name": "Blue Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G580.jpg"
     },
     {
       "code": "B581",
-      "name": "Violet"
+      "name": "Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G581.jpg"
     },
     {
       "code": "B582",
-      "name": "Magenta"
+      "name": "Magenta",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G582.jpg"
     },
     {
       "code": "B584",
-      "name": "Opera"
+      "name": "Opera",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G584.jpg"
     },
     {
       "code": "B585",
-      "name": "Rose"
+      "name": "Rose",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G585.jpg"
     },
     {
       "code": "B586",
-      "name": "Iris"
+      "name": "Iris",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G586.jpg"
     },
     {
       "code": "B587",
-      "name": "Lilac"
+      "name": "Lilac",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G587.jpg"
     },
     {
       "code": "B589",
-      "name": "Pink"
+      "name": "Pink",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G589.jpg"
     },
     {
       "code": "C501",
-      "name": "Alizarin Crimson"
+      "name": "Alizarin Crimson",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/Alizarin-Crimson.jpg"
     },
     {
       "code": "C509",
-      "name": "Pure Red"
+      "name": "Pure Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G509.jpg"
     },
     {
       "code": "C528",
-      "name": "Naples Yellow"
+      "name": "Naples Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G528.jpg"
     },
     {
       "code": "C529",
-      "name": "Naples Yellow Italian"
+      "name": "Naples Yellow Italian",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G529.jpg"
     },
     {
       "code": "C530",
-      "name": "Jaune Brillant #1"
+      "name": "Jaune Brillant #1",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G530.jpg"
     },
     {
       "code": "C531",
-      "name": "Jaune Brillant #2"
+      "name": "Jaune Brillant #2",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G531.jpg"
     },
     {
       "code": "C532",
-      "name": "Marigold"
+      "name": "Marigold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G532.jpg"
     },
     {
       "code": "C588",
-      "name": "Rose Violet"
+      "name": "Rose Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G588.jpg"
     },
     {
       "code": "C605",
-      "name": "Chinese Orange"
+      "name": "Chinese Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G605.jpg"
     },
     {
       "code": "C640",
-      "name": "Pearl White"
+      "name": "Pearl White",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G640.jpg"
     },
     {
       "code": "C641",
-      "name": "Pearl Gold"
+      "name": "Pearl Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G641.jpg"
     },
     {
       "code": "C642",
-      "name": "Pearl Copper"
+      "name": "Pearl Copper",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G642.jpg"
     },
     {
       "code": "C643",
-      "name": "Rich Gold"
+      "name": "Rich Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G643.jpg"
     },
     {
       "code": "C645",
-      "name": "Silver"
+      "name": "Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G645.jpg"
     },
     {
       "code": "D523",
-      "name": "Cadmium Yellow"
+      "name": "Cadmium Yellow",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G523.jpg"
     },
     {
       "code": "D524",
-      "name": "Cadmium Yellow Lemon"
+      "name": "Cadmium Yellow Lemon",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G524.jpg"
     },
     {
       "code": "D525",
-      "name": "Cadmium Yellow Orange"
+      "name": "Cadmium Yellow Orange",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G525.jpg"
     },
     {
       "code": "D543",
-      "name": "Cadmium Green"
+      "name": "Cadmium Green",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G543.jpg"
     },
     {
       "code": "D544",
-      "name": "Cadmium Green Pale"
+      "name": "Cadmium Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G544.jpg"
     },
     {
       "code": "D552",
-      "name": "Cadmium Green Deep"
+      "name": "Cadmium Green Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G552.jpg"
     },
     {
       "code": "D563",
-      "name": "Cobalt Blue"
+      "name": "Cobalt Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G563.jpg"
     },
     {
       "code": "D569",
-      "name": "Cobalt Turquoise"
+      "name": "Cobalt Turquoise",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G569.jpg"
     },
     {
       "code": "D644",
-      "name": "Brilliant Gold"
+      "name": "Brilliant Gold",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G644.jpg"
     },
     {
       "code": "D646",
-      "name": "Brilliant Silver"
+      "name": "Brilliant Silver",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G646.jpg"
     },
     {
       "code": "E504",
-      "name": "Cadmium Red"
+      "name": "Cadmium Red",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G504.jpg"
     },
     {
       "code": "E505",
-      "name": "Cadmium Red Deep"
+      "name": "Cadmium Red Deep",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G505.jpg"
     },
     {
       "code": "E506",
-      "name": "Cadmium Red Purple"
+      "name": "Cadmium Red Purple",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G506.jpg"
     },
     {
       "code": "E551",
-      "name": "Cobalt Green Pale"
+      "name": "Cobalt Green Pale",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G551.jpg"
     },
     {
       "code": "G562",
-      "name": "Cerulean Blue"
+      "name": "Cerulean Blue",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2026/04/G562.jpg"
     },
     {
       "code": "G583",
-      "name": "Cobalt Violet"
+      "name": "Cobalt Violet",
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2018/12/G583.jpg"
     }
   ],
   "description": null,
