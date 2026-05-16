@@ -38,37 +38,91 @@ export const metadata: Metadata = {
   },
 };
 
+// JSON-LD: 3 schemas en un graph para máximo entendimiento de Google.
+// 1. Store — la tienda física + comercio
+// 2. Organization — entidad legal/empresa con contactPoint
+// 3. WebSite — habilita "Sitelinks Search Box" en SERP (search action)
 const orgSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Store',
-  name: 'Boykot',
-  url: SITE,
-  logo: `${SITE}/icon.png`,
-  description: 'Tienda de materiales de arte, ilustración y graffiti. Distribuidores oficiales Copic, Angelus, Holbein en Chile.',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'Av. Providencia 2251, local 69',
-    addressLocality: 'Providencia',
-    addressRegion: 'Santiago Metropolitana',
-    postalCode: '7500000',
-    addressCountry: 'CL',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: -33.4244,
-    longitude: -70.6109,
-  },
-  telephone: '+56-2-2335-0961',
-  email: 'providencia@boykot.cl',
-  sameAs: [
-    'https://instagram.com/boykot.cl',
-    'https://facebook.com/molotowchile',
+  '@graph': [
+    {
+      '@type': 'Store',
+      '@id': `${SITE}#store`,
+      name: 'Boykot',
+      url: SITE,
+      logo: `${SITE}/icon.png`,
+      image: `${SITE}/icon.png`,
+      description: 'Tienda de materiales de arte, ilustración y graffiti. Distribuidores oficiales Copic, Angelus, Holbein en Chile.',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Av. Providencia 2251, local 69',
+        addressLocality: 'Providencia',
+        addressRegion: 'Santiago Metropolitana',
+        postalCode: '7500000',
+        addressCountry: 'CL',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: -33.4244,
+        longitude: -70.6109,
+      },
+      telephone: '+56-2-2335-0961',
+      email: 'providencia@boykot.cl',
+      sameAs: [
+        'https://instagram.com/boykot.cl',
+        'https://facebook.com/molotowchile',
+      ],
+      openingHoursSpecification: [
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '10:00', closes: '18:00' },
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '10:00', closes: '15:00' },
+      ],
+      priceRange: '$$',
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE}#organization`,
+      name: 'Boykot',
+      url: SITE,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE}/icon.png`,
+      },
+      foundingDate: '2010',
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+56-2-2335-0961',
+          contactType: 'customer service',
+          areaServed: 'CL',
+          availableLanguage: ['Spanish', 'English'],
+        },
+        {
+          '@type': 'ContactPoint',
+          telephone: '+56-2-2335-0961',
+          contactType: 'sales',
+          areaServed: 'CL',
+          availableLanguage: ['Spanish'],
+        },
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE}#website`,
+      url: SITE,
+      name: 'Boykot',
+      description: 'Materiales de arte, ilustración y graffiti — Chile',
+      publisher: { '@id': `${SITE}#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${SITE}/buscar?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+      inLanguage: 'es-CL',
+    },
   ],
-  openingHoursSpecification: [
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '10:00', closes: '18:00' },
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '10:00', closes: '15:00' },
-  ],
-  priceRange: '$$',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

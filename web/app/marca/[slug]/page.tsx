@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BRANDS_META } from '@/lib/brands-meta';
 import { BRANDS } from '@/lib/colors/brands';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const dynamic = 'force-dynamic';
 
@@ -50,6 +51,13 @@ export default async function BrandLandingPage({ params }: { params: Promise<{ s
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <BreadcrumbSchema
+        crumbs={[
+          { name: 'Inicio', url: site },
+          { name: 'Marcas', url: `${site}/marcas` },
+          { name: brand.name, url: `${site}/marca/${brand.slug}` },
+        ]}
       />
 
       {/* Breadcrumbs */}
