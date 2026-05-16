@@ -56,11 +56,14 @@ export default function HomePage() {
 
   return (
     <main className="bg-white">
-      {/* HERO con backdrop animado de swatches */}
-      <section className="relative border-b border-gray-100 overflow-hidden bg-white">
-        {/* Backdrop video estilo Copic.jp — PC + SP variants con overlay para legibilidad */}
+      {/* HERO estilo copic.jp 1:1
+          - desktop: video full-bleed 100vh max 750px, sin overlay,
+            texto blanco 50% lado izquierdo, search 300px arriba centrado
+          - mobile: video 400px arriba, texto debajo en fondo gris claro #efefef */}
+      <section className="video_wrap relative w-full overflow-hidden bg-[#efefef] md:bg-gray-900 md:h-screen md:max-h-[750px]">
+        {/* Video PC — full bleed sin overlay */}
         <video
-          className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-[0.55] pointer-events-none"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover"
           src="/videos/copic-hero-pc.mp4"
           poster="/videos/copic-hero-pc-poster.jpg"
           autoPlay
@@ -70,8 +73,9 @@ export default function HomePage() {
           preload="metadata"
           aria-hidden="true"
         />
+        {/* Video SP — solo 400px alto arriba del texto en mobile */}
         <video
-          className="md:hidden absolute inset-0 w-full h-full object-cover opacity-[0.45] pointer-events-none"
+          className="md:hidden relative w-full h-[400px] object-cover"
           src="/videos/copic-hero-sp.mp4"
           poster="/videos/copic-hero-sp-poster.jpg"
           autoPlay
@@ -81,41 +85,72 @@ export default function HomePage() {
           preload="metadata"
           aria-hidden="true"
         />
-        {/* Overlay de legibilidad — degradado blanco para que el texto se lea */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/70 to-white/30 pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/60 pointer-events-none" />
 
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-12 sm:pt-20 sm:pb-16">
-          <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-6">
-            Distribuidor oficial · Chile · Desde 2010
-          </div>
-          <h1 className="text-4xl sm:text-6xl md:text-7xl text-gray-900 mb-6 leading-[0.95]">
-            Materiales para
-            <br />
-            <span className="italic font-light" style={{ color: '#0066ff' }}>crear</span>
-            <span className="text-gray-900">, sin atajos.</span>
-          </h1>
-          <p className="text-gray-600 text-base sm:text-lg max-w-2xl leading-relaxed mb-8">
-            <strong className="text-gray-900">Copic</strong>, <strong className="text-gray-900">Angelus</strong>, <strong className="text-gray-900">Holbein</strong>, <strong className="text-gray-900">Molotow</strong> y más. Stock real, asesoría técnica y despacho a todo Chile.
-          </p>
-          <div className="flex flex-wrap gap-3 mb-10">
-            <Link
-              href="/colores"
-              className="inline-block px-6 sm:px-7 py-3 sm:py-4 text-white font-semibold rounded-md hover:opacity-90 transition-opacity text-sm uppercase tracking-wider"
-              style={{ backgroundColor: '#0066ff' }}
-            >
-              Ver cartas de color
-            </Link>
-            <Link
-              href="/tienda"
-              className="inline-block px-6 sm:px-7 py-3 sm:py-4 border border-gray-300 text-gray-900 font-semibold rounded-md hover:border-gray-900 transition-colors text-sm uppercase tracking-wider"
-            >
-              Ir a la tienda
-            </Link>
-          </div>
+        {/* Search-box1 — 300px x 46px absoluto centro arriba (solo PC) */}
+        <form
+          action="/buscar"
+          method="get"
+          className="hidden md:flex absolute top-5 left-1/2 -translate-x-1/2 w-[300px] h-[46px] z-20 bg-white rounded-full shadow-lg overflow-hidden"
+        >
+          <input
+            type="search"
+            name="q"
+            placeholder="Buscar..."
+            className="flex-1 px-5 text-sm text-gray-900 outline-none bg-transparent"
+          />
+          <button type="submit" className="px-4 text-gray-700 hover:text-gray-900" aria-label="Buscar">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </button>
+        </form>
 
-          {/* Stats inline */}
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-2xl border-t border-gray-200 pt-6">
+        {/* wrap_words — 50% izq con texto blanco (PC) · 100% width gris (mobile) */}
+        <div className="md:absolute md:top-0 md:left-0 md:w-1/2 md:h-full flex items-center justify-center text-center px-6 py-10 md:px-12 md:py-0 md:text-white text-gray-900 relative z-10">
+          <div className="w-full max-w-md md:max-w-none">
+            <h1 className="text-4xl md:text-[3.5rem] leading-tight md:leading-tight mb-4 font-semibold">
+              Boykot
+            </h1>
+            <h2 className="text-base md:text-[1.125rem] leading-relaxed md:text-left font-medium mb-8">
+              Distribuidores oficiales <strong>Copic</strong>, <strong>Angelus</strong> y <strong>Holbein</strong> en Chile.
+              <br className="hidden md:block" />
+              Más de 2.000 colores con stock en tiempo real y despacho 24-48 hrs.
+            </h2>
+            <p className="space-y-3 md:space-y-0">
+              <Link
+                href="/marcas"
+                className="inline-block w-[260px] mx-2 my-1.5 py-2.5 px-5 border-2 md:border-white border-gray-900 rounded-full md:text-white text-gray-900 text-sm md:text-[1.125rem] font-medium hover:bg-white hover:text-gray-900 transition-colors"
+              >
+                Ver marcas
+              </Link>
+              <br />
+              <Link
+                href="/tienda"
+                className="inline-block w-[260px] mx-2 my-1.5 py-2.5 px-5 border-2 md:border-white border-gray-900 rounded-full md:text-white text-gray-900 text-sm md:text-[1.125rem] font-medium hover:bg-white hover:text-gray-900 transition-colors"
+              >
+                Ir a la tienda
+              </Link>
+            </p>
+          </div>
+        </div>
+
+        {/* Scroll indicator — bottom center solo PC */}
+        <a
+          href="#destacados"
+          className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 z-10 opacity-60 hover:opacity-100 transition-opacity"
+          aria-label="Scroll abajo"
+        >
+          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center pt-2">
+            <span className="block w-1 h-2 bg-white rounded-full animate-bounce" />
+          </div>
+        </a>
+      </section>
+
+      {/* Stats — sección aparte debajo del hero (eran inline en el hero antes) */}
+      <section id="destacados" className="border-b border-gray-100 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-3xl mx-auto">
             <div>
               <div className="text-2xl sm:text-3xl font-bold text-gray-900">2,000+</div>
               <div className="text-xs text-gray-500 mt-1">colores con stock real-time</div>
