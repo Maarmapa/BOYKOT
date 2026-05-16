@@ -145,3 +145,24 @@ export async function listPendingOrders(limit = 50): Promise<PendingOrder[]> {
   if (error) return [];
   return (data ?? []) as PendingOrder[];
 }
+
+export async function listOrdersByEmail(email: string, limit = 50): Promise<PendingOrder[]> {
+  const { data, error } = await supabaseAdmin()
+    .from('pending_orders')
+    .select('id, short_id, status, created_at, customer_name, customer_email, customer_phone, total_clp, channel, items, payment_status, payment_url, payment_reference, paid_at')
+    .eq('customer_email', email.toLowerCase())
+    .order('created_at', { ascending: false })
+    .limit(limit);
+  if (error) return [];
+  return (data ?? []) as PendingOrder[];
+}
+
+export async function getOrderByShortId(shortId: string): Promise<PendingOrder | null> {
+  const { data, error } = await supabaseAdmin()
+    .from('pending_orders')
+    .select('id, short_id, status, created_at, customer_name, customer_email, customer_phone, total_clp, channel, items, payment_status, payment_url, payment_reference, paid_at')
+    .eq('short_id', shortId)
+    .maybeSingle();
+  if (error) return null;
+  return data as PendingOrder | null;
+}
