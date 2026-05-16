@@ -58,17 +58,32 @@ export default function HomePage() {
     <main className="bg-white">
       {/* HERO con backdrop animado de swatches */}
       <section className="relative border-b border-gray-100 overflow-hidden bg-white">
-        {/* Backdrop animado — gradiente sutil que rota lento */}
-        <div
-          className="absolute inset-0 opacity-[0.04] pointer-events-none"
-          style={{
-            background: 'conic-gradient(from 0deg at 50% 50%, #FF073A, #FF6700, #DFFF00, #39FF14, #00FFFF, #1F51FF, #BF00FF, #FF073A)',
-            animation: 'hero-rotate 60s linear infinite',
-          }}
+        {/* Backdrop video estilo Copic.jp — PC + SP variants con overlay para legibilidad */}
+        <video
+          className="hidden md:block absolute inset-0 w-full h-full object-cover opacity-[0.55] pointer-events-none"
+          src="/videos/copic-hero-pc.mp4"
+          poster="/videos/copic-hero-pc-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-hidden="true"
         />
-        <style>{`
-          @keyframes hero-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-        `}</style>
+        <video
+          className="md:hidden absolute inset-0 w-full h-full object-cover opacity-[0.45] pointer-events-none"
+          src="/videos/copic-hero-sp.mp4"
+          poster="/videos/copic-hero-sp-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-hidden="true"
+        />
+        {/* Overlay de legibilidad — degradado blanco para que el texto se lea */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/70 to-white/30 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/60 pointer-events-none" />
 
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-12 sm:pt-20 sm:pb-16">
           <div className="text-xs font-semibold tracking-[0.18em] text-gray-500 uppercase mb-6">
