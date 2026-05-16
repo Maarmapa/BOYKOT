@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/buscar`, lastModified: now, priority: 0.5 },
     { url: `${SITE}/blog`, lastModified: now, priority: 0.7 },
     { url: `${SITE}/agentic`, lastModified: now, priority: 0.6 },
+    { url: `${SITE}/cotizador`, lastModified: now, priority: 0.7 },
     ...allPostSlugs().map(slug => ({
       url: `${SITE}/blog/${slug}`,
       lastModified: now,

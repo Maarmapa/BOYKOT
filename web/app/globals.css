@@ -146,6 +146,22 @@ h2 { font-weight: 600; }
 }
 .wp-content .wp-block-button__link:hover { background: #374151; color: #fff; }
 
+/* Print-friendly cotizaciones: A4 limpio sin chrome */
+@media print {
+  @page { size: A4; margin: 1.5cm 1cm; }
+  body { background: white !important; }
+  header, footer, nav, .print\\:hidden { display: none !important; }
+  .print\\:py-0 { padding-top: 0 !important; padding-bottom: 0 !important; }
+  .print\\:px-0 { padding-left: 0 !important; padding-right: 0 !important; }
+  .print\\:max-w-none { max-width: none !important; }
+  .print\\:bg-white { background: white !important; }
+  .print\\:fixed { position: fixed !important; }
+  .print\\:bottom-4 { bottom: 1rem !important; }
+  .print\\:left-0 { left: 0 !important; }
+  .print\\:right-0 { right: 0 !important; }
+  /* SiteHeader + SiteFooter ocultos en print */
+}
+
 /* Scroll fade-in: agrega .scroll-fade-in en el elemento, JS observa
    intersection y agrega .is-visible. Polish para landing premium. */
 .scroll-fade-in {
