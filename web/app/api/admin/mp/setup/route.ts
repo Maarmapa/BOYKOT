@@ -82,41 +82,10 @@ export async function GET() {
     }
   } catch { /* sigue */ }
 
-  // ───── Paso 3: crear webhook (o reportar el existente) ─────
-  let webhook: MpWebhook;
-  let action: 'created' | 'existing' = 'existing';
-  if (existing) {
-    webhook = existing;
-  } else {
-    try {
-      const res = await fetch(`${MP_API}/v1/webhooks`, {
-        method: 'POST',
-        headers: {
-          authorization: `Bearer ${token}`,
-          'content-type': 'application/json',
-        },
-        body: JSON.stringify({
-          url: webhookUrl,
-          topics: ['payment'],
-        }),
-      });
-      if (!res.ok) {
-        const body = await res.text().catch(() => '');
-        return NextResponse.json({
-          ok: false,
-          step: 'create-webhook',
-          error: `MP POST /v1/webhooks ${res.status}: ${body.slice(0, 300)}`,
-          hint: 'El endpoint v1/webhooks puede no estar habilitado para tu cuenta. Configurá manualmente desde el panel MP: Developers → Tu app → Webhooks → URL + topic "payment".',
-          webhook_url_to_paste: webhookUrl,
-        }, { status: 500 });
-      }
-      webhook = await res.json() as MpWebhook;
-      action = 'created';
-    } catch (e) {
-      return NextResponse.json({ ok: false, step: 'create-webhook', error: (e as Error).message, webhook_url_to_paste: webhookUrl }, { status: 500 });
-    }
-  }
-
+  // ───── Paso 3: reportar webhook ─────
+  // MP NO expone POST /v1/webhooks para todas las cuentas (es un endpoint
+  // legacy que solo funciona en algunas integraciones). Lo más confiable es
+  // configurarlo vía panel y verificar acá si ya existe.
   return NextResponse.json({
     ok: true,
     account: {
@@ -124,22 +93,22 @@ export async function GET() {
       nickname: me.nickname,
       email: me.email,
       country: me.country_id || me.site_id,
-      type: isTest ? '⚠️ TEST (modo prueba)' : 'PRODUCCIÓN',
+      type: isTest ? '⚠️ TEST (modo prueba — perfecto para empezar)' : '🟢 PRODUCCIÓN (cobra plata real)',
       user_type: me.status?.user_type,
     },
-    webhook: {
-      action,
-      id: webhook.id,
-      url: webhook.url,
-      status: webhook.status,
-      topics: webhook.topics,
-      secret: webhook.secret ?? '(no devuelto — chequear en el panel MP → Webhooks → Configuraciones → Clave secreta)',
-    },
-    next_steps: [
-      '1. Copiá el "secret" de arriba',
-      '2. Pegalo en Vercel como env var MP_WEBHOOK_SECRET',
-      '3. Redeploy para que tome el secret',
-      '4. Probá un pago con tarjeta de prueba',
+    webhook_url_to_configure: webhookUrl,
+    existing_webhook: existing,
+    manual_steps: [
+      '1. Ir al panel MP → https://www.mercadopago.cl/developers/panel/app',
+      '2. Click en tu app → Sidebar "Webhooks" o "Notificaciones webhooks"',
+      '3. Click "Configurar notificaciones" en la pestaña que corresponda (Pruebas o Producción)',
+      `4. URL: ${webhookUrl}`,
+      '5. Marcar evento: ☑ "Pagos" (payment)',
+      '6. Click "Guardar"',
+      '7. Aparece la "Clave secreta" — copiala',
+      '8. Pegala en Vercel como env var MP_WEBHOOK_SECRET',
+      '9. Vercel auto-redeployea',
+      '10. Volver a llamar este endpoint para verificar que aparece en existing_webhook',
     ],
   });
 }
