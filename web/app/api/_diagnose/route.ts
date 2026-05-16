@@ -41,6 +41,14 @@ const VARS = [
   'R2_SECRET_ACCESS_KEY',
   'R2_ACCOUNT_ID',
   'R2_BUCKET',
+  // Hermes bot (capa nueva)
+  'ANTHROPIC_API_KEY',
+  'META_WEBHOOK_VERIFY_TOKEN',
+  'META_APP_SECRET',
+  'WHATSAPP_PHONE_ID',
+  'WHATSAPP_TOKEN',
+  'INSTAGRAM_PAGE_ID',
+  'INSTAGRAM_TOKEN',
 ];
 
 export async function GET() {
