@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import natProducts from '../data/natekla-products.json';
+import RecentlyViewed from '@/components/RecentlyViewed';
 
 // 8 marcas destacadas en grid 4x2 — apuntan a /marca/[slug] (landing brand)
 // con fallback a /colores/[carta] para las brands sin landing dedicada.
@@ -362,6 +363,9 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      {/* Recently viewed — solo aparece si el visitante tiene historial localStorage */}
+      <RecentlyViewed />
     </main>
   );
 }
