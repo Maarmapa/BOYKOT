@@ -12,12 +12,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* Dark mode auto deshabilitado — Boykot es una tienda con catálogo
+   visual donde los colores y fotos pierden fidelidad en dark mode.
+   Si en el futuro queremos light/dark, lo hacemos con toggle manual. */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);

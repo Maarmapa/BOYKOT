@@ -154,12 +154,12 @@ export default function CheckoutPage() {
               </legend>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <input name="full_name" placeholder="Nombre completo" required
-                  className="sm:col-span-2 border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
+                  className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
                 <input name="email" type="email" placeholder="Email" required
-                  className="border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
+                  className="border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
                 <input name="phone" type="tel" placeholder="Teléfono (+56 9 ...)" required
-                  className="border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
-                <input name="rut" placeholder="RUT (opcional, para boleta)" className="sm:col-span-2 border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
+                  className="border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
+                <input name="rut" placeholder="RUT (opcional, para boleta)" className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
               </div>
             </fieldset>
 
@@ -173,9 +173,9 @@ export default function CheckoutPage() {
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <input name="address" placeholder="Dirección"
-                  className="sm:col-span-2 border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
+                  className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
                 <input name="city" placeholder="Comuna / Ciudad"
-                  className="sm:col-span-2 border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400" />
+                  className="sm:col-span-2 border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600" />
               </div>
             </fieldset>
 
@@ -184,7 +184,7 @@ export default function CheckoutPage() {
                 Notas (opcional)
               </legend>
               <textarea name="notes" rows={3} placeholder="Algo que necesitemos saber? (urgencia, regalo, etc.)"
-                className="w-full border border-gray-200 rounded-md px-3 py-2.5 text-sm outline-none focus:border-gray-400 resize-none" />
+                className="w-full border border-gray-300 rounded-md px-3 py-2.5 text-sm bg-white text-gray-900 placeholder:text-gray-500 outline-none focus:border-gray-600 resize-none" />
             </fieldset>
 
             {error && (
@@ -242,17 +242,17 @@ export default function CheckoutPage() {
               ))}
             </ul>
             <div className="border-t border-gray-200 mt-4 pt-3 space-y-1 text-sm">
-              <div className="flex justify-between"><span className="text-gray-600">Subtotal</span><span>${subtotal.toLocaleString('es-CL')}</span></div>
+              <div className="flex justify-between"><span className="text-gray-600">Subtotal</span><span className="text-gray-900 font-medium">${subtotal.toLocaleString('es-CL')}</span></div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Despacho</span>
-                <span className={shipping === 0 ? 'text-green-600 font-medium' : ''}>
+                <span className={shipping === 0 ? 'text-green-600 font-medium' : 'text-gray-900 font-medium'}>
                   {shipping === 0 ? 'Gratis' : `$${shipping.toLocaleString('es-CL')}`}
                 </span>
               </div>
             </div>
             <div className="border-t border-gray-200 mt-3 pt-3 flex justify-between items-baseline">
-              <span className="text-sm font-semibold">Total</span>
-              <span className="text-xl font-bold">${total.toLocaleString('es-CL')}</span>
+              <span className="text-sm font-semibold text-gray-900">Total</span>
+              <span className="text-xl font-bold text-gray-900">${total.toLocaleString('es-CL')}</span>
             </div>
           </div>
         </aside>
