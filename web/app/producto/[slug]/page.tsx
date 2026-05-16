@@ -7,6 +7,7 @@ import { BRANDS, BRAND_SLUGS } from '@/lib/colors/brands';
 import { BRANDS_META } from '@/lib/brands-meta';
 import ProductGallery from '@/components/ProductGallery';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import WishlistButton from '@/components/WishlistButton';
 
 interface Params {
   slug: string;
@@ -347,6 +348,14 @@ export default async function ProductoPage({ params }: { params: Promise<Params>
               >
                 Más info
               </Link>
+              <WishlistButton
+                slug={p.slug}
+                name={p.name}
+                image={p.image}
+                price={displayPrice ?? undefined}
+                brand={p.brand}
+                className="py-4 px-5"
+              />
             </div>
 
             {/* Pickup / shipping info */}
