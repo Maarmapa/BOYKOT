@@ -36,7 +36,7 @@ export default function SiteFooter() {
             Redes
           </h4>
           <ul className="space-y-1.5 text-sm">
-            <li><a href="https://instagram.com/boykot187" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Instagram @boykot187</a></li>
+            <li><a href="https://instagram.com/boykot.cl" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Instagram @boykot.cl</a></li>
             <li><a href="https://facebook.com/molotowchile" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Facebook</a></li>
             <li><Link href="/colores" className="text-gray-600 hover:text-gray-900">Cartas de color</Link></li>
             <li><Link href="/marcas" className="text-gray-600 hover:text-gray-900">Marcas</Link></li>

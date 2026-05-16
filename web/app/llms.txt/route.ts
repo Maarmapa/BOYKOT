@@ -48,7 +48,7 @@ ${brands}
 
 - WhatsApp: https://wa.me/56223350961
 - Email: providencia@boykot.cl
-- Instagram: https://instagram.com/boykot187
+- Instagram: https://instagram.com/boykot.cl
 
 ## Pago
 

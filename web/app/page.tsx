@@ -287,12 +287,12 @@ export default function HomePage() {
           <div className="text-xs font-semibold tracking-[0.18em] text-gray-400 uppercase mb-3">
             Comunidad
           </div>
-          <h2 className="text-2xl sm:text-4xl mb-4">@boykot187</h2>
+          <h2 className="text-2xl sm:text-4xl mb-4">@boykot.cl</h2>
           <p className="text-gray-300 max-w-xl mx-auto mb-6 text-sm sm:text-base">
             Tutoriales, lanzamientos, obras de la comunidad chilena.
           </p>
           <a
-            href="https://instagram.com/boykot187"
+            href="https://instagram.com/boykot.cl"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-white text-gray-900 font-semibold rounded-md hover:bg-gray-100 transition-colors text-sm uppercase tracking-wider"
