@@ -135,9 +135,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Scroll indicator — bottom center solo PC */}
+        {/* Scroll indicator — bottom center solo PC, apunta a sección marcas */}
         <a
-          href="#destacados"
+          href="#marcas"
           className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 z-10 opacity-60 hover:opacity-100 transition-opacity"
           aria-label="Scroll abajo"
         >
@@ -147,28 +147,8 @@ export default function HomePage() {
         </a>
       </section>
 
-      {/* Stats — sección aparte debajo del hero (eran inline en el hero antes) */}
-      <section id="destacados" className="border-b border-gray-100 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 max-w-3xl mx-auto">
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-gray-900">2,000+</div>
-              <div className="text-xs text-gray-500 mt-1">colores con stock real-time</div>
-            </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-gray-900">15+</div>
-              <div className="text-xs text-gray-500 mt-1">marcas premium</div>
-            </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-gray-900">16</div>
-              <div className="text-xs text-gray-500 mt-1">años en Chile</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* NUESTRAS MARCAS — grid 4x2 (8 logos) inspirado en natekla */}
-      <section className="border-b border-gray-100 bg-gray-50">
+      <section id="marcas" className="border-b border-gray-100 bg-gray-50 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           <div className="flex items-end justify-between mb-8">
             <div>
