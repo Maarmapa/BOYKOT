@@ -10,12 +10,14 @@
     {
       "code": "W201",
       "name": "Chinese White",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W002-Chinese-White.jpg"
     },
     {
       "code": "W203",
       "name": "Titanium White",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W003-Titanium-White-Opaque.jpg"
     },
     {
       "code": "W205",
@@ -140,12 +142,14 @@
     {
       "code": "W231",
       "name": "Jaune Brillant 1",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W031-Jaune-Brillant-No1.jpg"
     },
     {
       "code": "W232",
       "name": "Jaune Brillant 2",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W032-Jaune-Brilliant-No2.jpg"
     },
     {
       "code": "W233",
@@ -156,7 +160,8 @@
     {
       "code": "W234",
       "name": "Yellow Ochre",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W034-Yellow-Ocher.jpg"
     },
     {
       "code": "W235",
@@ -179,7 +184,8 @@
     {
       "code": "W238",
       "name": "Perm Yellow Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W038-Permanent-Yellow-Orange.jpg"
     },
     {
       "code": "W239",
@@ -238,7 +244,8 @@
     {
       "code": "W249",
       "name": "Isoindo Yel Deep",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W049-Isoindolinone-Yellow-Deep.jpg"
     },
     {
       "code": "W250",
@@ -291,12 +298,14 @@
     {
       "code": "W266",
       "name": "Permanent Green 1",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W066-Permanent-Green-No1.jpg"
     },
     {
       "code": "W267",
       "name": "Permanent Green 2",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W067-Permanent-Green-No2.jpg"
     },
     {
       "code": "W269",
@@ -313,7 +322,8 @@
     {
       "code": "W271",
       "name": "Compose Green 1",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W071-Compose-Green.jpg"
     },
     {
       "code": "W274",
@@ -600,7 +610,8 @@
     {
       "code": "W353",
       "name": "Grey Of Grey",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W153-Grey-of-Grey.jpg"
     },
     {
       "code": "W355",
@@ -617,17 +628,20 @@
     {
       "code": "W357",
       "name": "Neutral Tint",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W157-Neutral-tint.jpg"
     },
     {
       "code": "W370",
       "name": "Bright Rose Lumi",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W170-Bright-Rose-Luminous.jpg"
     },
     {
       "code": "W375",
       "name": "Bright Violet Lumi",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W175-Bright-Violet-Luminous.jpg"
     },
     {
       "code": "W390",
@@ -644,62 +658,74 @@
     {
       "code": "W841",
       "name": "Luminous Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W741-Luminous-Red.jpg"
     },
     {
       "code": "W842",
       "name": "Luminous Orange Red",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W742-Luminous-Orange-Red.jpg"
     },
     {
       "code": "W843",
       "name": "Luminous Orange",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W743-Luminous-Orange.jpg"
     },
     {
       "code": "W844",
       "name": "Luminous Yellow",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W744-Luminous-Yellow.jpg"
     },
     {
       "code": "W845",
       "name": "Luminous Lemon",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W745-Luminous-Lemon.jpg"
     },
     {
       "code": "W846",
       "name": "Luminous Green",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W746-Luminous-Green.jpg"
     },
     {
       "code": "W847",
       "name": "Luminous Blue",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W747-Luminous-Blue.jpg"
     },
     {
       "code": "W848",
       "name": "Luminous Blue Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W748-Luminous-Blue-Violet.jpg"
     },
     {
       "code": "W849",
       "name": "Luminous Violet",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W749-Luminous-Violet.jpg"
     },
     {
       "code": "W850",
       "name": "Luminous Magenta",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W750-Luminous-Magenta.jpg"
     },
     {
       "code": "W851",
       "name": "Luminous Opera",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W751-Luminous-Opera.jpg"
     },
     {
       "code": "W852",
       "name": "Luminous Pink",
-      "in_stock": true
+      "in_stock": true,
+      "imageUrl": "https://www.boykot.cl/wp-content/uploads/2025/08/W752-Luminous-Pink.jpg"
     }
   ],
   "gallery": [
