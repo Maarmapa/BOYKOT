@@ -12,18 +12,35 @@ export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
 const VARS = [
+  // Supabase
   'SUPABASE_URL',
   'SUPABASE_SERVICE_ROLE_KEY',
   'NEXT_PUBLIC_SUPABASE_URL',
   'NEXT_PUBLIC_SUPABASE_ANON_KEY',
+  // Site
   'NEXT_PUBLIC_API_URL',
   'NEXT_PUBLIC_SITE_URL',
+  // Email
   'BREVO_API_KEY',
   'EMAIL_FROM_ADDRESS',
   'EMAIL_FROM_NAME',
+  'ADMIN_EMAIL',
+  // BSale
+  'BSALE_ACCESS_TOKEN',
   'BSALE_WEBHOOK_TOKEN',
   'BSALE_CPN_ID',
+  // Mercado Pago
+  'MP_ACCESS_TOKEN',
+  'MP_WEBHOOK_SECRET',
+  'MP_PUBLIC_KEY',
+  // Admin
+  'ADMIN_PASSWORD',
   'CRON_SECRET',
+  // R2 (futuro)
+  'R2_ACCESS_KEY_ID',
+  'R2_SECRET_ACCESS_KEY',
+  'R2_ACCOUNT_ID',
+  'R2_BUCKET',
 ];
 
 export async function GET() {
