@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/promociones`, lastModified: now, priority: 0.85 },
     { url: `${SITE}/buscar`, lastModified: now, priority: 0.5 },
     { url: `${SITE}/blog`, lastModified: now, priority: 0.7 },
+    { url: `${SITE}/agentic`, lastModified: now, priority: 0.6 },
     ...allPostSlugs().map(slug => ({
       url: `${SITE}/blog/${slug}`,
       lastModified: now,
