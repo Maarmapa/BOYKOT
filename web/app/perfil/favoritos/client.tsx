@@ -1,10 +1,36 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 import { useWishlist } from '@/lib/use-wishlist';
 
 export default function FavoritosClient() {
-  const { items, loading, remove } = useWishlist();
+  const router = useRouter();
+  const { items, loading, remove, refresh } = useWishlist();
+  const [moving, setMoving] = useState(false);
+
+  async function moveAllToCart() {
+    setMoving(true);
+    try {
+      const res = await fetch('/api/wishlist/move-to-cart', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ remove_after: true }),
+      });
+      const data = await res.json();
+      if (data.moved > 0) {
+        await refresh();
+        router.push('/carrito');
+      } else {
+        alert(`No se pudieron mover los items: ${data.failed_slugs?.join(', ') || ''}`);
+        setMoving(false);
+      }
+    } catch (e) {
+      alert('Error: ' + (e as Error).message);
+      setMoving(false);
+    }
+  }
 
   if (loading) {
     return (
@@ -46,10 +72,18 @@ export default function FavoritosClient() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
-      <div className="mb-6 flex items-baseline justify-between">
+      <div className="mb-6 flex items-baseline justify-between flex-wrap gap-3">
         <p className="text-sm text-gray-500">
           {items.length} {items.length === 1 ? 'producto guardado' : 'productos guardados'}
         </p>
+        <button
+          type="button"
+          onClick={moveAllToCart}
+          disabled={moving}
+          className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-xs font-semibold uppercase tracking-wider disabled:opacity-50"
+        >
+          {moving ? 'Moviendo…' : `🛒 Mover todo al carrito (${items.length})`}
+        </button>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
         {items.map(item => (
